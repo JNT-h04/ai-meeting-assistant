@@ -1,0 +1,5 @@
+streamlit>=1.56.0
+transformers>=4.41
+torch>=2.1
+pyannote.audio>=3.1
+python-dotenv>=1.0

@@ -1,0 +1,554 @@
+[
+    {
+        "speaker": "SPEAKER_01",
+        "start": 0.0,
+        "end": 109.0,
+        "text": "Okay, so we'll start off with a quick overview of the minutes. I think to sum up the last meeting would be to say the requirements that we've set out. Those are, we were going to go for what seemed to be a fairly minimal design based on a small joystick, LCD and a couple of other components. Mae'n dda i'r ddysgu'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau'n ddaethau single purpose buttons. We were also going to use a novelty of being able to locate the remote control again via a small transmitter with any luck. The idea to try and separate us and also because of the minimal design, it looks like we'll be able to be fairly adventurous in the actual physical shape of our remote control if any luck. Pretty much sums up the last one. So we'll just crack on. I'd like to maybe start with the industrial designer if it's possible. Today is the conceptual, today. This meeting is a conceptual design phase and is sort of this, 1405. And it's to cover things like what the parts might be made of, can we outsource these from elsewhere, or will we have to construct the items ourselves?"
+    },
+    {
+        "speaker": "SPEAKER_03",
+        "start": 109.0,
+        "end": 112.0,
+        "text": "I have a presentation here, I just saved it in the folder."
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "start": 112.0,
+        "end": 127.0,
+        "text": "Yep, okay, I'll load it up then. Oh, interface concept? That's me. That's you. We've got trend watching. That's you."
+    },
+    {
+        "speaker": "SPEAKER_03",
+        "start": 127.0,
+        "end": 130.0,
+        "text": "Components design."
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "start": 139.0,
+        "end": 140.0,
+        "text": "Okay."
+    },
+    {
+        "speaker": "SPEAKER_03",
+        "start": 140.0,
+        "end": 216.0,
+        "text": "So, the case, that's what I wrote, first of all, it could be plastic, but later on we found out that it can be rubber as well or titanium or even wood so we've decided it's going to be probably plastic. We need the infrared transmitter, get that off the shelf. Joystick, if we're gonna use it, could be plastic or rubber even as well. If you go on to the next slide, if you go on to findings, it's like two or three slides down. So this is what I found we can use. Three different types of batteries. You can either use a hand dynamo or the kinetic type ones you know that they use in watches or a solar powered one. so the power would... Now, the kinetic one... Of course"
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "start": 216.0,
+        "end": 233.0,
+        "text": "Because that's the one where like you... the movement causes it The battery for a watch wouldn't require a lot of power would be my one query. Is the kinetic one going to be able to supply enough power?"
+    },
+    {
+        "speaker": "SPEAKER_03",
+        "start": 233.0,
+        "end": 244.0,
+        "text": "Watch moves around a great deal more. Yeah I don't think it would. And solar cells, I don't know about that."
+    },
+    {
+        "speaker": "SPEAKER_00",
+        "start": 244.0,
+        "end": 248.0,
+        "text": "Bing inside I don't know about that things inside and all"
+    },
+    {
+        "speaker": "SPEAKER_03",
+        "start": 248.0,
+        "end": 256.0,
+        "text": "should probably just use conventional batteries just like in neutral power controls"
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "start": 256.0,
+        "end": 262.0,
+        "text": "which I suppose as well would allow us to go off the shelf again you two? Yeah."
+    },
+    {
+        "speaker": "SPEAKER_03",
+        "start": 263.52,
+        "end": 282.8,
+        "text": "These are three different types of, er two different types, three different types of shapes. You can have one as a flat one and then more original ones are a single curved one or one with a double curved. The materials are there as you can see, but you can't have a titanium one for a double curved."
+    },
+    {
+        "speaker": "SPEAKER_00",
+        "start": 285.2,
+        "end": 286.2,
+        "text": "Titanium, they're really strong metal."
+    },
+    {
+        "speaker": "SPEAKER_03",
+        "start": 287.8,
+        "end": 293.0,
+        "text": "Is it also expensive? I think so as well. Yeah. They make mountain bikes out of that. So it I think so as well. They have mountain bikes in the mountains. So it's really light as well."
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "start": 293.0,
+        "end": 310.28,
+        "text": "I'm curious, I don't know if you'd be able to off the top of your head or not, the single curved or the double curved, would you be able to give an example? Could you maybe draw something? You don't have to be perfect. It's just because I'm not quite sure if I understand the difference between the two."
+    },
+    {
+        "speaker": "SPEAKER_03",
+        "start": 313.72,
+        "end": 356.24,
+        "text": "Well, for a curved, well, I was thinking to sit in the palm of your hand, maybe like this with the joypad here, joystick here, and maybe an okay button around here so that the thumb can use it quite easily. I don't exactly double curves it probably means this is probably double curves whereas a single curves would be like that, I guess. Or no, sorry."
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "start": 356.24,
+        "end": 360.06,
+        "text": "So it might literally just be two curves. Okay."
+    },
+    {
+        "speaker": "SPEAKER_03",
+        "start": 360.9,
+        "end": 441.0,
+        "text": "Yeah, like that. Whereas this is two curves. So I guess that's what they mean all right by a double curve which obviously it looks better than a single curve but you can't have it in titanium which is a nice material. And for the buttons, you can have the scroll wheel, which they use in mouses, frequent PCs, but it requires a more expensive chip to use and if you want to use LCD it's even more expensive. So if the side trade-offs there, if you want the buttons to be oh if you have a double curved control on its rubber then You have these rubber buttons as well, but You're gonna have I reckon you're gonna have to have a Key a number keypad anyways for the amount of channels these days You wouldn't want to just have to scroll through all the channels together when you want to enter just a number of if you know so Number keypad anyway Do you think?"
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "start": 441.0,
+        "end": 452.0,
+        "text": "Okay, well that's definitely something we can talk about. So you've got a little bit about the chip that we might require as well."
+    },
+    {
+        "speaker": "SPEAKER_03",
+        "start": 452.0,
+        "end": 468.0,
+        "text": "Yeah. So, it depends where you're going to spend the money if you want a fancy LCD display."
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "start": 468.0,
+        "end": 478.32,
+        "text": "Do you have any idea so far, like when we're saying that we'd need an advanced chip for an LCD, does that shoot the cost up by a drastic amount?"
+    },
+    {
+        "speaker": "SPEAKER_00",
+        "start": 478.32,
+        "end": 481.0,
+        "text": "Do you need an advanced chip for the LCD?"
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "start": 481.0,
+        "end": 505.6,
+        "text": "Well I think compared to say this pressing of buttons. Advanced light. If you press a button it sends a certain transmission through the infrared whereas I think if we're controlling the LCD we definitely require a much more powerful chip. Just compared to the chip you would use for pushing buttons I think you see. The point being made if I've not overstepped."
+    },
+    {
+        "speaker": "SPEAKER_00",
+        "start": 505.6,
+        "end": 522.44,
+        "text": "Okay should I go on or go back? If we only have 12 pounds 50. 12 euros not even 12 pounds. 12 euros, what's that like, 8 pounds or something like that? 9 pounds?"
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "start": 522.44,
+        "end": 532.0,
+        "text": "Well we'd also be relying on the bulk buying and producing and such. I assume we have to look into the cost of those."
+    },
+    {
+        "speaker": "SPEAKER_03",
+        "start": 532.0,
+        "end": 586.0,
+        "text": "The previous slides just explain what's in the internal components of the remote control if you go to the one before that. So it just says what it does. Translate the key pressing to an infrared signal and this is received by the TV. The chip just needs to detect the signal, or detect the key press and then it'll send it to the amplifier. Okay. And then the next slide just shows how the copper wires interact with the buttons, the rubber buttons to get sent to the chip. So that's just how the control works inside. We have to decide on what buttons we're going to use."
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "start": 587.0,
+        "end": 589.0,
+        "text": "Okay."
+    },
+    {
+        "speaker": "SPEAKER_03",
+        "start": 602.52,
+        "end": 637.0,
+        "text": "You just got a section for personal preferences. So in the information that you've been supplied, how feasible would you say that the idea of using an LCD looks? I think we can do it if we use conventional batteries and not have solar cells, we're kinetic. And then maybe use a single curved case because you might need it to be curved for the thumb to use the joystick easily and then you'll need the advanced chip for the LCD."
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "start": 637.0,
+        "end": 657.72,
+        "text": "I mean that seems like quite a good requirement to me. Conventional battery would seem to make sense. I'm not sure if there's any cost differences between single and double curved and I don't know about anybody else but Plastic or rubber as a traditional form of casing would seem to be a good way forward"
+    },
+    {
+        "speaker": "SPEAKER_00",
+        "start": 668.02,
+        "end": 668.04,
+        "text": "Okay be bold and go straight for rubber for reasons I'll go into. I also have a preference"
+    },
+    {
+        "speaker": "UNKNOWN",
+        "start": 672.04,
+        "end": 672.06,
+        "text": "for rubber. Based on my research."
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "start": 676.04,
+        "end": 676.06,
+        "text": "Yeah, well, will we move on to user interface?"
+    },
+    {
+        "speaker": "SPEAKER_02",
+        "start": 687.96,
+        "end": 835.0,
+        "text": "Yeah. Yes. That's right as long as were you yeah okay interface concept I'm gonna have to work between the slides and the whiteboard because I actually have some fairly concrete things. This time. I was given an HTML file giving various ideas from other previous remote control designs and pretty much decided to just dump them all. I wasn't very impressed by them and nothing I saw seemed to meet the sorts of design specifications that we're going for today. So rather than looking at other remotes, it would be better to simply look at the human hand and try and figure out a way of laying out the elements we've already decided on, so that the fingers, each finger or thumb is wherever it needs to be already. So, next slide if you please. And what we basically decided on was the joystick, two function buttons and the LCD, just keep it paired down to the absolute minimum. I think we need the numeric keypad because one of the menus that we could have available via the LCD is one where you scroll through channels. So if there's something... and bear in mind since this isn't meant to work for digital or for cable whatever you're basically looking at four or five terrestrial channels and then your VC and then the channel for your VCR and or DVD player and or set top box. So I'm not really excessively concerned about that. I have two modes, basic mode where the joystick's left right for channels up down for volume and the menu mode for further functions. The reason I was particularly interested in using rubber for this is if we're going to have a highly ergonomic design, it needs to be ergonomic for left or right handed people."
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "start": 835.0,
+        "end": 842.0,
+        "text": "Can I just jump in slightly there? That would suggest that double curve design is probably going to be most appropriate then."
+    },
+    {
+        "speaker": "SPEAKER_02",
+        "start": 842.0,
+        "end": 895.0,
+        "text": "Yes, absolutely. Basically what this would mean would be having the whole thing articulated at two points so that if you're handing it from a left or right handed user you can adjust it so that the LCD and the joystick would be in the right place. Also this is a rather nicer design gimmick that the whole thing should have a sort of organic feel to it, that it should be soft to touch and can be moved around. Nice. OK, on to the next slide."
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "start": 895.0,
+        "end": 901.0,
+        "text": "Just to let you know, we'll probably be quite tight for time as well. OK. Because I think you've probably got a lot you'd like to say, I guess."
+    },
+    {
+        "speaker": "SPEAKER_02",
+        "start": 901.0,
+        "end": 1101.0,
+        "text": "Yeah. OK, basically, I can add pretty pictures to this. Assuming the hand to be in this position, holding the remote, the joystick unit should rest over the joint of the forefinger so that it's directly accessible for the thumb. And it would need to be articulated just below that so that it could directly accessible for the thumb. And it would need to be articulated just below that so that it could be switched around for left or right handed users. So... You then have a grip section that can be more or less the same irrespective of handedness. You just have two big buttons that cover most of the area. In the upper part, one for the forefinger, one for the middle finger. Is this the joystick? This part here is the joystick. This would be the actual grip, probably where you'd want to have the battery as well. That would be probably the bulkiest part and you then have at the at the bottom the LCD and this would need to be articulated as well and basically I'd want this to rest here right at the base of the wrist so it would fit just nicely in the hand and again this part could be Rotated so it can So so that it can be adjusted to either left or right handed user. So the top function button in basic mode would be the on off switch and menu mode would be the enter button and then the bottom function button switches between modes. Now programming it, actually this is one thing I found with the replacement remote control, programming them can be a bright pain. So I thought the simplest way around that would be to have a cable to connect it to the computer. Some fairly simple software on the computer, on your home computer, just so that you could program it as a rather more comfortable interface and you could download programs for it for TVs from all sorts of main manufacturers. Though it would be necessary to have a mode for programming it without the computer, just in case there are still people left out there who don't have them yet. Okay. So, here we go."
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "start": 1101.0,
+        "end": 1104.0,
+        "text": "Okay."
+    },
+    {
+        "speaker": "SPEAKER_03",
+        "start": 1104.0,
+        "end": 1107.0,
+        "text": "Okay."
+    },
+    {
+        "speaker": "SPEAKER_00",
+        "start": 1107.0,
+        "end": 1217.8,
+        "text": "So, together my research, two basic methods, we compared wherever people want the remote control to do a lot of stuff, or they want it to look cool. And then we researched our fashion trends in Europe. What's the new black, as it goes? Next slide, please. We found, in order of importance, people want the remote control to look cool more than they want it to be cool. They want it to do a lot of good, they want it to look like it does a lot. And if it does do a lot, that's a bonus, but they don't care so much, you know. They want it to be, that sounds a bit like a contradiction, technologically innovative. People want it to be that, but still, they care more about the way it looks than what it does. So like the interface is really important. And easy to use. It just so happens that from the second point to the third point is twice as important. I mean, the second point is twice as important as the third point. People want it. It has to be cooler than easy to use, you know, if it has the newest features, even if it's difficult to use, to prefer it to have the newest features. And if it's easy to use, that's a bonus. The fashion, now this seems a bit odd to me, but Fruit and Veg is the new black for furniture, for clothes, for shoes. How that relates to remote control, I don't know. But I see, I'll come on to that in the next slide. Spongy. I've come onto that in the next slide. Spongy, I've been saying everything is a new black, but spongy is a new black as well. So we had the choice between rubber and plastic. If it's a type of rubber that you can squeeze, you know, it's spongy, then that's a good one."
+    },
+    {
+        "speaker": "SPEAKER_03",
+        "start": 1217.8,
+        "end": 1221.16,
+        "text": "I forgot to mention that the rubber material is the type of"
+    },
+    {
+        "speaker": "SPEAKER_00",
+        "start": 1221.16,
+        "end": 1384.36,
+        "text": "stress ball material, not just normal rubber. Okay so kind of spongy material. So my personal opinion, we want something fancy and technologically innovative, obviously, but what we need is something that looks like it's from the future, that looks cool, that's different, you know? Everyone has a white remote control, black remote control, you need something cool. Titanium is cool, but it's expensive. And maybe it's a bit of overkill for a remote control. Now the fruit and veg options. Either we go in that direction or we stay totally away from it. I mean, a research did come up with fruit and veg, so maybe it is important, up to the interface guy. So if we stay away from it, stay away from it. But if we're going to go along with it, then it doesn't necessarily have to be like an apple or something like that, or a kiwi fruit. It could be something like, I say potato peeler, but I'm sure you guys have a much cooler idea than I do. So I think cool is the key. A few questions about a spongy remote control. I've never seen one before. I've seen plastic remote controls. I think maybe they were, I don't know, back in the day when they first came up with remote controls, they had a reason for it being sturdy, for being strong and sturdy. So if we want something strong and sturdy, I say stable plastic or titanium. But if we go with spongy, we can stress that you can drop this as many times as you want. It doesn't matter. Spongy material is not going to break. I just don't know how the LED and the lights are going to fit into a spongy material because it's not going to be completely squeezable. So how do things fit in? And if we are going to use spongy, we can say it's long lasting, it's damage resistant, and stuff like that. So just to summarize, people want stuff that's cool, that looks like it's cool. And if it is cool, then that's a bonus, where it doesn't have to be. People like fruit and veg. We can either go down that alley or stay totally away from it. People like Sponge Material, if we're going to use Sponge Material, we have to think of how practical it is and how we can further promote that idea. And also, this was this year, so things change all the time, every year. They always talk about this year, this is the new black, or next year, something else is going to be the new black, and we're stuck with last year's fruit and veg type stuff. Okay, okay. That's me."
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "start": 1390.96,
+        "end": 1440.36,
+        "text": "Well, I would say that the more she could probably hope for is gaining a year's lead on most people anyway. You always have to bring out new designs so if we can get next year then that's possibly a good place to start anyway. It seems like a lot of the components could be off the shelf, so I don't know exactly what costs would be incurred. I can see your point about the numbered keybat, but I would say that we could probably incorporate it into the menu system if you need to do traversal of a large number of channels. My feeling would be that even if at a later date this was to be taking control of set-top boxes as well, the use of the LCD in a joystick would probably allow you to manipulate enough channel numbers for you to be..."
+    },
+    {
+        "speaker": "SPEAKER_02",
+        "start": 1440.36,
+        "end": 1459.0,
+        "text": "Actually, if you've got a lot of channels, the numbered keypad can be quite annoying as well. Because if you're trying to remember what number is the discovery channel, it's irritating. That's a good point. You can incorporate names into the menu. But if you have a menu structure, then you can subgroup them."
+    },
+    {
+        "speaker": "SPEAKER_00",
+        "start": 1459.0,
+        "end": 1463.0,
+        "text": "Okay. Even news, music, like they do on the Sky Digital."
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "start": 1463.0,
+        "end": 1500.2,
+        "text": "So what it looks like to me is we'll use a large number of standard components. Say something like lithium ion battery, the kind that you find in most small handheld devices now. Looks like we're going for a double curve design. I don't know what cost implications there are in that. Looks looks like we're pretty much decided on some kind of flexible rubber. For I'd have to say, depending on how flexible it is, we might need to have some kind of inner frame."
+    },
+    {
+        "speaker": "SPEAKER_02",
+        "start": 1500.2,
+        "end": 1518.88,
+        "text": "Yeah, I would say definitely. I mean, the idea of having it articulated, there would be basically two points of articulation. One below and one above the main sort of grip."
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "start": 1518.88,
+        "end": 1531.54,
+        "text": "Do you think there's any way we could maybe remove the articulation i can see why it looks appealing but it could be a weak point in uh... the structure do you think i would be a worry of mine"
+    },
+    {
+        "speaker": "SPEAKER_03",
+        "start": 1531.54,
+        "end": 1539.0,
+        "text": "you're going to for uh... i don't fruit and veg thing, it looks like a banana. I don't think"
+    },
+    {
+        "speaker": "SPEAKER_02",
+        "start": 1539.0,
+        "end": 1570.0,
+        "text": "it would be a structural weakness. I mean if you have a firm substructure you can then incorporate articulation into that. If you then have an outer skin of flexible spongy rubber, then you have something that is very much organic and I think would look rather cool. My drawing there doesn't do it justice. It makes it look a little bit more like a vibrator than a remote control."
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "start": 1570.0,
+        "end": 1593.72,
+        "text": "Yeah, we won't add that functionality. One interesting point is I don't know how serious you were there, but if we take some of the ideas of a banana, why don't we make the damn thing yellow to incorporate the colour of the logo? Sure, yeah. I don't know, it's certainly a different colour from your average..."
+    },
+    {
+        "speaker": "SPEAKER_02",
+        "start": 1593.72,
+        "end": 1598.0,
+        "text": "Make it harder to lose as well."
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "start": 1598.0,
+        "end": 1600.0,
+        "text": "Was there anything in your research?"
+    },
+    {
+        "speaker": "SPEAKER_00",
+        "start": 1600.0,
+        "end": 1622.52,
+        "text": "The noise for when you lose the banana. Yeah, for when you lose the remote control. It could be like a monkey noise or something like that, rather than a standard beep, beep, you know, you lose the monkey, that banana. You lose the banana, you press a button and you hear like monkeys screams or something like that to direct you towards the banana."
+    },
+    {
+        "speaker": "SPEAKER_02",
+        "start": 1622.52,
+        "end": 1632.48,
+        "text": "I think that's something that could perhaps be programmable. Though maybe have monkey as default. Oh I was gonna talk about the programmable remote"
+    },
+    {
+        "speaker": "SPEAKER_00",
+        "start": 1632.48,
+        "end": 1648.0,
+        "text": "control. Now I think it'd be cool if you had one remote control that can work with all TVs. You know you click a button and it finds the frequency that works with your particular television, but why you'd need to program it like as a standard feature, I don't know."
+    },
+    {
+        "speaker": "SPEAKER_02",
+        "start": 1648.0,
+        "end": 1689.76,
+        "text": "Well basically the, for, I mean each manufacturer will have a particular command set that the TV responds to, it's not simply a matter of frequency so usually what's done is you have a big booklet full of different possibilities. You'll have all of them programmed into the remote and you'll have this little booklet of codes. You then find your manufacturer and try the different codes that come under that manufacturer's name until you find the right one. That's because televisions they"
+    },
+    {
+        "speaker": "SPEAKER_00",
+        "start": 1689.76,
+        "end": 1693.24,
+        "text": "don't give the remote control any type of feedback when you send it. Yeah that's"
+    },
+    {
+        "speaker": "SPEAKER_02",
+        "start": 1693.24,
+        "end": 1711.6,
+        "text": "right. Okay. So that's that's quite annoying and we probably would still have to do that. But if we had some sort of hookup to your computer as an option, then if you've got a computer, you can avoid that rather irritating thing."
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "start": 1711.6,
+        "end": 1739.28,
+        "text": "An interesting point is that if the person doesn't have the computer we can still make the process easier because instead of having to look up codes maybe we can have it that one of the options they have is that they look up the name of the company on the LCD and then maybe look up different names of different actual units that have been produced or we have the remote control just go through them until it's like does this do the correct function and such."
+    },
+    {
+        "speaker": "SPEAKER_00",
+        "start": 1739.28,
+        "end": 1744.16,
+        "text": "Is it actually a book of names to digits or is it like a few pages?"
+    },
+    {
+        "speaker": "SPEAKER_02",
+        "start": 1744.16,
+        "end": 1747.52,
+        "text": "Booklet. Some pages. I'm just"
+    },
+    {
+        "speaker": "SPEAKER_00",
+        "start": 1747.52,
+        "end": 1762.0,
+        "text": "thinking if we were to store this information, some type of mapping, this person probably need to use this feature like once, you know, when they first buy the remote control or whenever they buy a new television. So once every. It doesn't have to be used very often, that's right."
+    },
+    {
+        "speaker": "SPEAKER_02",
+        "start": 1762.0,
+        "end": 1787.28,
+        "text": "But it's a nuisance. And it's a nuisance very close to actually purchasing it. So it's something you're likely to be thinking about. If there's one in the shop that says it can avoid much of that nuisance you might be favorably inclined towards it"
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "start": 1788.92,
+        "end": 1870.32,
+        "text": "so just to give us a rough idea of what we're meant to be doing for the next stage. I'm pretty sure that you got that anyway. This was a conceptual one. I think we've come up, I think we've covered everything we need to here. I think we've decided on what, you know, decided on standard items for most of them, rubber and such. So, I think we've covered everything we need to here. I think we've covered everything we need to here. I think we've decided on standard items for most of them, rubber and such. So we're now looking at the detail design and what we need to be doing for the next meeting. So for example, we'll just start at the top, you've got yourself and the industrial designer going to be working quite closely at this stage because it will be hard not to obviously. Looking for a prototyping of some of this description using clay I suppose you'll be told a lot more about that as we progress the user interface design it looks like the idea of push forward so far is maybe more of a physical one there, whereas we'd possibly be more interested in maybe how the LCD is going to incorporate, do you think? Or do you foresee that most of the design decisions still need to be based on the physical layout?"
+    },
+    {
+        "speaker": "SPEAKER_02",
+        "start": 1870.32,
+        "end": 1912.08,
+        "text": "Well, I think other than getting a more aesthetically pleasing form for it. Most of the layout design decisions are made, I would say. But then again, the menu structure, to a considerable extent, that's going to vary according to the model of television and also any customizations that the user might wish to incorporate. So, one of the nice things about having an LCD and a menu structure is that there is that flexibility to it."
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "start": 1912.08,
+        "end": 1922.12,
+        "text": "That's very true. Okay, I've got product evaluation as well."
+    },
+    {
+        "speaker": "SPEAKER_00",
+        "start": 1922.12,
+        "end": 1934.74,
+        "text": "Yes, yeah. Some of these things kind of logically follow the others. How can product evaluation, doesn't that come after I've actually seen a product prototype?"
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "start": 1934.74,
+        "end": 1965.88,
+        "text": "I think we'd be, yeah, no, it'd be more a case of how do you envisage us performing the product evaluation once we have a model to test with. Oh, that's the... okay, sure. So it would be a case of, do you think that just bringing users in to have them test out, maybe putting a certain number of products into the field in certain places, which I suppose is quite similar, or just kind of hitting the streets and you know, saying this is a new remote control, what do you think of the look of it? Okay, sure."
+    },
+    {
+        "speaker": "SPEAKER_00",
+        "start": 1965.88,
+        "end": 1972.0,
+        "text": "At this stage, we still have no target audience?"
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "start": 1972.0,
+        "end": 2037.24,
+        "text": "I think the target audience is pretty much anybody under the age of maybe 60 or something. The reason I'm saying that is that we're just looking at a replacement remote control, something that's stylish, so maybe you're even just, maybe you're narrowing down your target audience simply by saying, if they're buying it that often or they're maybe looking to replace something then they've got a bit of free cash that puts them potentially in the younger age bracket maybe even single just for the reasons of excess cash flow. Of course I mean at 25 euros I don't think we're looking at charging the year for the device as well as in the normal bracket. Your idea of USB would I think would largely depend on the cost. USB is definitely one of the cheapest interfaces out there but it might push the cost of the overall unit up because it would require not just the connection but the chip for communicating with the rest of the system."
+    },
+    {
+        "speaker": "SPEAKER_03",
+        "start": 2037.24,
+        "end": 2040.8,
+        "text": "That one might have to be based on the USB for which?"
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "start": 2040.8,
+        "end": 2055.52,
+        "text": "The remote controller. The idea was that maybe it could connect up for allowing a software interface on the PC for a larger programming due to the fact that we've gone for such a nice easy minimal design normally definitely"
+    },
+    {
+        "speaker": "SPEAKER_03",
+        "start": 2055.52,
+        "end": 2060.56,
+        "text": "talking some type of but didn't they just say it's just for TV"
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "start": 2067.8,
+        "end": 2076.88,
+        "text": "It's just for TV but for different programming it to use your TV. You might hook it up to the PC I'm not sure but I'm thinking maybe that the additional cost of USB might be prohibitive We don't know unless it would make sense to."
+    },
+    {
+        "speaker": "SPEAKER_00",
+        "start": 2076.88,
+        "end": 2086.28,
+        "text": "But you're gonna need some type of flash memory or something. Well, something that doesn't, you wouldn't have to redo the whole thing once the batteries are changed, you know, once you turn off the power."
+    },
+    {
+        "speaker": "SPEAKER_02",
+        "start": 2086.28,
+        "end": 2111.44,
+        "text": "Yeah, you know what I'm saying? I mean, it would need to have some sort of onboard memory anyway. For one thing, because I do think that the menu system should be, although it's not going to be terribly complicated, it's just controlling one device, the menu system ought to be customizable."
+    },
+    {
+        "speaker": "SPEAKER_00",
+        "start": 2111.44,
+        "end": 2118.56,
+        "text": "Different languages, different skins and stuff like that."
+    },
+    {
+        "speaker": "SPEAKER_02",
+        "start": 2118.56,
+        "end": 2122.0,
+        "text": "How you want say the menu structure for flicking through channels"
+    },
+    {
+        "speaker": "SPEAKER_00",
+        "start": 2123.34,
+        "end": 2133.84,
+        "text": "if you've got lots of channels. If it was customisable as in different languages and stuff that does open, it is supposed to be international right? It would make sense"
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "start": 2133.84,
+        "end": 2165.0,
+        "text": "too. It would make sense. And we better be careful about the time as well. We've already had the five minute warning. So I would say, yeah, international would make sense. You're going to look at product evaluation. I'd better start writing up a hell of a lot of crap. You're going to look at product evaluation. I'd better start writing up a hell of a lot of crap. You're going to look a bit more at the physical make-up. Looks like we're going to need a kind of prototyping clay. We'll see how that goes."
+    },
+    {
+        "speaker": "SPEAKER_02",
+        "start": 2165.0,
+        "end": 2169.0,
+        "text": "Are we going to be supplied with the clay as well? Where is the clay?"
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "start": 2169.0,
+        "end": 2175.0,
+        "text": "So, I think we've got an idea of where we need to go for the next meeting, would you say?"
+    },
+    {
+        "speaker": "SPEAKER_03",
+        "start": 2175.0,
+        "end": 2182.36,
+        "text": "Yeah. Or we're still going with the fashion thing. Like the design, spongy rubber."
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "start": 2182.36,
+        "end": 2185.96,
+        "text": "Yeah, I would say that would be my."
+    },
+    {
+        "speaker": "SPEAKER_02",
+        "start": 2185.96,
+        "end": 2197.0,
+        "text": "I think I would largely want to steer clear of the whole fruit and veg thing. But the spongy. I like it a lot."
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "start": 2197.0,
+        "end": 2203.28,
+        "text": "You seem to have quite a general consensus that the idea for the rear rubber could be quite..."
+    },
+    {
+        "speaker": "SPEAKER_02",
+        "start": 2203.28,
+        "end": 2219.28,
+        "text": "Yeah. I do, I mean, having bright yellow, I think that's quite it's going to be a little bit of options for colors as well uh... and again has the advantage of being harder to lose"
+    },
+    {
+        "speaker": "SPEAKER_00",
+        "start": 2219.28,
+        "end": 2224.4,
+        "text": "show i mean we are trying to promote a remote control but we would keep the company brand as well"
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "start": 2224.4,
+        "end": 2238.72,
+        "text": "so yeah so we always need to remember somewhere women to be in the slogan on We are trying to promote a remote control but we want to keep the company brand as well. So we always need to remember it's somewhere we're meant to be getting this slogan on. Possibly I'm not sure but I'm seeing a little bit of space around maybe the joystick area which could be used."
+    },
+    {
+        "speaker": "SPEAKER_02",
+        "start": 2238.72,
+        "end": 2245.64,
+        "text": "Like I said before I think we should have the rr on the uh... on the top function"
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "start": 2245.64,
+        "end": 2251.36,
+        "text": "okay and i think that says it all really right see everybody in a half hour"
+    }
+]

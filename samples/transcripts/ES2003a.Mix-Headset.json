@@ -1,0 +1,842 @@
+[
+    {
+        "start": 0.0,
+        "end": 4.0,
+        "text": "Okay, well I think we're ready to begin."
+    },
+    {
+        "start": 4.0,
+        "end": 8.0,
+        "text": "Right, my name's Adam Duggard, we're here because of"
+    },
+    {
+        "start": 8.0,
+        "end": 12.0,
+        "text": "Real Reaction. We have"
+    },
+    {
+        "start": 12.0,
+        "end": 16.0,
+        "text": "in the group..."
+    },
+    {
+        "start": 16.0,
+        "end": 20.0,
+        "text": "......... Sorry, would you like me to spell it out? Yeah, go for it mate."
+    },
+    {
+        "start": 20.0,
+        "end": 22.0,
+        "text": "N-E-Z"
+    },
+    {
+        "start": 22.0,
+        "end": 23.0,
+        "text": "N-E-Z"
+    },
+    {
+        "start": 23.0,
+        "end": 24.0,
+        "text": "E-R"
+    },
+    {
+        "start": 24.0,
+        "end": 26.0,
+        "text": "And your role is?"
+    },
+    {
+        "start": 26.0,
+        "end": 28.0,
+        "text": "I'm the marketing expert."
+    },
+    {
+        "start": 28.0,
+        "end": 30.0,
+        "text": "You're the marketing expert, okay."
+    },
+    {
+        "start": 33.0,
+        "end": 34.0,
+        "text": "Next we have?"
+    },
+    {
+        "start": 34.0,
+        "end": 41.64,
+        "text": "Tarak Ramam, T-A-R-I-K, and your role in this is industrial designer."
+    },
+    {
+        "start": 41.64,
+        "end": 53.2,
+        "text": "And lastly we have Dave Cochran."
+    },
+    {
+        "start": 53.2,
+        "end": 60.16,
+        "text": "And you're going to be the user interface designer."
+    },
+    {
+        "start": 60.16,
+        "end": 64.64,
+        "text": "Right, this is the agenda for today's meeting."
+    },
+    {
+        "start": 64.64,
+        "end": 66.56,
+        "text": "As you can see we're opening, acquaintance, tool"
+    },
+    {
+        "start": 66.56,
+        "end": 73.68,
+        "text": "training, project plan, discussion and closing. We already got through opening and partially"
+    },
+    {
+        "start": 73.68,
+        "end": 78.8,
+        "text": "through acquaintance. So the reason we're here, we're going to design a new remote control"
+    },
+    {
+        "start": 78.8,
+        "end": 80.0,
+        "text": "as you probably all know."
+    },
+    {
+        "start": 80.0,
+        "end": 85.0,
+        "text": "The very broad overview is original, trendy and user friendly."
+    },
+    {
+        "start": 85.0,
+        "end": 96.0,
+        "text": "Of course we'll have to go into a bit more detail than that, but personally I think that the original is going to be a very key aspect to this design. There's a lot of remote controls out there anyway, so we're going to need something that's really going to set it apart. Mae'r cyfle arfer yn dda iawn i'r adnodd yw'r adnodd yma."
+    },
+    {
+        "start": 96.0,
+        "end": 105.0,
+        "text": "Mae llawer o gysylltiadau yma oherwyddol, felly byddwn yn angen rhywbeth sy'n mynd i'w gysylltu."
+    },
+    {
+        "start": 105.0,
+        "end": 107.0,
+        "text": "Dyma'r ffordd yma i'w gweithio."
+    },
+    {
+        "start": 107.0,
+        "end": 113.0,
+        "text": "Mae'r 3K yn cael ei gyn been told, the functional, conceptual and the detailed design."
+    },
+    {
+        "start": 119.0,
+        "end": 123.0,
+        "text": "First one is going to be covering the user requirement spec, technical functions, working design."
+    },
+    {
+        "start": 123.0,
+        "end": 125.32,
+        "text": "Second seems to be conceptual"
+    },
+    {
+        "start": 125.32,
+        "end": 131.2,
+        "text": "components, properties, materials and the last one is a detailed analysis of our design"
+    },
+    {
+        "start": 131.2,
+        "end": 138.2,
+        "text": "so far. Of course you've all got the similar emails I believe. What can I say? Every user,"
+    },
+    {
+        "start": 143.0,
+        "end": 145.0,
+        "text": "do you want to draw your favourite animal? Sure."
+    },
+    {
+        "start": 155.0,
+        "end": 216.24,
+        "text": "Okay, I'm going to make this quick since we don't have much time. Thank you for watching! Okay, so this is not the best picture in the world."
+    },
+    {
+        "start": 216.24,
+        "end": 218.56,
+        "text": "Here we have an elephant."
+    },
+    {
+        "start": 218.56,
+        "end": 223.56,
+        "text": "First point, it begins with an E, same like a Beniza."
+    },
+    {
+        "start": 223.56,
+        "end": 227.64,
+        "text": "Also elephants have a very good memory, much like myself."
+    },
+    {
+        "start": 227.64,
+        "end": 236.28,
+        "text": "And I can't remember back when I used to live in Nigeria, but I think I used to have a pet elephant. So elephants have a very good memory. And I can't remember back when I used to live in Nigeria, but I think I used to have a pet elephant. So elephants have a very good memory, much like myself. And I can't remember back when I used to live in Nigeria but I think I used to have a pet elephant. So elephants are big, strong and"
+    },
+    {
+        "start": 236.28,
+        "end": 243.16,
+        "text": "gentle and they have great memories and it began with the letter E just like Ebenezer."
+    },
+    {
+        "start": 243.16,
+        "end": 245.0,
+        "text": "Brilliantly done. Thank you."
+    },
+    {
+        "start": 247.0,
+        "end": 252.0,
+        "text": "Derek would you like to have a shot at a bit of artistry?"
+    },
+    {
+        "start": 253.0,
+        "end": 255.0,
+        "text": "It's supposed to come all the way is it?"
+    },
+    {
+        "start": 255.0,
+        "end": 257.0,
+        "text": "Oh you can clip them to your belt."
+    },
+    {
+        "start": 257.0,
+        "end": 263.0,
+        "text": "Oh I think you should also have your lapel mic on as well."
+    },
+    {
+        "start": 263.0,
+        "end": 267.0,
+        "text": "Oh, that's good, we can clip them on."
+    },
+    {
+        "start": 267.0,
+        "end": 270.0,
+        "text": "Yeah, there's this microphone as well that you..."
+    },
+    {
+        "start": 270.0,
+        "end": 274.0,
+        "text": "Where do I put that?"
+    },
+    {
+        "start": 274.0,
+        "end": 278.08,
+        "text": "Just somewhere... just somewhere just somewhere"
+    },
+    {
+        "start": 278.08,
+        "end": 282.12,
+        "text": "the"
+    },
+    {
+        "start": 282.12,
+        "end": 286.16,
+        "text": "it's just a cost"
+    },
+    {
+        "start": 286.16,
+        "end": 299.08,
+        "text": "there, that's it"
+    },
+    {
+        "start": 305.78,
+        "end": 307.78,
+        "text": "this was we click yeah I'll follow you if you... There we go."
+    },
+    {
+        "start": 309.78,
+        "end": 311.78,
+        "text": "You can probably just stick it in your pocket for now. I wouldn't worry too much."
+    },
+    {
+        "start": 311.78,
+        "end": 313.78,
+        "text": "You should have good dreams."
+    },
+    {
+        "start": 317.78,
+        "end": 368.08,
+        "text": "I'm destroying your altitude here. Thanks for watching!.."
+    },
+    {
+        "start": 368.08,
+        "end": 372.12,
+        "text": "."
+    },
+    {
+        "start": 372.12,
+        "end": 376.16,
+        "text": "."
+    },
+    {
+        "start": 376.16,
+        "end": 397.0,
+        "text": "... Alright, here we have a tiger. I've always loved tigers. They're just, they're big, they're"
+    },
+    {
+        "start": 400.5,
+        "end": 406.5,
+        "text": "biggest cats. I did a project on cats of the wild when I was a kid and it was my favourite"
+    },
+    {
+        "start": 406.5,
+        "end": 411.12,
+        "text": "cat just because it looks the best. The stripes, orange, my dad used to talk about it."
+    },
+    {
+        "start": 411.12,
+        "end": 413.0,
+        "text": "He's from Bangladesh, so he used to tell me all about them"
+    },
+    {
+        "start": 413.0,
+        "end": 415.12,
+        "text": "when I was a kid."
+    },
+    {
+        "start": 415.12,
+        "end": 420.12,
+        "text": "And they're just the most feared of animals in the wild."
+    },
+    {
+        "start": 421.56,
+        "end": 423.08,
+        "text": "So that's why I like them."
+    },
+    {
+        "start": 424.16,
+        "end": 427.0,
+        "text": "Didn't say they'd they met me really but..."
+    },
+    {
+        "start": 427.0,
+        "end": 456.0,
+        "text": "Excellent, thank you very much. Dave, would you like to have a dash? And this. I'm going to sleep. I'm going to sleep. I'm going to sleep."
+    },
+    {
+        "start": 456.0,
+        "end": 458.0,
+        "text": "I'm going to sleep."
+    },
+    {
+        "start": 458.0,
+        "end": 460.0,
+        "text": "I'm going to sleep."
+    },
+    {
+        "start": 460.0,
+        "end": 462.0,
+        "text": "I'm going to sleep."
+    },
+    {
+        "start": 462.0,
+        "end": 464.0,
+        "text": "I'm going to sleep."
+    },
+    {
+        "start": 464.0,
+        "end": 466.0,
+        "text": "I'm going to sleep."
+    },
+    {
+        "start": 466.0,
+        "end": 468.0,
+        "text": "I'm going to sleep."
+    },
+    {
+        "start": 468.0,
+        "end": 562.44,
+        "text": "I'm going to sleep. I'm going to sleep. I'm going to sleep. I'm going to sleep. I'm going to sleep. Thank you for watching! Thank you for watching!. Um, the monkey."
+    },
+    {
+        "start": 562.44,
+        "end": 567.44,
+        "text": "Um, the one, the one, the one, the one, the one, the one, the one, the one, the one, the"
+    },
+    {
+        "start": 567.44,
+        "end": 570.44,
+        "text": "one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the"
+    },
+    {
+        "start": 570.44,
+        "end": 571.44,
+        "text": "one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the"
+    },
+    {
+        "start": 571.44,
+        "end": 572.44,
+        "text": "one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the"
+    },
+    {
+        "start": 572.44,
+        "end": 573.44,
+        "text": "one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the"
+    },
+    {
+        "start": 573.44,
+        "end": 574.44,
+        "text": "one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the"
+    },
+    {
+        "start": 574.44,
+        "end": 576.0,
+        "text": "one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the one, the I have a three year old daughter who is affectionately known as Miss Monkey."
+    },
+    {
+        "start": 583.92,
+        "end": 593.0,
+        "text": "Monkeys have attitude, which I think is a good thing. And from the point of view of the study of human evolution, they and other privates are terribly interesting. So, I like monkeys."
+    },
+    {
+        "start": 593.0,
+        "end": 597.0,
+        "text": "This one seems to have perhaps more"
+    },
+    {
+        "start": 597.0,
+        "end": 601.0,
+        "text": "attitude than most."
+    },
+    {
+        "start": 601.0,
+        "end": 659.88,
+        "text": "Cheers. \u0414\u0435\u0440\u0436\u0438. Thank you for watching! I'm sorry for the bad sound. Hardly what I'd call the best drawing in the world but it'll do for now."
+    },
+    {
+        "start": 659.88,
+        "end": 665.0,
+        "text": "Also not quite as feared as your average tiger but cats are one of my favourite animals."
+    },
+    {
+        "start": 665.0,
+        "end": 672.0,
+        "text": "They're very independent, they're snotty as hell at the best of times and what can you"
+    },
+    {
+        "start": 672.0,
+        "end": 675.0,
+        "text": "say, you've got all of those qualities in an animal."
+    },
+    {
+        "start": 685.44,
+        "end": 688.6,
+        "text": "Right, I think we've all managed to master every whiteboard there by the looks of it. So on to it, project finance."
+    },
+    {
+        "start": 688.6,
+        "end": 693.32,
+        "text": "As you can see, 12.5 euros per unit."
+    },
+    {
+        "start": 693.32,
+        "end": 697.0,
+        "text": "That's not a terrible lot as far as I'm aware. We're hoping to sell them"
+    },
+    {
+        "start": 697.0,
+        "end": 702.0,
+        "text": "for 25. If we're aiming for 50 million euros we're going to have to be selling an awful"
+    },
+    {
+        "start": 702.0,
+        "end": 704.0,
+        "text": "lot of them."
+    },
+    {
+        "start": 704.0,
+        "end": 711.0,
+        "text": "Oh that was profit aim. That was Soud, that's the Mount Made."
+    },
+    {
+        "start": 711.0,
+        "end": 719.0,
+        "text": "Well 50 million and if you're making 12.5 euros in each one then an awful lot need to be sold."
+    },
+    {
+        "start": 721.0,
+        "end": 726.0,
+        "text": "Okay, now we better actually just get on with the meat of the project."
+    },
+    {
+        "start": 726.0,
+        "end": 731.0,
+        "text": "So I'm going to guess that we've all used remote controls."
+    },
+    {
+        "start": 731.0,
+        "end": 736.0,
+        "text": "Any ideas of where you think a new remote control could go into this market?"
+    },
+    {
+        "start": 736.0,
+        "end": 745.0,
+        "text": "Well, one thing I'm aware of is that there are sort of at the very high price end of the market, there's"
+    },
+    {
+        "start": 745.0,
+        "end": 753.0,
+        "text": "an emerging market for touch screen LCD remotes that can be programmed in much more sophisticated"
+    },
+    {
+        "start": 753.0,
+        "end": 755.28,
+        "text": "ways than conventional models. So you get"
+    },
+    {
+        "start": 755.28,
+        "end": 762.28,
+        "text": "you can redesign the interface to your own needs, you can"
+    },
+    {
+        "start": 762.28,
+        "end": 767.04,
+        "text": "program in macros and you get a much greater degree of... I mean you get"
+    },
+    {
+        "start": 767.04,
+        "end": 770.1,
+        "text": "these sort of 3 in 1, 5 in 1, whatever, but you"
+    },
+    {
+        "start": 770.1,
+        "end": 776.76,
+        "text": "can get integration between the different things that it's designed to control to a"
+    },
+    {
+        "start": 776.76,
+        "end": 787.0,
+        "text": "much greater extent. You can have one macro to turn the TV to the right channel, rewind the tape in the VCR and get it to play once"
+    },
+    {
+        "start": 788.36,
+        "end": 795.36,
+        "text": "it's rewound for instance. It occurs to me there might be a niche for a remote that aimed"
+    },
+    {
+        "start": 799.64,
+        "end": 803.76,
+        "text": "towards some of that sort of functionality but using a"
+    },
+    {
+        "start": 803.76,
+        "end": 812.0,
+        "text": "conventional push button design and therefore putting it into a much lower price bracket."
+    },
+    {
+        "start": 812.0,
+        "end": 818.08,
+        "text": "Okay, yeah that's true with the price range we're looking at, going for a touch screen would"
+    },
+    {
+        "start": 818.08,
+        "end": 819.08,
+        "text": "probably be..."
+    },
+    {
+        "start": 819.08,
+        "end": 820.08,
+        "text": "Absolutely prohibitive."
+    },
+    {
+        "start": 820.08,
+        "end": 821.08,
+        "text": "Yeah."
+    },
+    {
+        "start": 821.08,
+        "end": 825.92,
+        "text": "But you think, again, something to control multiple units in a simple fashion."
+    },
+    {
+        "start": 825.92,
+        "end": 830.14,
+        "text": "Yeah, I mean, I see you get ones that you can switch between multiple units, but something that could operate between multiple units in a more integrated fashion. Yeah I mean I see you get ones that you can switch between multiple"
+    },
+    {
+        "start": 830.14,
+        "end": 834.66,
+        "text": "units but something that could operate between multiple units in a more integrated"
+    },
+    {
+        "start": 834.66,
+        "end": 841.06,
+        "text": "fashion. So there's an ideally something into which we should have some at least"
+    },
+    {
+        "start": 841.06,
+        "end": 849.92,
+        "text": "limited facility for running macros. Would you be idea something along the lines of one on button would turn on say the video"
+    },
+    {
+        "start": 849.92,
+        "end": 853.4,
+        "text": "recorded to TV, maybe the sound system as well all in one go?"
+    },
+    {
+        "start": 853.4,
+        "end": 856.88,
+        "text": "For instance, I say"
+    },
+    {
+        "start": 856.88,
+        "end": 869.0,
+        "text": "or you press the play button for the DVD player and it turns the TV on and on to the right channel as well."
+    },
+    {
+        "start": 869.0,
+        "end": 874.0,
+        "text": "Okay, that sounds like a good strong idea."
+    },
+    {
+        "start": 874.0,
+        "end": 878.36,
+        "text": "Any takes in this? Okay, that sounds like a good strong idea. Any"
+    },
+    {
+        "start": 878.36,
+        "end": 881.76,
+        "text": "takes in this? Well, I've noticed that"
+    },
+    {
+        "start": 881.76,
+        "end": 884.88,
+        "text": "gaming is becoming quite popular with television."
+    },
+    {
+        "start": 884.88,
+        "end": 888.32,
+        "text": "When I was younger we used to play games"
+    },
+    {
+        "start": 888.32,
+        "end": 892.0,
+        "text": "using a cable, using the cable, subscribe to cable"
+    },
+    {
+        "start": 892.0,
+        "end": 893.0,
+        "text": "providers."
+    },
+    {
+        "start": 893.0,
+        "end": 899.68,
+        "text": "But our remote controllers get worn out really easily and the remote control is not a great"
+    },
+    {
+        "start": 899.68,
+        "end": 903.4,
+        "text": "kind of keypad for playing games."
+    },
+    {
+        "start": 903.4,
+        "end": 908.0,
+        "text": "So perhaps one that was more specialized for game playing"
+    },
+    {
+        "start": 908.0,
+        "end": 910.32,
+        "text": "or interactive television."
+    },
+    {
+        "start": 910.32,
+        "end": 913.28,
+        "text": "They recently brought out this new remote control for people"
+    },
+    {
+        "start": 913.28,
+        "end": 917.68,
+        "text": "to set their favorite channels to record things."
+    },
+    {
+        "start": 917.68,
+        "end": 921.68,
+        "text": "Instead of people entering in what time things start you simply start"
+    },
+    {
+        "start": 921.76,
+        "end": 924.0,
+        "text": "slide a bar to say what time it begins and"
+    },
+    {
+        "start": 924.8,
+        "end": 930.18,
+        "text": "Slide another bar to say what time it ends. You know, that's yeah, I've heard I've seen the barcode design before yeah"
+    },
+    {
+        "start": 930.18,
+        "end": 932.18,
+        "text": "it's it's taken out the"
+    },
+    {
+        "start": 933.64,
+        "end": 938.0,
+        "text": "You don't have to be Really clever to use a remote control."
+    },
+    {
+        "start": 938.0,
+        "end": 943.0,
+        "text": "I think for gaming, you want some big buttons for up, down, left and right, shoot."
+    },
+    {
+        "start": 945.0,
+        "end": 948.0,
+        "text": "You want to be able to change angles in interactive television,"
+    },
+    {
+        "start": 948.0,
+        "end": 952.96,
+        "text": "so you need buttons to change the television angle, the camera angles and stuff like that."
+    },
+    {
+        "start": 952.96,
+        "end": 958.6,
+        "text": "Okay, well we're beginning to run out of time now, so we've got a couple of ideas we can,"
+    },
+    {
+        "start": 958.6,
+        "end": 959.6,
+        "text": "we'll have to work fast."
+    },
+    {
+        "start": 959.6,
+        "end": 967.88,
+        "text": "As you can see we've got 30 minutes until the next meeting so we'll have to try and"
+    },
+    {
+        "start": 967.88,
+        "end": 972.92,
+        "text": "decide on some of the basic functionality, how the user interface might work, that will"
+    },
+    {
+        "start": 972.92,
+        "end": 978.28,
+        "text": "be a key aspect especially if the idea of some kind of macro facility because you have"
+    },
+    {
+        "start": 978.28,
+        "end": 980.84,
+        "text": "to program it, you have to have a lot of response back or at least some kind. o'r ffacilitau macro oherwydd mae angen i chi gynnyrchio, mae angen i chi gyrraedd llawer o ffans"
+    },
+    {
+        "start": 980.84,
+        "end": 984.84,
+        "text": "o'r ffordd neu oes unrhyw ffaith."
+    },
+    {
+        "start": 984.84,
+        "end": 992.84,
+        "text": "A byddwn yn mynd i ddod o'r hyn mae'r gweithwyr yn ei ddod."
+    },
+    {
+        "start": 992.84,
+        "end": 997.56,
+        "text": "Yr unrhyw un, oes. A oes unrhyw un o'r un a allai'n ei wneud yn ystod hynny? out what the user wants what the user wants yes okay right has anybody got"
+    },
+    {
+        "start": 997.56,
+        "end": 1000.12,
+        "text": "anything they'd like to add at this stage anything they think that might"
+    },
+    {
+        "start": 1000.12,
+        "end": 1004.32,
+        "text": "have been missed so far when you're talking about game and stuff do you think"
+    },
+    {
+        "start": 1004.32,
+        "end": 1011.6,
+        "text": "they should have some sort of stick on it rather than buttons. Okay that's it."
+    },
+    {
+        "start": 1011.6,
+        "end": 1015.5,
+        "text": "Control pads you know of games but, or is that a bit ridiculous?"
+    },
+    {
+        "start": 1015.5,
+        "end": 1021.8,
+        "text": "I don't see why not, almost everybody's probably used to a console by now and all of them incorporate small"
+    },
+    {
+        "start": 1021.8,
+        "end": 1025.0,
+        "text": "d-pads on them. In fact, even the mobile phones these days"
+    },
+    {
+        "start": 1025.0,
+        "end": 1026.16,
+        "text": "are beginning to use them as well."
+    },
+    {
+        "start": 1026.16,
+        "end": 1029.16,
+        "text": "So it's probably an interface that most people are used to."
+    },
+    {
+        "start": 1033.2,
+        "end": 1036.42,
+        "text": "And that could allow easy navigation,"
+    },
+    {
+        "start": 1036.42,
+        "end": 1046.6,
+        "text": "use as a joystick as well."
+    },
+    {
+        "start": 1054.4,
+        "end": 1059.36,
+        "text": "The other key feature that would be a good idea of building is to make something fairly sort fairly sort of ergonomic something fits as comfortably as possible into the hand"
+    },
+    {
+        "start": 1059.36,
+        "end": 1068.36,
+        "text": "of course it also allows for the possibility of a more sort of slightly"
+    },
+    {
+        "start": 1068.36,
+        "end": 1072.0,
+        "text": "unconventional attractive shape for it"
+    },
+    {
+        "start": 1073.6,
+        "end": 1080.6,
+        "text": "overall. So small, stylish and something that's just a little bit different. Slightly sort"
+    },
+    {
+        "start": 1081.84,
+        "end": 1088.0,
+        "text": "of biomorphic in form, which it would need to be sort be conformed to the shape of the hand more efficiently anyway"
+    },
+    {
+        "start": 1088.0,
+        "end": 1092.0,
+        "text": "okay that's definitely something that we should be able to do quite easily"
+    },
+    {
+        "start": 1092.0,
+        "end": 1095.0,
+        "text": "I would have hoped so anyway"
+    },
+    {
+        "start": 1095.0,
+        "end": 1098.0,
+        "text": "right"
+    },
+    {
+        "start": 1098.0,
+        "end": 1119.0,
+        "text": "I'd say we finish this one up, we'll get started, I'll write up what we've quickly done and I'll get it out to everybody. Yeah. Okay."
+    },
+    {
+        "start": 1122.0,
+        "end": 1123.0,
+        "text": "As far as I'm aware, we leave the microphones here."
+    },
+    {
+        "start": 1132.0,
+        "end": null,
+        "text": "Let's get told otherwise and just take the laptop for this."
+    }
+]

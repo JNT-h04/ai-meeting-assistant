@@ -1,0 +1,2102 @@
+[
+    {
+        "start": 0.0,
+        "end": 5.4,
+        "text": "just put it on the desk"
+    },
+    {
+        "start": 5.4,
+        "end": 8.64,
+        "text": "all I see is desktop. No on the desktop you'll find"
+    },
+    {
+        "start": 8.64,
+        "end": 11.64,
+        "text": "you should find that there's a project documents link"
+    },
+    {
+        "start": 11.64,
+        "end": 17.44,
+        "text": "well actually just there. Project documents yeah."
+    },
+    {
+        "start": 17.44,
+        "end": 20.74,
+        "text": "yeah that's it. If you dump it in there What's the username?"
+    },
+    {
+        "start": 20.74,
+        "end": 22.74,
+        "text": "The username?"
+    },
+    {
+        "start": 22.74,
+        "end": 24.74,
+        "text": "What's the username and password?"
+    },
+    {
+        "start": 24.74,
+        "end": 28.74,
+        "text": "You can connect to it with any username you choose"
+    },
+    {
+        "start": 28.74,
+        "end": 30.74,
+        "text": "Okay"
+    },
+    {
+        "start": 33.74,
+        "end": 51.0,
+        "text": "Sorry Okay there we go. Excellent, right. Hopefully that's us ready to go. So, functional design meeting."
+    },
+    {
+        "start": 51.0,
+        "end": 54.0,
+        "text": "We'll have to flesh out some of the stuff."
+    },
+    {
+        "start": 54.0,
+        "end": 59.0,
+        "text": "We'll start with the minutes of the last meeting."
+    },
+    {
+        "start": 59.0,
+        "end": 61.0,
+        "text": "Not a lot, thankfully to say."
+    },
+    {
+        "start": 61.0,
+        "end": 69.94,
+        "text": "We introduced ourselves, discussed the possibility of a macro facility, interacting with the TV a bit more, mentioning of barcode,"
+    },
+    {
+        "start": 69.94,
+        "end": 77.88,
+        "text": "joystick for user manipulation and ergonomics of the remote control as well."
+    },
+    {
+        "start": 79.52,
+        "end": 82.0,
+        "text": "It's come to my attention the following. Teletext has become outdated"
+    },
+    {
+        "start": 84.84,
+        "end": 91.84,
+        "text": "due to the popularity of the internet. Remote control should only be used for the TV due"
+    },
+    {
+        "start": 92.96,
+        "end": 96.6,
+        "text": "for a time to market and possibly also cost issues."
+    },
+    {
+        "start": 96.6,
+        "end": 100.2,
+        "text": "Also key is the corporate image should stay recognisable."
+    },
+    {
+        "start": 100.2,
+        "end": 106.1,
+        "text": "Your colour and slogan of course is down at the bottom there."
+    },
+    {
+        "start": 106.1,
+        "end": 114.12,
+        "text": "Now, just to say quickly, I would have thought that only being"
+    },
+    {
+        "start": 114.12,
+        "end": 123.8,
+        "text": "used for the television, the macro facility may now not be required or its functionality"
+    },
+    {
+        "start": 123.8,
+        "end": 127.46,
+        "text": "would have been of limited use to the point in my opinion"
+    },
+    {
+        "start": 127.46,
+        "end": 134.06,
+        "text": "anyway that it might not be worth pursuing. If anybody disagrees we can definitely say"
+    },
+    {
+        "start": 134.06,
+        "end": 140.0,
+        "text": "so and hopefully we'll just crack on and we'll get everything going."
+    },
+    {
+        "start": 140.0,
+        "end": 144.0,
+        "text": "I'd like to, if possible, hear from our marketing expert first"
+    },
+    {
+        "start": 144.0,
+        "end": 147.0,
+        "text": "to help us gain an idea of where we're going to go."
+    },
+    {
+        "start": 147.0,
+        "end": 151.0,
+        "text": "So I'll just load up your presentation from here if you want."
+    },
+    {
+        "start": 151.0,
+        "end": 153.0,
+        "text": "Sure."
+    },
+    {
+        "start": 173.0,
+        "end": 177.0,
+        "text": "Would you like to start from here if you want. Try a second one maybe. Try it, yeah maybe."
+    },
+    {
+        "start": 177.0,
+        "end": 181.0,
+        "text": "Okay, right. I'll put in my last name I guess not."
+    },
+    {
+        "start": 181.0,
+        "end": 186.0,
+        "text": "That's alright. Do you want me to cycle through it for you?"
+    },
+    {
+        "start": 186.0,
+        "end": 191.0,
+        "text": "Oh yeah, that would be fine. That would be great. Okay. Functional requirement by me, Ebenezer."
+    },
+    {
+        "start": 191.0,
+        "end": 194.0,
+        "text": "Okay."
+    },
+    {
+        "start": 194.0,
+        "end": 201.68,
+        "text": "Okay, so we did some research. We asked 100 people their opinions on remote controls."
+    },
+    {
+        "start": 201.68,
+        "end": 204.68,
+        "text": "We had some open-ended questions."
+    },
+    {
+        "start": 204.68,
+        "end": 207.96,
+        "text": "Just what are your opinions on the remote control?"
+    },
+    {
+        "start": 207.96,
+        "end": 209.8,
+        "text": "Got a lot of responses."
+    },
+    {
+        "start": 209.8,
+        "end": 211.68,
+        "text": "And we had some very specific questions."
+    },
+    {
+        "start": 211.68,
+        "end": 213.88,
+        "text": "And we got a lot of good feedback."
+    },
+    {
+        "start": 213.88,
+        "end": 221.68,
+        "text": "Please bear in mind, this is only 100 people. So even when the groups are divided into 15 to 25, 25 to 35,"
+    },
+    {
+        "start": 223.24,
+        "end": 232.2,
+        "text": "there's only maybe 10 people, 15 people in each group. So we got some of the best stuff we've got."
+    },
+    {
+        "start": 232.2,
+        "end": 234.48,
+        "text": "Remotes are often lost."
+    },
+    {
+        "start": 234.48,
+        "end": 236.52,
+        "text": "I often lose my remote control, the back of the"
+    },
+    {
+        "start": 236.52,
+        "end": 238.2,
+        "text": "couch, someplace."
+    },
+    {
+        "start": 238.2,
+        "end": 241.0,
+        "text": "And even if it's not lost permanently, it takes me a few"
+    },
+    {
+        "start": 241.0,
+        "end": 243.72,
+        "text": "minutes to find it."
+    },
+    {
+        "start": 243.72,
+        "end": 245.48,
+        "text": "Most buttons are not used anymore."
+    },
+    {
+        "start": 245.48,
+        "end": 248.28,
+        "text": "Like you said, teletext is outdated now."
+    },
+    {
+        "start": 248.28,
+        "end": 252.28,
+        "text": "I remember trying to load a DVD player recently, and there"
+    },
+    {
+        "start": 252.28,
+        "end": 253.56,
+        "text": "were so many buttons."
+    },
+    {
+        "start": 253.56,
+        "end": 256.24,
+        "text": "It took me, I don't know, maybe 10 minutes to go through"
+    },
+    {
+        "start": 256.24,
+        "end": 259.36,
+        "text": "each button, because you have to press the Shift button to"
+    },
+    {
+        "start": 259.36,
+        "end": 263.84,
+        "text": "access the yellow buttons. You know, it's just a lot of stuff that no one really uses and if"
+    },
+    {
+        "start": 263.84,
+        "end": 269.96,
+        "text": "they do, not very often. It takes too long to master the remote control. I've seen some"
+    },
+    {
+        "start": 269.96,
+        "end": 274.64,
+        "text": "remote controls that are big, they have a lot of buttons, you have to hold down more"
+    },
+    {
+        "start": 274.64,
+        "end": 279.0,
+        "text": "than one key at one time to do something, they're just not great to use. We just got"
+    },
+    {
+        "start": 279.0,
+        "end": 284.4,
+        "text": "a lot of bad complaints about remote controls, people do not like remote controls. Some of"
+    },
+    {
+        "start": 284.4,
+        "end": 292.0,
+        "text": "the good stuff we got, between the age of 15 and 25, most people will be willing to pay extra for voice recognition"
+    },
+    {
+        "start": 293.36,
+        "end": 298.2,
+        "text": "software. Now don't get excited yet, I've got more to say on that. Most people will"
+    },
+    {
+        "start": 298.2,
+        "end": 303.2,
+        "text": "be willing to pay for that. Most people want remote controls to be pretty, they want it"
+    },
+    {
+        "start": 303.2,
+        "end": 305.36,
+        "text": "to be fancy. They want it to be fancy."
+    },
+    {
+        "start": 305.36,
+        "end": 306.8,
+        "text": "They want it to be different."
+    },
+    {
+        "start": 306.8,
+        "end": 310.32,
+        "text": "Everybody has a white remote control with black buttons,"
+    },
+    {
+        "start": 310.32,
+        "end": 312.36,
+        "text": "and a red button, and a green button."
+    },
+    {
+        "start": 312.36,
+        "end": 315.04,
+        "text": "Not everybody wants that."
+    },
+    {
+        "start": 315.04,
+        "end": 318.32,
+        "text": "Finally, my opinion."
+    },
+    {
+        "start": 318.32,
+        "end": 320.92,
+        "text": "The voice recognition thing is cool. And voice recognition, the software, open source software, my opinion. The voice recognition thing is cool."
+    },
+    {
+        "start": 320.92,
+        "end": 323.72,
+        "text": "And voice recognition, the software, open source software,"
+    },
+    {
+        "start": 323.72,
+        "end": 325.48,
+        "text": "exists already."
+    },
+    {
+        "start": 325.48,
+        "end": 327.88,
+        "text": "It's a bit sketchy sometimes."
+    },
+    {
+        "start": 327.88,
+        "end": 330.64,
+        "text": "You're not going to get good, always accurate results."
+    },
+    {
+        "start": 330.64,
+        "end": 334.56,
+        "text": "But for a very fixed number of words, how many different"
+    },
+    {
+        "start": 334.56,
+        "end": 338.76,
+        "text": "words can you have for remote control up down left right channel 5"
+    },
+    {
+        "start": 338.76,
+        "end": 343.32,
+        "text": "channels 7 you know how many you can't have that many words for fixed vocabulary"
+    },
+    {
+        "start": 343.32,
+        "end": 348.36,
+        "text": "it works quite well I'm pretty sure people buy it but after a while people"
+    },
+    {
+        "start": 348.36,
+        "end": 351.48,
+        "text": "may want to return it because if you have to"
+    },
+    {
+        "start": 352.32,
+        "end": 356.48,
+        "text": "To say I mean most people use a remote control for switching to channels"
+    },
+    {
+        "start": 356.48,
+        "end": 362.2,
+        "text": "And they say they do that about 98 percent of the time using the remote control 98 percent of time for changing channels"
+    },
+    {
+        "start": 362.2,
+        "end": 371.52,
+        "text": "And that's for flickering through channels, so if you have to say up, up, up, up, if you have to do that all the time, then people"
+    },
+    {
+        "start": 371.52,
+        "end": 378.12,
+        "text": "might get a bit fed up with that and they may return it. However, oh, because the voice"
+    },
+    {
+        "start": 378.12,
+        "end": 382.32,
+        "text": "recognition software exists already, there's no need to spend money on research and"
+    },
+    {
+        "start": 382.32,
+        "end": 383.44,
+        "text": "development."
+    },
+    {
+        "start": 383.44,
+        "end": 388.2,
+        "text": "But this doesn't mean the need for microphones in the remote"
+    },
+    {
+        "start": 388.2,
+        "end": 391.12,
+        "text": "control, which is an unusual feature, in my opinion."
+    },
+    {
+        "start": 391.12,
+        "end": 393.92,
+        "text": "But if we do have the voice recognition thing, there's a"
+    },
+    {
+        "start": 393.92,
+        "end": 395.88,
+        "text": "lot of stuff that you can get rid of. See, there are two options we do have the voice recognition thing, there's a lot of stuff that you can"
+    },
+    {
+        "start": 395.88,
+        "end": 401.32,
+        "text": "get rid of. See, there are two options. Either you have voice recognition by itself, which"
+    },
+    {
+        "start": 401.32,
+        "end": 405.56,
+        "text": "I think is a bit impractical for like night time, if you want to be watching television,"
+    },
+    {
+        "start": 405.56,
+        "end": 413.36,
+        "text": "you want to be quiet, or I don't know, you have a visitor come around and the remote is only trained for you. It's a bit impractical to have just voice recognition"
+    },
+    {
+        "start": 413.36,
+        "end": 418.8,
+        "text": "by itself. So you can have voice recognition and a regular remote. But imagine you got"
+    },
+    {
+        "start": 418.8,
+        "end": 424.04,
+        "text": "rid of the regular remote part. Then you can design the remote to look any way you want"
+    },
+    {
+        "start": 424.04,
+        "end": 429.0,
+        "text": "it to look because there are no restrictions on physical size or shape."
+    },
+    {
+        "start": 429.0,
+        "end": 435.0,
+        "text": "It could be as fancy as you want it to be, you know, it could be like a lollipop, something like that, something weird like that."
+    },
+    {
+        "start": 435.0,
+        "end": 439.0,
+        "text": "As long as the voice recognition stuff works, that's fine."
+    },
+    {
+        "start": 439.0,
+        "end": 443.44,
+        "text": "So we have the free birds, we have the design bit,"
+    },
+    {
+        "start": 443.44,
+        "end": 445.68,
+        "text": "we have the fancy bit, right?"
+    },
+    {
+        "start": 445.68,
+        "end": 447.84,
+        "text": "The voice recognition is fancy, it's cool,"
+    },
+    {
+        "start": 447.84,
+        "end": 449.52,
+        "text": "it's different, it's radical."
+    },
+    {
+        "start": 450.64,
+        "end": 453.28,
+        "text": "And then we have an extra bit, I don't remember."
+    },
+    {
+        "start": 454.96,
+        "end": 455.0,
+        "text": "So I'm pretty sure people will buy the remote, but is it practical to have a voice recognition system? And then we have an extra bit, I don't remember."
+    },
+    {
+        "start": 455.0,
+        "end": 459.0,
+        "text": "So I'm pretty sure people will buy the remote, but is it practical to have a voice recognition"
+    },
+    {
+        "start": 459.0,
+        "end": 463.0,
+        "text": "system in a remote control? I think it's a big question."
+    },
+    {
+        "start": 463.0,
+        "end": 470.0,
+        "text": "Will people be willing to wait for the period that it will take to train the remote?"
+    },
+    {
+        "start": 470.0,
+        "end": 471.0,
+        "text": "Because I think it will."
+    },
+    {
+        "start": 471.0,
+        "end": 476.0,
+        "text": "The remote will get better over time with the same user."
+    },
+    {
+        "start": 476.0,
+        "end": 479.0,
+        "text": "But for the first week or for the first two weeks, are you willing to wait?"
+    },
+    {
+        "start": 479.0,
+        "end": 482.0,
+        "text": "Are you willing to have a bad remote control?"
+    },
+    {
+        "start": 482.0,
+        "end": 485.64,
+        "text": "And what if you have visitors come around?"
+    },
+    {
+        "start": 485.64,
+        "end": 486.28,
+        "text": "They stay the night."
+    },
+    {
+        "start": 486.28,
+        "end": 487.32,
+        "text": "They want to use the TV."
+    },
+    {
+        "start": 487.32,
+        "end": 489.52,
+        "text": "They can't use the remote because they speak"
+    },
+    {
+        "start": 489.52,
+        "end": 491.2,
+        "text": "differently to you."
+    },
+    {
+        "start": 491.2,
+        "end": 495.92,
+        "text": "How do you account for regional accents and stuff like that?"
+    },
+    {
+        "start": 495.92,
+        "end": 497.6,
+        "text": "Will people return the remote control?"
+    },
+    {
+        "start": 497.6,
+        "end": 501.04,
+        "text": "I think a lot of young people will buy the remote control if they have the money."
+    },
+    {
+        "start": 501.04,
+        "end": 503.52,
+        "text": "You know, so do our audience have the money?"
+    },
+    {
+        "start": 503.52,
+        "end": 508.16,
+        "text": "But will they return it after a while because it's not as fast as pressing the button."
+    },
+    {
+        "start": 508.16,
+        "end": 509.32,
+        "text": "It's not practical."
+    },
+    {
+        "start": 509.32,
+        "end": 512.52,
+        "text": "So these are things I think we should consider."
+    },
+    {
+        "start": 512.52,
+        "end": 513.52,
+        "text": "I think it's cool."
+    },
+    {
+        "start": 513.52,
+        "end": 514.52,
+        "text": "If you could speed it up a bit, yeah."
+    },
+    {
+        "start": 514.52,
+        "end": 515.04,
+        "text": "I'm sorry? If you could speed it up a bit, please. Sure, I'm about to. Yeah. I think it's cool. If you could speed it up a bit, yeah."
+    },
+    {
+        "start": 515.04,
+        "end": 515.54,
+        "text": "I'm sorry?"
+    },
+    {
+        "start": 515.54,
+        "end": 517.28,
+        "text": "If you could speed it up a bit, please."
+    },
+    {
+        "start": 517.28,
+        "end": 518.64,
+        "text": "Sure, I'm about to end."
+    },
+    {
+        "start": 518.64,
+        "end": 523.92,
+        "text": "I think it's cool, but there are definitely some considerations."
+    },
+    {
+        "start": 523.92,
+        "end": 524.88,
+        "text": "OK."
+    },
+    {
+        "start": 524.88,
+        "end": 525.6,
+        "text": "Excellent, right."
+    },
+    {
+        "start": 529.2,
+        "end": 532.56,
+        "text": "Here from the user interface designer now,"
+    },
+    {
+        "start": 532.56,
+        "end": 533.52,
+        "text": "I think might be an idea."
+    },
+    {
+        "start": 533.52,
+        "end": 534.36,
+        "text": "Okay."
+    },
+    {
+        "start": 536.16,
+        "end": 537.72,
+        "text": "We've got your presentation now."
+    },
+    {
+        "start": 537.72,
+        "end": 539.28,
+        "text": "Yeah, it's in the whole."
+    },
+    {
+        "start": 539.28,
+        "end": 540.12,
+        "text": "Is it? Okay."
+    },
+    {
+        "start": 540.12,
+        "end": 541.32,
+        "text": "Information in the middle."
+    },
+    {
+        "start": 541.32,
+        "end": 542.8,
+        "text": "There was a website."
+    },
+    {
+        "start": 542.8,
+        "end": 543.64,
+        "text": "Oh."
+    },
+    {
+        "start": 543.64,
+        "end": 546.0,
+        "text": "Oh, right here. Right here."
+    },
+    {
+        "start": 546.0,
+        "end": 548.0,
+        "text": "Technical functions."
+    },
+    {
+        "start": 548.0,
+        "end": 550.0,
+        "text": "I started making stuff up."
+    },
+    {
+        "start": 550.0,
+        "end": 552.0,
+        "text": "I got an email saying..."
+    },
+    {
+        "start": 556.0,
+        "end": 557.0,
+        "text": "Okay."
+    },
+    {
+        "start": 557.0,
+        "end": 562.0,
+        "text": "Okay, this is a brief run through of the technical functions of the remote."
+    },
+    {
+        "start": 562.0,
+        "end": 573.0,
+        "text": "The presentation is already slightly obsolete because I had in mind something that would be aimed at controlling multiple devices,"
+    },
+    {
+        "start": 573.0,
+        "end": 575.28,
+        "text": "but there's still stuff of relevance."
+    },
+    {
+        "start": 575.28,
+        "end": 577.92,
+        "text": "So, press on."
+    },
+    {
+        "start": 577.92,
+        "end": 589.52,
+        "text": "I've looked at a couple of other remote control models just for an idea of basic design principles."
+    },
+    {
+        "start": 589.52,
+        "end": 592.92,
+        "text": "And wasn't really satisfied by what I saw I"
+    },
+    {
+        "start": 592.92,
+        "end": 597.04,
+        "text": "have to say so this is more sort of springboard for how these could be"
+    },
+    {
+        "start": 597.04,
+        "end": 604.64,
+        "text": "improved on. Basically the job of the device is to send commands to an"
+    },
+    {
+        "start": 604.64,
+        "end": 610.0,
+        "text": "appliance, in this case the television set, to say you're getting off your backside."
+    },
+    {
+        "start": 610.0,
+        "end": 621.0,
+        "text": "And there's two main trends in the design practice on the one hand and this particularly relates to the earliest"
+    },
+    {
+        "start": 621.0,
+        "end": 626.2,
+        "text": "models where with you know it's so many buttons on it's about the size of the"
+    },
+    {
+        "start": 626.2,
+        "end": 632.96,
+        "text": "television set you every possible function that the device has the remote"
+    },
+    {
+        "start": 632.96,
+        "end": 636.24,
+        "text": "control controls and most of these functions are"
+    },
+    {
+        "start": 636.24,
+        "end": 642.8,
+        "text": "not going to be used it creates a rather user unfriendly interface and then"
+    },
+    {
+        "start": 642.8,
+        "end": 647.52,
+        "text": "there's a user focused approach that pairs things down to just what is"
+    },
+    {
+        "start": 647.52,
+        "end": 652.0,
+        "text": "most likely to get used."
+    },
+    {
+        "start": 652.0,
+        "end": 658.0,
+        "text": "With, and of course there is a certain amount of loss of function here obviously, but mostly"
+    },
+    {
+        "start": 658.0,
+        "end": 661.0,
+        "text": "that's relatively peripheral functions."
+    },
+    {
+        "start": 661.0,
+        "end": 667.0,
+        "text": "And so you go for something that's fairly intuitive to use. For the most part"
+    },
+    {
+        "start": 668.12,
+        "end": 675.12,
+        "text": "for TV remote that would be channel control and volume. If you are wanting to incorporate"
+    },
+    {
+        "start": 676.24,
+        "end": 685.0,
+        "text": "control of a DVD or a VCR into that and then play, pause, stop, rewind,"
+    },
+    {
+        "start": 685.0,
+        "end": 692.0,
+        "text": "fast forward, record, so forth. My own view is that we should definitely be going for"
+    },
+    {
+        "start": 692.0,
+        "end": 696.0,
+        "text": "a user-focused design, but I think the problem with a lot of the things that we should definitely be going for a user-focused design."
+    },
+    {
+        "start": 713.32,
+        "end": 724.68,
+        "text": "But, I think the problem with a lot of the user-focused designs that are about is that they make assumptions in advance about what a given user is going to want to do from it, want it to do most. So something that is more programmable, that perhaps has the full range of functions available"
+    },
+    {
+        "start": 724.68,
+        "end": 726.54,
+        "text": "to it, but you can then specify"
+    },
+    {
+        "start": 726.54,
+        "end": 733.34,
+        "text": "yourself what you're most likely to want. So those are then immediately accessible through"
+    },
+    {
+        "start": 733.34,
+        "end": 739.48,
+        "text": "a fairly minimal number of controls. I like Debenhiser's idea of including a joystick"
+    },
+    {
+        "start": 739.48,
+        "end": 741.32,
+        "text": "in that, and possibly a fairly minimal number of controls. I like Debenezer's idea of including a joystick in that and possibly"
+    },
+    {
+        "start": 741.32,
+        "end": 747.92,
+        "text": "a fairly minimal number of function buttons. You then have some sort of basic display on"
+    },
+    {
+        "start": 747.92,
+        "end": 764.46,
+        "text": "it so if you're changing between different modes for the device, it will tell you just exactly what in each direction of the joysticks you are going to do, or what each function button"
+    },
+    {
+        "start": 764.46,
+        "end": 765.46,
+        "text": "is going to do."
+    },
+    {
+        "start": 765.46,
+        "end": 772.4,
+        "text": "This is actually taking inspiration up of games controllers, in the PlayStation controller"
+    },
+    {
+        "start": 772.4,
+        "end": 778.96,
+        "text": "you have four basic function buttons that are just marked with distinctive geometrical"
+    },
+    {
+        "start": 778.96,
+        "end": 786.04,
+        "text": "shapes, and then, dependent on what you're doing with it, what game in this case,"
+    },
+    {
+        "start": 786.04,
+        "end": 788.28,
+        "text": "those functions are then further specified"
+    },
+    {
+        "start": 788.28,
+        "end": 791.12,
+        "text": "and so it's taking a lead from that."
+    },
+    {
+        "start": 792.4,
+        "end": 793.24,
+        "text": "Okay, yep."
+    },
+    {
+        "start": 794.96,
+        "end": 795.8,
+        "text": "Right."
+    },
+    {
+        "start": 797.96,
+        "end": 801.64,
+        "text": "If we could hear from our industrial engineer or designer."
+    },
+    {
+        "start": 801.64,
+        "end": 804.2,
+        "text": "I'm still working on stuff I haven't got finished."
+    },
+    {
+        "start": 804.2,
+        "end": 809.0,
+        "text": "Alright, do I have to save?"
+    },
+    {
+        "start": 809.0,
+        "end": 810.08,
+        "text": "Where do I have to save?"
+    },
+    {
+        "start": 810.08,
+        "end": 816.5,
+        "text": "If you look on the desktop you'll find that there's a link to the project folder or project documents."
+    },
+    {
+        "start": 816.5,
+        "end": 857.24,
+        "text": "If you save it in there we can open it up from here. I'm sorry. are you finding it okay or?"
+    },
+    {
+        "start": 857.24,
+        "end": 861.0,
+        "text": "I'm just after closing it now I don't know where I saved it."
+    },
+    {
+        "start": 861.0,
+        "end": 865.0,
+        "text": "Oh like if you go to one, whichever one you want."
+    },
+    {
+        "start": 865.0,
+        "end": 866.0,
+        "text": "Oh that's a dare yeah."
+    },
+    {
+        "start": 866.0,
+        "end": 868.0,
+        "text": "Yeah and you just click file save as."
+    },
+    {
+        "start": 892.0,
+        "end": 895.6,
+        "text": "Okay. I'm responsible for working design. This is basically the inside going on of the remote"
+    },
+    {
+        "start": 899.92,
+        "end": 907.0,
+        "text": "control. So you have the energy source, you have the user interface, this is what I've seen. The sender will push the button, the chip will respond and then the digital signal"
+    },
+    {
+        "start": 908.16,
+        "end": 915.16,
+        "text": "is sent to the TV. So if you go to the next slide you'll see what do we need on the user"
+    },
+    {
+        "start": 917.92,
+        "end": 929.0,
+        "text": "interface. Do we need many buttons or do we need many light bulbs that could be easier to realise which appliances are on or not?"
+    },
+    {
+        "start": 929.0,
+        "end": 937.0,
+        "text": "Or would that take too much power? Would we need more components in there to supply the power?"
+    },
+    {
+        "start": 937.0,
+        "end": 942.0,
+        "text": "The joystick is another thing, if we were going to add that"
+    },
+    {
+        "start": 942.0,
+        "end": 946.0,
+        "text": "there would be more components to deal with that."
+    },
+    {
+        "start": 946.0,
+        "end": 953.0,
+        "text": "So we need to... I don't know exactly what..."
+    },
+    {
+        "start": 953.0,
+        "end": 961.0,
+        "text": "That's the design of the layout of the electronic design"
+    },
+    {
+        "start": 961.0,
+        "end": 972.36,
+        "text": "but obviously there will be more details once we decide what we're putting on the user interface okay so that'll be decided I guess and"
+    },
+    {
+        "start": 972.36,
+        "end": 982.0,
+        "text": "the next slide alright yeah if you go to the next slide then I just used it the, it was a mess, I was just adding it together"
+    },
+    {
+        "start": 984.8,
+        "end": 985.76,
+        "text": "at the end there."
+    },
+    {
+        "start": 985.76,
+        "end": 988.24,
+        "text": "Don't worry about it at all mate."
+    },
+    {
+        "start": 988.24,
+        "end": 993.92,
+        "text": "So you have the energy source obviously connected to the chip and the user interface obviously"
+    },
+    {
+        "start": 993.92,
+        "end": 1001.36,
+        "text": "contains everything. If the switch is turned on, infrared bulb will contact the TV and"
+    },
+    {
+        "start": 1001.36,
+        "end": 1008.16,
+        "text": "we'll have whatever device or DVD player bulb will turn on, say it's on. So do we"
+    },
+    {
+        "start": 1008.16,
+        "end": 1011.92,
+        "text": "need on the control different buttons to"
+    },
+    {
+        "start": 1011.92,
+        "end": 1016.96,
+        "text": "decide or different light bulbs would it be easier I don't know what we should"
+    },
+    {
+        "start": 1016.96,
+        "end": 1032.16,
+        "text": "decide on that okay well oh sorry I'm interrupting you. No, it's a finish here. Yeah? OK."
+    },
+    {
+        "start": 1033.86,
+        "end": 1039.98,
+        "text": "We can probably skip that for now. So we've had some stuff put forward, along with the new user"
+    },
+    {
+        "start": 1039.98,
+        "end": 1042.0,
+        "text": "requirements. We've had a lot of"
+    },
+    {
+        "start": 1046.76,
+        "end": 1053.76,
+        "text": "input I'd say so far. I hear what the marketing experts saying about voice activated control,"
+    },
+    {
+        "start": 1057.0,
+        "end": 1057.68,
+        "text": "however I've got a couple of worries about that. I've got a marketing experts saying about voice activated control, however I've got"
+    },
+    {
+        "start": 1064.68,
+        "end": 1065.98,
+        "text": "a couple of worries about that. The power required and the ability to cost, it seems"
+    },
+    {
+        "start": 1072.44,
+        "end": 1081.12,
+        "text": "like for an embedded system this could cause us issues. For example, you see that there's fairly robust services on computers via voice, IBM do drag and dictate, but these"
+    },
+    {
+        "start": 1081.12,
+        "end": 1089.8,
+        "text": "require a lot of memory and usually state quite advanced processor requirements."
+    },
+    {
+        "start": 1089.8,
+        "end": 1096.84,
+        "text": "Voice activation could be an interesting idea, but I think that our industrial designer would"
+    },
+    {
+        "start": 1096.84,
+        "end": 1106.52,
+        "text": "probably, upon some research, say that it's maybe not feasible. That's just my view right now. However the idea of a joystick and"
+    },
+    {
+        "start": 1106.52,
+        "end": 1110.92,
+        "text": "then maybe an LCD which has been kind of put forward so far it's almost like"
+    },
+    {
+        "start": 1110.92,
+        "end": 1116.48,
+        "text": "having a small TV, not TV to say, but if you can control almost all"
+    },
+    {
+        "start": 1116.48,
+        "end": 1122.8,
+        "text": "of the functionality from the display, I don't know how much power an LCD would take, but"
+    },
+    {
+        "start": 1122.8,
+        "end": 1124.08,
+        "text": "it might be quite low."
+    },
+    {
+        "start": 1124.08,
+        "end": 1130.6,
+        "text": "LCD under a mouse just telling you what's on or interactive as you'd heard?"
+    },
+    {
+        "start": 1130.6,
+        "end": 1138.64,
+        "text": "If you can imagine a display maybe slightly larger than those on a mobile phone, something"
+    },
+    {
+        "start": 1138.64,
+        "end": 1143.44,
+        "text": "where you can read a fair amount of information traversed maybe quite a few menus. If we maybe"
+    },
+    {
+        "start": 1143.44,
+        "end": 1147.8,
+        "text": "use the mobile phones as a good example they usually incorporate you have the keypad"
+    },
+    {
+        "start": 1147.8,
+        "end": 1151.78,
+        "text": "and then all the other functionality is usually associated inside of it"
+    },
+    {
+        "start": 1151.78,
+        "end": 1158.22,
+        "text": "traversing around. That could be one possibility and then we could have like"
+    },
+    {
+        "start": 1158.22,
+        "end": 1163.2,
+        "text": "say the common buttons as you see volume control changing channels"
+    },
+    {
+        "start": 1163.2,
+        "end": 1166.72,
+        "text": "I think the remote, the sort of"
+    },
+    {
+        "start": 1166.72,
+        "end": 1170.08,
+        "text": "default functions for the joystick could be up and down for"
+    },
+    {
+        "start": 1170.08,
+        "end": 1174.96,
+        "text": "volume left and right for channels. Do you think that people who get mixed up"
+    },
+    {
+        "start": 1174.96,
+        "end": 1176.0,
+        "text": "like to be looking at this screen and that screen you know trying to volume left and right for channels. Do you think that people who get mixed up, like,"
+    },
+    {
+        "start": 1176.0,
+        "end": 1178.0,
+        "text": "to be looking at this screen and that screen,"
+    },
+    {
+        "start": 1178.0,
+        "end": 1182.0,
+        "text": "and, you know, trying to get everything working,"
+    },
+    {
+        "start": 1182.0,
+        "end": 1184.0,
+        "text": "would it be a bit confusing?"
+    },
+    {
+        "start": 1184.0,
+        "end": 1188.0,
+        "text": "I think probably for the first couple of hours of using it."
+    },
+    {
+        "start": 1188.0,
+        "end": 1191.72,
+        "text": "Yeah. But, you know,cle memory is a wonderful thing."
+    },
+    {
+        "start": 1191.72,
+        "end": 1203.52,
+        "text": "I think that size of display was about what I had in mind. Though I would say"
+    },
+    {
+        "start": 1203.52,
+        "end": 1214.0,
+        "text": "that we would probably be required to, most of the mobile phone displays you see these days are color book, we should probably try and stick to black and white."
+    },
+    {
+        "start": 1214.0,
+        "end": 1235.04,
+        "text": "I would agree. Simply to keep the unit cost down. I mean color could be a sort of subsequent development that, you know, color could be a sort of subsequent development that, you know, color could be a sort of subsequent development that, you know, color could be a sort of subsequent development that, you know, color could be a sort of subsequent development that, you know, color could be a sort of subsequent development that, you know, color could be a sort of subsequent development that, you know, color could be a sort of subsequent development that, you know, color could be a sort of subsequent development that, you know, color could be a sort of subsequent development that, you know, color could be a sort of subsequent development that, you know, color could be a sort of subsequent development that, you know, color could be a sort of subsequent development that, you know, color could be a sort of subsequent development that, you know, color could be adod o ddod o ddod o ddod o ddod o ddod o ddod o ddod o ddod o ddod o ddod o ddod o ddod o ddod o ddod o ddod o ddod o ddod o ddod o ddod o ddod o ddod o ddod o ddod o ddod o ddod o ddod o ddod o ddod o ddod o ddod o ddod o ddod o ddod o ddod o ddod o ddod o ddod o ddod o ddod o ddod o ddod o ddod o ddod o ddod o ddod o ddod o ddod o ddod o ddod o ddod o ddod o ddod o ddod o ddod have to replace an audience. It does nothing extra. That would be my feeling as well."
+    },
+    {
+        "start": 1235.04,
+        "end": 1239.28,
+        "text": "I think we could possibly create quite a useful user interface."
+    },
+    {
+        "start": 1239.28,
+        "end": 1240.36,
+        "text": "Now, I mean, I don't."
+    },
+    {
+        "start": 1240.36,
+        "end": 1241.76,
+        "text": "Sorry, go for it."
+    },
+    {
+        "start": 1241.76,
+        "end": 1245.36,
+        "text": "The idea of a remote with a menu and the joystick,"
+    },
+    {
+        "start": 1245.36,
+        "end": 1248.68,
+        "text": "I think, if I was in a habit of buying remote controls,"
+    },
+    {
+        "start": 1248.68,
+        "end": 1250.0,
+        "text": "then I would want one. But I think we don't in a habit of buying remote controllers, then I would want one."
+    },
+    {
+        "start": 1250.0,
+        "end": 1254.0,
+        "text": "But I think we don't have a specific audience."
+    },
+    {
+        "start": 1254.0,
+        "end": 1260.0,
+        "text": "What is our target audience? What niche are we trying to mark and corner?"
+    },
+    {
+        "start": 1260.0,
+        "end": 1265.08,
+        "text": "You know what I'm saying? For whom is this intended? Everybody?"
+    },
+    {
+        "start": 1268.64,
+        "end": 1271.64,
+        "text": "I think it could probably be aimed at most people who've"
+    },
+    {
+        "start": 1271.64,
+        "end": 1273.4,
+        "text": "used a mobile."
+    },
+    {
+        "start": 1273.4,
+        "end": 1275.84,
+        "text": "And that might be just another way of saying trying to target"
+    },
+    {
+        "start": 1275.84,
+        "end": 1278.6,
+        "text": "most people."
+    },
+    {
+        "start": 1278.6,
+        "end": 1283.0,
+        "text": "If we were to follow that avenue, we might be, you know,"
+    },
+    {
+        "start": 1283.0,
+        "end": 1288.76,
+        "text": "we're kind of almost relying on their experience with a mobile phone I suppose, but that does"
+    },
+    {
+        "start": 1288.76,
+        "end": 1297.72,
+        "text": "cover a very large section of the people out there. I mean, I imagine as well that the actual LCD and"
+    },
+    {
+        "start": 1297.72,
+        "end": 1302.0,
+        "text": "maybe to a certain extent the joystick as well would be for the additional"
+    },
+    {
+        "start": 1302.0,
+        "end": 1306.26,
+        "text": "functionality which maybe doesn't get used as often maybe it makes it easy for"
+    },
+    {
+        "start": 1306.26,
+        "end": 1312.72,
+        "text": "them to figure out how to change the channels as in the frequencies"
+    },
+    {
+        "start": 1312.72,
+        "end": 1317.36,
+        "text": "and such for reprogramming it. And you can still have the main buttons that allow the"
+    },
+    {
+        "start": 1317.36,
+        "end": 1322.76,
+        "text": "people to turn the machine on and off, up and down, it depends. I mean maybe we have"
+    },
+    {
+        "start": 1322.76,
+        "end": 1326.16,
+        "text": "the joystick as a separate one for the other functions"
+    },
+    {
+        "start": 1326.16,
+        "end": 1331.44,
+        "text": "and there's just a small number of, as you were saying, buttons that have already been"
+    },
+    {
+        "start": 1331.44,
+        "end": 1339.52,
+        "text": "defined. So like we go for the nice standard up and down and volume control so that literally"
+    },
+    {
+        "start": 1339.52,
+        "end": 1342.84,
+        "text": "anybody can come along, pick up the remote and still know what to do"
+    },
+    {
+        "start": 1342.84,
+        "end": 1347.08,
+        "text": "and it can completely ignore most of the functionality which would be for"
+    },
+    {
+        "start": 1347.08,
+        "end": 1351.76,
+        "text": "say the actual owner of the TV and who would normally use the unit"
+    },
+    {
+        "start": 1351.76,
+        "end": 1354.76,
+        "text": "I don't know"
+    },
+    {
+        "start": 1354.76,
+        "end": 1358.0,
+        "text": "the thing I like about the"
+    },
+    {
+        "start": 1358.0,
+        "end": 1362.0,
+        "text": "joystick is that"
+    },
+    {
+        "start": 1362.0,
+        "end": 1366.0,
+        "text": "you can then basically put"
+    },
+    {
+        "start": 1366.0,
+        "end": 1370.72,
+        "text": "for a TV remote alone, you could put,"
+    },
+    {
+        "start": 1372.88,
+        "end": 1375.72,
+        "text": "I mean like I said, the main things people do with a TV remote is the volume of the channel."
+    },
+    {
+        "start": 1375.72,
+        "end": 1378.56,
+        "text": "You can pack all that onto a single control."
+    },
+    {
+        "start": 1380.92,
+        "end": 1392.0,
+        "text": "But then obviously if you wanted to access further functions you then get sort of menu navigation."
+    },
+    {
+        "start": 1392.0,
+        "end": 1403.6,
+        "text": "I mean with things like tuning in channels, adjusting brightness and fiddly things that no one really bothers with. Most"
+    },
+    {
+        "start": 1403.6,
+        "end": 1411.68,
+        "text": "TVs these days actually have menus anyway, so this would be a fairly rational way of"
+    },
+    {
+        "start": 1411.68,
+        "end": 1415.0,
+        "text": "integrating the remote with the devices controlling."
+    },
+    {
+        "start": 1415.0,
+        "end": 1420.0,
+        "text": "Which I do have a little bit of a concern about our market."
+    },
+    {
+        "start": 1420.0,
+        "end": 1429.0,
+        "text": "If we are, most of the replacement remote market is"
+    },
+    {
+        "start": 1429.0,
+        "end": 1434.2,
+        "text": "sort of remote control rationalization."
+    },
+    {
+        "start": 1434.2,
+        "end": 1438.24,
+        "text": "You've got 20 different devices in your living room."
+    },
+    {
+        "start": 1438.24,
+        "end": 1444.96,
+        "text": "You want one that will do the job of all of them."
+    },
+    {
+        "start": 1444.96,
+        "end": 1451.5,
+        "text": "If all you're replacing is one of the, you know, however many remotes you have in your living room,"
+    },
+    {
+        "start": 1451.5,
+        "end": 1454.3,
+        "text": "you still need separate remotes for everything else."
+    },
+    {
+        "start": 1454.3,
+        "end": 1455.6,
+        "text": "I just think that..."
+    },
+    {
+        "start": 1455.6,
+        "end": 1458.8,
+        "text": "Well, this is a requirement that we have to stick to, I'm afraid."
+    },
+    {
+        "start": 1458.8,
+        "end": 1462.28,
+        "text": "This isn't one that I've just arbitrarily decided on. So, this is a requirement that we have to stick to, I'm afraid. This isn't one that I've just arbitrarily decided on."
+    },
+    {
+        "start": 1462.28,
+        "end": 1470.22,
+        "text": "So this is one of the solid ones that has to be obeyed for now."
+    },
+    {
+        "start": 1470.22,
+        "end": 1476.32,
+        "text": "So I can understand your point and I would agree with you but this is our design spec for now."
+    },
+    {
+        "start": 1477.68,
+        "end": 1487.36,
+        "text": "Great to say. Would that include access to say interactive functions on digital or cable?"
+    },
+    {
+        "start": 1487.36,
+        "end": 1496.0,
+        "text": "Yeah I would say so yes because then we have to be able to control the remote boxes, and that is a separate unit."
+    },
+    {
+        "start": 1497.0,
+        "end": 1502.0,
+        "text": "I think that, I would say that the design spec we've been laid with is for the television only for now."
+    },
+    {
+        "start": 1502.0,
+        "end": 1509.0,
+        "text": "And until we hear otherwise, we should go with just that. Okay, specifically television. Okay, maybe we'll hear differently."
+    },
+    {
+        "start": 1509.0,
+        "end": 1516.92,
+        "text": "But so the joystick is just for differentness? It would be ease of manipulation of certain"
+    },
+    {
+        "start": 1516.92,
+        "end": 1520.0,
+        "text": "functions, yes just a thought"
+    },
+    {
+        "start": 1520.0,
+        "end": 1521.0,
+        "text": "um"
+    },
+    {
+        "start": 1521.0,
+        "end": 1523.0,
+        "text": "maybe then our market should be"
+    },
+    {
+        "start": 1523.0,
+        "end": 1526.0,
+        "text": "tv manufacturers rather than the public"
+    },
+    {
+        "start": 1526.0,
+        "end": 1530.0,
+        "text": "try and sell it to them to supply with"
+    },
+    {
+        "start": 1530.0,
+        "end": 1533.0,
+        "text": "there is that possibility yes"
+    },
+    {
+        "start": 1533.0,
+        "end": 1537.0,
+        "text": "however I don't know exactly where we'll be going with that."
+    },
+    {
+        "start": 1537.0,
+        "end": 1544.0,
+        "text": "That might not even be the avenue of the marketing itch, but that might be sales, who are not in this meeting."
+    },
+    {
+        "start": 1544.0,
+        "end": 1552.0,
+        "text": "The way I figure, 12.5 euros per unit, we have to sell at least like 3 million or something"
+    },
+    {
+        "start": 1553.56,
+        "end": 1559.56,
+        "text": "like that. Not to account for the money we waste on remotes that no one buys. Like if"
+    },
+    {
+        "start": 1559.56,
+        "end": 1565.0,
+        "text": "we made, if we made, for every remote we made, someone bought it."
+    },
+    {
+        "start": 1565.0,
+        "end": 1567.0,
+        "text": "We have to set a lot of remote controls."
+    },
+    {
+        "start": 1567.0,
+        "end": 1572.0,
+        "text": "Is this going to be enough to sell?"
+    },
+    {
+        "start": 1572.0,
+        "end": 1577.0,
+        "text": "Well, something else that you brought up was the ability to lose a remote,"
+    },
+    {
+        "start": 1577.0,
+        "end": 1580.36,
+        "text": "which, as you said, you've've done that we've probably all done."
+    },
+    {
+        "start": 1580.36,
+        "end": 1585.96,
+        "text": "I don't know if it's a gimmick or not but have any of you ever seen those odd little"
+    },
+    {
+        "start": 1585.96,
+        "end": 1591.4,
+        "text": "keyrings where if you whistle it will beep and you tell you where it is? I had one of those and my"
+    },
+    {
+        "start": 1591.4,
+        "end": 1597.0,
+        "text": "brother or my dad could have beat me up because it went off all the time accidentally."
+    },
+    {
+        "start": 1597.0,
+        "end": 1600.0,
+        "text": "Well the other option of course is that the clapping one."
+    },
+    {
+        "start": 1600.0,
+        "end": 1602.0,
+        "text": "I was going to say clapping."
+    },
+    {
+        "start": 1606.0,
+        "end": 1608.0,
+        "text": "Digital telephones."
+    },
+    {
+        "start": 1608.0,
+        "end": 1617.0,
+        "text": "For example one unit has, of course you have to have that base unit somewhere where there's a button, but maybe it's a button that you attach to the TV."
+    },
+    {
+        "start": 1617.0,
+        "end": 1628.0,
+        "text": "Something which when you press that, it would beep to give its location away on the remote unit. That could be something that could separate us a bit."
+    },
+    {
+        "start": 1628.0,
+        "end": 1632.0,
+        "text": "And that way, because we're attaching what would be a small button to the TV,"
+    },
+    {
+        "start": 1632.0,
+        "end": 1636.0,
+        "text": "again, say what, it would be a small transmitter,"
+    },
+    {
+        "start": 1636.0,
+        "end": 1641.24,
+        "text": "watch battery type scenario I'd say or something that if it was"
+    },
+    {
+        "start": 1641.24,
+        "end": 1649.12,
+        "text": "problems enough you could actually even just I don't power and elsewhere so that"
+    },
+    {
+        "start": 1649.12,
+        "end": 1654.52,
+        "text": "might be something that we could look into. Yeah. Yeah it's putting a lot on"
+    },
+    {
+        "start": 1654.52,
+        "end": 1655.6,
+        "text": "your shoulders there so I mean that could be something it's putting a lot on your shoulders there. So I mean,"
+    },
+    {
+        "start": 1655.6,
+        "end": 1664.0,
+        "text": "that could be something that separates us a bit from Mark as well. So to go on from"
+    },
+    {
+        "start": 1664.0,
+        "end": 1669.12,
+        "text": "here, we have to decide exactly what we're going to do with the remote before we leave"
+    },
+    {
+        "start": 1669.12,
+        "end": 1673.0,
+        "text": "this meeting. It'd be best to say this is what we're going to, this is ther dyluniau y byddwn yn eich helpu i'w gael."
+    },
+    {
+        "start": 1673.0,
+        "end": 1677.0,
+        "text": "Dyma'r ffordd y byddwn yn gwneud ein hunain yn edrych."
+    },
+    {
+        "start": 1677.0,
+        "end": 1681.0,
+        "text": "Mae'n mynd i ni ddweud y byddwn yn mynd i ni ddweud y ffyrdd y byddwn yn ymwneud?"
+    },
+    {
+        "start": 1681.0,
+        "end": 1691.52,
+        "text": "Mae'n mynd i ni ddweud y ffyrdd y byddwn yn ymwneud? Mae'n mynd i ni ddweud y ffyrdd y byddwn yn ymwneud? remote control, sorry, we're going to go for remote control obviously. Do we go for a small joystick that would operate say changing channels up and down and then what another button that"
+    },
+    {
+        "start": 1691.52,
+        "end": 1698.52,
+        "text": "would say that it's now being used to maneuver around the LCD? Yeah. Or do you think volume,"
+    },
+    {
+        "start": 1698.52,
+        "end": 1701.0,
+        "text": "should volume be important in the joystick do you think? should be important in the joystick?"
+    },
+    {
+        "start": 1701.0,
+        "end": 1707.0,
+        "text": "We could use save-e left and right for changing channels and the up and down for volume."
+    },
+    {
+        "start": 1707.0,
+        "end": 1713.0,
+        "text": "We have a frequency of what people use the remote control for most."
+    },
+    {
+        "start": 1713.0,
+        "end": 1717.0,
+        "text": "Power is used once per hour.. Power is used like once per hour,"
+    },
+    {
+        "start": 1717.0,
+        "end": 1720.6,
+        "text": "channel selection is used 168 per hour,"
+    },
+    {
+        "start": 1720.6,
+        "end": 1724.64,
+        "text": "that's by far the biggest one. And then teletext"
+    },
+    {
+        "start": 1724.64,
+        "end": 1728.12,
+        "text": "is still here, that's 14."
+    },
+    {
+        "start": 1728.12,
+        "end": 1730.94,
+        "text": "And volume selection. volume selection kit yep the"
+    },
+    {
+        "start": 1730.94,
+        "end": 1736.34,
+        "text": "teletext we're gambling with we're gonna say no it's dead, okay, wave a dodo, yeah"
+    },
+    {
+        "start": 1736.34,
+        "end": 1743.02,
+        "text": "so we well sorry we could maybe even go as far as saying power button small"
+    },
+    {
+        "start": 1743.02,
+        "end": 1748.76,
+        "text": "joystick LCD and then what maybe is it one more button"
+    },
+    {
+        "start": 1748.76,
+        "end": 1754.0,
+        "text": "to say that you're using the menu system and the possibility of pushing down on the joystick"
+    },
+    {
+        "start": 1754.0,
+        "end": 1763.0,
+        "text": "to say okay. So we're having very, very few buttons involved. But navigation around a menu for most things."
+    },
+    {
+        "start": 1763.0,
+        "end": 1767.12,
+        "text": "I would say maybe two function buttons."
+    },
+    {
+        "start": 1767.12,
+        "end": 1770.0,
+        "text": "We're now using the menus button."
+    },
+    {
+        "start": 1770.0,
+        "end": 1773.2,
+        "text": "And an OK button."
+    },
+    {
+        "start": 1773.2,
+        "end": 1778.4,
+        "text": "Something I've found with the joysticks on mobile phones"
+    },
+    {
+        "start": 1778.4,
+        "end": 1782.2,
+        "text": "is that a lot of the time the device mistakes"
+    },
+    {
+        "start": 1782.2,
+        "end": 1784.6,
+        "text": "you trying to move it in one direction or the other"
+    },
+    {
+        "start": 1784.6,
+        "end": 1787.8,
+        "text": "for pushing down for OK or vice versa."
+    },
+    {
+        "start": 1787.8,
+        "end": 1789.6,
+        "text": "And that's really irritating."
+    },
+    {
+        "start": 1789.6,
+        "end": 1792.58,
+        "text": "The other design constraint I think we should bear in mind Pushing down for okay. Okay, that's really irritating"
+    },
+    {
+        "start": 1799.16,
+        "end": 1800.08,
+        "text": "Design constraint I think we should bear in mind is that people are very much used to using a remote control one-handedly"
+    },
+    {
+        "start": 1802.72,
+        "end": 1803.2,
+        "text": "So we need to make sure that even with the joystick"
+    },
+    {
+        "start": 1809.0,
+        "end": 1820.76,
+        "text": "It's something that can just sit comfortably in the palm of the hand and have the joystick just controlled by the thumb. Okay. So, I'd say that sounds like a rough idea. Do we incorporate the idea of trying to locate the remote control again via a beeping"
+    },
+    {
+        "start": 1820.76,
+        "end": 1826.64,
+        "text": "noise? Yeah, I think so. I think because it's so small it might be, I mean if we only have"
+    },
+    {
+        "start": 1826.64,
+        "end": 1833.72,
+        "text": "like two or three buttons it might be essential to have that. To locate it again? Yeah. So"
+    },
+    {
+        "start": 1833.72,
+        "end": 1840.0,
+        "text": "that would require a transmitter maybe attached to the TV, just so that it says,"
+    },
+    {
+        "start": 1840.0,
+        "end": 1848.0,
+        "text": "find me, and basically a small microphone on the actual unit can maybe hide it in the"
+    },
+    {
+        "start": 1848.0,
+        "end": 1849.0,
+        "text": "base."
+    },
+    {
+        "start": 1849.0,
+        "end": 1850.0,
+        "text": "A light bulb as well? No. Sorry?"
+    },
+    {
+        "start": 1850.0,
+        "end": 1851.0,
+        "text": "A small speaker you mean?"
+    },
+    {
+        "start": 1851.0,
+        "end": 1852.0,
+        "text": "Speaker."
+    },
+    {
+        "start": 1852.0,
+        "end": 1853.0,
+        "text": "A speaker, sorry, yeah."
+    },
+    {
+        "start": 1853.0,
+        "end": 1854.0,
+        "text": "And a light bulb? No."
+    },
+    {
+        "start": 1854.0,
+        "end": 1855.0,
+        "text": "A flash? No."
+    },
+    {
+        "start": 1855.0,
+        "end": 1856.0,
+        "text": "Um..."
+    },
+    {
+        "start": 1856.0,
+        "end": 1859.0,
+        "text": "Nah, you'd see it anyway if you hear it."
+    },
+    {
+        "start": 1859.0,
+        "end": 1862.0,
+        "text": "We might be better with the sound possibly."
+    },
+    {
+        "start": 1862.0,
+        "end": 1865.0,
+        "text": "Those little key rings have both."
+    },
+    {
+        "start": 1865.0,
+        "end": 1870.0,
+        "text": "In true fact, considering the cost of an LED, we could just incorporate it anyway."
+    },
+    {
+        "start": 1870.0,
+        "end": 1873.0,
+        "text": "The LEDs can be surprisingly bright now."
+    },
+    {
+        "start": 1873.0,
+        "end": 1877.0,
+        "text": "Blue ones particularly. Plus that's a nice redesign."
+    },
+    {
+        "start": 1877.0,
+        "end": 1885.0,
+        "text": "So by the sounds of it, what we're suggesting so far, your design, the user interface is still quite open."
+    },
+    {
+        "start": 1885.0,
+        "end": 1890.0,
+        "text": "You could go for quite an interesting design because we're only going to have a very few keys."
+    },
+    {
+        "start": 1890.0,
+        "end": 1894.0,
+        "text": "And you've got a small LCD, joystick."
+    },
+    {
+        "start": 1894.0,
+        "end": 1897.0,
+        "text": "I think it leaves you open to a potential wide range of shapes,"
+    },
+    {
+        "start": 1898.2,
+        "end": 1904.12,
+        "text": "something that can make it stand out slightly. If you could look into what we've suggested"
+    },
+    {
+        "start": 1904.12,
+        "end": 1915.0,
+        "text": "so far, the feasibility of small transmitter and such, maybe if an LCD screen requires too much power or such."
+    },
+    {
+        "start": 1915.0,
+        "end": 1920.0,
+        "text": "Evan Eiser, marketing expert."
+    },
+    {
+        "start": 1920.0,
+        "end": 1926.2,
+        "text": "Well, I can give you the frequency, what people, what options people use most often, I guess"
+    },
+    {
+        "start": 1926.2,
+        "end": 1931.3,
+        "text": "that's going to be important in defining the softer side of the interface, right?"
+    },
+    {
+        "start": 1931.3,
+        "end": 1932.76,
+        "text": "You want the stuff that are more..."
+    },
+    {
+        "start": 1932.76,
+        "end": 1936.76,
+        "text": "If you could maybe as well see what people think about the idea of this minimalist approach"
+    },
+    {
+        "start": 1936.76,
+        "end": 1945.24,
+        "text": "that we've taken where of a joystick to control the very basic functions and then the idea of manipulating it like you would a mobile."
+    },
+    {
+        "start": 1945.24,
+        "end": 1948.32,
+        "text": "I don't know how easy that will be within the time frame but it could be something we"
+    },
+    {
+        "start": 1948.32,
+        "end": 1953.4,
+        "text": "could maybe look into."
+    },
+    {
+        "start": 1953.4,
+        "end": 1955.0,
+        "text": "Any last comments anybody would like to put forward?"
+    },
+    {
+        "start": 1955.0,
+        "end": 1958.0,
+        "text": "Anything that they think has been missed out?"
+    },
+    {
+        "start": 1958.0,
+        "end": 1960.0,
+        "text": "Bit of a wide open question there of course."
+    },
+    {
+        "start": 1967.0,
+        "end": 1973.0,
+        "text": "Feel free to email me if you think that we've screwed something up and want to get it rectified as soon as possible."
+    },
+    {
+        "start": 1973.0,
+        "end": 1980.0,
+        "text": "So I should just look at the speaker, about the speaker and an LED."
+    },
+    {
+        "start": 1980.0,
+        "end": 1983.0,
+        "text": "Speaker and LED for locating."
+    },
+    {
+        "start": 1983.0,
+        "end": 1985.88,
+        "text": "Transmitter. One way to think about that. speaker and LED for locating transmitter"
+    },
+    {
+        "start": 1985.88,
+        "end": 1991.12,
+        "text": "when we thought about that if we do end up"
+    },
+    {
+        "start": 1991.12,
+        "end": 1995.4,
+        "text": "market this to television manufacturers then the"
+    },
+    {
+        "start": 1995.4,
+        "end": 1998.56,
+        "text": "in the transmitter could actually be built into the television"
+    },
+    {
+        "start": 1998.56,
+        "end": 2003.0,
+        "text": "of course getting external power, that's quite true."
+    },
+    {
+        "start": 2003.0,
+        "end": 2007.0,
+        "text": "And something that we can"
+    },
+    {
+        "start": 2007.0,
+        "end": 2011.0,
+        "text": "easily be adopted at the last minute as well, I'd say."
+    },
+    {
+        "start": 2011.0,
+        "end": 2018.1,
+        "text": "The electronics can be either placed externally or internally. Makes no difference to the final product of the actual remote control, so that's good."
+    },
+    {
+        "start": 2018.1,
+        "end": 2021.1,
+        "text": "Maybe gives us a new potential market."
+    },
+    {
+        "start": 2027.1,
+        "end": 2037.0,
+        "text": "If we get a major television manufacturer to say, oh yeah, we'll have that, save us the bother, then that's vast amounts of sales, quite quickly."
+    },
+    {
+        "start": 2037.0,
+        "end": 2045.48,
+        "text": "Oh, one thing we've almost not talked about at all, my apologies for that, user interface, we also need to maybe get the slogan"
+    },
+    {
+        "start": 2045.48,
+        "end": 2054.48,
+        "text": "in here. I'm pointing at my laptop, what in God. Real reaction and such."
+    },
+    {
+        "start": 2054.48,
+        "end": 2061.6,
+        "text": "As long as you put the fashion in electronics, isn't it?"
+    },
+    {
+        "start": 2061.6,
+        "end": 2064.44,
+        "text": "My apologies. No, it could well be. I've probably missed that."
+    },
+    {
+        "start": 2064.44,
+        "end": 2065.56,
+        "text": "Um..."
+    },
+    {
+        "start": 2065.56,
+        "end": 2069.4,
+        "text": "I think that's almost a last minute thing. We can just incorporate into the actual"
+    },
+    {
+        "start": 2069.4,
+        "end": 2071.04,
+        "text": "plastic on top."
+    },
+    {
+        "start": 2071.04,
+        "end": 2073.28,
+        "text": "So I'm not too concerned"
+    },
+    {
+        "start": 2073.28,
+        "end": 2076.28,
+        "text": "that we haven't gone into depth about that. But it might be"
+    },
+    {
+        "start": 2076.28,
+        "end": 2080.84,
+        "text": "something you could consider when thinking about shapes. In fact we might like to put"
+    },
+    {
+        "start": 2080.84,
+        "end": 2087.84,
+        "text": "a slogan on and possibly two R's to signify the company rather than real reaction."
+    },
+    {
+        "start": 2087.84,
+        "end": 2095.0,
+        "text": "Yeah, I thought the double R could perhaps be the inter-button."
+    },
+    {
+        "start": 2095.0,
+        "end": 2099.0,
+        "text": "Sounds good. And I'd say that's us for now."
+    },
+    {
+        "start": 2099.0,
+        "end": 2100.0,
+        "text": "Okay."
+    }
+]
