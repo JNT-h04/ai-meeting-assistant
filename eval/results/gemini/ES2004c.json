@@ -1,0 +1,985 @@
+{
+ "title": "Remote Control Conceptual Design Meeting",
+ "summary": "The team held a conceptual design meeting to discuss features and components for a new TV remote control targeted at young professionals. They reviewed market research highlighting a demand for fancy aesthetics and technological innovation, as well as fashion trends favoring spongy materials and vibrant fruit colors. Technical discussions covered battery options, printed circuit boards, casing materials, and display interfaces. The group agreed on a flip-top design featuring a plastic inner case, a detachable spongy rubber outer cover, kinetic charging, an LCD touch display, and rubber buttons.",
+ "topics": [
+  "Market research and fashion trends",
+  "Battery charging options",
+  "Casing materials and rubber covers",
+  "Interface design and button layout",
+  "Voice recognition and remote locator feature"
+ ],
+ "decisions": [
+  "Adopt kinetic charging powered by a watch-type battery cell.",
+  "Design a flip-top remote with a plastic inner shell and a detachable spongy rubber outer cover.",
+  "Use fruit and vegetable-inspired vibrant colors for the rubber outer cover.",
+  "Implement a black-and-white LCD touch display on the top inner panel.",
+  "Place rubber anti-RSI buttons for channel and volume control on the bottom inner panel.",
+  "Incorporate a voice recognition locator feature (or whistle locator as a backup) pending cost evaluation."
+ ],
+ "actions": [
+  {
+   "task": "Check the financial feasibility and cost of incorporating the voice recognition locator feature.",
+   "owner": "unassigned",
+   "due": "not stated"
+  }
+ ],
+ "transcript": [
+  {
+   "speaker": "Sarah",
+   "start": "01:19",
+   "text": "Welcome back, everybody. Hope you had fun. Right, this is our conceptual design meeting. I think we're slightly ahead of ourselves from the last meeting."
+  },
+  {
+   "speaker": "William",
+   "start": "01:36",
+   "text": "Yeah, I was getting that impression as well."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "01:38",
+   "text": "I think, yeah. This is where we talk about properties, materials, user interface, and trend watching. So, I think we've touched on a few things to do with that already, but we'll just go over it. The minutes from last time, we had a couple of changes in our plans in that we couldn't use teletext, it wasn't going to be a control for everything, and that we had to incorporate the image of the company into it somehow. We have decided on leaving out the voice recognition. We've decided on there being a flip design and a different shape from what's normal. We were thinking a shell, but something along those lines, just a different shape from what's normal. You were going to look into there being rechargeable batteries..."
+  },
+  {
+   "speaker": "William",
+   "start": "02:52",
+   "text": "Yeah."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "02:53",
+   "text": "...and we're going to think about the port and an alarm for getting it lost, things like that. And our market was going to be young, business kind of range. Okay, so should we start with the first presentation?"
+  },
+  {
+   "speaker": "Speaker 3",
+   "start": "03:11",
+   "text": "Shall I?"
+  },
+  {
+   "speaker": "Sarah",
+   "start": "03:12",
+   "text": "Yes, if you feel."
+  },
+  {
+   "speaker": "Speaker 3",
+   "start": "03:13",
+   "text": "We'll just connect up. Thank you."
+  },
+  {
+   "speaker": "Speaker 3",
+   "start": "03:38",
+   "text": "Okay, so we decided on our market, and so this feedback from the marketing department is really about trend watching. The methods we used to decide on current trends and so on, market trends, were that we did our usual market research study with our 100 subjects. And the general feedback from them is that the most... I'm sorry, I'm slightly tongue-tied after lunch, sorry, project manager! We decided on the most important aspect required in a remote control device, and we'll come to that later. So that was one of the first things we did. Also, with our company being forerunners in putting fashion into technology, we also looked at a fashion update using our consultants on fashion and design in Paris and Milan. So the general findings from that were that in the market trends, the most important aspects for remote controls were: people want a fancy look and feel rather than the current functional look and feel of remote controls. They also want a remote control to be technologically innovative, and of course, as we predicted, that it should be easy to use. Now I should point out that the first of those findings, fancy look and feel, is the most important\u2014it's twice as important as the second, technologically innovative, which is in turn twice as important as being easy to use. So possibly that the feature that we put first is actually third. It's still important, but it's third in order of preference for the subjects that we looked at. Okay. Now the fashion update, which relates to very personal preferences among our subject group, we found from our consultants in Paris and Milan, who attended all the design and fashion fairs there, that fruit and vegetables are going to be the theme for clothes, shoes, and furniture. So should we be thinking of using something like that in our remote control design, too? There also seems to be a trend towards a spongy feel to materials, again in contrast to last year. So a lot of interesting feedback there, both from our market research department and from our people in Paris and Milan. Be interesting to see what our design people make of that."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "05:58",
+   "text": "Okay, thank you very much. Let's start from the inside and work our way out, unless anyone has any questions about that? Not yet? Okay."
+  },
+  {
+   "speaker": "William",
+   "start": "06:12",
+   "text": "Yes, thank you."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "06:28",
+   "text": "I hate those little things. Especially if you do them on too tight and you can't get the leverage on them to undo them."
+  },
+  {
+   "speaker": "William",
+   "start": "06:50",
+   "text": "Okay, this is all about the design of the inner components and the availability of the components we have in stock at the moment. First, into the method. The main idea of the whole thing is just so you press buttons and it should activate things on the TV, and we discussed last meeting that it should be easy to find. Also in this study, I've looked into the availability of some of the materials, because some of the things that we looked at last time aren't, unfortunately, available. Findings: I've got my nice little picture there. This is the chip called the TA11835, which is what's used in pretty much every remote control because it sends out standard signals based on your input, and it's pretty much used for all TV remotes at the moment. And then we're looking into battery options. There's actually no rechargeable option available. So I saw the standard AA and AAA, which we thought were a bit too bulky at the moment. Dynamo charging, I thought that might be a bit silly, to be honest\u2014basically like wind-up radio. So you wind up your remote control before you use it."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "08:25",
+   "text": "How long can you get out of that? I mean, can you pick it up and then wind it for two minutes, and then that's it for the night, or...?"
+  },
+  {
+   "speaker": "William",
+   "start": "08:33",
+   "text": "Yeah, I presume you wouldn't have to wind it for very long, but I don't think it's really necessary when you think of the next two options, like solar charging, because most people have the light on in the room anyway, so they could get..."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "08:52",
+   "text": "Does that light charge as sunlight does, artificial light?"
+  },
+  {
+   "speaker": "William",
+   "start": "08:56",
+   "text": "Is it? Oh, right."
+  },
+  {
+   "speaker": "Speaker 4",
+   "start": "09:00",
+   "text": "Regarding the sizes, which one do you think will be like, because we have to take into consideration size also. So maybe standard AAA might take less space, and dynamo might take most..."
+  },
+  {
+   "speaker": "William",
+   "start": "09:12",
+   "text": "Yeah, it would. Yeah, the dynamo would take more space because you'd actually need a physical sort of handle to wind up."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "09:17",
+   "text": "I'm pretty sure that solar is from the sun. Yeah, I don't think it counts artificial light, no. But I mean, you don't want to limit your market. I mean, people who live in basement flats, there's not that many people, but there are people."
+  },
+  {
+   "speaker": "Speaker 3",
+   "start": "09:31",
+   "text": "In different parts of the world, too, if we're marketing internationally."
+  },
+  {
+   "speaker": "William",
+   "start": "09:36",
+   "text": "Yeah, most people also watch TV in the night anyway."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "09:41",
+   "text": "But then it would be charging through the day. I think the point is that it charges through the day and then you've got it charged."
+  },
+  {
+   "speaker": "William",
+   "start": "09:47",
+   "text": "But I think the next one's the best anyway: kinetic charging, which is like you get in wristwatches. And you don't even notice it. I mean, the amount of moving around you'd be doing all the time would charge it up. I don't think you'd ever need to actually physically start shaking it up to make it work."
+  },
+  {
+   "speaker": "Speaker 4",
+   "start": "10:09",
+   "text": "And what is the life of the kinetic battery? It runs for a long time?"
+  },
+  {
+   "speaker": "William",
+   "start": "10:14",
+   "text": "Yeah, it charges into a smaller cell, which it charges into, the size of a watch battery, because they use them quite frequently in watches. And that would last for... well, I'm not entirely sure how long it would last, but I've never seen one run out."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "10:40",
+   "text": "But then if you think about a watch, it's on your wrist, so it's on your body the whole time. So you're walking around, you're doing things, it is moving a lot of the time. If you... I mean, you switch the TV on, then you put it on the side, then you pick it up to change it, then you put it on the side..."
+  },
+  {
+   "speaker": "William",
+   "start": "10:55",
+   "text": "Yeah, but then again..."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "10:56",
+   "text": "...is it really going to be enough?"
+  },
+  {
+   "speaker": "William",
+   "start": "10:57",
+   "text": "I think it is, because if you think about it, the watch, although it's only a tiny amount, it's always moving for the whole day, and they don't run out overnight when you leave them on the side. And for the same reason, you're only using it for an incredibly short amount of time just to send a signal, and then you're finished with it."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "11:22",
+   "text": "So it's not a big draw on it, is it?"
+  },
+  {
+   "speaker": "William",
+   "start": "11:23",
+   "text": "No, I don't think the draw would be..."
+  },
+  {
+   "speaker": "Speaker 3",
+   "start": "11:25",
+   "text": "Could I just ask, referring back to solar charging, is that compatible with standard batteries? I mean, could people put standard batteries in, but they could leave it in the sunlight for solar charging, or are the two things not compatible?"
+  },
+  {
+   "speaker": "William",
+   "start": "11:37",
+   "text": "Yeah, you could have a dual power thing, but the thing with the solar cells is you would need to put them on the case, because on a calculator they're quite big and they all look identical."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "11:55",
+   "text": "So that affects the exterior design."
+  },
+  {
+   "speaker": "Speaker 3",
+   "start": "11:56",
+   "text": "Expensive as well. What kind of price are we looking at for... I presume normal batteries are the cheapest?"
+  },
+  {
+   "speaker": "William",
+   "start": "12:02",
+   "text": "Yeah, normal batteries would be the cheapest. I presume then it would actually be the solar charging ones. But I think they're not very resistant to dropping. Because if you drop stuff, yeah, the size you'd need to charge a remote wouldn't be that big, but remotes always get thrown around and stuff. So I think, practically..."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "12:33",
+   "text": "Calculators you don't really throw around a lot, whereas remotes you do."
+  },
+  {
+   "speaker": "Speaker 3",
+   "start": "12:39",
+   "text": "Don't calculators have a battery in them as well?"
+  },
+  {
+   "speaker": "William",
+   "start": "12:41",
+   "text": "Yeah, they do, yeah, they've got dual things, but the batteries are smaller, I think."
+  },
+  {
+   "speaker": "Speaker 4",
+   "start": "12:47",
+   "text": "And question is like, sorry, which one would last the longest? Because we don't want customers to be like, you know, charging like a mobile phone every day or remote control like..."
+  },
+  {
+   "speaker": "William",
+   "start": "12:56",
+   "text": "Yeah, so if you had something using the standard batteries and the solar charging, I don't think you'd... well, you know how long the standard AAs would last."
+  },
+  {
+   "speaker": "Speaker 3",
+   "start": "13:16",
+   "text": "Or would it just detract from the attractiveness of the whole feature? Would it add anything?"
+  },
+  {
+   "speaker": "Sarah",
+   "start": "13:20",
+   "text": "Okay, can we add in an attachment to clothing feature?"
+  },
+  {
+   "speaker": "Speaker 4",
+   "start": "13:27",
+   "text": "Okay."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "13:28",
+   "text": "Can we think about that? Because if we're doing the kinetic thing..."
+  },
+  {
+   "speaker": "William",
+   "start": "13:31",
+   "text": "Yeah."
+  },
+  {
+   "speaker": "Speaker 3",
+   "start": "13:32",
+   "text": "Shouldn't we do some market research on that first before we add it in? Because I personally..."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "13:35",
+   "text": "Well, add it in to think about."
+  },
+  {
+   "speaker": "Speaker 3",
+   "start": "13:37",
+   "text": "Right, okay."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "13:39",
+   "text": "Because if it is the kinetic thing, and it is small, and it is portable, and it is a different shape, and kinetic is something people don't do, we're doing something original and different. But if you wore it, if it's something you could clip on your pocket, then you would have that less... you wouldn't lose it so much. But then maybe that's looking at someone who's just sitting on their own rather than the eternal battle for control of the remote."
+  },
+  {
+   "speaker": "Speaker 3",
+   "start": "14:16",
+   "text": "It's not something that's come up in any of our focus groups and market research. It's not a thing that people are looking for when we threw it open to the field, yeah. But something to put on the side to think about, maybe."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "14:31",
+   "text": "Okay, right."
+  },
+  {
+   "speaker": "William",
+   "start": "14:32",
+   "text": "Okay, well, I'll move on. My second part of my findings: most current remotes use this silicon PCB board, printed circuit board, which basically has these contacts that are really close together, and then when you press down on the rubber button, it'll connect the circuit, and each switch is connected to two different legs on the chip, and so sends a different message. And that then gets translated by the chip into a code and then it's fired out of this LED in a sequence of on and off bursts."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "15:18",
+   "text": "What kind of things do we have to consider there? Does it come in varying sizes or is it just one size? And we would have to fit the design..."
+  },
+  {
+   "speaker": "William",
+   "start": "15:27",
+   "text": "Well, the thing about it is they can be as big or small as you want them to be, because you can print a circuit board like that, that it's simply spaced like that so you can fit the size of the nine buttons in. If you see how thin the tracks are, you could put them virtually right next to each other and have a much smaller switch on each one if you wanted to. But there is an option to do it like that, or you could have some sort of array of switches, which I'll speak about in the next bit. So that... and then to conserve battery life, the remote should be in a standby mode while not being used. Now what I was thinking about that was, because sometimes when you have these things, they've got little lights behind the buttons so you can see what all the buttons are, like on a mobile phone they do it more often than on a TV remote, but you could have lights behind the buttons, and after like 5 or 10 seconds of not being used, I'd have that turned off if we decided to go for buttons that could light up."
+  },
+  {
+   "speaker": "William",
+   "start": "16:45",
+   "text": "The case material: I've been sent what the factory can actually give us. There's the plastic, which I think we were going to go for anyway, as the main case housing. And the main problems with... well, you could go for wood, but I think it would be a bit impractical. Titanium, very expensive, just the process to make it is expensive. And rubber... well, you were saying that people like this spongy feel this year, so perhaps something made of rubber, but I was thinking more of the buttons, because the buttons which they've said that they've put across are what is used in some stress-ball manufacture, and it's meant to be anti-RSI. I'm not sure how that would work, because surely your fingers would still be moving over the short distances, but that's what they said. The problem with the casing is that there's quite a few design restrictions that they've got on the shape of the case. If you go for titanium, they can only do a standard box shape, whereas if you come to plastic, they can be a little more... they can do sort of curved shapes. But whether or not... because we'd have it in two separate units for the flip phone..."
+  },
+  {
+   "speaker": "Speaker 4",
+   "start": "18:32",
+   "text": "Yeah. And second question is like, on mobile you can change the cover, call it a skin or whatever. So in this case, if we are looking at like, a customer can change the color, like from parrot green to chili red or something like that? So is that feature available in titanium, or is it only specific to plastic?"
+  },
+  {
+   "speaker": "William",
+   "start": "18:48",
+   "text": "Yeah, in titanium I don't think it would be available at all, really. Just... well, you could make it available in the titanium, it's just it would be so expensive to buy a new case for it because of how much titanium is. It's light and strong, but I think it should be left for aircraft design rather than for a remote."
+  },
+  {
+   "speaker": "Speaker 3",
+   "start": "19:12",
+   "text": "It does mark quite easily, too, if you let it fall. I've got a mobile phone myself which is titanium, and it does mark very easily if you drop it."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "19:19",
+   "text": "I was just wondering, if we make the basic mold out of plastic, but have like a rubber cover that goes over, that would give the spongy feel, that also allows us to kind of have different fashions."
+  },
+  {
+   "speaker": "Speaker 3",
+   "start": "19:28",
+   "text": "And you can peel them off, yeah."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "19:29",
+   "text": "So instead of the fascia that comes off being plastic, the fascia that comes off would be the rubber."
+  },
+  {
+   "speaker": "Speaker 3",
+   "start": "19:34",
+   "text": "Like a rubber sleeve almost, yeah."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "19:35",
+   "text": "Like those pens that you get with the grip, that you can pull on and off."
+  },
+  {
+   "speaker": "Speaker 4",
+   "start": "19:39",
+   "text": "That could be a good idea, yeah. It would be comfortable to hold on, also."
+  },
+  {
+   "speaker": "Speaker 3",
+   "start": "19:44",
+   "text": "Very cheap way of changing the look of it, and people can just buy a new one if they want to."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "19:48",
+   "text": "Well, that's been really popular with mobile phones, so I don't see why not."
+  },
+  {
+   "speaker": "William",
+   "start": "19:53",
+   "text": "Also, just going back to the interface designs with the buttons, we were planning to do some sort of touch screen. Now what I was saying before about, instead of having... you could have just a bare PCB circuit board, and I'm sure you could probably get it in different colors, and so just by touching it with your finger it would make the connection if you had them close enough. That would be one option. The second option, they offer rubber buttons, but I thought that an LCD type of screen, because one, they're incredibly thin and don't take up much space. Two, you can arrange the buttons on the screen in a sort of set thing, and you could have them like a touch display."
+  },
+  {
+   "speaker": "Speaker 4",
+   "start": "20:50",
+   "text": "Sorry, I didn't get the last part you were talking of."
+  },
+  {
+   "speaker": "William",
+   "start": "20:54",
+   "text": "Oh, what...?"
+  },
+  {
+   "speaker": "Speaker 4",
+   "start": "20:55",
+   "text": "Just what you said, I didn't get the meaning of it completely."
+  },
+  {
+   "speaker": "William",
+   "start": "20:58",
+   "text": "Oh, on the LCD screen... The problem with it basically is that it's flat, and so you can't do lots of curved things with it. But you wouldn't have... with the LCD, you'd have the wires coming off, you wouldn't have that with the LCD, you'd only have that with the printed circuit board."
+  },
+  {
+   "speaker": "Speaker 3",
+   "start": "21:24",
+   "text": "I'm sorry to interrupt, I don't see why the curved thing is a problem. If we, for example, had the shell, once we open that, yeah, we can have a flat screen inside."
+  },
+  {
+   "speaker": "William",
+   "start": "21:33",
+   "text": "Yeah, but I'm just wondering whether we want an LCD screen inside. It wouldn't be like full color, it would just be black and white, but there'd be touch buttons, so you wouldn't be pressing down on them. Or we could have rubber buttons which are made of this material which is anti-RSI."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "21:52",
+   "text": "I think it would be good to have a contrast between, if the whole thing is going to be this rubber thing, it would be good to open it up and see something quite fancy-looking inside. Now how would you distinguish, if you had it bare, how would you distinguish where you had to press?"
+  },
+  {
+   "speaker": "William",
+   "start": "22:08",
+   "text": "Yeah, I hadn't really thought of that."
+  },
+  {
+   "speaker": "Speaker 3",
+   "start": "22:10",
+   "text": "Here's another idea, I don't know if it helps with that, but just to do with the RSI: is it possible, just as an option, when we open it up, people can use their fingers to press the button, or we have inside like a small pointer thing that people can..."
+  },
+  {
+   "speaker": "William",
+   "start": "22:21",
+   "text": "Yeah, you could have some sort of stylus that you could pull out, but I think they could get a bit easily lost."
+  },
+  {
+   "speaker": "Speaker 3",
+   "start": "22:29",
+   "text": "Yeah, easy to replace as well."
+  },
+  {
+   "speaker": "Speaker 4",
+   "start": "22:31",
+   "text": "Somebody who switches channels very often or does use a particular function very often, he'll find it very irritating to use a, you know..."
+  },
+  {
+   "speaker": "William",
+   "start": "22:40",
+   "text": "Yeah."
+  },
+  {
+   "speaker": "Speaker 4",
+   "start": "22:41",
+   "text": "...and he might spoil the touchpad very fast compared to a button, like if you keep punching with the pointer or whatever."
+  },
+  {
+   "speaker": "Speaker 3",
+   "start": "22:47",
+   "text": "Yeah, just a thought. They wouldn't actually need one, they could use anything they've got, couldn't they, a pencil, a pen, so they wouldn't really need a..."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "22:54",
+   "text": "Okay, we'll talk about that. So if you finish yours, we'll come back to that."
+  },
+  {
+   "speaker": "William",
+   "start": "22:58",
+   "text": "Yeah, that's the end."
+  },
+  {
+   "speaker": "Speaker 4",
+   "start": "23:00",
+   "text": "One question before your this thing: regarding the circuits, since we are having a flip top, can we customize two circuits for different types of buttons? Like we are keeping the standard buttons on the top, and more complex buttons in this thing, so we can divide the circuit?"
+  },
+  {
+   "speaker": "William",
+   "start": "23:14",
+   "text": "Yeah, that would be fairly simple. I mean, you'd actually have two separate circuit boards, but they'd be joined by wires or like some cabling between them, because in the actual flip bit you'd have some linking."
+  },
+  {
+   "speaker": "Speaker 3",
+   "start": "23:32",
+   "text": "Just another point occurs to me, kind of applies to both our designers here, I'm not sure how it would fit in. If we flip open, now you know how you've got some mirrors in nightclubs that are mirrors when you turn to them, and you turn away and it gives like an advertising display, you've seen those?"
+  },
+  {
+   "speaker": "Sarah",
+   "start": "23:48",
+   "text": "No."
+  },
+  {
+   "speaker": "Speaker 3",
+   "start": "23:49",
+   "text": "And they kind of respond to the turn of your body. Is it possible that when we open our flip-top shell, it's a little compact mirror, and when you press a button, it then goes onto the remote control display thing?"
+  },
+  {
+   "speaker": "Sarah",
+   "start": "24:01",
+   "text": "We're marketing to guys as much as we are to women."
+  },
+  {
+   "speaker": "Speaker 3",
+   "start": "24:05",
+   "text": "They don't look at themselves? Just a thought."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "24:07",
+   "text": "Well, it's a remote control, you're sitting watching TV, are you going to want to open it and see... I know what you mean, because they're using the ideas for mobile phones, they've kind of got sidetracked onto that, I think. Just trying to think of other features we can build in that wouldn't cost too much, but we'll maybe leave that one on the side."
+  },
+  {
+   "speaker": "William",
+   "start": "24:25",
+   "text": "Yeah."
+  },
+  {
+   "speaker": "William",
+   "start": "24:27",
+   "text": "I mean, you could do it, you could have a... because if you just put the full charge through an LCD display, it'll completely blank it out, but I don't know if you could get any mirror effect on that."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "24:39",
+   "text": "I think we'll forget about the mirror, that was just a very quick passing thought, yeah."
+  },
+  {
+   "speaker": "Speaker 4",
+   "start": "24:45",
+   "text": "Okay, I would like to show something which I did here. First thing is basically on design, we just took the input from the previous meeting, especially from the marketing and industrial design to check on the customer needs and feasibility. Second is we checked into competitors. The picture here shows what are the standard models offered by competitors here. So you generally see there's not much of variety and, like marketing team said, people need trendy, they're bored of black and white. So you generally see rectangular shape, very monotonous kind of designs here. Second thing is, there's too much of confusion here. No particular remote is standard. Like some people have... here, you see this? I found that the only common feature is the channel control and the volume control, rest other buttons they are in a very disorganized way and they are not consistent with other models. Okay, and second, as already discussed with William, we are going to have maybe a GUI interface in the middle of the flip top."
+  },
+  {
+   "speaker": "Speaker 3",
+   "start": "25:57",
+   "text": "Sorry, what does that stand for?"
+  },
+  {
+   "speaker": "Speaker 4",
+   "start": "25:58",
+   "text": "Graphic User Interface, basically which is what we do in computers, have icons or touchpad or whatever."
+  },
+  {
+   "speaker": "William",
+   "start": "26:04",
+   "text": "If you have buttons that appear on the screen in this LCD screen..."
+  },
+  {
+   "speaker": "Speaker 4",
+   "start": "26:08",
+   "text": "Like you have icons or something you have, it's a good example of GUI, graphic user interface."
+  },
+  {
+   "speaker": "Speaker 3",
+   "start": "26:15",
+   "text": "Okay."
+  },
+  {
+   "speaker": "Speaker 4",
+   "start": "26:16",
+   "text": "So basically a person need not point or click or press any particular device, he just has to click on that particular icon to simplify it. And on the top, repetitive buttons which are like volume or channel changing and all, could be on the pointing device, that means use of buttons. So he need not use a pointer to keep changing the channel if a person is a frequent surfer. So we are having a combination of both. So on the simpler board on the top, we have these rubber buttons to keep frequently changing the channels."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "26:49",
+   "text": "Can we swap that round? So the ones that we use all the time are on the bottom part? Because if you're thinking about holding it, you would be using your thumbs to press, just like a mobile phone. You'd flip it open and you'd be..."
+  },
+  {
+   "speaker": "Speaker 3",
+   "start": "27:07",
+   "text": "Wouldn't you? Isn't that the idea? If we just use the shell as an example again, you open that, you've got your LCD display there and you've got the buttons there, so you're holding it..."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "27:15",
+   "text": "That's what I was just saying. And then have the LCD at the top and then be able to touch that for the other controls. So have the volume and the program, things like that, on the lower side."
+  },
+  {
+   "speaker": "Speaker 4",
+   "start": "27:30",
+   "text": "So the findings are: too many cluttered buttons, repetition of certain patterns which I already explained, example the volume and channel control buttons, all are confusing and inconsistent. Okay, we had a latest finding of voice recognition, there was an email which mentioned that our division has developed a new speech recognition feature. We have to check into the financial feasibility whether we can incorporate this at a low cost. But like we had a response from the customers that they would like to have the feature of finding it. So it could be like, 'Where is the remote?' and the remote answers, 'I am here.' Yeah, some kind of thing or it gives a blip sound, some kind of sound. And if this can be incorporated, this would be more trendy also and technologically innovative also. So we can check into the financial feasibility of incorporating this."
+  },
+  {
+   "speaker": "Speaker 4",
+   "start": "28:36",
+   "text": "My personal preferences would be like, as already highlighted by marketing department, they want something to do with fruit, so I wouldn't say the design should be like a fruit, but yeah, we can take inspiration from fruit colors, like the vibrant colors: a red chili, tomato red or whatever. And second thing is certain standard buttons we should have. Like for example, if you see the previous slide..."
+  },
+  {
+   "speaker": "William",
+   "start": "29:02",
+   "text": "Well, yeah."
+  },
+  {
+   "speaker": "Speaker 4",
+   "start": "29:04",
+   "text": "I think most of the users would now be well acquainted with this central pattern here."
+  },
+  {
+   "speaker": "William",
+   "start": "29:10",
+   "text": "Yeah."
+  },
+  {
+   "speaker": "Speaker 4",
+   "start": "29:11",
+   "text": "So we would not change that particular pattern, because this is the most consistent thing in all remote controls."
+  },
+  {
+   "speaker": "Speaker 3",
+   "start": "29:17",
+   "text": "I can't see that, is that play and stop and things?"
+  },
+  {
+   "speaker": "Speaker 4",
+   "start": "29:19",
+   "text": "This is the central one, the one..."
+  },
+  {
+   "speaker": "Speaker 3",
+   "start": "29:20",
+   "text": "Oh, is that volume and channel?"
+  },
+  {
+   "speaker": "Speaker 4",
+   "start": "29:21",
+   "text": "Yeah, volume and channel. So keep that standardized, because that's the most common feature across all models."
+  },
+  {
+   "speaker": "Speaker 3",
+   "start": "29:41",
+   "text": "Okay."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "29:47",
+   "text": "Right. Okay. I'm not sure how long we've got left, but we need to make a decision about the things we've discussed. So, we agree on... do we agree on the battery?"
+  },
+  {
+   "speaker": "William",
+   "start": "30:08",
+   "text": "Kinetic."
+  },
+  {
+   "speaker": "Speaker 3",
+   "start": "30:09",
+   "text": "Kinetic, yeah."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "30:13",
+   "text": "That means that there's no function for the port, you know that it sits in and then pressing the button, so we could incorporate voice recognition for finding it. It's like a gadget, it's a selling point."
+  },
+  {
+   "speaker": "William",
+   "start": "30:27",
+   "text": "Yeah, it is quite a cool feature to have, and also if they've got these parts already in stock, then it will be cheap to remanufacture them. So do you reckon that's a good idea, that 'Where's the remote? I'm here' thing? I think that would be quite fun."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "30:48",
+   "text": "I think the only pitfall that we would have would be how much it's going to cost. If that means we have to cut down somewhere else... but I think pretty much we've used cheap, relatively cheap and simple things. The LCD's not cheap..."
+  },
+  {
+   "speaker": "William",
+   "start": "31:06",
+   "text": "Well, it's not as expensive as it would be if it was full color, because if it's just got a black and white one, I mean, they use them in calculators."
+  },
+  {
+   "speaker": "Speaker 4",
+   "start": "31:17",
+   "text": "Maybe we could start with black and white."
+  },
+  {
+   "speaker": "William",
+   "start": "31:19",
+   "text": "Yeah."
+  },
+  {
+   "speaker": "Speaker 4",
+   "start": "31:20",
+   "text": "And upgrade later on."
+  },
+  {
+   "speaker": "Speaker 3",
+   "start": "31:23",
+   "text": "We talked about kinetic charging, we seem to have decided on that. Did we decide on double A or triple A batteries?"
+  },
+  {
+   "speaker": "William",
+   "start": "31:30",
+   "text": "What..."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "31:31",
+   "text": "Like a back-up?"
+  },
+  {
+   "speaker": "Speaker 3",
+   "start": "31:33",
+   "text": "No, one of the decisions we had to make was whether we had double A or triple A batteries, because if they've still got to be charged this way, haven't they?"
+  },
+  {
+   "speaker": "William",
+   "start": "31:38",
+   "text": "No, the kinetic ones come with a battery that goes in a watch."
+  },
+  {
+   "speaker": "Speaker 3",
+   "start": "31:44",
+   "text": "Right, okay, got you."
+  },
+  {
+   "speaker": "William",
+   "start": "31:45",
+   "text": "So it's a lot smaller."
+  },
+  {
+   "speaker": "Speaker 3",
+   "start": "31:47",
+   "text": "Got you on that, okay, didn't realize."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "31:52",
+   "text": "Okay, so we've got the battery. The inside components are pretty standardized across the board, isn't it? So there's not really a decision to be made there. The buttons: what did you give us as our...?"
+  },
+  {
+   "speaker": "William",
+   "start": "32:15",
+   "text": "Yeah, I think we were going for the LCD on that one, on the buttons. On the top one..."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "32:25",
+   "text": "On the top one, okay, you've got the touch."
+  },
+  {
+   "speaker": "William",
+   "start": "32:27",
+   "text": "Yeah."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "32:28",
+   "text": "Okay, and then on the bottom one, we're going to have the rubber, the rubber ones, the anti-RSI ones."
+  },
+  {
+   "speaker": "Speaker 3",
+   "start": "32:36",
+   "text": "Okay."
+  },
+  {
+   "speaker": "Speaker 3",
+   "start": "32:38",
+   "text": "Sorry, could you repeat that last part?"
+  },
+  {
+   "speaker": "William",
+   "start": "32:41",
+   "text": "Okay, on... you've got the flip screen, the top one is going to be the LCD and the bottom one is going to be the rubberized buttons."
+  },
+  {
+   "speaker": "Speaker 3",
+   "start": "32:50",
+   "text": "Okay."
+  },
+  {
+   "speaker": "Speaker 4",
+   "start": "32:51",
+   "text": "And for the..."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "32:52",
+   "text": "No, that's fine."
+  },
+  {
+   "speaker": "Speaker 4",
+   "start": "32:58",
+   "text": "For the body design, I think plastic."
+  },
+  {
+   "speaker": "William",
+   "start": "33:00",
+   "text": "Plastic. Okay."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "33:01",
+   "text": "For the inside."
+  },
+  {
+   "speaker": "Speaker 4",
+   "start": "33:02",
+   "text": "For the inside, and rubber as a padding or for the grip, something to add to the design."
+  },
+  {
+   "speaker": "Speaker 3",
+   "start": "33:09",
+   "text": "So we've decided on a rubber casing for the plastic shell, a variety of designs, okay."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "33:15",
+   "text": "And it is just, although it's rubberized and spongy, apart from that, we're just going to go for sort of vegetable and fruit colors, we're not going to try and make it actually a vegetable or fruit design, or anything else like a shell that we discussed."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "33:27",
+   "text": "No, I think we don't want it to be tacky. If you've got a different shape anyway... the material that we would be using would be cheap, so we could make it red, we could make it... psychedelic, you know, we could make it black and white zebra stripes, but that's not really what we're focusing on, what we're focusing on is the..."
+  },
+  {
+   "speaker": "Speaker 3",
+   "start": "33:51",
+   "text": "The feel."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "33:52",
+   "text": "Yes, so we could just pick anything."
+  },
+  {
+   "speaker": "Speaker 3",
+   "start": "33:57",
+   "text": "Is that going to be... the image I've got in my head is something kind of shaped like that, maybe about that size, made of plastic, fits into the palm of the hand, rubberized cover that's spongy. Is that really going to fit fancy look and feel, which was the major thing that people wanted in market research? Is that fancy enough?"
+  },
+  {
+   "speaker": "Sarah",
+   "start": "34:15",
+   "text": "It's just different."
+  },
+  {
+   "speaker": "Speaker 4",
+   "start": "34:16",
+   "text": "It's different."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "34:17",
+   "text": "It's just different from everything else, and I mean, I'm trying to imagine clean-looking houses, sort of beige and black, so you either want something that goes with that, which is what's on the market anyway, or you want something that contrasts as... you know, like you get clocks now that are more of a talking point than an actual clock, because they're so interesting."
+  },
+  {
+   "speaker": "Speaker 3",
+   "start": "34:42",
+   "text": "I'm just kind of pushing at that to see if you came out with anything else, but I mean I totally agree. We looked at those remotes, I mean they are kind of anonymous, very similar-looking things, this would definitely be different enough. I just wondered if anybody could come up with something even more..."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "34:53",
+   "text": "And you would just have... across the... you would have so many different options that you could do. You could have a plain black one, you could have sparkly pink glittery ones."
+  },
+  {
+   "speaker": "Speaker 3",
+   "start": "35:06",
+   "text": "The thing is rubberized covers are going to be so relatively cheap to produce that if in a year's time we get feedback from the design fairs that shows something else is coming, it's so easy for us to produce that, that can be slipped on, which is another beauty of it."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "35:17",
+   "text": "And ones that have rubbery spikes, you know, it just goes so far with it, like a puffer fish, you could take it wherever, so I think that's quite..."
+  },
+  {
+   "speaker": "William",
+   "start": "35:28",
+   "text": "Yeah."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "35:28",
+   "text": "...flexible."
+  },
+  {
+   "speaker": "Speaker 4",
+   "start": "35:30",
+   "text": "And finally, the body should be detachable, maybe you can change the body of the case, casing, the case outside."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "35:36",
+   "text": "Yes."
+  },
+  {
+   "speaker": "Speaker 4",
+   "start": "35:37",
+   "text": "It should be molded with the design in such a way you can change it every time."
+  },
+  {
+   "speaker": "William",
+   "start": "35:40",
+   "text": "Yeah, with these rubberized... not the actual plastic outside case, just the rubber..."
+  },
+  {
+   "speaker": "Speaker 3",
+   "start": "35:48",
+   "text": "The rubber."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "35:49",
+   "text": "Okay, we've got five minutes."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "35:53",
+   "text": "Or that might have been up for a while."
+  },
+  {
+   "speaker": "Speaker 3",
+   "start": "35:57",
+   "text": "So can I just recap, Sarah? The decisions that we've made: kinetic charging, the watch-type batteries, LCD display on the top side of the flip top, rubberized buttons on the bottom side, we're going to use fruit and vegetable colors for the rubber cover, the case itself is plastic. That's how far we've got. What else do we have to add to our decisions here?"
+  },
+  {
+   "speaker": "Speaker 4",
+   "start": "36:20",
+   "text": "Finally, we were talking of voice recognition also, because we have not addressed the issue of how to locate a remote control if it's lost."
+  },
+  {
+   "speaker": "Speaker 3",
+   "start": "36:31",
+   "text": "Yes. There's just a cost issue with that, but it's a good idea, we just need to check on the cost aspect."
+  },
+  {
+   "speaker": "Speaker 4",
+   "start": "36:36",
+   "text": "Or maybe like William was suggesting in the last thing, some devices you put on keychains for..."
+  },
+  {
+   "speaker": "William",
+   "start": "36:41",
+   "text": "Oh yeah, the whistle ones, yeah."
+  },
+  {
+   "speaker": "Speaker 4",
+   "start": "36:43",
+   "text": "The whistle. So if financially voice recognition is not feasible, we could go for a whistle."
+  },
+  {
+   "speaker": "Speaker 3",
+   "start": "36:56",
+   "text": "And incorporating the company logo?"
+  },
+  {
+   "speaker": "Speaker 4",
+   "start": "37:01",
+   "text": "We'll be incorporating it in the design."
+  },
+  {
+   "speaker": "Speaker 3",
+   "start": "37:06",
+   "text": "Because I took it from the feedback you gave in the last meeting from your report, it's not just a case of having a little RR hidden somewhere, they do want it to be obvious that it's our product."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "37:15",
+   "text": "Well, they do, but I think we can... Since it's the only one of its kind on the market, it's obviously going to be ours, I think you just address that with advertising. You associate the name with the individual product that it is, and that does the work for you. Obviously it'll have a logo on it just like everything, but everything else has a logo on it, the point is that it's got to stand out somehow differently, but I think it does without that, so I'm not worried about that."
+  },
+  {
+   "speaker": "Speaker 3",
+   "start": "37:41",
+   "text": "Did we... I know at the last meeting we spoke about a beeper, I think you talked about a beeper for location. Have we just rejected that in favor of voice recognition then?"
+  },
+  {
+   "speaker": "William",
+   "start": "37:48",
+   "text": "Yeah, depending on..."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "37:49",
+   "text": "Yeah, depending on the expense of it."
+  },
+  {
+   "speaker": "William",
+   "start": "37:51",
+   "text": "I mean, we've got this memo saying that it's something that the company's looking into and they've got in stock, so yeah."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "37:57",
+   "text": "That seems to make sense, but if it turns out that it's hugely expensive, we'd have to cut down somewhere else, then it's worth thinking about, but I think we'll find out more about costs afterwards. Right, I'm going to wrap it up there."
+  },
+  {
+   "speaker": "Speaker 3",
+   "start": "38:15",
+   "text": "I've got an 'End meeting now' message!"
+  },
+  {
+   "speaker": "Sarah",
+   "start": "38:20",
+   "text": "So, I think we've probably got... it says suppose we have 40 minutes, so I think we've probably got about that time before he comes in. I think we're going in a clear direction now. Is everyone happy?"
+  },
+  {
+   "speaker": "Sarah",
+   "start": "38:46",
+   "text": "Okay."
+  }
+ ],
+ "seconds": 201.56807339994702,
+ "model": "gemini-3.5-flash"
+}

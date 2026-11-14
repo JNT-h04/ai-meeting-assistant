@@ -1,0 +1,32 @@
+# ECHO behind Caddy (automatic HTTPS) on one VM.
+#   docker compose -f deploy/oracle/compose.yml --env-file deploy/oracle/.env up -d --build
+services:
+  echo:
+    build: ../..
+    image: echo:latest
+    restart: unless-stopped
+    environment:
+      HF_TOKEN: ${HF_TOKEN}
+      ECHO_THREADS: ${ECHO_THREADS:-2}
+      ECHO_MAX_SECONDS: ${ECHO_MAX_SECONDS:-300}
+      ECHO_ORIGINS: ${ECHO_ORIGINS:-https://jnt-h04.github.io}
+    expose:
+      - "7860"
+
+  caddy:
+    image: caddy:2.8.4
+    restart: unless-stopped
+    depends_on: [echo]
+    ports:
+      - "80:80"
+      - "443:443"
+    environment:
+      DOMAIN: ${DOMAIN}
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+      - caddy-config:/config
+
+volumes:
+  caddy-data:
+  caddy-config:

@@ -1,0 +1,407 @@
+{
+ "minutes": {
+  "title": "Design and Marketing Meeting",
+  "summary": "The meeting discussed new remote control features for gaming. They decided to work quickly on basic functionality and user interface, with a suggestion for an ergonomic design.",
+  "topics": [
+   "Marketing Expert introduced himself as Ebenezer",
+   "Tarek drew a tiger",
+   "Adam proposed small d-pads for easy navigation"
+  ],
+  "decisions": [
+   "We'll work fast on deciding basic functionality and user interface",
+   "Person_1 suggested making something ergonomic, slightly different in shape."
+  ],
+  "decisions_at": [
+   "16:42",
+   "17:56"
+  ],
+  "actions": [
+   {
+    "task": "Design and discuss new remote control features",
+    "owner": "Adam",
+    "due": "not stated"
+   },
+   {
+    "task": "Write up what was quickly done and get it out to everyone",
+    "owner": "Adam",
+    "due": "not stated"
+   },
+   {
+    "task": "Finish this one up, take the laptop for rest of meeting",
+    "owner": "unassigned",
+    "due": "not stated"
+   }
+  ],
+  "actions_at": [
+   "12:18",
+   "18:01",
+   "18:36"
+  ],
+  "open_questions": [],
+  "method": "extract-verify",
+  "sections": 2,
+  "dropped_unverified": 1,
+  "transcript": [
+   {
+    "speaker": "Adam",
+    "label": "SPEAKER_00",
+    "start": "00:01",
+    "start_s": 1.78,
+    "end_s": 12.48,
+    "text": "Okay, well, I think we're ready to begin Right, my name is Adam Dugard. We're here because of real reaction We have In the group"
+   },
+   {
+    "speaker": "Marketing Expert",
+    "label": "SPEAKER_01",
+    "start": "00:13",
+    "start_s": 13.9,
+    "end_s": 29.98,
+    "text": "Ebenezer at Demisoy. Do you want me to scroll it? Yeah, go for it any Z and he said he are Nezer and your role is I am the marketing expert. You're the marketing expert. Okay Okay,"
+   },
+   {
+    "speaker": "Adam",
+    "label": "SPEAKER_00",
+    "start": "00:32",
+    "start_s": 32.97,
+    "end_s": 34.07,
+    "text": "next we have"
+   },
+   {
+    "speaker": "Tarek",
+    "label": "SPEAKER_03",
+    "start": "00:34",
+    "start_s": 34.07,
+    "end_s": 36.13,
+    "text": "Tarek Raman, T -A -R -I -K,"
+   },
+   {
+    "speaker": "Adam",
+    "label": "SPEAKER_00",
+    "start": "00:36",
+    "start_s": 36.45,
+    "end_s": 143.92,
+    "text": "T -R -I -K. And your role in this is Industrial Designer. And lastly we have Dave Cochran. And you're going to be the user interface designer. Right, this is the agenda for today's meeting. As you can see, we're opening, acquaintance, tool training, project plan, discussion and closing. We've already gone through opening and partially through acquaintance. So the reason we're here, we're going to design a new remote control as you probably all know. The very broad overview is original, trendy and user friendly. Of course we'll have to go into a bit more detail than that, but personally I think the original is going to be a very key aspect of this design. There's a lot of remote controls out there anyway, so we're going to need something that's really going to set it apart. This is how today seems to be going to work. We're going to have the 3K phases, as you've probably already been told, the functional, architectural, and the detailed design. The first one is going to be covering the user requirements spec, technical functions, working design. The second seems to be conceptual components, properties, materials. And the last one is a detailed analysis of our design so far. Of course, you've all got the similar emails, I believe. What can I say? Evan user, do you want to draw your favorite animal? Sure."
+   },
+   {
+    "speaker": "Marketing Expert",
+    "label": "SPEAKER_01",
+    "start": "02:35",
+    "start_s": 155.52,
+    "end_s": 242.06,
+    "text": "OK, I'm going to make this quick, since we don't have much time. OK, so it's not the best picture in the world. Here we have an elephant. First point, begins with an E, same like Ebenezer. Also, elephants have a very good memory, much like myself. And I can't remember back when I used to live in Nigeria, but I think I used to have a pet elephant So elephants are big strong and gentle and they have great memories and it began Just like Ebenezer"
+   },
+   {
+    "speaker": "Adam",
+    "label": "SPEAKER_00",
+    "start": "04:03",
+    "start_s": 243.56,
+    "end_s": 252.47,
+    "text": "Brilliantly done. Thank you. Derek, would you like to have a shot at a bit of artistry?"
+   },
+   {
+    "speaker": "Tarek",
+    "label": "SPEAKER_03",
+    "start": "04:13",
+    "start_s": 253.71,
+    "end_s": 258.29,
+    "text": "It's supposed to come all the way, is it? Oh, you can clip them to your belt. Oh, thank you."
+   },
+   {
+    "speaker": "Adam",
+    "label": "SPEAKER_00",
+    "start": "04:18",
+    "start_s": 258.75,
+    "end_s": 264.13,
+    "text": "You should also have your lapel mic on as well. Is it?"
+   },
+   {
+    "speaker": "Marketing Expert",
+    "label": "SPEAKER_01",
+    "start": "04:25",
+    "start_s": 265.73,
+    "end_s": 275.88,
+    "text": "Oh, that's good. We can clip them on. Okay. Yeah, there's this microphone as well that you... just somewhere around."
+   },
+   {
+    "speaker": "Adam",
+    "label": "SPEAKER_00",
+    "start": "04:45",
+    "start_s": 285.31,
+    "end_s": 286.71,
+    "text": "It's just across there. Is"
+   },
+   {
+    "speaker": "Tarek",
+    "label": "SPEAKER_03",
+    "start": "05:00",
+    "start_s": 300.02,
+    "end_s": 301.04,
+    "text": "this supposed to be clip as well?"
+   },
+   {
+    "speaker": "Adam",
+    "label": "SPEAKER_00",
+    "start": "05:01",
+    "start_s": 301.3,
+    "end_s": 311.81,
+    "text": "I think so. Yeah, it'll follow you if you... There you go. You can probably just stick it in your pocket for now. I wouldn't worry too much. You should have a good drink."
+   },
+   {
+    "speaker": "Tarek",
+    "label": "SPEAKER_03",
+    "start": "05:17",
+    "start_s": 317.62,
+    "end_s": 425.76,
+    "text": "I'm destroying your outfit here. All right, here we have a tiger of all his love tigers. They're the biggest cats. They're a project on cats of the wild when I was a kid. And it was my favorite cat just because it looks the best. Stripes, orange. My dad used to talk about it. He's from Bangladesh. He used to tell me all about it when he was a kid. and they're just the most feared of of animals in the wild so that's why I don't say end of the met me really well."
+   },
+   {
+    "speaker": "Adam",
+    "label": "SPEAKER_00",
+    "start": "07:08",
+    "start_s": 428.04,
+    "end_s": 433.3,
+    "text": "Excellent thank you very much. Dave you'd like to have a dash?"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_02",
+    "start": "09:21",
+    "start_s": 561.92,
+    "end_s": 597.63,
+    "text": "A monkey? There's a somewhat oblique reference in fact to my I have a three year old daughter who was affectionately known as Miss Monkey. Monkeys have attitude, which I think is a good thing. And from the point of view of the study of human evolution, they and other primates are terribly interesting. This one seems to have perhaps more attitude than one."
+   },
+   {
+    "speaker": "Adam",
+    "label": "SPEAKER_00",
+    "start": "10:56",
+    "start_s": 656.47,
+    "end_s": 702.11,
+    "text": "Hardly what I'd call the best drawing in the world, but it'll do for now. Also not quite as feared as your average tiger, but cats are one of my favorite animals they're very independent they're snotty as hell at the best of times and what can you say you got all of those qualities in an animal I think we've all managed to master every whiteboard there by looks of it so on to it project finance as you can see 2 .5 euros per unit it's not a terrible lot as far as I'm aware and we're hoping to sell them for 25. If we're aiming for 50 million euros, we're going to have to be selling an awful lot of them."
+   },
+   {
+    "speaker": "Marketing Expert",
+    "label": "SPEAKER_01",
+    "start": "11:45",
+    "start_s": 705.54,
+    "end_s": 710.02,
+    "text": "Oh, that was profit aim. That was an amount. So that's the amount made."
+   },
+   {
+    "speaker": "Adam",
+    "label": "SPEAKER_00",
+    "start": "11:50",
+    "start_s": 710.48,
+    "end_s": 734.77,
+    "text": "Okay. Well, 50 million and if you're making 12 .5 euros in each one, then an awful lot need to be sold. Okay. Now we better actually just get on with the meat of the project. So I'm going to guess that we've all used remote controls. Any ideas of where you think a new remote control could go into this market."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_02",
+    "start": "12:18",
+    "start_s": 738.34,
+    "end_s": 811.14,
+    "text": "One thing I'm aware of is at the sort of very high price end of the market there's an emerging market for touch screen LCD remotes that can be programmed in much more sophisticated ways sort of conventional model so you get the sort of you get you can redesign the interface to your own needs you can program in macros and you get a much greater degree, I mean you get these three and one five and one whatever, but you can get integration between the different things that is designed to control to a much greater extent, you can have one macro to turn the TV to the right channel, rewind the tape and the VCR and get it to play what's its rewind for instance. Okay. It occurs to me there might be a niche for a remote that aimed towards some of that sort of functionality but using a conventional push button design and therefore putting it into a much lower price bracket."
+   },
+   {
+    "speaker": "Adam",
+    "label": "SPEAKER_00",
+    "start": "13:32",
+    "start_s": 812.32,
+    "end_s": 825.52,
+    "text": "Okay, that's true. With the price range we're looking out going for a touch screen would probably be a habit but you think again something to control multiple units in a simple fashion"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_02",
+    "start": "13:45",
+    "start_s": 825.52,
+    "end_s": 845.8,
+    "text": "yeah I mean I see I mean you get ones that you can switch between multiple units but something that could operate between multiple units in a more integrated fashion so there's an ideally something into which we should have some at least limited facility for running Macros would"
+   },
+   {
+    "speaker": "Adam",
+    "label": "SPEAKER_00",
+    "start": "14:05",
+    "start_s": 845.8,
+    "end_s": 855.72,
+    "text": "you be idea something along the lines of one on button would turn on say the video recorded a TV maybe the sound system as well all in one go is that for instance I"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_02",
+    "start": "14:15",
+    "start_s": 855.72,
+    "end_s": 871.1,
+    "text": "say um or um you press say the play button for the DVD player and it turns the TV on and on to the right channel as well okay"
+   },
+   {
+    "speaker": "Adam",
+    "label": "SPEAKER_00",
+    "start": "14:31",
+    "start_s": 871.1,
+    "end_s": 879.72,
+    "text": "that That sounds like a good strong idea. Any ticksness? Well,"
+   },
+   {
+    "speaker": "Marketing Expert",
+    "label": "SPEAKER_01",
+    "start": "14:40",
+    "start_s": 880.28,
+    "end_s": 927.24,
+    "text": "I've noticed that gaming is becoming quite popular with television. When I was younger, we used to play games using a cable, using the cable, subscriber cable providers. But our remote controls get worn out really easily. And the remote control is not a great kind of keypad for playing games so perhaps one that was more specialized for game playing or interactive television they recently brought out this new remote control for people to set their favorite channels or to record things instead of people entering again what time things start you simply start a slider bar to say what time it begins and slide another bar to say what time it ends you"
+   },
+   {
+    "speaker": "Adam",
+    "label": "SPEAKER_00",
+    "start": "15:27",
+    "start_s": 927.24,
+    "end_s": 931.0,
+    "text": "know that's yeah I've heard I've seen the barcode design before yeah it's"
+   },
+   {
+    "speaker": "Marketing Expert",
+    "label": "SPEAKER_01",
+    "start": "15:31",
+    "start_s": 931.0,
+    "end_s": 952.4,
+    "text": "it's taken out there you don't have to be really clever to use the remote control I think for gaming you know you want you want some big buttons for up down left and right shoot you want to be able to change angles and interactive television so you need buttons to change the television angle the camera angles and stuff like that"
+   },
+   {
+    "speaker": "Adam",
+    "label": "SPEAKER_00",
+    "start": "15:52",
+    "start_s": 952.4,
+    "end_s": 1002.58,
+    "text": "okay well we're beginning to run out of time now. So we've got a couple of ideas. We'll have to work fast. As you can see, we've got 30 minutes until the next meeting. So we'll have to try and decide on some of the basic functionality, how the user interface might work. That'll be a key aspect, especially if the idea of some kind of macro facility, because you have to program it, you have have a lot of response back or at least some kind and we're gonna maybe try and have to figure out what the user wants what the user wants yes okay right has anybody got anything they'd like to add at this stage anything they think that might have been missed so far when"
+   },
+   {
+    "speaker": "Tarek",
+    "label": "SPEAKER_03",
+    "start": "16:42",
+    "start_s": 1002.58,
+    "end_s": 1011.86,
+    "text": "you talk about game and stuff do you"
+   },
+   {
+    "speaker": "Adam",
+    "label": "SPEAKER_00",
+    "start": "16:56",
+    "start_s": 1016.56,
+    "end_s": 1037.83,
+    "text": "I don't see why not almost everybody's probably used to a console by now and all of them incorporate small d -pads on them in fact even the mobile phones these days are beginning to use them as well so it's probably an interface that most people are used to and that could allow easy navigation and use as a joystick as well."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_02",
+    "start": "17:25",
+    "start_s": 1045.64,
+    "end_s": 1074.1,
+    "text": "Maybe the other key feature that would be a good idea of building is to make something fairly ergonomic, something that fits as comfortably as possible into the hand. Of course it also allows for the possibility of a more sort of slightly unconventional attractive shape for it overall."
+   },
+   {
+    "speaker": "Adam",
+    "label": "SPEAKER_00",
+    "start": "17:56",
+    "start_s": 1076.58,
+    "end_s": 1081.08,
+    "text": "So small, stylish, and something that's just a little bit different."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_02",
+    "start": "18:01",
+    "start_s": 1081.12,
+    "end_s": 1087.52,
+    "text": "It's slightly sort of biomorphic in form. Would it need to be sort of conformed with the shape of the hand more efficiently anyway?"
+   },
+   {
+    "speaker": "Adam",
+    "label": "SPEAKER_00",
+    "start": "18:08",
+    "start_s": 1088.38,
+    "end_s": 1112.0,
+    "text": "Okay. That's definitely something that we should be able to do quite easily. I would have hoped so anyway. Right. I'd say we finish this one up, we'll get started. I'll write up what we've kind of quickly done, and I'll get that out to everybody. Okay. Yeah? Sure. Okay."
+   },
+   {
+    "speaker": "Marketing Expert",
+    "label": "SPEAKER_01",
+    "start": "18:36",
+    "start_s": 1116.62,
+    "end_s": 1117.96,
+    "text": "I'm really concerned about this."
+   },
+   {
+    "speaker": "Adam",
+    "label": "SPEAKER_00",
+    "start": "18:38",
+    "start_s": 1118.88,
+    "end_s": 1126.6,
+    "text": "As far as I'm aware, we leave the microphones here, unless we're told otherwise, and just take the laptop for the rest."
+   }
+  ]
+ },
+ "speakers": [
+  {
+   "label": "SPEAKER_00",
+   "display": "Adam",
+   "name": "Adam",
+   "role": "unknown",
+   "evidence": "Okay, well, I think we're ready to begin Right, my name is Adam Dugard.",
+   "verified": true,
+   "rejected": [],
+   "talk_seconds": 363.4
+  },
+  {
+   "label": "SPEAKER_01",
+   "display": "Marketing Expert",
+   "name": "unknown",
+   "role": "marketing expert",
+   "evidence": "Yeah, go for it any Z and he said he are Nezer and your role is I am the marketing expert.",
+   "verified": true,
+   "rejected": [
+    "introduction belongs to another speaker"
+   ],
+   "talk_seconds": 187.0
+  },
+  {
+   "label": "SPEAKER_02",
+   "display": "Person_1",
+   "name": "unknown",
+   "role": "unknown",
+   "evidence": "",
+   "verified": false,
+   "rejected": [],
+   "talk_seconds": 179.0
+  },
+  {
+   "label": "SPEAKER_03",
+   "display": "Tarek",
+   "name": "Tarek",
+   "role": "industrial designer",
+   "evidence": "",
+   "verified": true,
+   "rejected": [
+    "quote not in transcript"
+   ],
+   "talk_seconds": 125.1
+  }
+ ],
+ "meeting": "ES2003a",
+ "audio_minutes": 19.0,
+ "stage_seconds": {
+  "transcribing": 94.1,
+  "diarizing": 0.0,
+  "aligning": 0.0,
+  "identifying": 47.1,
+  "writing minutes": 93.1,
+  "indexing": 2.8
+ },
+ "threads": 4,
+ "llm": {
+  "model": "qwen2.5-3b-instruct-q4_k_m",
+  "calls": 4,
+  "prompt_tokens": 4716,
+  "output_tokens": 692,
+  "seconds": 140.1
+ }
+}

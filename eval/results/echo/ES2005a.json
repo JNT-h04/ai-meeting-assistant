@@ -1,0 +1,347 @@
+{
+ "minutes": {
+  "title": "Profit Strategy Meeting",
+  "summary": "The meeting discussed strategies to achieve a 50 million euro profit, focusing on controls and their market potential. Decisions were made to conduct market research including competition analysis and feature development.",
+  "topics": [
+   "profit of 50 million euros",
+   "controls with television",
+   "product market potential"
+  ],
+  "decisions": [],
+  "decisions_at": [],
+  "actions": [
+   {
+    "task": "Look into market potential for product, competition analysis, prices of other remote controls, specialty features, complexity of use",
+    "owner": "Person_1",
+    "due": "not stated"
+   }
+  ],
+  "actions_at": [
+   "01:53"
+  ],
+  "open_questions": [],
+  "method": "extract-verify",
+  "sections": 1,
+  "dropped_unverified": 2,
+  "transcript": [
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_04",
+    "start": "00:00",
+    "start_s": 0.54,
+    "end_s": 6.66,
+    "text": "Making a profit of 50 million euros So it's gonna have to be pretty"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_02",
+    "start": "00:07",
+    "start_s": 7.76,
+    "end_s": 13.92,
+    "text": "Controls I've used usually come with the television. Yeah, fairly basic Yeah,"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_04",
+    "start": "00:13",
+    "start_s": 13.98,
+    "end_s": 24.88,
+    "text": "I was thinking that as well I think the only ones that I've seen that you buy are the sort of one -for -all type things Yeah, the universal one. Yeah, so presumably that might be an idea to"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_02",
+    "start": "00:26",
+    "start_s": 26.54,
+    "end_s": 27.06,
+    "text": "25"
+   },
+   {
+    "speaker": "Person_3",
+    "label": "SPEAKER_03",
+    "start": "00:30",
+    "start_s": 30.66,
+    "end_s": 31.14,
+    "text": "Yeah,"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_04",
+    "start": "00:31",
+    "start_s": 31.14,
+    "end_s": 40.32,
+    "text": "yeah, because I mean what 25 euros that's about 15 pounds or so and that's quite a lot for remote control."
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_01",
+    "start": "00:42",
+    "start_s": 42.76,
+    "end_s": 73.96,
+    "text": "Well my first thought would be most remote controls are gray or black as you said they come with a TV so it's normally just your basic gray black remote controls as a function so maybe we could think about color make that might make it a bit different from the rest at least. And as you say, we need to have some kind of gimmick. So I thought maybe something like if you lose it, and you can whistle, you know, because we always lose our remote control."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_04",
+    "start": "01:14",
+    "start_s": 74.54,
+    "end_s": 74.96,
+    "text": "Okay."
+   },
+   {
+    "speaker": "Marketing Expert",
+    "label": "SPEAKER_00",
+    "start": "01:16",
+    "start_s": 76.8,
+    "end_s": 112.14,
+    "text": "Yeah. Being as a marketing expert, I would like to say like, before deciding the cost of this remote control or other things, we must see the market potential for this product, like what is the competition in the market, what are the available prices of the other remote controls in the prices, what specialty our remote controls are having and how complicated it is to use these remote controls as compared to other remote controls available in the market. So before deciding or before finalizing this project we must discuss all these things."
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_01",
+    "start": "01:53",
+    "start_s": 113.16,
+    "end_s": 113.16,
+    "text": "Like"
+   },
+   {
+    "speaker": "Marketing Expert",
+    "label": "SPEAKER_00",
+    "start": "01:53",
+    "start_s": 113.16,
+    "end_s": 133.46,
+    "text": "and apart from this you should be having a good to look also. Because people really like to play with it. When they are watching movies or playing with their CD player, MP3 player, like any electronic devices. They really want to have something good, having a good design in their hands. So, yes, all this."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_04",
+    "start": "02:13",
+    "start_s": 133.46,
+    "end_s": 138.2,
+    "text": "so we're looking for weird"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_02",
+    "start": "02:20",
+    "start_s": 140.02,
+    "end_s": 154.32,
+    "text": "size would be sorry as you add more buttons through mode sometimes gets so big and clunky yeah like a hundred buttons on it yeah it could have a really small slim one but they could lose it easily"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_01",
+    "start": "02:34",
+    "start_s": 154.32,
+    "end_s": 162.98,
+    "text": "kind of maybe be more like a PDA, kind of just handhelds, like, because"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_04",
+    "start": "02:42",
+    "start_s": 162.98,
+    "end_s": 168.94,
+    "text": "remember, we're trying to make it for 12 years 50. No, I wasn't. No,"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_01",
+    "start": "02:48",
+    "start_s": 168.98,
+    "end_s": 170.86,
+    "text": "I was thinking of the screen of like, okay,"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_04",
+    "start": "02:50",
+    "start_s": 170.86,
+    "end_s": 217.68,
+    "text": "well, I have to, um, we're having our meeting a half an hour. So, um, we should all look into a bit, uh, actually, no, well, I'll keep. So you do the looking around at other remote controls. Yeah. If you could maybe come up with sort of shapes and suggested shades or whatever and you could look into basically how it's made, like how you make it all in one, what sort of materials are available to you, whatever, and obviously other instructions will come from the personal So"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_01",
+    "start": "03:37",
+    "start_s": 217.68,
+    "end_s": 219.34,
+    "text": "you want me to look at shapes and everything you"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_04",
+    "start": "03:39",
+    "start_s": 219.34,
+    "end_s": 219.34,
+    "text": "think?"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_01",
+    "start": "03:39",
+    "start_s": 219.34,
+    "end_s": 220.0,
+    "text": "Shapes and colours."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_04",
+    "start": "03:41",
+    "start_s": 221.66,
+    "end_s": 226.14,
+    "text": "Basically how to make it attractive. Do"
+   },
+   {
+    "speaker": "Marketing Expert",
+    "label": "SPEAKER_00",
+    "start": "03:46",
+    "start_s": 226.14,
+    "end_s": 226.88,
+    "text": "that. Good"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_04",
+    "start": "03:50",
+    "start_s": 230.04,
+    "end_s": 234.78,
+    "text": "competition. Do that. Cool."
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_02",
+    "start": "03:57",
+    "start_s": 237.36,
+    "end_s": 239.14,
+    "text": "So we have..."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_04",
+    "start": "04:42",
+    "start_s": 282.28,
+    "end_s": 288.86,
+    "text": "We'll get... We'll get warnings for next meetings as well."
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_01",
+    "start": "04:49",
+    "start_s": 289.62,
+    "end_s": 290.56,
+    "text": "Okay cool."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_04",
+    "start": "04:54",
+    "start_s": 294.84,
+    "end_s": 300.14,
+    "text": "I can't imagine these things. Don't worry much. Guess"
+   },
+   {
+    "speaker": "Person_3",
+    "label": "SPEAKER_03",
+    "start": "05:30",
+    "start_s": 330.03,
+    "end_s": 330.99,
+    "text": "what we need to do."
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_01",
+    "start": "06:56",
+    "start_s": 416.64,
+    "end_s": 419.9,
+    "text": "What did you get that? Um, on the"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_02",
+    "start": "06:59",
+    "start_s": 419.9,
+    "end_s": 436.95,
+    "text": "desktop. So if you minimise that we're not just... Looks like we've done neat things. Space shuttles and trains. Coffee makers."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_04",
+    "start": "07:19",
+    "start_s": 439.97,
+    "end_s": 441.41,
+    "text": "Finish meeting now. Finished already."
+   }
+  ]
+ },
+ "speakers": [
+  {
+   "label": "SPEAKER_04",
+   "display": "Person_1",
+   "name": "unknown",
+   "role": "unknown",
+   "evidence": "I was thinking that as well I think the only ones that I've seen that you buy are the sort of one -for -all type things Yeah, the universal one. Yeah, so presumably that might be an idea to",
+   "verified": false,
+   "rejected": [],
+   "talk_seconds": 106.7
+  },
+  {
+   "label": "SPEAKER_00",
+   "display": "Marketing Expert",
+   "name": "unknown",
+   "role": "marketing expert",
+   "evidence": "",
+   "verified": true,
+   "rejected": [],
+   "talk_seconds": 56.4
+  },
+  {
+   "label": "SPEAKER_01",
+   "display": "Person_4",
+   "name": "unknown",
+   "role": "unknown",
+   "evidence": "Well my first thought would be most remote controls are gray or black as you said they come with a TV so it's normally just your basic gray black remote controls as a function",
+   "verified": false,
+   "rejected": [],
+   "talk_seconds": 48.3
+  },
+  {
+   "label": "SPEAKER_02",
+   "display": "Person_2",
+   "name": "unknown",
+   "role": "unknown",
+   "evidence": "",
+   "verified": false,
+   "rejected": [],
+   "talk_seconds": 39.8
+  },
+  {
+   "label": "SPEAKER_03",
+   "display": "Person_3",
+   "name": "unknown",
+   "role": "unknown",
+   "evidence": "",
+   "verified": false,
+   "rejected": [],
+   "talk_seconds": 1.4
+  }
+ ],
+ "meeting": "ES2005a",
+ "audio_minutes": 7.96,
+ "stage_seconds": {
+  "transcribing": 35.3,
+  "diarizing": 240.1,
+  "aligning": 0.0,
+  "identifying": 29.2,
+  "writing minutes": 41.5,
+  "indexing": 0.8
+ },
+ "threads": 4,
+ "llm": {
+  "model": "qwen2.5-3b-instruct-q4_k_m",
+  "calls": 3,
+  "prompt_tokens": 2113,
+  "output_tokens": 446,
+  "seconds": 70.7
+ }
+}

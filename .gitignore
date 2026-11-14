@@ -1,35 +1,9 @@
-# Python
+.venv/
+.models/
+data/
+notes/
 __pycache__/
-*.py[cod]
-*.so
-
-# Environments
-.env
-.venv
-env/
-venv/
-
-# Secrets
-.env
-*.token
-
-# Streamlit
-.streamlit/
-
-# Models
-*.h5
-*.pt
-*.pth
-*.ckpt
-
-# Large audio samples (see samples/README.md for how to obtain them)
-samples/*.wav
-
-# Jupyter
-.ipynb_checkpoints/
-
-# Editors / OS
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
+*.pyc
+.pytest_cache/
+deploy/oracle/.env
+*.tar.gz

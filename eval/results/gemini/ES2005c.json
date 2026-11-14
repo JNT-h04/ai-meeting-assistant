@@ -1,0 +1,1315 @@
+{
+ "title": "Remote Control Design and Feature Planning Meeting",
+ "summary": "The team met to discuss market survey findings and design concepts for a new remote control. Raj presented market trends highlighting a consumer preference for aesthetically pleasing, technologically innovative, and easy-to-use remote controls incorporating organic, fruit-inspired themes. Helen shared interface research, emphasizing simple layouts, speech recognition, and colorful button designs over complicated LCD screens. The group agreed on key features including voice recognition, rechargeable batteries with a dock, and an ergonomic double-curved shape using company colors. Finally, Raj and Helen were assigned to create a clay prototype before the next meeting.",
+ "topics": [
+  "Market survey findings and trend analysis",
+  "Remote control physical and interface design",
+  "Speech recognition and feature integration",
+  "Material selection and color schemes",
+  "Power supply options and charging dock",
+  "Clay prototype preparation"
+ ],
+ "decisions": [
+  "Incorporate speech recognition into the remote control design",
+  "Exclude LCD screens to keep the product user-friendly and within budget",
+  "Use rechargeable batteries with a charging dock/stand",
+  "Adopt an ergonomic, double-curved shape inspired by organic fruit forms",
+  "Use company yellow and blue as the primary color scheme with multi-colored buttons"
+ ],
+ "actions": [
+  {
+   "task": "Conduct a public survey testing two to three proposed remote control shape designs",
+   "owner": "Raj",
+   "due": "not stated"
+  },
+  {
+   "task": "Create a clay model of the remote control design",
+   "owner": "Raj and Helen",
+   "due": "in 30 minutes"
+  },
+  {
+   "task": "Re-upload the project documents to the shared folder",
+   "owner": "Raj",
+   "due": "not stated"
+  }
+ ],
+ "transcript": [
+  {
+   "speaker": "Speaker 1",
+   "start": "00:05",
+   "text": "Right, time and date established, I believe. Here? Excuse me."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "00:32",
+   "text": "We are... so the meeting will have about the same format as last time, so saved as much switching over. I've just left my first two screens, aye. I have mailed you the minutes of the last meeting just to save time."
+  },
+  {
+   "speaker": "Helen",
+   "start": "00:51",
+   "text": "Okay, cool."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "00:53",
+   "text": "And is there any questions you have arising from the last meeting that are particularly bothering you?"
+  },
+  {
+   "speaker": "Helen",
+   "start": "01:03",
+   "text": "No, I don't think so."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "01:06",
+   "text": "No? Okay, cool. Then we shall start with a presentation from Raj."
+  },
+  {
+   "speaker": "Raj",
+   "start": "01:13",
+   "text": "Yeah. Hi, me Raj again. In this meeting, I am going to discuss about the trend watching, how this trend is going to affect our market potential, and how important this is. So we have to look into this. First of all, methodology. The methodology to find out the trend was done in a way... we have done not only a recent remote control market survey, but we also considered the latest fashion trends of the market, because we think that this is also a factor which will affect our sales and profit. So what are our findings? In our findings, we have seen that when we did our remote control market survey, we found that people do have a preference for fancy remote controls which look and feel very good, rather than having a functional look and feel. So this clearly indicates their preference for the design and outlook of remote controls. So we should consider this factor as the most important factor. This factor is twice as important as the second factor, which is further twice as important as the third factor. So this factor becomes the most important factor in designing our remote controls."
+  },
+  {
+   "speaker": "Helen",
+   "start": "02:49",
+   "text": "The last one is the most important one, isn't it?"
+  },
+  {
+   "speaker": "Raj",
+   "start": "02:51",
+   "text": "No, the first one is the outlook of the remote. It should have a fancy outlook, fancy design, rather than just having a functional look and feel. It should have a fancy look and feel. The second most important aspect is that the remote control should be technologically innovative. We must have some technological advancement in the remote control rather than just putting it as it is as the other remote controls are. So it should be technologically innovative, like glow in the dark or speech recognition, something like that. So that indicates our technological advancement. And the third most important aspect to take into consideration is that it should be easy to use. Like, it shouldn't be too complicated, there shouldn't be too many buttons on this remote control, it shouldn't be too complicated this way. And customers should be provided with manuals that are easy to understand in their local language or something, so that they could know how to use these remote controls. When we did recent fashion updates, it shows that..."
+  },
+  {
+   "speaker": "Helen",
+   "start": "04:12",
+   "text": "Sorry! Fruit and vegetables... I don't know how we're going to incorporate that."
+  },
+  {
+   "speaker": "Raj",
+   "start": "04:19",
+   "text": "Yeah, we have to because you can see how people have related their clothes, shoes, and furniture, everything with fruits and vegetables, because the world is now changing its trend towards organic, becoming more and more organic."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "04:36",
+   "text": "Like a big sponge lemon? Yellow?"
+  },
+  {
+   "speaker": "Helen",
+   "start": "04:40",
+   "text": "That's very good."
+  },
+  {
+   "speaker": "Raj",
+   "start": "04:42",
+   "text": "So something like that we should do. And the feel of the material is expected to be spongy rather than just having a plastic look, hard look."
+  },
+  {
+   "speaker": "Helen",
+   "start": "04:54",
+   "text": "Well, that's good. That's what we kind of predicted."
+  },
+  {
+   "speaker": "Raj",
+   "start": "04:58",
+   "text": "So that they could play with it while handling it. So that should also be taken into consideration. So these are my views."
+  },
+  {
+   "speaker": "Helen",
+   "start": "05:08",
+   "text": "The spongy, not real spongy, do you think like rubber would be good, or does it really want to be..."
+  },
+  {
+   "speaker": "Raj",
+   "start": "05:15",
+   "text": "The rubber which is good for health and which is quite disposable, that we can take into consideration, yeah, because it shouldn't cause any harm to the environment also, because our company is very well reputed for taking all these concerns into consideration. So we don't want to have any harm to the society."
+  },
+  {
+   "speaker": "Helen",
+   "start": "05:37",
+   "text": "Cool."
+  },
+  {
+   "speaker": "Raj",
+   "start": "05:40",
+   "text": "So that's all."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "05:42",
+   "text": "Fruit and veg. That's what I think of when I think of a remote control!"
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "05:52",
+   "text": "Next is your turn, Helen."
+  },
+  {
+   "speaker": "Helen",
+   "start": "05:55",
+   "text": "And were there any factors that weren't important in the survey that they said we don't want?"
+  },
+  {
+   "speaker": "Raj",
+   "start": "06:01",
+   "text": "We didn't find out any such point. Yes, there could be, but we couldn't find out any. So..."
+  },
+  {
+   "speaker": "Helen",
+   "start": "06:17",
+   "text": "What is it? Function F5? Yeah? Okay, insert SD... Okay. And then F5, right?"
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "06:48",
+   "text": "Yeah."
+  },
+  {
+   "speaker": "Helen",
+   "start": "06:50",
+   "text": "Okay. So, the interface concept. Yeah, the interface specification, what people... how they interact with it basically, I think. So, the method we looked at existing designs, what's good about them, what's bad about them, looked at their flaws. We're going to look at their flaws and everything. And what the survey told us and what we think would be good, so a bit of imagination. The findings, I've got some pictures to show you."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "07:28",
+   "text": "It's like a rocket, isn't it?"
+  },
+  {
+   "speaker": "Helen",
+   "start": "07:31",
+   "text": "Yeah. Okay, so most remote controls use a graphical interface where you have got buttons and you point it, rather than having the output as a stream of text or something. And we also found that there's an inconsistent layout which makes it confusing. So I think for our remote control... there is some inconsistency already existing between remote controls, but I think the standard kind of shape and play and those kind of buttons, like the top right for on and off or something, I think people find that important because then it's easy to use. And we've got some pictures of some new remote controls to show you. Do I press escape F5? Just escape? Escape, okay."
+  },
+  {
+   "speaker": "Helen",
+   "start": "08:21",
+   "text": "So these are some of the pictures of existing ones. I'll talk you through them. This one is voice recognition, and that's the kind of idea we're going for. There's an LCD thing which we thought could get a bit confusing and a bit expensive as well for us. This one has got a kind of scroll like a mouse..."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "08:52",
+   "text": "Like the middle button."
+  },
+  {
+   "speaker": "Helen",
+   "start": "08:53",
+   "text": "Yeah, but I'm not exactly sure how you'd use that. Like, would the computer..."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "08:59",
+   "text": "It's kind of like scroll through. If I'm thinking of the right one, I've got the same thing on the front of my monitor. You scroll it and then when you reach the menu item that you require, you press."
+  },
+  {
+   "speaker": "Helen",
+   "start": "09:10",
+   "text": "Ah, that's like the LCD one, is it? But the one below that has got like a little scroll function on the side, but I presume that the functions must come up on the TV screen."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "09:21",
+   "text": "Yeah, I think that's what that is."
+  },
+  {
+   "speaker": "Helen",
+   "start": "09:23",
+   "text": "So these are just a few ideas. Again, that's just a quite boring shape, grey, looks quite space-agey, but too many buttons I think on that one."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "09:30",
+   "text": "Yeah, that looks like something out of the '80s."
+  },
+  {
+   "speaker": "Helen",
+   "start": "09:32",
+   "text": "Yeah, it does look kind of dangerous! This one I thought was really cool. It's got the programmability function that we talked about, you can put it in there, it's for kids and it's quite an organic shape, and the little circle around there is pretty cool. And that's really easy to use, bright, so I like this one a lot for our design. I think something like that would be good. Of course, yellow."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "09:55",
+   "text": "Yeah, I mean the one thing I think about these ones is these secured areas... I've seen a lot of them with the cover missing."
+  },
+  {
+   "speaker": "Helen",
+   "start": "10:08",
+   "text": "Right, yeah, that's true. So maybe that could be built into one of the things that comes up on the TV or something. And this one, the oversized one... I don't know about you, but I think it's a bit too gimmicky. I don't think that will sell very well."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "10:25",
+   "text": "Is that not served to assist the blind or something?"
+  },
+  {
+   "speaker": "Helen",
+   "start": "10:28",
+   "text": "I guess so. I don't know. I think that's a bit..."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "10:33",
+   "text": "Blind don't watch TV!"
+  },
+  {
+   "speaker": "Helen",
+   "start": "10:35",
+   "text": "Exactly. They listen to it."
+  },
+  {
+   "speaker": "Helen",
+   "start": "10:38",
+   "text": "And this one, it's just pointing out, I like some of these things, the raised symbols and everything, but it's pointing out that this one, the volume, it's kind of pressing down, but it would actually go up because of the shape. So that's a bit confusing. But the buttons on this I think are... it's just showing you how you can have different buttons, they don't have to be all the same. So that's quite cool."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "11:09",
+   "text": "People tend to recognize certain shapes to do certain things."
+  },
+  {
+   "speaker": "Helen",
+   "start": "11:12",
+   "text": "Yeah, exactly. F5, yes. So those were some of the findings. So we need to combine those ones. And I've just got an email from our technical department saying that they have broken through with some new speech recognition software that you can program in."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "11:34",
+   "text": "Handy."
+  },
+  {
+   "speaker": "Helen",
+   "start": "11:35",
+   "text": "Yeah, it is. Just in time, very handy. So I think maybe incorporating that in our design would be good. As you program it, like you say record and then play, and then record, play machine, stuff like that, so that's..."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "11:53",
+   "text": "Basics."
+  },
+  {
+   "speaker": "Helen",
+   "start": "11:53",
+   "text": "Yeah, so that's quite cool. Personal preferences, just some imagination. The raised symbols I thought were good. The LCD... it does look smart, but I think maybe for our budget, do you think that would be a bit too expensive to have the LCD?"
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "12:11",
+   "text": "Yeah, and the other stuff, I think..."
+  },
+  {
+   "speaker": "Helen",
+   "start": "12:14",
+   "text": "And the speech recognition, because I think we're definitely going for the speech recognition, aren't we?"
+  },
+  {
+   "speaker": "Raj",
+   "start": "12:17",
+   "text": "But in our market survey, we have seen that people are willing to pay more, but they want quality, they want fancy look, they want some new design, something new."
+  },
+  {
+   "speaker": "Helen",
+   "start": "12:27",
+   "text": "For our budget, yeah."
+  },
+  {
+   "speaker": "Raj",
+   "start": "12:30",
+   "text": "So even if we increase our cost a little bit within some limits, and we give something new, technological advancement as well as new design with fancy outlook, I think we will meet their requirements and we will be able to have good sales in the market."
+  },
+  {
+   "speaker": "Helen",
+   "start": "12:48",
+   "text": "I'm not sure if 25 euros, 12 euros 50 manufacturing cost... that's the thing that might..."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "12:55",
+   "text": "I can't see... although, I mean to be sure, they are going crazy with the LCD technology now, so that you've got your LCD TVs and everything. So maybe the small... I mean like the black and white, I guess it just doesn't look funky enough. But even mobile phones or whatever now have color LCD screens, so I wouldn't know about the costs of them."
+  },
+  {
+   "speaker": "Helen",
+   "start": "13:22",
+   "text": "Uh-huh."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "13:23",
+   "text": "But costs notwithstanding, is it too complicated? Is it going to be too much just overload?"
+  },
+  {
+   "speaker": "Helen",
+   "start": "13:28",
+   "text": "Yeah, that's the thing."
+  },
+  {
+   "speaker": "Raj",
+   "start": "13:29",
+   "text": "It will be easy because on the LCD screen, there will be different icons. They can just click okay, whatever they want."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "13:37",
+   "text": "When you use a remote control, you never look at it, right? You're looking at the TV. It just seems kind of like a..."
+  },
+  {
+   "speaker": "Helen",
+   "start": "13:45",
+   "text": "And one of the survey findings was that they wanted easy to use, so I think I'm not sure about the LCD. It's a great idea, but for our budget and for the thing we're trying to go for, easy to use, it's not the thing we should go for, I think."
+  },
+  {
+   "speaker": "Helen",
+   "start": "14:00",
+   "text": "Child friendly, I thought this was good. As you pointed out, the bit often goes missing, especially with children. But it's a good shape, and organic is kind of we could make a vegetable-y kind of round shape, I think."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "14:15",
+   "text": "So which vegetable?"
+  },
+  {
+   "speaker": "Helen",
+   "start": "14:16",
+   "text": "Yeah, a carrot!"
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "14:18",
+   "text": "Or since we're going for the company colors, I think your lemon wasn't that far..."
+  },
+  {
+   "speaker": "Helen",
+   "start": "14:23",
+   "text": "Yellow! Even if it doesn't work, yeah."
+  },
+  {
+   "speaker": "Helen",
+   "start": "14:28",
+   "text": "The child friendly, yeah, easy to use, it seems quite easy to use. I like the different shapes of the buttons and stuff. I think that's a good idea to go for."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "14:35",
+   "text": "I like the colorful buttons as well."
+  },
+  {
+   "speaker": "Helen",
+   "start": "14:37",
+   "text": "Yeah. And the mouse one, I thought it was a good idea because people use mice now with their scrolling thing. And we are marketing to sort of 25 to 35, so most people will have come in contact with that kind of use."
+  },
+  {
+   "speaker": "Helen",
+   "start": "14:54",
+   "text": "So they'd be able to use that. As I said, I presume it would come up on the screen."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "14:58",
+   "text": "Yeah. That means you get to bump that bit to the TV makers, so..."
+  },
+  {
+   "speaker": "Helen",
+   "start": "15:04",
+   "text": "Yeah. So that's the user interface design. Okay, take this out now then."
+  },
+  {
+   "speaker": "Helen",
+   "start": "15:26",
+   "text": "There you go."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "15:28",
+   "text": "So I guess there are a lot of options we're going to have to choose from among."
+  },
+  {
+   "speaker": "Helen",
+   "start": "15:33",
+   "text": "Yeah."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "15:34",
+   "text": "Which like, I'll give you the technical considerations for those."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "15:48",
+   "text": "And I'm going to use the whiteboard just because we haven't used it."
+  },
+  {
+   "speaker": "Helen",
+   "start": "15:51",
+   "text": "Yeah, I was just thinking the same thing!"
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "15:54",
+   "text": "So, the way I'm going to do this is we're going to take a look at some old remote controls, see how they work, reuse the vital, kind of essential pieces of it, and then we'll throw in our new innovations and keep it all within budget. Magic man! Looking inside a very simple remote control, this is what they sent me. Okay, here's the competition, I suppose. You open it up, there's a circuit board inside, and there's a chip processor, the TA11835, which receives input from the buttons."
+  },
+  {
+   "speaker": "Helen",
+   "start": "16:38",
+   "text": "This is a standard off-the-shelf kind of a chip, is it?"
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "16:40",
+   "text": "Right, it's very cheap. This remote costs nothing, you know. So that takes the signals from the buttons and translates it into a sequence of pulses that it then sends to the amplifier, which is made of some transistors and amplifiers, op-amps, and then that gets sent to the LED light, which you can kind of see as that little red light bulb at the end. And that sends out the infrared light signal to the television. Here it is. So this is kind of the bare essentials that we need to have in our remote control because it defines..."
+  },
+  {
+   "speaker": "Helen",
+   "start": "17:21",
+   "text": "So can we make them to pretty much any size we like, or is there a minimum, or..."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "17:26",
+   "text": "No, I mean this is a very old one, so now with the new technology, this is minimally small and cheap. Almost a keyring. Right, so this is what we need to have for certain. So as I said, we've got the outer casing, which we have to decide what's it going to be. The board we have to use basically the same setup. Processor, we'll probably use a more advanced processor than they had. Amplifier and transmitter are all standard. So for the casing, this is an email I got from our manufacturing team. We have a bunch of options from wood, titanium, rubber, plastic, what not. Latex, double curve, curve. So lots of choices. What do we think? A sponge, I guess, isn't on there, right?"
+  },
+  {
+   "speaker": "Helen",
+   "start": "18:21",
+   "text": "I'm not sure."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "18:22",
+   "text": "Well, latex has a kind of spongy feel to it, doesn't it?"
+  },
+  {
+   "speaker": "Helen",
+   "start": "18:25",
+   "text": "Yeah, it's very elasticky, for sure."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "18:27",
+   "text": "Yeah, and that would also give it kind of durability, and it's also relatively cheap to cast. So a plastic... initial plastic with a latex kind of sheath."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "18:43",
+   "text": "Okay, so I hear plastic, latex..."
+  },
+  {
+   "speaker": "Helen",
+   "start": "18:49",
+   "text": "I like the rubber, the stress balls, I think, you know, that could be a bit of a gimmick, like it's good to hold and..."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "18:56",
+   "text": "So something with give to it."
+  },
+  {
+   "speaker": "Helen",
+   "start": "18:58",
+   "text": "Yeah."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "18:59",
+   "text": "And that might be quite durable and easy to chuck around. Our color is yellow, right? Yellow incorporated, yeah."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "19:08",
+   "text": "I mean, if we're going... I don't know what other... standard silver kind of other parts or..."
+  },
+  {
+   "speaker": "Helen",
+   "start": "19:19",
+   "text": "Yeah, the buttons, because there's going to be the rubber or the plastic casing, and then the buttons, and probably two different colors, if we're having buttons actually."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "19:31",
+   "text": "So yellow body, and then what color for the buttons? I quite like the multi-colored buttons myself."
+  },
+  {
+   "speaker": "Helen",
+   "start": "19:40",
+   "text": "Yeah?"
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "19:41",
+   "text": "Multi-colored buttons."
+  },
+  {
+   "speaker": "Helen",
+   "start": "19:43",
+   "text": "You do have ones like play could be green, or on/off is red, and stuff like that, yeah."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "19:48",
+   "text": "Yeah, or a limited multi-color so it doesn't look too childish."
+  },
+  {
+   "speaker": "Helen",
+   "start": "19:53",
+   "text": "Yeah, that's true, because that blue one did look quite childish."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "19:58",
+   "text": "Although, I mean, that also comes to shape as well. Double curved sounds good to me if we're talking about ergonomic and easy to use. It'd be comfiter, you know."
+  },
+  {
+   "speaker": "Helen",
+   "start": "20:11",
+   "text": "Yeah."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "20:12",
+   "text": "So, the shape, how exactly? Maybe..."
+  },
+  {
+   "speaker": "Helen",
+   "start": "20:20",
+   "text": "Like an hourglass kind of figure, is that what you're thinking of, or just like..."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "20:23",
+   "text": "Yeah, that'd be comfortable to hold, easy to hold, so you don't drop it. What about a banana?"
+  },
+  {
+   "speaker": "Helen",
+   "start": "20:31",
+   "text": "We could make novelty remote controls!"
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "20:34",
+   "text": "Well, yeah, I mean like we could have a big banana shaped remote control because it's yellow."
+  },
+  {
+   "speaker": "Raj",
+   "start": "20:39",
+   "text": "Yeah, yeah."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "20:41",
+   "text": "And a lemon might be..."
+  },
+  {
+   "speaker": "Helen",
+   "start": "20:42",
+   "text": "But then how would you point it? How would you point it?"
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "20:47",
+   "text": "It doesn't matter which end you point, I guess. We could have little LEDs on each end."
+  },
+  {
+   "speaker": "Raj",
+   "start": "20:53",
+   "text": "Yeah, I appreciate this idea because then this will help us in our advertisement also, and we can relate it with fruits and vegetables, the people's choices, that whatever data shows that..."
+  },
+  {
+   "speaker": "Helen",
+   "start": "21:07",
+   "text": "I'm not sure about the banana idea..."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "21:12",
+   "text": "A rubber banana..."
+  },
+  {
+   "speaker": "Helen",
+   "start": "21:15",
+   "text": "Okay."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "21:19",
+   "text": "It does seem a bit childish maybe."
+  },
+  {
+   "speaker": "Helen",
+   "start": "21:22",
+   "text": "Yeah. I think maybe just draw on the kind of fruit and vegetable shape. What else did you say about fashion trends?"
+  },
+  {
+   "speaker": "Raj",
+   "start": "21:31",
+   "text": "The fashion trend shows that fruits and vegetables... like people are now..."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "21:36",
+   "text": "Fruit or fruit/vegetables, so it had a stem, perhaps? Maybe, yeah. Like what's... I don't even know the name of it, you know where it looks like a little snowman kind of thing?"
+  },
+  {
+   "speaker": "Helen",
+   "start": "21:55",
+   "text": "Does it look like this, kind of?"
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "21:56",
+   "text": "Yeah, that's what I was thinking."
+  },
+  {
+   "speaker": "Helen",
+   "start": "21:58",
+   "text": "Like a gourd?"
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "21:59",
+   "text": "Yeah, maybe that's what it is."
+  },
+  {
+   "speaker": "Helen",
+   "start": "22:02",
+   "text": "Because that, you can hold it in like the bottom bit, and..."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "22:06",
+   "text": "And it has a clear top and bottom, so you could say, you know, it transmits from this end. Yeah, why the hell not? That'll make us famous, you know!"
+  },
+  {
+   "speaker": "Helen",
+   "start": "22:16",
+   "text": "I don't know, what do you guys think?"
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "22:18",
+   "text": "Well, I guess you don't necessarily have to have it clearly identified as a fruit, just have that kind of fruitish shape."
+  },
+  {
+   "speaker": "Raj",
+   "start": "22:27",
+   "text": "Yeah, then only we can relate it."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "22:29",
+   "text": "When we market by advertising, or..."
+  },
+  {
+   "speaker": "Raj",
+   "start": "22:30",
+   "text": "Yeah, exactly."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "22:33",
+   "text": "So double curved, single curved, what do we feel?"
+  },
+  {
+   "speaker": "Raj",
+   "start": "22:38",
+   "text": "Or we can do something, we can design two or three shapes and we can have a public survey, let the public choose what they want."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "22:45",
+   "text": "There's a good man, that's a good idea. Okay, I guess since you're the marketing guy..."
+  },
+  {
+   "speaker": "Raj",
+   "start": "22:49",
+   "text": "Yeah, sure, I will be happy to do that."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "22:52",
+   "text": "You can do that."
+  },
+  {
+   "speaker": "Helen",
+   "start": "22:54",
+   "text": "And buttons, did we say different shapes of buttons?"
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "23:01",
+   "text": "I suppose for the specific functions, you know, up and down, play, stop, they've got standard sort of intuitive things that are always used..."
+  },
+  {
+   "speaker": "Helen",
+   "start": "23:17",
+   "text": "Yeah, I like it!"
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "23:24",
+   "text": "With a scroll wheel or no?"
+  },
+  {
+   "speaker": "Helen",
+   "start": "23:26",
+   "text": "Yeah, what about the scroll wheel and speech recognition?"
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "23:29",
+   "text": "Speech recognition, I think, so we need a microphone, presumably. I could put the microphone here. Where should... I mean, are we sure that scroll wheel does give ease of use?"
+  },
+  {
+   "speaker": "Helen",
+   "start": "23:46",
+   "text": "Yeah, I'm not sure. I mean, those ideas I saw were just for inspiration, I think. Yeah, I'm not sure."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "23:57",
+   "text": "Okay, we'll do some user tests with the scroll wheel. And I think if this new software for the sound recognition is there, keep in the microphone. So should the microphone be just anywhere on it, or..."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "24:09",
+   "text": "I would put it sort of sub-centrally, so it's, yeah."
+  },
+  {
+   "speaker": "Helen",
+   "start": "24:15",
+   "text": "Yeah, there's the microphone."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "24:16",
+   "text": "So it can be sort of held and... You're really going to need to hold it if it's going to be voice recognition."
+  },
+  {
+   "speaker": "Helen",
+   "start": "24:37",
+   "text": "So let me not use the whiteboard anymore!"
+  },
+  {
+   "speaker": "Helen",
+   "start": "24:49",
+   "text": "And so what else was there? What about the glow-in-the-dark thing, the strip around it? Are we just going to leave that?"
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "24:59",
+   "text": "I still like it, but that's me."
+  },
+  {
+   "speaker": "Helen",
+   "start": "25:03",
+   "text": "Because we've got the technological innovation with the speech recognition..."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "25:08",
+   "text": "Yeah, so maybe it's just going a bit too far. I mean, we are pushing it probably with funny fruit shapes. Don't want to over-clutter, especially with yellow. I don't know. Because how good is the speech recognition thing? Do we want to go for buttons at all? Do we want to just have a device that maybe sits and pretends it's a fruit..."
+  },
+  {
+   "speaker": "Helen",
+   "start": "25:32",
+   "text": "That you put in the fruit bowl!"
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "25:34",
+   "text": "Yeah, you know, and then you just talk. I mean, everybody's got a fruit bowl in front of their telly!"
+  },
+  {
+   "speaker": "Helen",
+   "start": "25:42",
+   "text": "It could even encourage healthier habits for television watchers!"
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "25:47",
+   "text": "Make them think of fruit, yeah. Just make sure they don't eat the remote! Think of a fruit that could sit sort of independently on its own, like an apple. Yellow apples..."
+  },
+  {
+   "speaker": "Helen",
+   "start": "26:05",
+   "text": "I quite like the design of that, because that could sit on its own and..."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "26:11",
+   "text": "Yeah, got quite a sturdy base."
+  },
+  {
+   "speaker": "Helen",
+   "start": "26:14",
+   "text": "And as we say, we don't want to be too ridiculous with the fruit things..."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "26:21",
+   "text": "Yeah, about the speech thing, it doesn't have to be handheld or close, it can sit at a distance, yeah. So you could actually..."
+  },
+  {
+   "speaker": "Raj",
+   "start": "26:30",
+   "text": "Or we can do one thing. We can just have a remote control and casings of different shapes, different fruit shapes, in such a way that any casing could be fit into this general piece. So whatever people want, like if somebody wants it in banana shape, we will put that casing onto that mobile phone, okay? It will look like... and yeah, in that way..."
+  },
+  {
+   "speaker": "Helen",
+   "start": "26:57",
+   "text": "You said about disposable, people want disposable things, so..."
+  },
+  {
+   "speaker": "Raj",
+   "start": "27:03",
+   "text": "We will design casing in such a way like half of... we need not to have a full cover, we will just have a half cover, okay? If somebody wants it in banana shape, we will fit banana shape casing onto that. So it will give a banana shape look. If somebody wants it in apple shape, we will design that, we will put apple shape casing on that. It will give an apple shape look. So in that way, you can have any... whatever you want."
+  },
+  {
+   "speaker": "Helen",
+   "start": "27:34",
+   "text": "But you'd need the buttons in the same place."
+  },
+  {
+   "speaker": "Raj",
+   "start": "27:36",
+   "text": "Yeah, buttons will be on the upper side. Buttons will be on the upper side."
+  },
+  {
+   "speaker": "Helen",
+   "start": "27:41",
+   "text": "Ah, that's the other side."
+  },
+  {
+   "speaker": "Raj",
+   "start": "27:42",
+   "text": "Buttons will be on the upper side, lower side we will just put the casing. So half of that will look like..."
+  },
+  {
+   "speaker": "Helen",
+   "start": "27:48",
+   "text": "A half a fruit!"
+  },
+  {
+   "speaker": "Raj",
+   "start": "27:49",
+   "text": "Yeah, not the upper side. So from lower you can... while you are holding from this side, you can have banana look or apple look, whatever. So in that way, we need not to have different shape mobiles, everything. We will just design casings."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "28:05",
+   "text": "I think if you're going to have a fascia, then you'd want to have it so that it does go over the buttons. Because if they're wanting it because they want to look at it, if they're using it, and what they want to look at is facing away from them, it doesn't really... because that'd be in the palm of their hand, they wouldn't be able to see it. Unless you've got the buttons option on one side, and you've got the fascia on the other side with the microphone, so that you can place it face down and you've got the fascia, and you can just talk at it."
+  },
+  {
+   "speaker": "Helen",
+   "start": "28:40",
+   "text": "Okay."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "28:43",
+   "text": "So you've narrowed it down to half a dozen options!"
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "28:51",
+   "text": "So I guess we decide on the material, right? So that spongy latex rubber..."
+  },
+  {
+   "speaker": "Helen",
+   "start": "28:57",
+   "text": "Yeah."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "28:58",
+   "text": "And the colors we got down..."
+  },
+  {
+   "speaker": "Helen",
+   "start": "29:00",
+   "text": "Yeah. Shape, maybe we'll just make it kind of mix and match type of shape, or..."
+  },
+  {
+   "speaker": "Helen",
+   "start": "29:05",
+   "text": "Well, because... I'm not sure if we should go so far in the whole fruit thing, because I think we should maybe just take the inspiration from the fruit..."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "29:13",
+   "text": "Okay, so we stick with what we've got there?"
+  },
+  {
+   "speaker": "Helen",
+   "start": "29:15",
+   "text": "Yeah, I think we're trying to get 25 to 35-year-olds to want it, quite trendy as well, they said they wanted something that looks fancy. And I think maybe fruit could be a bit too much of a gimmick, but something ergonomically shaped and organic, like good to hold, based on fruit, natural things like that, because already we're going a bit gaudy with the yellow, you know."
+  },
+  {
+   "speaker": "Helen",
+   "start": "29:41",
+   "text": "I mean, we could make it a nice pale yellow."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "29:43",
+   "text": "Well, it's kind of got to be our company yellow."
+  },
+  {
+   "speaker": "Helen",
+   "start": "29:46",
+   "text": "Okay."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "29:48",
+   "text": "So again, we could quite easily have the main body be a different..."
+  },
+  {
+   "speaker": "Helen",
+   "start": "29:53",
+   "text": "Yeah, maybe we could have that pale yellow and then an outside bit bright yellow with, as you said, the slogan going round."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "30:00",
+   "text": "Yeah. Not necessarily that the whole body has to be of the company color, so blue and yellow tend to go well together, so you have the main body blue with the yellow logo and slogan running up one side of it."
+  },
+  {
+   "speaker": "Helen",
+   "start": "30:21",
+   "text": "Yeah."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "30:24",
+   "text": "As for the energy source, almost every remote control uses just batteries, but we don't have to be limited by that. We can use a hand dynamo."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "30:37",
+   "text": "I think it's basically the more you move it, it's got a wee thing inside that just kind of powers it. Like those watches..."
+  },
+  {
+   "speaker": "Helen",
+   "start": "30:45",
+   "text": "So it's not the idea of shaking it, people really want to grab and shake it if it's not working!"
+  },
+  {
+   "speaker": "Helen",
+   "start": "30:52",
+   "text": "Yeah, like with those watches that you twist, yeah."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "30:55",
+   "text": "If it's not working, you shake it."
+  },
+  {
+   "speaker": "Raj",
+   "start": "30:57",
+   "text": "Do you think that it will be a good idea to use dynamo, these type of cells? Because then people have to..."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "31:07",
+   "text": "It does leave an obligation to, especially if they want to use it specifically as voice activated. Because most of the time they'd have to pick it up and then activate it and then..."
+  },
+  {
+   "speaker": "Helen",
+   "start": "31:19",
+   "text": "Yeah."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "31:20",
+   "text": "Right. What are the other options?"
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "31:23",
+   "text": "There's solar power."
+  },
+  {
+   "speaker": "Raj",
+   "start": "31:25",
+   "text": "Solar power will also not be a good idea because then they have to keep their remotes outside in solar energy, and the days when there is no sunlight... But I think rechargeable battery will be a good idea. They can recharge it."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "31:45",
+   "text": "The idea that I thought, just on the basis of ridding them of batteries and that kind of bother, having a rechargeable stand, so that not only it doubles as a stand for recharging it, but also for using it as sound recognition."
+  },
+  {
+   "speaker": "Helen",
+   "start": "32:07",
+   "text": "Like one of those portable phones."
+  },
+  {
+   "speaker": "Raj",
+   "start": "32:10",
+   "text": "Yeah, exactly."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "32:13",
+   "text": "So, a rechargeable battery."
+  },
+  {
+   "speaker": "Helen",
+   "start": "32:15",
+   "text": "Yeah."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "32:17",
+   "text": "The user interface, the buttons, I guess we talked about this already. Pretty much, what's chip on print?"
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "32:28",
+   "text": "The electronics, basically the more features we add, the fancier chips we need to buy and put in, which adds to the cost, as we can expect."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "32:47",
+   "text": "But I think we can keep it all under budget. So, the speech thing you said, our research and development department came up with some breakthrough."
+  },
+  {
+   "speaker": "Helen",
+   "start": "33:00",
+   "text": "Just in time."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "33:01",
+   "text": "Yeah. And if we're just having buttons and the speech, then we're getting our cheapest option of chipping. Right, right. That's good. Okay, we're kind of... I've just deleted that whole thing."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "33:18",
+   "text": "We're kind of running out of time, so if you could..."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "33:29",
+   "text": "Was that you... that was your bits covered. I've just accidentally deleted what I was supposed to say next."
+  },
+  {
+   "speaker": "Helen",
+   "start": "33:38",
+   "text": "Excuse me."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "33:40",
+   "text": "Yeah."
+  },
+  {
+   "speaker": "Helen",
+   "start": "33:41",
+   "text": "Yeah, mine seems to have turned off."
+  },
+  {
+   "speaker": "Raj",
+   "start": "33:43",
+   "text": "Who's that touchpad, yeah?"
+  },
+  {
+   "speaker": "Helen",
+   "start": "33:45",
+   "text": "It's actually shut down. It's on, but there's nothing..."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "33:51",
+   "text": "Okay, now, our next meeting is in half an hour. And what I would like you guys to do is work on giving me a model in clay."
+  },
+  {
+   "speaker": "Helen",
+   "start": "34:08",
+   "text": "I get to do it too! Cool!"
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "34:11",
+   "text": "Yeah, you two guys. So, luckily we chose a nice simple shape! And further instructions will be sent by your personal coaches."
+  },
+  {
+   "speaker": "Helen",
+   "start": "34:23",
+   "text": "Okay. That's great."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "34:25",
+   "text": "Save everything to the shared documents, is that right?"
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "34:27",
+   "text": "Yeah, I hope I can recover this because I've accidentally deleted it."
+  },
+  {
+   "speaker": "Helen",
+   "start": "34:32",
+   "text": "I think I've saved mine already."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "34:36",
+   "text": "Yeah, can you save that... send that last one again please, Raj, as I still can't find it on the..."
+  },
+  {
+   "speaker": "Raj",
+   "start": "34:41",
+   "text": "Ah, it was under a different name. I will show you in shared documents."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "34:46",
+   "text": "Okay."
+  },
+  {
+   "speaker": "Raj",
+   "start": "34:48",
+   "text": "Working components, method of... You didn't get that?"
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "34:54",
+   "text": "No."
+  },
+  {
+   "speaker": "Raj",
+   "start": "34:55",
+   "text": "I will send you. Okay, I will put it in shared documents again."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "35:00",
+   "text": "Yeah, project... project documents."
+  },
+  {
+   "speaker": "Raj",
+   "start": "35:01",
+   "text": "Project document, sorry. I put it in the shared documents."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "35:05",
+   "text": "Ah right, that goes there automatically if you put it in project documents. Project documents is on the desktop."
+  },
+  {
+   "speaker": "Raj",
+   "start": "35:13",
+   "text": "Right, that's great. But I can't open that because it asks for some username or password."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "35:21",
+   "text": "Really?"
+  },
+  {
+   "speaker": "Raj",
+   "start": "35:22",
+   "text": "Yeah, I will show you."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "35:32",
+   "text": "Is that Paul Mike's trouble? Oh right, I think... hold on, sorry. Yeah, it just came up on my agenda."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "35:48",
+   "text": "Presumably there's clay somewhere."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "36:01",
+   "text": "Light, light please, light. Right, there you go. Thank you. Yeah, quite. We're using the sort of basic chipset, so..."
+  },
+  {
+   "speaker": "Helen",
+   "start": "36:15",
+   "text": "Are we done with the meeting?"
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "36:18",
+   "text": "I think we're almost done, yeah."
+  },
+  {
+   "speaker": "Raj",
+   "start": "36:19",
+   "text": "Excuse me, but I have to keep your pen separate because I used your pen."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "36:23",
+   "text": "Oh, oops. Sorry."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "36:25",
+   "text": "Okay, still didn't manage to get down all the last bits, so we had rechargeable and apples..."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "36:42",
+   "text": "Okay, so we came up with that. That's okay. What's supplements? Supplements... See? Cool."
+  },
+  {
+   "speaker": "Helen",
+   "start": "37:00",
+   "text": "Fun."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "37:03",
+   "text": "See, I knew that. I should have engineered it so we ended up making a difficult shape! Just for cruelty!"
+  },
+  {
+   "speaker": "Helen",
+   "start": "37:14",
+   "text": "Star fruit!"
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "37:17",
+   "text": "How's anyone going to make it, literally make it, like buttons and everything?"
+  },
+  {
+   "speaker": "Helen",
+   "start": "37:21",
+   "text": "Oh yeah, we can do buttons."
+  },
+  {
+   "speaker": "Raj",
+   "start": "37:24",
+   "text": "When are we going to discuss something?"
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "37:28",
+   "text": "No, I think that's our discussion over, unless anybody's got questions or confusions, because I'm confused!"
+  },
+  {
+   "speaker": "Helen",
+   "start": "37:38",
+   "text": "Okay."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "37:41",
+   "text": "Well, we'll probably get a question here in a minute. It's..."
+  },
+  {
+   "speaker": "Raj",
+   "start": "37:48",
+   "text": "Sorry. Thank you. Yeah."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "37:52",
+   "text": "There we go. Warning, finish meeting now. So, rounded it up far too fast! Where are we going? My documents... that's not what I want. My project documents... There we go."
+  }
+ ],
+ "seconds": 152.39363439998124,
+ "model": "gemini-3.5-flash"
+}

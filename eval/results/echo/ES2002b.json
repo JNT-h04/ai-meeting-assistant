@@ -1,0 +1,1326 @@
+{
+ "minutes": {
+  "title": "Meeting Recap",
+  "summary": "The meeting reviewed functional design requirements, discussed control types and features, decided on target market, and assigned tasks. Next steps include finalizing designs and preparing marketing materials.",
+  "topics": [
+   "functional design requirements",
+   "control types",
+   "target market",
+   "tasks assignment"
+  ],
+  "decisions": [
+   "The product will aim at the 15 to 35 bracket",
+   "Include new features apart from the most basic stuff possible.",
+   "We'll use David's proposal of three categories: audio control, video control, and device functions"
+  ],
+  "decisions_at": [
+   "31:04",
+   "31:20",
+   "33:58"
+  ],
+  "actions": [
+   {
+    "task": "Recap previous meeting and discuss functional design requirements",
+    "owner": "Person_1",
+    "due": "not stated"
+   },
+   {
+    "task": "Discuss technical function design",
+    "owner": "Craig",
+    "due": "not stated"
+   },
+   {
+    "task": "Present designs and features together.",
+    "owner": "unassigned",
+    "due": "Not specified"
+   },
+   {
+    "task": "Recap on aiming the product at the 15 to 35 bracket and actual functions",
+    "owner": "Person_1",
+    "due": "not stated"
+   },
+   {
+    "task": "Pull minutes into project documents folder",
+    "owner": "Person_1",
+    "due": "Not stated"
+   }
+  ],
+  "actions_at": [
+   "03:37",
+   "04:18",
+   "22:46",
+   "31:04",
+   "32:46"
+  ],
+  "open_questions": [],
+  "method": "extract-verify",
+  "sections": 5,
+  "dropped_unverified": 7,
+  "transcript": [
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "00:06",
+    "start_s": 6.64,
+    "end_s": 17.6,
+    "text": "Oh, yes, I forgot about that. Is that all right now? OK."
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_03",
+    "start": "00:17",
+    "start_s": 17.76,
+    "end_s": 21.34,
+    "text": "That's cool. Someone turned these on. Sorry? Did someone turn these on? Great."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "00:23",
+    "start_s": 23.1,
+    "end_s": 158.13,
+    "text": "OK, everybody. All set to start the meeting. OK, we've got half an hour for this one. To discuss the functional design. OK. All ready to go? OK. OK. So hopefully, if I've been working away, and I've put the minutes of the last meeting in the project folder and so I guess just to recap on what we did last time. I got to know each other a little bit and I got familiar with all the equipment and started to discuss a bit about the project you know cost -wise how much how much money we had. Just want to tell you that we have three new requirements, which is the first one, is that the companies decided that tele -text is outdated because of how popular the internet is. Nobody uses tele -text very much anymore, so we don't really need to consider that in the functionality of the remote control. They've also suggested that we only use the remote control to control the television, not the VCR or DVD or anything else. I think the worry is that if the project becomes too complex then it will affect how long it takes us to get it into production, the time to market. So we're just going to keep it simple and it will just control the TV. And the other thing was that the company want the corporate colour and slogan to be implemented in the new design. I'm not entirely sure what the corporate colour is it might be yellow because there seems to be a lot of yellow everywhere and"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_03",
+    "start": "02:38",
+    "start_s": 158.13,
+    "end_s": 162.83,
+    "text": "the slogan like the actual written slogan or just to embody the idea of the slogan"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "02:42",
+    "start_s": 162.83,
+    "end_s": 171.09,
+    "text": "well that's the thing I'm not sure because on the company website what does it say"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_03",
+    "start": "02:51",
+    "start_s": 171.09,
+    "end_s": 173.69,
+    "text": "that's putting the fashion in electronics"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "02:53",
+    "start_s": 173.69,
+    "end_s": 211.68,
+    "text": "yeah I mean do they it's that something they want actually written on it because it's quite long and or yeah just the idea that I'm not sure so that's something we can discuss as as well. So these are the three things, just not to worry about teletext, only control the TV and incorporate the colour and slogan of the company. So is everybody okay with any of that, or do you want me to recap at all? That, time for presentations then, who You would like to go first? Okay cool."
+   },
+   {
+    "speaker": "Craig",
+    "label": "SPEAKER_04",
+    "start": "03:37",
+    "start_s": 217.64,
+    "end_s": 219.48,
+    "text": "Can I steal this from the back of your laptop?"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "03:39",
+    "start_s": 219.88,
+    "end_s": 222.02,
+    "text": "Oh yeah of course. Go on ahead."
+   },
+   {
+    "speaker": "Craig",
+    "label": "SPEAKER_04",
+    "start": "04:18",
+    "start_s": 258.48,
+    "end_s": 386.01,
+    "text": "So this is the technical function design. To do the design I have I've had a look online, I've had a look at the homepage which has given us some inspiration from previous products. I've had a look at the previous products to see what they offer and I would like to ask you guys for your ideas about the design at the end of the meeting. Unfortunately, we're not allowed to talk outside the meeting. Having a look at the existing products, I found out that attempts to come in sort of two extremes. There's either a very complicated one that's got lots of buttons, lots of colours, very confusing. You don't know what you're doing. In that case, the labeling tends to be very bad. There's an example I'll show you at the end. I'm not sure if you had a look at the other control in that example, it's a very simple one, it's got only the basic functions, but the same size as the hard to use one, it could bit clunky. They're very big and not very much used for active buttons. And it's very hard to access advanced functions. There's nothing, for instance, for a slow motion button. My own preferences, I prefer the clunky one. It's very easy to use, but unfortunately it does lack the advanced functions, which I quite like having on the controls. So I believe that the advanced functions should maybe be hidden in a drawer or something and I actually pulled it out from the bottom of it. Now that's for your preferences, and I'm not sure how long we'll go."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "06:28",
+    "start_s": 388.39,
+    "end_s": 393.31,
+    "text": "We can chat away for five minutes or so, I think, at most, just a couple of minutes anyway."
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_03",
+    "start": "06:34",
+    "start_s": 394.17,
+    "end_s": 420.75,
+    "text": "Yeah, like a lot of what I've read and prepared for this meeting fits in really closely with what Craig's just gone over. So in part, I could give you some of my personal preferences, but I could also add some to this, which is just about sort of market research, but anyway. So we'll stick to kind of your area. The one on the left. The one on the right. And clunky in what sense, like heavier or larger?"
+   },
+   {
+    "speaker": "Craig",
+    "label": "SPEAKER_04",
+    "start": "07:01",
+    "start_s": 421.17,
+    "end_s": 427.45,
+    "text": "I think it's supposed to be the same size, but it's got much fewer buttons. It's more spread out at"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_03",
+    "start": "07:07",
+    "start_s": 427.45,
+    "end_s": 427.45,
+    "text": "a"
+   },
+   {
+    "speaker": "Craig",
+    "label": "SPEAKER_04",
+    "start": "07:07",
+    "start_s": 427.45,
+    "end_s": 433.57,
+    "text": "basic level. Yeah. Right, okay. You get an idea about this size. Yeah. It's got a better few buttons on it. Sure."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "07:13",
+    "start_s": 433.99,
+    "end_s": 458.63,
+    "text": "Well, I think that's a valid point. I mean like the one on the left looks quite complicated and that PRG thing is incredibly confusing. So I see why you might prefer the simpler design but yeah you don't want to lose out on what it does so maybe you know you get a lot of remote controls where you kind of flip the thing open and that's a good idea. Do"
+   },
+   {
+    "speaker": "Craig",
+    "label": "SPEAKER_04",
+    "start": "07:40",
+    "start_s": 460.74,
+    "end_s": 470.62,
+    "text": "we have any functions we'd want on it? So far I've got on and off, so it's the channel up and down and the volume up and down. They're just the very basic security for TV."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "07:51",
+    "start_s": 471.34,
+    "end_s": 474.32,
+    "text": "And then actual numbers for channels as well, yeah."
+   },
+   {
+    "speaker": "Craig",
+    "label": "SPEAKER_04",
+    "start": "07:55",
+    "start_s": 475.16,
+    "end_s": 481.42,
+    "text": "You see that's a required one or a requested one. Which was that? The channels, like the numbers. The"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_03",
+    "start": "08:01",
+    "start_s": 481.42,
+    "end_s": 482.84,
+    "text": "numbers are the up and down."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "08:02",
+    "start_s": 482.86,
+    "end_s": 506.56,
+    "text": "I would say that's required. There's no way anybody's going to buy a remote control these days if she can't actually individually select channels. Would anybody disagree with that? what else? So don't need to worry about tele -text, don't need to worry about VCR. Any kind of like display controls at all do you think we need to worry about?"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_03",
+    "start": "08:26",
+    "start_s": 506.7,
+    "end_s": 506.7,
+    "text": "You"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "08:26",
+    "start_s": 506.7,
+    "end_s": 508.2,
+    "text": "know like brightness and contrast? Well I"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_03",
+    "start": "08:28",
+    "start_s": 508.2,
+    "end_s": 525.74,
+    "text": "think essentially what we're doing right now is we're categorizing, we're saying well we want this to be a product that offers all the sort of more tricky features but we want them to be in another area? Is that right? Or are we actually eliminating things we just don't want the product to have."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "08:46",
+    "start_s": 526.3,
+    "end_s": 530.3,
+    "text": "I think are you are you maybe kind of thinking what we absolutely have to have and what would be nice?"
+   },
+   {
+    "speaker": "Craig",
+    "label": "SPEAKER_04",
+    "start": "08:50",
+    "start_s": 530.58,
+    "end_s": 536.92,
+    "text": "To start with, I'm sure I bet both. We need to find out exactly what we have to have. Not that we can add things if they're possible."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "08:57",
+    "start_s": 537.5,
+    "end_s": 550.42,
+    "text": "Okay, right. Well, do you want to maybe just at this point decide on what we absolutely must have as a function of this. So far, just to recap, we've got volume and channel control. Volume"
+   },
+   {
+    "speaker": "Craig",
+    "label": "SPEAKER_04",
+    "start": "09:10",
+    "start_s": 550.42,
+    "end_s": 552.86,
+    "text": "and channel and skipped certain channels with the numbers."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "09:13",
+    "start_s": 553.28,
+    "end_s": 553.86,
+    "text": "Right, okay."
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_03",
+    "start": "09:19",
+    "start_s": 559.61,
+    "end_s": 617.03,
+    "text": "Well, one way I would look at this would be that we approach the different controls in terms of, like, control types so that for the user it's very clear what they want to do, where they go. and also think maybe a little bit about what we just want to be easily accessible. For example, if we had audio controls, those could be something people set up very rarely. Maybe they're in a little area but covered up. Things like channel and volume are used all the time so we just have them right out on top very just very sort of self -explanatory so maybe we need to think about having three or more groupings of controls you know like one which are just the habitual ones that should be right within your natural grip and others that are also available and then others that are concealed okay"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "10:17",
+    "start_s": 617.03,
+    "end_s": 649.47,
+    "text": "and we're just to wrap up quickly on this little section do you think maybe that's the only kind of essential requirement and there may be just things that would be nice if it could do would be things like audio set up and display set up and things like that maybe like a mute button that sort of thing any of the incident at all okay right okay if we can move on to next presentation then please."
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_03",
+    "start": "10:52",
+    "start_s": 652.31,
+    "end_s": 655.53,
+    "text": "Can this reach? Can this plug come across?"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "10:55",
+    "start_s": 655.77,
+    "end_s": 658.67,
+    "text": "Probably not, actually. So"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_03",
+    "start": "10:58",
+    "start_s": 658.67,
+    "end_s": 682.43,
+    "text": "why don't I just pick up and... Can you go behind me?"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "11:26",
+    "start_s": 686.28,
+    "end_s": 686.76,
+    "text": "I'm"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_03",
+    "start": "11:26",
+    "start_s": 686.76,
+    "end_s": 687.0,
+    "text": "all in"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "11:27",
+    "start_s": 687.0,
+    "end_s": 687.0,
+    "text": "and out."
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_03",
+    "start": "11:27",
+    "start_s": 687.0,
+    "end_s": 687.12,
+    "text": "It would"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "11:27",
+    "start_s": 687.12,
+    "end_s": 687.12,
+    "text": "be"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_03",
+    "start": "11:27",
+    "start_s": 687.12,
+    "end_s": 687.72,
+    "text": "nice if everything"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "11:27",
+    "start_s": 687.72,
+    "end_s": 688.84,
+    "text": "was wireless, isn't it?"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_03",
+    "start": "11:29",
+    "start_s": 689.66,
+    "end_s": 739.27,
+    "text": "Okay, so I can say already, I don't know whether this is for good or for bad, but there'll be a lot of kind of redundancy in the issues and like overlap between what you said not necessarily a bad thing but maybe what I've already started doing is I created a slide and in my presentation here so so that we kind of think well what's the cumulative effect of what we've taken from your ideas and mine because certainly I have a hard time separating separating things completely obviously what you just told me where you've that that I've been so how do I how do"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "12:19",
+    "start_s": 739.27,
+    "end_s": 739.27,
+    "text": "I"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_03",
+    "start": "12:19",
+    "start_s": 739.27,
+    "end_s": 739.65,
+    "text": "get this up"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "12:19",
+    "start_s": 739.65,
+    "end_s": 743.59,
+    "text": "okay"
+   },
+   {
+    "speaker": "Craig",
+    "label": "SPEAKER_04",
+    "start": "12:45",
+    "start_s": 765.74,
+    "end_s": 781.36,
+    "text": "just"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_03",
+    "start": "13:02",
+    "start_s": 782.73,
+    "end_s": 799.59,
+    "text": "before I bring this up what I'll just say is what I've what I've done is try to collect some information so that I can then relay this to you guys so that it now becomes a collective thing and then kind of lead us in the direction of deciding, okay, what are our options, what should we decide? And do you know what I mean? So,"
+   },
+   {
+    "speaker": "Person_3",
+    "label": "SPEAKER_02",
+    "start": "13:25",
+    "start_s": 805.28,
+    "end_s": 809.22,
+    "text": "okay, okay,"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_03",
+    "start": "13:34",
+    "start_s": 814.83,
+    "end_s": 962.42,
+    "text": "okay, okay. So that makes sense. So what I basically got is I just looked into some information and sort of tried to think about how we could review it and what kind of decisions we could take away from it and then maybe by the end of just looking at some of these things we can think about what are our priorities because certainly there's lots of different information to go through. So I'm thinking here about primarily about customer needs that we start with the customer and you know what they want and what are issues with existing products. I think about trends and also about trying to connect that as you see with the company vision which about fashion and electronics. And then, as I say, we'd like to prioritize our design features from this. Okay. So this is what I've found here. A lot of this is new to me, so we'll just read two together. Users dislike the look and feel of current remote controls. So they find them ugly. Most people find them ugly. The vast majority would spend more money for it to look fancy as well. We'll see later. The vast majority of people would spend more money for slightly more intuitive controls such as voice recognition. Okay, I'm going to look at that in a second. Most people use only a very slim portion of all the controls. So I guess what we're looking at here is people want this technology. They tend to use the most simple controls and overall they find remote controls to be something they don't, doesn't really appeal to them. So I think what we're doing is we're trying to take like, for me this is sort of like three different inspirations. You know, one is that we want something that's high -tech but we want it to seem easy. And in spite of the primitive side of it and the very high -tech side, we want it to just be an appealing piece of equipment in people's hands. Frustrations, they get lost a lot as it came up in our last meeting. It takes time to learn how to use them. This is why I mentioned when Craig was showing us some ideas that we actually try and group control. So it doesn't just look like a big panel, kind of like when you look at a new computer keyboard or something, that it's quite explanatory if you want audio, if you want visual, and you have those. And I will admit, I don't know what RSI stands for. We've"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "16:02",
+    "start_s": 962.42,
+    "end_s": 963.34,
+    "text": "had a strand injury."
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_00",
+    "start": "16:04",
+    "start_s": 964.88,
+    "end_s": 967.3,
+    "text": "Is installing a new remote control something that people?"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_03",
+    "start": "16:08",
+    "start_s": 968.16,
+    "end_s": 1023.26,
+    "text": "No. that did not come up at all. So here's another review here of the main things. I also found that most people, adults at least, would pay more for voice recognition. Now, apparently, we do have access to all the cutting edge technology and remote control. So I don't know if that's possible. We might consider getting into it. And, and again here as we sort of move sort of things, start thinking about how we want to sell and market this. I think a recurring theme here is the company wants it to be, wants us to make something that's fashionable and sleek and trendy. People additionally aren't, aren't liking the appearance of their products. So we want to think about as we take all the sort of the techie features, how we can put that into a unit which is which people like you know they like the aesthetics and the ergonomics."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "17:03",
+    "start_s": 1023.56,
+    "end_s": 1028.6,
+    "text": "So once in a year it looks good and it's easy to use. Yeah priorities. Yeah so"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_03",
+    "start": "17:08",
+    "start_s": 1028.6,
+    "end_s": 1060.88,
+    "text": "you know just looking at what what Craig Craig's ideas there sort of tell me that maybe what we want to do is try and separate the different things that we want to include in this. If we do say well we want there to be all the technology but we try and make that almost be like optional technology you know it's like I find a lot of TVs these days something really nice about them is if you want to just turn them on and off you can but they have little panels where you click and there's just like tons of features. So you want to"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "17:40",
+    "start_s": 1060.88,
+    "end_s": 1066.52,
+    "text": "grip all the different kind of types of functions together you know that's a good idea."
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_03",
+    "start": "17:47",
+    "start_s": 1067.86,
+    "end_s": 1092.52,
+    "text": "That's sort of but I my hope here is that I'm putting out this information so we can then say okay well how do we collectively move on with it. I haven't brought out one specific marketing idea, although my sense is that what we should try and think about is what are the current trends in materials and shapes and styles, and then use that, but not let that confine us technologically."
+   },
+   {
+    "speaker": "Person_3",
+    "label": "SPEAKER_02",
+    "start": "18:13",
+    "start_s": 1093.1,
+    "end_s": 1094.86,
+    "text": "Okay, right."
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_03",
+    "start": "18:15",
+    "start_s": 1095.38,
+    "end_s": 1098.78,
+    "text": "All right, any comments on all of that?"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "18:19",
+    "start_s": 1099.9,
+    "end_s": 1119.38,
+    "text": "Well, one of the things that we have to decide on by the end of the meeting is who we're gonna be, who's our target audience, our target market. So if we want something that looks good and is easy to use but has, is fairly powerful product or whatever, who do we really want to aim that at?"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_03",
+    "start": "18:40",
+    "start_s": 1120.84,
+    "end_s": 1121.64,
+    "text": "Where's the money?"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "18:42",
+    "start_s": 1122.7,
+    "end_s": 1142.2,
+    "text": "Yeah, who would have the money to spend well if like 25 euro is our selling price and you can imagine, well I'm not really sure how much retail at but you want it's somebody who's not going to just use their remote that comes with their tally I suppose they're gonna actually go out and buy one so who do you think we're aiming this at I"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_00",
+    "start": "19:04",
+    "start_s": 1144.02,
+    "end_s": 1168.32,
+    "text": "think you'll be the mid -range the high end market in terms of people because 25 euros for remote how much is that about 16 17 pounds I think is that too is that a lot of money to buy an extra a remote. Maybe not the high -end range, but maybe middle, middle, upish. How much? I don't know."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "19:28",
+    "start_s": 1168.46,
+    "end_s": 1168.46,
+    "text": "I"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_00",
+    "start": "19:28",
+    "start_s": 1168.46,
+    "end_s": 1169.6,
+    "text": "guess you'd be, like,"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "19:32",
+    "start_s": 1172.68,
+    "end_s": 1172.68,
+    "text": "a"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_00",
+    "start": "19:32",
+    "start_s": 1172.68,
+    "end_s": 1177.44,
+    "text": "simple replacement. I mean, if you've lost your remote and the first thing you just want to go up yet. This"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_03",
+    "start": "19:37",
+    "start_s": 1177.44,
+    "end_s": 1194.14,
+    "text": "kind of touches on your comments there, David. These are the age groups which we have information on. And these are, this is a table of what people would pay more for a certain feature just give us a rough idea of where the the will to spend money on TV equipment is mostly focused around the 25 age group"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "19:54",
+    "start_s": 1194.14,
+    "end_s": 1197.48,
+    "text": "yeah so do you think we're aiming at a fairly young market then"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_03",
+    "start": "19:57",
+    "start_s": 1197.48,
+    "end_s": 1200.56,
+    "text": "sort of young professional yeah"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "20:00",
+    "start_s": 1200.56,
+    "end_s": 1211.55,
+    "text": "okay and do you think then voice recognition is something we should really seriously consider what do you think Craig"
+   },
+   {
+    "speaker": "Craig",
+    "label": "SPEAKER_04",
+    "start": "20:11",
+    "start_s": 1211.55,
+    "end_s": 1217.85,
+    "text": "well you don't say it was the of the adults that were going for the work recognition. Oh yeah, that's it."
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_03",
+    "start": "20:19",
+    "start_s": 1219.57,
+    "end_s": 1223.99,
+    "text": "It does fit with the market that we're sort of identifying in terms of it."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "20:24",
+    "start_s": 1224.37,
+    "end_s": 1233.61,
+    "text": "I think we are going to have to narrow it down to say, let's target these people and give them what they want because there needs to be some kind of selling point to it."
+   },
+   {
+    "speaker": "Person_3",
+    "label": "SPEAKER_02",
+    "start": "20:34",
+    "start_s": 1234.25,
+    "end_s": 1234.25,
+    "text": "So"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "20:34",
+    "start_s": 1234.25,
+    "end_s": 1250.01,
+    "text": "anybody, anything to add, just kind of young professionals, like if we are going to include speech recognition it's kind of between 15 and 35 seems to be like a really high response to that. So we could say that was our target."
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_00",
+    "start": "20:50",
+    "start_s": 1250.21,
+    "end_s": 1257.51,
+    "text": "15 to 35 is fair to add that in a living room because that's more than half a group of people who are willing to at least try and use it."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "20:58",
+    "start_s": 1258.35,
+    "end_s": 1262.35,
+    "text": "Okay so 15 to 35 look fairly young you know they have"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_00",
+    "start": "21:02",
+    "start_s": 1262.35,
+    "end_s": 1262.35,
+    "text": "a"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "21:02",
+    "start_s": 1262.35,
+    "end_s": 1265.01,
+    "text": "bit of expandable income to spend on this sort of thing."
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_00",
+    "start": "21:05",
+    "start_s": 1265.13,
+    "end_s": 1294.91,
+    "text": "I think perhaps that each group is significant as well because those are people who use the computer who are familiar with computers in their everyday work. I think people who are maybe about, I wouldn't say 35, but people who are 40 or above now would not be so dependent and reliant on a computer or a mobile phone or something like that. These are people who are gadgety, right? People who are growing up used to, you know, in schools and in universities when they go on to their working lives. So they're not shy"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "21:34",
+    "start_s": 1294.91,
+    "end_s": 1308.45,
+    "text": "away from something quite high tech. that's that's that's a good point okay so so shall we make the decision to include speech recognition if we can if we can I think"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_00",
+    "start": "21:48",
+    "start_s": 1308.45,
+    "end_s": 1324.27,
+    "text": "one thing you should try not to avoid is not to say we have to use speech recognition right now okay why is that based on what you everybody saying that you want something simple you want basic stuff and you want something that's easy to do. Speech recognition might not be the simplest thing."
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_03",
+    "start": "22:05",
+    "start_s": 1325.21,
+    "end_s": 1330.39,
+    "text": "Could it be an on -off thing, like if you want it? We can activate it and deactivate it?"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_00",
+    "start": "22:10",
+    "start_s": 1330.45,
+    "end_s": 1337.55,
+    "text": "We're trying to lock ourselves into a particular kind of technology, rather than focusing on exactly what are the features that we're"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "22:17",
+    "start_s": 1337.55,
+    "end_s": 1337.55,
+    "text": "going"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_00",
+    "start": "22:17",
+    "start_s": 1337.55,
+    "end_s": 1353.43,
+    "text": "to say, speech recognition is good for this, speech recognition is not good for this. We think about speech recognition. It's something that can be used to fulfill a function, But at the end of the day, we don't look at the technology, but we get the function first. OK."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "22:34",
+    "start_s": 1354.31,
+    "end_s": 1362.29,
+    "text": "OK, well, do you want to give us your presentation? And then we can, it might have been a good idea to all deliver our presentations and then discuss,"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_03",
+    "start": "22:42",
+    "start_s": 1362.63,
+    "end_s": 1362.63,
+    "text": "but"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "22:42",
+    "start_s": 1362.63,
+    "end_s": 1363.45,
+    "text": "this is hybrid."
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_03",
+    "start": "22:43",
+    "start_s": 1363.83,
+    "end_s": 1365.97,
+    "text": "Good to get ideas out while they're fresh in mind."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "22:46",
+    "start_s": 1366.21,
+    "end_s": 1379.47,
+    "text": "Exactly, yeah. And suddenly, it's just occurred to me as well, is if we make it, if we incorporate speech recognition, that's appealing to people, maybe, with physical disability as well yeah"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_03",
+    "start": "22:59",
+    "start_s": 1379.47,
+    "end_s": 1396.59,
+    "text": "and not losing and also it helps in terms of people not losing this you know they're saying oh I lose it in the couch yeah it's like we're kind of what we're sort of getting into here is mating different design features together I"
+   },
+   {
+    "speaker": "Craig",
+    "label": "SPEAKER_04",
+    "start": "23:16",
+    "start_s": 1396.59,
+    "end_s": 1407.81,
+    "text": "can one problem of speech recognition is I've actually seen one of them used and the technology it was and that one wasn't particularly amazing. So you end up yelling in control for hours for our channel up. I really have seen one before. Do you think"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "23:27",
+    "start_s": 1407.81,
+    "end_s": 1413.65,
+    "text": "maybe we need further advances in that kind of area until it's worthwhile incorporating it? Thank you. It'll"
+   },
+   {
+    "speaker": "Craig",
+    "label": "SPEAKER_04",
+    "start": "23:33",
+    "start_s": 1413.65,
+    "end_s": 1415.25,
+    "text": "be quite expensive to end."
+   },
+   {
+    "speaker": "Person_3",
+    "label": "SPEAKER_02",
+    "start": "23:35",
+    "start_s": 1415.53,
+    "end_s": 1415.85,
+    "text": "Of course."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "23:37",
+    "start_s": 1417.37,
+    "end_s": 1417.77,
+    "text": "There"
+   },
+   {
+    "speaker": "Person_3",
+    "label": "SPEAKER_02",
+    "start": "23:37",
+    "start_s": 1417.77,
+    "end_s": 1418.13,
+    "text": "you go."
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_00",
+    "start": "23:41",
+    "start_s": 1421.15,
+    "end_s": 1445.67,
+    "text": "Nice. Well, this is just the working design. Well, this is just how I would go about it. I guess I try to define what we're doing now. trying to define what we're trying to get done. I think in a practical way, we kind of know what it is. We've used it, we're familiar with it, but we haven't narrowed down exactly what the things we're trying to fulfill. Designs the basics."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "24:05",
+    "start_s": 1445.99,
+    "end_s": 1445.99,
+    "text": "I"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_00",
+    "start": "24:05",
+    "start_s": 1445.99,
+    "end_s": 1579.72,
+    "text": "think in the back of our minds, we know what the basics are. It's a change channel, there's a change volume, but in specifics, which one of the basics are you trying to target? Are there certain parts of the basics that are more important or less important than the basics? And I just, the idea is just to get everybody to, I usually have a, have a design that's there as a basic. So, you know, things that, to start everything going. But I guess everybody does have some ideas or anything. Okay, this finding thing is a little bit confusing, so I'll go into the diagram first. It just explains how the process goes through from the basic technology point of view, the basic steps that you need in the diagram. And this slide probably works better. Okay, you need some power source, your battery or something to keep it going. And that power source is important because it ties you down to how long the device will last. It ties you down perhaps a bit later on in terms of technologies, how far you can transmit a signal or the complexity of the functions that you want. Like for example, voice recognition, right? That might be constrained because that you might need to power microphone, part of the thing, and that's one that's kind of straight in there. Okay, the basic thing is there's a user interface where people punch a button, or talk into it, or smile to it, or blink their eyes, whatever, you know, and that picks up an input from the user. A logic, a series of logic has to decide what the user is telling the device and the device has to, you know, based on you push button A, so I would do something with button A, so maybe button A is a power button. And then you need to be able to send the signal out to the device itself, which is the receiver here. And I think that's about it, in terms of my design. It's fairly general, and I guess the purpose of this is also not to restrict you in the way you're thinking, like voice recognition, right? if it's something which is important then we just add more power rather than having to think that we don't have enough power so it's not going to come straight in that sense."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "26:19",
+    "start_s": 1579.98,
+    "end_s": 1579.98,
+    "text": "But"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_00",
+    "start": "26:19",
+    "start_s": 1579.98,
+    "end_s": 1583.3,
+    "text": "these are functionally, you know, what"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "26:23",
+    "start_s": 1583.3,
+    "end_s": 1583.3,
+    "text": "the"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_00",
+    "start": "26:23",
+    "start_s": 1583.3,
+    "end_s": 1594.18,
+    "text": "logic has to do. So I guess the rest of it, I think we should, maybe you want to go back to what the functions are, I think that's more relevant to discussion."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "26:34",
+    "start_s": 1594.54,
+    "end_s": 1599.04,
+    "text": "Do you want to finish up your presentation? Are you all done?"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_00",
+    "start": "26:39",
+    "start_s": 1599.04,
+    "end_s": 1608.36,
+    "text": "being the rest of it into words, but it's essentially the same thing. You have a transmitter, and then you have a"
+   },
+   {
+    "speaker": "Person_3",
+    "label": "SPEAKER_02",
+    "start": "26:48",
+    "start_s": 1608.36,
+    "end_s": 1608.36,
+    "text": "logic"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_00",
+    "start": "26:48",
+    "start_s": 1608.36,
+    "end_s": 1608.66,
+    "text": "chip."
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_03",
+    "start": "26:53",
+    "start_s": 1613.08,
+    "end_s": 1622.84,
+    "text": "Since we're on the topic of the technology, are there any, like, what are our options? Is this the only way that we go about it?"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_00",
+    "start": "27:04",
+    "start_s": 1624.78,
+    "end_s": 1646.08,
+    "text": "These aren't technology options in that sense. This is just a basic principle. and basic components that I needed. For example, if you needed to add a voice recognition, then the user interface would be split, broken down into more components, with you have a microphone, the VR, stuff like that. Sister Sue"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "27:26",
+    "start_s": 1646.08,
+    "end_s": 1648.52,
+    "text": "is how we're kind of modularizing the whole thing, okay."
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_00",
+    "start": "27:28",
+    "start_s": 1648.8,
+    "end_s": 1684.28,
+    "text": "So each component represents one function. But I think the basic functions of the logic, the transmitter, and the receiver, and the power are things that you won't have to care about. And those are things that, based on what your user interface requires, then we'll add more functionality to it. There might be one other consideration which would be the transmission between the remote control and the TV, for example. Okay. Are we going to restrict ourselves to using the traditional technologies over the internet? Okay. Because that's something you need to actually be physically pointing to. Okay. Right."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "28:04",
+    "start_s": 1684.68,
+    "end_s": 1708.0,
+    "text": "Well, a worry that was expressed in the new requirements was that But if we made this too complex, it would affect how long it took us to get this to market. So I suspect it might be a good idea to restrict our creative influence on this on the user interface and not worry so much about how we transmit it because, I mean, it's tried and tested infrared. So there might be one"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_00",
+    "start": "28:28",
+    "start_s": 1708.0,
+    "end_s": 1729.68,
+    "text": "other problem with the transmission in particular right now since we're talking about voice recognition If somebody's gonna talk to the device you ideally want them to hold it to them You may not require that, but you know, it's something very natural I guess You know to hold it and signal to the user and push a button to start talking about it Then you need to send the signal out."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "28:49",
+    "start_s": 1729.94,
+    "end_s": 1729.94,
+    "text": "So"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_00",
+    "start": "28:49",
+    "start_s": 1729.94,
+    "end_s": 1744.72,
+    "text": "if you're using infrared the line of sight I'll say the TV's at that chair, and I'm standing in front of here, and the transmitter is here, and it blocks it. Okay. So in that sense, there's not really a restriction, but it's something that you may have to think about later on in the process. Okay."
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_03",
+    "start": "29:05",
+    "start_s": 1745.6,
+    "end_s": 1761.9,
+    "text": "And just to clarification before we finish this, is our controller, have the option of being on a standard frequency as all of the other equipment so that the one controller can control several pieces of equipment?"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_00",
+    "start": "29:21",
+    "start_s": 1761.9,
+    "end_s": 1770.8,
+    "text": "But I think that one indication of infrared means that you're just targeting traditional devices. Because infrared is something that everybody has. Well,"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "29:31",
+    "start_s": 1771.0,
+    "end_s": 1790.12,
+    "text": "we've, in the new requirements spec, they said just to focus on the TV. So that's what we should do for now, I think. Something I was wondering about was the power. Is it worth considering having like a charging unit as opposed to just regular batteries? I mean, is that something you really want to go into, do you think? Or should we just consider running on regular batteries?"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_00",
+    "start": "29:50",
+    "start_s": 1790.12,
+    "end_s": 1798.76,
+    "text": "From a component point of view, there's added complexity, and you add cost to it. And then there's probably the fact that you need another physical component."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "29:58",
+    "start_s": 1798.98,
+    "end_s": 1798.98,
+    "text": "You"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_00",
+    "start": "29:58",
+    "start_s": 1798.98,
+    "end_s": 1810.66,
+    "text": "need a docking cradle, for example. Put it into charge, or you need to get the user to plug it in. So most users are already used to the idea of buying batteries and putting it into the controller."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "30:10",
+    "start_s": 1810.88,
+    "end_s": 1810.88,
+    "text": "But"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_00",
+    "start": "30:10",
+    "start_s": 1810.88,
+    "end_s": 1820.74,
+    "text": "unless the controller's going to consume a lot of battery, it's going to run through batteries a month, then I don't think rechargeable is something Okay, so just"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "30:20",
+    "start_s": 1820.74,
+    "end_s": 1861.73,
+    "text": "stick to regular, okay. Right, so basically I'm just gonna just recap what I said at the start was that the whole point of this meeting was to absolutely finalize who we're gonna aim this at and what exactly the product's gonna do. So just to recap on are we all happy about the idea of aiming the product at the 15 to 35 bracket and also the actual functions of what it's going to do. Do you want to recap on that Craig?"
+   },
+   {
+    "speaker": "Craig",
+    "label": "SPEAKER_04",
+    "start": "31:04",
+    "start_s": 1864.05,
+    "end_s": 1872.67,
+    "text": "I think we used to say it was going to be the most basic stuff possible. On off, up and down channel, stuff and then volume and skip to a channel"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "31:12",
+    "start_s": 1872.67,
+    "end_s": 1874.71,
+    "text": "okay"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_03",
+    "start": "31:14",
+    "start_s": 1874.71,
+    "end_s": 1880.75,
+    "text": "is it going to include any of the more advanced features are we going to eliminate those"
+   },
+   {
+    "speaker": "Craig",
+    "label": "SPEAKER_04",
+    "start": "31:20",
+    "start_s": 1880.75,
+    "end_s": 1887.35,
+    "text": "I think we include new but apart from that okay"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_03",
+    "start": "31:27",
+    "start_s": 1887.35,
+    "end_s": 1895.11,
+    "text": "is it is it is it not an option still that we include some things just as a sort of under like sort of under a door yeah"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "31:35",
+    "start_s": 1895.11,
+    "end_s": 1897.63,
+    "text": "as optional functions what I"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_03",
+    "start": "31:37",
+    "start_s": 1897.63,
+    "end_s": 1915.15,
+    "text": "might be a bit worried about is if someone was had previously developed habits of expecting to control surround sound or this and that with their controller and then and then they you know they get ours and it doesn't have that. I don't know if that'd be a problem."
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_00",
+    "start": "31:56",
+    "start_s": 1916.29,
+    "end_s": 1966.03,
+    "text": "Another thing that you were saying about telegrazing the control, maybe I could suggest we break them down into three simple categories. One would be audio control, one would be video control. This may not map very well to advanced functionality especially, but I think that from a manufacturer point of view, a person designing the device, but I think from the point of view of a person using the device, a TV is something they see and something they hear, and it's something they do other things to turn it on and turn it off. So what we could have is like two buckets, right, where you could throw things into, like if you want this future experience in there, and then from there decide when it's basic or non -basic, how it might help with the visualization, and it would actually help with the component build as well. Okay, okay,"
+   },
+   {
+    "speaker": "Person_3",
+    "label": "SPEAKER_02",
+    "start": "32:46",
+    "start_s": 1966.03,
+    "end_s": 1966.73,
+    "text": "right"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "32:47",
+    "start_s": 1967.61,
+    "end_s": 2023.57,
+    "text": "Okay, well, I've got a kind of got five minutes to wrap up now and next thing we're doing is having lunch And then we're gonna have 30 minutes of working on the next stage So I'll be pulling the minutes of this This meeting into the project documents folder So I guess just to just to confirm that we know what we're doing in the next well in the 30 minutes after lunch anyway For our industrial designer you're going to be thinking about the components concept. User interface designer you're going to be thinking about our user interface. And marketing you're going to be thinking about trend watching. And you'll all get specific instructions as well. So I know just to ask now if you've got anything else you thought about while we've been talking and do you want to start with David, anything else to say at all? No?"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_03",
+    "start": "33:44",
+    "start_s": 2024.13,
+    "end_s": 2024.13,
+    "text": "Okay,"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "33:44",
+    "start_s": 2024.97,
+    "end_s": 2025.17,
+    "text": "Andrew?"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_03",
+    "start": "33:45",
+    "start_s": 2025.39,
+    "end_s": 2025.79,
+    "text": "Yeah, I"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "33:45",
+    "start_s": 2025.79,
+    "end_s": 2025.79,
+    "text": "just"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_03",
+    "start": "33:45",
+    "start_s": 2025.79,
+    "end_s": 2038.23,
+    "text": "wanted to ask then before we wrap up, should we agree for a sake of sort of clarity and when we resume that we'll use this idea, David's proposal, we think of these three sort of buckets Yeah, yeah,"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "33:58",
+    "start_s": 2038.23,
+    "end_s": 2038.23,
+    "text": "I"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_03",
+    "start": "33:58",
+    "start_s": 2038.23,
+    "end_s": 2043.51,
+    "text": "think that's definitely a good idea. Okay, we're talking about this. Should we do that now? Yeah. Okay,"
+   },
+   {
+    "speaker": "Craig",
+    "label": "SPEAKER_04",
+    "start": "34:03",
+    "start_s": 2043.79,
+    "end_s": 2048.35,
+    "text": "great. Just about the three buckets, what would go in the device functions one?"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_00",
+    "start": "34:08",
+    "start_s": 2048.87,
+    "end_s": 2085.31,
+    "text": "Things like on off, because they don't have anything to do with what you see. I mean in terms of picture and the entertainment value. In channel. Because the on off also goes on off like power, not on off sound. On off video, although you don't turn off some video on your TV. but you might want to turn off the sound so you want to pick up the phone with the mute button. You have a choice of putting it onto others or a device. A device is basically anything which we can't categorise. Okay, so"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "34:45",
+    "start_s": 2085.31,
+    "end_s": 2108.69,
+    "text": "you're going to have audio which is going to be like base settings and actual volume. Anything to do with what you hear. Okay. Put that into audio. Okay, and then visual. Anything that you can see. Okay. So brightness, contrast, things like that. And then just actual device things like what channel you're watching turning on and off stuff like that, okay I"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_03",
+    "start": "35:08",
+    "start_s": 2108.69,
+    "end_s": 2119.49,
+    "text": "suppose quite likely what would happen is in the device category There might be some which are just like the habitual standard and then others which are maybe a bit more like random Which yeah, no other place to put sure Okay"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_01",
+    "start": "35:35",
+    "start_s": 2135.15,
+    "end_s": 2157.15,
+    "text": "So yeah I guess just things to think about are you know like the fact it's got to look good because of who we're you know targeting this at and something maybe kind of quirky in design maybe make it kind of ergonomic kind of to hold you know things like that and so I guess I guess that's it right the meeting over now"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_03",
+    "start": "36:02",
+    "start_s": 2162.78,
+    "end_s": 2165.36,
+    "text": "we get to go find out what was picked up for lunch for us Yeah."
+   }
+  ]
+ },
+ "speakers": [
+  {
+   "label": "SPEAKER_01",
+   "display": "Person_1",
+   "name": "unknown",
+   "role": "unknown",
+   "evidence": "Oh, yes, I forgot about that. Is that all right now? OK.",
+   "verified": false,
+   "rejected": [
+    "role 'team leader' not stated by or to this speaker"
+   ],
+   "talk_seconds": 645.4
+  },
+  {
+   "label": "SPEAKER_03",
+   "display": "Person_2",
+   "name": "unknown",
+   "role": "unknown",
+   "evidence": "",
+   "verified": false,
+   "rejected": [],
+   "talk_seconds": 610.0
+  },
+  {
+   "label": "SPEAKER_00",
+   "display": "Person_4",
+   "name": "unknown",
+   "role": "unknown",
+   "evidence": "",
+   "verified": false,
+   "rejected": [],
+   "talk_seconds": 509.1
+  },
+  {
+   "label": "SPEAKER_04",
+   "display": "Craig",
+   "name": "Craig",
+   "role": "unknown",
+   "evidence": "can one problem of speech recognition is I've actually seen one of them used and the technology it was and that one wasn't particularly amazing.",
+   "verified": true,
+   "rejected": [],
+   "talk_seconds": 221.2
+  },
+  {
+   "label": "SPEAKER_02",
+   "display": "Person_3",
+   "name": "unknown",
+   "role": "unknown",
+   "evidence": "",
+   "verified": false,
+   "rejected": [],
+   "talk_seconds": 7.1
+  }
+ ],
+ "meeting": "ES2002b",
+ "audio_minutes": 38.0,
+ "stage_seconds": {
+  "transcribing": 279.2,
+  "diarizing": 0.0,
+  "aligning": 0.3,
+  "identifying": 80.8,
+  "writing minutes": 279.2,
+  "indexing": 3.7
+ },
+ "threads": 4,
+ "llm": {
+  "model": "qwen2.5-3b-instruct-q4_k_m",
+  "calls": 7,
+  "prompt_tokens": 12868,
+  "output_tokens": 1577,
+  "seconds": 359.9
+ }
+}

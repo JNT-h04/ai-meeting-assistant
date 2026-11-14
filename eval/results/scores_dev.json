@@ -1,0 +1,744 @@
+{
+ "meetings": {
+  "ES2002a": {
+   "audio_minutes": 21.21,
+   "wer": {
+    "echo": 0.29814385150812067,
+    "gemini": 0.251353441608662
+   },
+   "der": {
+    "echo": 0.2403421883659694,
+    "gemini": 0.47607149455015846
+   },
+   "attribution": {
+    "echo": 0.9963436928702011,
+    "gemini": 0.9590110605074821
+   },
+   "identity": {
+    "echo": {
+     "names": 0.5,
+     "roles": 0.75,
+     "wrong_names": 1,
+     "people": 4,
+     "detail": {
+      "B": {
+       "truth": "laura (PM)",
+       "said": "Laura / project manager",
+       "name_ok": true,
+       "role_ok": true
+      },
+      "A": {
+       "truth": "david (ID)",
+       "said": "- / industrial designer",
+       "name_ok": false,
+       "role_ok": true
+      },
+      "C": {
+       "truth": "craig (UI)",
+       "said": "Greg / -",
+       "name_ok": false,
+       "role_ok": false
+      },
+      "D": {
+       "truth": "andrew (ME)",
+       "said": "Andrew / marketing",
+       "name_ok": true,
+       "role_ok": true
+      }
+     }
+    },
+    "gemini": {
+     "names": 1.0,
+     "roles": 0.0,
+     "wrong_names": 0,
+     "people": 4,
+     "detail": {
+      "B": {
+       "truth": "laura (PM)",
+       "said": "Laura / Laura",
+       "name_ok": true,
+       "role_ok": false
+      },
+      "A": {
+       "truth": "david (ID)",
+       "said": "David / David",
+       "name_ok": true,
+       "role_ok": false
+      },
+      "C": {
+       "truth": "craig (UI)",
+       "said": "Craig / Craig",
+       "name_ok": true,
+       "role_ok": false
+      },
+      "D": {
+       "truth": "andrew (ME)",
+       "said": "Andrew / Andrew",
+       "name_ok": true,
+       "role_ok": false
+      }
+     }
+    }
+   },
+   "summary_rouge1": {
+    "echo": 0.1590909090909091,
+    "gemini": 0.2814814814814815
+   },
+   "decisions_rouge1": {
+    "echo": 0.3508771929824562,
+    "gemini": 0.3076923076923077
+   },
+   "actions_rouge1": {
+    "echo": 0.043478260869565216,
+    "gemini": 0.4307692307692308
+   },
+   "counts": {
+    "ref_decisions": 3,
+    "echo_decisions": 3,
+    "ref_actions": 3,
+    "echo_actions": 1,
+    "gemini_decisions": 1,
+    "gemini_actions": 3,
+    "gemini_model": "gemini-flash-latest"
+   },
+   "echo_stage_seconds": {
+    "transcribing": 130.1,
+    "diarizing": 0.0,
+    "aligning": 0.1,
+    "identifying": 46.8,
+    "writing minutes": 120.3,
+    "indexing": 3.3
+   },
+   "echo_llm": {
+    "model": "qwen2.5-3b-instruct-q4_k_m",
+    "calls": 4,
+    "prompt_tokens": 6014,
+    "output_tokens": 720,
+    "seconds": 167.0
+   }
+  },
+  "ES2002b": {
+   "audio_minutes": 38.0,
+   "wer": {
+    "echo": 0.24461979913916787,
+    "gemini": 0.24232424677187947
+   },
+   "der": {
+    "echo": 0.11505325610709086,
+    "gemini": 0.22297764773067105
+   },
+   "attribution": {
+    "echo": 0.9929290764945361,
+    "gemini": 0.9841010053776011
+   },
+   "identity": {
+    "echo": {
+     "names": 0.25,
+     "roles": 0.0,
+     "wrong_names": 0,
+     "people": 4,
+     "detail": {
+      "B": {
+       "truth": "laura (PM)",
+       "said": "- / -",
+       "name_ok": false,
+       "role_ok": false
+      },
+      "A": {
+       "truth": "david (ID)",
+       "said": "- / -",
+       "name_ok": false,
+       "role_ok": false
+      },
+      "C": {
+       "truth": "craig (UI)",
+       "said": "Craig / -",
+       "name_ok": true,
+       "role_ok": false
+      },
+      "D": {
+       "truth": "andrew (ME)",
+       "said": "- / -",
+       "name_ok": false,
+       "role_ok": false
+      }
+     }
+    },
+    "gemini": {
+     "names": 0.5,
+     "roles": 0.0,
+     "wrong_names": 1,
+     "people": 4,
+     "detail": {
+      "B": {
+       "truth": "laura (PM)",
+       "said": "Speaker 1 / Speaker 1",
+       "name_ok": false,
+       "role_ok": false
+      },
+      "A": {
+       "truth": "david (ID)",
+       "said": "David / David",
+       "name_ok": true,
+       "role_ok": false
+      },
+      "C": {
+       "truth": "craig (UI)",
+       "said": "Craig / Craig",
+       "name_ok": true,
+       "role_ok": false
+      },
+      "D": {
+       "truth": "andrew (ME)",
+       "said": "Andre / Andre",
+       "name_ok": false,
+       "role_ok": false
+      }
+     }
+    }
+   },
+   "summary_rouge1": {
+    "echo": 0.1699346405228758,
+    "gemini": 0.2980769230769231
+   },
+   "decisions_rouge1": {
+    "echo": 0.1639344262295082,
+    "gemini": 0.4491978609625668
+   },
+   "actions_rouge1": {
+    "echo": 0.20779220779220778,
+    "gemini": 0.5373134328358209
+   },
+   "counts": {
+    "ref_decisions": 8,
+    "echo_decisions": 3,
+    "ref_actions": 3,
+    "echo_actions": 5,
+    "gemini_decisions": 6,
+    "gemini_actions": 4,
+    "gemini_model": "gemini-flash-latest"
+   },
+   "echo_stage_seconds": {
+    "transcribing": 279.2,
+    "diarizing": 0.0,
+    "aligning": 0.3,
+    "identifying": 80.8,
+    "writing minutes": 279.2,
+    "indexing": 3.7
+   },
+   "echo_llm": {
+    "model": "qwen2.5-3b-instruct-q4_k_m",
+    "calls": 7,
+    "prompt_tokens": 12868,
+    "output_tokens": 1577,
+    "seconds": 359.9
+   }
+  },
+  "ES2002c": {
+   "audio_minutes": 40.39,
+   "wer": {
+    "echo": 0.2275456752267791,
+    "gemini": 0.1737575060687364
+   },
+   "der": {
+    "echo": 0.11077795644025763,
+    "gemini": 0.3593441162810537
+   },
+   "attribution": {
+    "echo": 0.9869646182495344,
+    "gemini": 0.8501742160278746
+   },
+   "identity": {
+    "echo": {
+     "names": 0.0,
+     "roles": 0.0,
+     "wrong_names": 0,
+     "people": 4,
+     "detail": {
+      "B": {
+       "truth": "laura (PM)",
+       "said": "- / -",
+       "name_ok": false,
+       "role_ok": false
+      },
+      "A": {
+       "truth": "david (ID)",
+       "said": "- / -",
+       "name_ok": false,
+       "role_ok": false
+      },
+      "C": {
+       "truth": "craig (UI)",
+       "said": "- / -",
+       "name_ok": false,
+       "role_ok": false
+      },
+      "D": {
+       "truth": "andrew (ME)",
+       "said": "- / -",
+       "name_ok": false,
+       "role_ok": false
+      }
+     }
+    },
+    "gemini": {
+     "names": 0.75,
+     "roles": 0.0,
+     "wrong_names": 1,
+     "people": 4,
+     "detail": {
+      "B": {
+       "truth": "laura (PM)",
+       "said": "Priya / Priya",
+       "name_ok": false,
+       "role_ok": false
+      },
+      "A": {
+       "truth": "david (ID)",
+       "said": "David / David",
+       "name_ok": true,
+       "role_ok": false
+      },
+      "C": {
+       "truth": "craig (UI)",
+       "said": "Craig / Craig",
+       "name_ok": true,
+       "role_ok": false
+      },
+      "D": {
+       "truth": "andrew (ME)",
+       "said": "Andrew / Andrew",
+       "name_ok": true,
+       "role_ok": false
+      }
+     }
+    }
+   },
+   "summary_rouge1": {
+    "echo": 0.2885572139303483,
+    "gemini": 0.23236514522821577
+   },
+   "decisions_rouge1": {
+    "echo": 0.125,
+    "gemini": 0.3536585365853659
+   },
+   "actions_rouge1": {
+    "echo": 0.10869565217391303,
+    "gemini": 0.4444444444444445
+   },
+   "counts": {
+    "ref_decisions": 9,
+    "echo_decisions": 1,
+    "ref_actions": 1,
+    "echo_actions": 6,
+    "gemini_decisions": 7,
+    "gemini_actions": 2,
+    "gemini_model": "gemini-3.5-flash"
+   },
+   "echo_stage_seconds": {
+    "transcribing": 305.2,
+    "diarizing": 0.0,
+    "aligning": 0.4,
+    "identifying": 101.1,
+    "writing minutes": 285.1,
+    "indexing": 3.9
+   },
+   "echo_llm": {
+    "model": "qwen2.5-3b-instruct-q4_k_m",
+    "calls": 8,
+    "prompt_tokens": 14410,
+    "output_tokens": 1590,
+    "seconds": 386.0
+   }
+  },
+  "ES2003a": {
+   "audio_minutes": 19.0,
+   "wer": {
+    "echo": 0.2119140625,
+    "gemini": 0.14306640625
+   },
+   "der": {
+    "echo": 0.12378718181294425,
+    "gemini": 0.6534482262151581
+   },
+   "attribution": {
+    "echo": 0.976349302607641,
+    "gemini": 0.9638225255972697
+   },
+   "identity": {
+    "echo": {
+     "names": 0.5,
+     "roles": 0.5,
+     "wrong_names": 0,
+     "people": 4,
+     "detail": {
+      "B": {
+       "truth": "adam (PM)",
+       "said": "Adam / -",
+       "name_ok": true,
+       "role_ok": false
+      },
+      "D": {
+       "truth": "tarik (ID)",
+       "said": "Tarek / industrial designer",
+       "name_ok": true,
+       "role_ok": true
+      },
+      "A": {
+       "truth": "dave (UI)",
+       "said": "- / -",
+       "name_ok": false,
+       "role_ok": false
+      },
+      "C": {
+       "truth": "ebenezer (ME)",
+       "said": "- / marketing expert",
+       "name_ok": false,
+       "role_ok": true
+      }
+     }
+    },
+    "gemini": {
+     "names": 0.75,
+     "roles": 0.0,
+     "wrong_names": 1,
+     "people": 4,
+     "detail": {
+      "B": {
+       "truth": "adam (PM)",
+       "said": "Alan Duggan / Alan Duggan",
+       "name_ok": false,
+       "role_ok": false
+      },
+      "D": {
+       "truth": "tarik (ID)",
+       "said": "Tariq / Tariq",
+       "name_ok": true,
+       "role_ok": false
+      },
+      "A": {
+       "truth": "dave (UI)",
+       "said": "Dave Cochran / Dave Cochran",
+       "name_ok": true,
+       "role_ok": false
+      },
+      "C": {
+       "truth": "ebenezer (ME)",
+       "said": "Ebenezer / Ebenezer",
+       "name_ok": true,
+       "role_ok": false
+      }
+     }
+    }
+   },
+   "summary_rouge1": {
+    "echo": 0.19130434782608693,
+    "gemini": 0.30952380952380953
+   },
+   "decisions_rouge1": {
+    "echo": 0.04545454545454545,
+    "gemini": 0.19607843137254902
+   },
+   "actions_rouge1": {
+    "echo": 0.13043478260869565,
+    "gemini": 0.34782608695652173
+   },
+   "counts": {
+    "ref_decisions": 3,
+    "echo_decisions": 2,
+    "ref_actions": 1,
+    "echo_actions": 3,
+    "gemini_decisions": 2,
+    "gemini_actions": 1,
+    "gemini_model": "gemini-flash-latest"
+   },
+   "echo_stage_seconds": {
+    "transcribing": 94.1,
+    "diarizing": 0.0,
+    "aligning": 0.0,
+    "identifying": 47.1,
+    "writing minutes": 93.1,
+    "indexing": 2.8
+   },
+   "echo_llm": {
+    "model": "qwen2.5-3b-instruct-q4_k_m",
+    "calls": 4,
+    "prompt_tokens": 4716,
+    "output_tokens": 692,
+    "seconds": 140.1
+   }
+  },
+  "ES2003b": {
+   "audio_minutes": 35.16,
+   "wer": {
+    "echo": 0.19738238415281217,
+    "gemini": 0.18429430491687301
+   },
+   "der": {
+    "echo": 0.10840559375913454,
+    "gemini": 0.2158731868916959
+   },
+   "attribution": {
+    "echo": 0.9823169349353889,
+    "gemini": 0.9230583695127834
+   },
+   "identity": {
+    "echo": {
+     "names": 0.0,
+     "roles": 0.0,
+     "wrong_names": 0,
+     "people": 4,
+     "detail": {
+      "B": {
+       "truth": "adam (PM)",
+       "said": "- / -",
+       "name_ok": false,
+       "role_ok": false
+      },
+      "D": {
+       "truth": "tarik (ID)",
+       "said": "- / user interface",
+       "name_ok": false,
+       "role_ok": false
+      },
+      "A": {
+       "truth": "dave (UI)",
+       "said": "- / -",
+       "name_ok": false,
+       "role_ok": false
+      },
+      "C": {
+       "truth": "ebenezer (ME)",
+       "said": "- / -",
+       "name_ok": false,
+       "role_ok": false
+      }
+     }
+    },
+    "gemini": {
+     "names": 0.25,
+     "roles": 0.0,
+     "wrong_names": 1,
+     "people": 4,
+     "detail": {
+      "B": {
+       "truth": "adam (PM)",
+       "said": "Speaker 1 / Speaker 1",
+       "name_ok": false,
+       "role_ok": false
+      },
+      "D": {
+       "truth": "tarik (ID)",
+       "said": "Tom / Tom",
+       "name_ok": false,
+       "role_ok": false
+      },
+      "A": {
+       "truth": "dave (UI)",
+       "said": "Speaker 3 / Speaker 3",
+       "name_ok": false,
+       "role_ok": false
+      },
+      "C": {
+       "truth": "ebenezer (ME)",
+       "said": "Ebenezar / Ebenezar",
+       "name_ok": true,
+       "role_ok": false
+      }
+     }
+    }
+   },
+   "summary_rouge1": {
+    "echo": 0.27932960893854747,
+    "gemini": 0.4234234234234235
+   },
+   "decisions_rouge1": {
+    "echo": 0.1414141414141414,
+    "gemini": 0.3067484662576688
+   },
+   "actions_rouge1": {
+    "echo": 0.0,
+    "gemini": 0.0
+   },
+   "counts": {
+    "ref_decisions": 9,
+    "echo_decisions": 1,
+    "ref_actions": 1,
+    "echo_actions": 5,
+    "gemini_decisions": 5,
+    "gemini_actions": 2,
+    "gemini_model": "gemini-3.5-flash"
+   },
+   "echo_stage_seconds": {
+    "transcribing": 249.7,
+    "diarizing": 0.0,
+    "aligning": 0.2,
+    "identifying": 67.7,
+    "writing minutes": 223.0,
+    "indexing": 3.3
+   },
+   "echo_llm": {
+    "model": "qwen2.5-3b-instruct-q4_k_m",
+    "calls": 6,
+    "prompt_tokens": 10608,
+    "output_tokens": 1206,
+    "seconds": 290.6
+   }
+  },
+  "ES2003c": {
+   "audio_minutes": 37.62,
+   "wer": {
+    "echo": 0.21982041902228133,
+    "gemini": 0.4714000665114732
+   },
+   "der": {
+    "echo": 0.09257634445419284,
+    "gemini": 0.6297821675852443
+   },
+   "attribution": {
+    "echo": 0.9898878874477908,
+    "gemini": 0.4590273151232512
+   },
+   "identity": {
+    "echo": {
+     "names": 0.0,
+     "roles": 0.0,
+     "wrong_names": 0,
+     "people": 4,
+     "detail": {
+      "B": {
+       "truth": "adam (PM)",
+       "said": "- / -",
+       "name_ok": false,
+       "role_ok": false
+      },
+      "D": {
+       "truth": "tarik (ID)",
+       "said": "- / -",
+       "name_ok": false,
+       "role_ok": false
+      },
+      "A": {
+       "truth": "dave (UI)",
+       "said": "- / -",
+       "name_ok": false,
+       "role_ok": false
+      },
+      "C": {
+       "truth": "ebenezer (ME)",
+       "said": "- / -",
+       "name_ok": false,
+       "role_ok": false
+      }
+     }
+    },
+    "gemini": {
+     "names": 0.0,
+     "roles": 0.0,
+     "wrong_names": 0,
+     "people": 4,
+     "detail": {
+      "B": {
+       "truth": "adam (PM)",
+       "said": "Speaker 1 / Speaker 1",
+       "name_ok": false,
+       "role_ok": false
+      },
+      "D": {
+       "truth": "tarik (ID)",
+       "said": "- / -",
+       "name_ok": false,
+       "role_ok": false
+      },
+      "A": {
+       "truth": "dave (UI)",
+       "said": "Speaker 2 / Speaker 2",
+       "name_ok": false,
+       "role_ok": false
+      },
+      "C": {
+       "truth": "ebenezer (ME)",
+       "said": "Speaker 18 / Speaker 18",
+       "name_ok": false,
+       "role_ok": false
+      }
+     }
+    }
+   },
+   "summary_rouge1": {
+    "echo": 0.2650602409638554,
+    "gemini": 0.2289156626506024
+   },
+   "decisions_rouge1": {
+    "echo": 0.2857142857142857,
+    "gemini": 0.0
+   },
+   "actions_rouge1": {
+    "echo": 0.36666666666666664,
+    "gemini": 0.0
+   },
+   "counts": {
+    "ref_decisions": 4,
+    "echo_decisions": 3,
+    "ref_actions": 2,
+    "echo_actions": 4,
+    "gemini_decisions": 0,
+    "gemini_actions": 0,
+    "gemini_model": "gemini-flash-lite-latest"
+   },
+   "echo_stage_seconds": {
+    "transcribing": 255.9,
+    "diarizing": 0.0,
+    "aligning": 0.2,
+    "identifying": 74.8,
+    "writing minutes": 245.2,
+    "indexing": 3.3
+   },
+   "echo_llm": {
+    "model": "qwen2.5-3b-instruct-q4_k_m",
+    "calls": 7,
+    "prompt_tokens": 11497,
+    "output_tokens": 1439,
+    "seconds": 319.8
+   }
+  }
+ },
+ "overall": {
+  "split": "dev",
+  "meetings": [
+   "ES2002a",
+   "ES2002b",
+   "ES2002c",
+   "ES2003a",
+   "ES2003b",
+   "ES2003c"
+  ],
+  "audio_hours": 3.19,
+  "echo": {
+   "wer": 0.23323769859152685,
+   "der": 0.13182375348993158,
+   "attribution": 0.9874652521008486,
+   "summary_rouge1": 0.22554616021210383,
+   "decisions_rouge1": 0.1853990986324895,
+   "actions_rouge1": 0.14284459501850807,
+   "names": 0.20833333333333334,
+   "roles": 0.20833333333333334,
+   "wrong_names": 1,
+   "people": 24,
+   "meetings": 6
+  },
+  "gemini": {
+   "wer": 0.24436599535460402,
+   "der": 0.4262494732089969,
+   "attribution": 0.8565324153577104,
+   "summary_rouge1": 0.29563107423074264,
+   "decisions_rouge1": 0.26889593381174304,
+   "actions_rouge1": 0.2933921991676696,
+   "names": 0.5416666666666666,
+   "roles": 0.0,
+   "wrong_names": 4,
+   "people": 24,
+   "meetings": 6
+  }
+ }
+}

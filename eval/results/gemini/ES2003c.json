@@ -1,0 +1,1052 @@
+{
+ "title": "Remote Control Design Concept",
+ "summary": "The team reviews the conceptual design phase for a new remote control. They discuss hardware components such as displays, joysticks, batteries, and button materials. Decisions are deferred regarding specific aesthetics, and the group decides to gather more research.",
+ "topics": [
+  "Hardware Components",
+  "Conceptual Design",
+  "Material Choices",
+  "Power Sources",
+  "User Interface"
+ ],
+ "decisions": [],
+ "actions": [],
+ "transcript": [
+  {
+   "speaker": "Speaker 1",
+   "start": "00:17",
+   "text": "So we'll start off with a quick overview of the minutes. I think to sum up the last meeting would be to say the requirements that we've set out."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "00:27",
+   "text": "Those are we were going to go for what seem to be a fairly minimal design based on a small joystick, an LCD and a couple of other buttons for navigation, with power being most supposed one of the main single purpose buttons."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "00:48",
+   "text": "Um, we were also going to use the novelty of being able to locate the remote control again via a small transmitter of any luck, the idea to try and separate us."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "00:57",
+   "text": "And also because of the minimal design, it looks like we'll be able to be fairly adventurous in the actual physical shape of our remote control with any luck."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "01:09",
+   "text": "Pretty much sums up the last one."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "01:12",
+   "text": "So we'll just crack on. Um, like to maybe start with the industrial designer if it's possible."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "01:19",
+   "text": "Okay."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "01:21",
+   "text": "They can Today is the conceptual today. This meeting is a conceptual design phase and is um sort of a bit of this 1405."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "01:36",
+   "text": "And it's to cover things like um what parts might be made of, um can we source these from elsewhere or will we have to construct the items ourselves?"
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "01:48",
+   "text": "Uh, I have a presentation here. I just say that in the Yeah, okay. I'll I'll just uh I'll load that up then."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "02:01",
+   "text": "Oh, interface concept. That's me. That's you. We've got trend watching, that's you. Components design, components design."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "02:19",
+   "text": "Okay."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "02:22",
+   "text": "So, uh the case or let that's what I wrote first of all, it could be plastic or plastic. Uh but later on we can we found out that um it can be rubber as well or titanium or even wood."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "02:39",
+   "text": "So uh we've decided what it's going to be probably plastic."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "02:43",
+   "text": "Uh, we need the infrared transmitter, get that off the shelf. Uh, joystick, we'll probably if we're going to use it, um could be plastic or rubber even as well."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "02:58",
+   "text": "Um, if you go on to the next slide, uh if you go on to, uh findings, it's like two or three slides down."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "03:09",
+   "text": "Right, so this is what I found we can use. Uh, three different types of batteries."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "03:19",
+   "text": "You can either use a hand dynamo or the kinetic type ones, you know that they use in watches, or else uh solar powered one."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "03:32",
+   "text": "Now, the kinetic one. Course. Cuz that's the ones where like the movement causes it. Um, the the battery for a a watch wouldn't require a lot of power would be my one query."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "03:47",
+   "text": "Is a kinetic one going to be able to supply enough power, do you think?"
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "03:53",
+   "text": "A watch moves around a great deal more. Yeah. I don't think it would."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "04:01",
+   "text": "Um and solar cells, I don't know about that. Bringing inside and all, yeah. Uh, should probably just use conventional batteries."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "04:13",
+   "text": "Um, just like unusual amount of controls."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "04:16",
+   "text": "Which I suppose as well would allow us to go off the shelf again, you'd say? Yeah."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "04:20",
+   "text": "Um, and these are three different types of or two different types, three different types of shapes. You can have uh one is a flat one and then more original ones are a single curved one or one with a double curved."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "04:35",
+   "text": "Um, the materials are that there as you can see, but uh you can't have a titanium one for a double curved."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "04:42",
+   "text": "Titanium, they're really strong metal, titanium. Is it not also expensive?"
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "04:48",
+   "text": "Uh, I think so, as well. Yeah. They're mountain bikes, as I said, aren't they?"
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "04:52",
+   "text": "I'm curious, um, I don't know if you'd be able to off the top of your head or not, the single curved or the double curved, would you be able to give an example?"
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "05:03",
+   "text": "Um, could you maybe draw something? You don't doesn't have to be perfect. It's just because I'm not quite sure if I understand the difference between the two."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "05:10",
+   "text": "Uh well, for a curved, well, I was thinking to for to sit in your the palm of your hand, uh maybe like this, with the uh joy pad here, joystick here."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "05:27",
+   "text": "And maybe um an okay button around here so that the thumb can uh use it quite easily."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "05:38",
+   "text": "Um I don't exactly double curved, it probably means this is probably double curved, uh whereas a single curved would be like that."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "05:54",
+   "text": "I guess."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "05:54",
+   "text": "Or no no sorry."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "05:56",
+   "text": "So it might literally just be two curves. Okay."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "06:01",
+   "text": "Okay. Yeah, like that. Whereas this is two curves."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "06:05",
+   "text": "Um so I guess that's what they mean by uh double curve."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "06:10",
+   "text": "Um, which obviously it looks better than a single curve, but uh you can't have it in titanium, which is uh a nice material."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "06:25",
+   "text": "Uh and for the buttons, um you can have the scroll wheel, which they use in mice for computers. Uh but um it requires a uh more expensive chip to use, and if you want to use LCD, it's even more expensive."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "06:45",
+   "text": "So if you decide to trade off there, um if you want the buttons to be, oh yeah, if you have a double curve, uh control and it's rubber, then you have these rubber buttons as well."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "06:58",
+   "text": "But you're going to have I reckon you're going to have to have uh a number keypad anyways for the amount of channels these days."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "07:06",
+   "text": "You wouldn't want to just have to scroll through all the channels to get to the one you want. You want to enter just the number of it, if you know it. So, um I reckon we're going to have to have a number keypad anyway."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "07:20",
+   "text": "Do you think?"
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "07:21",
+   "text": "Okay. Well, that's definitely something we can talk about."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "07:28",
+   "text": "So you've got a lot of about the the chip that we might require as well. Yeah."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "07:35",
+   "text": "So depends where you're going to spend the money. If you want to have a fancy LCD display, uh um do you have any idea so far? Like when we're saying that we need an advanced chip for an LCD, does that shoot the cost up by a drastic amount?"
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "07:59",
+   "text": "You need an advanced chip for the LCD? Is that did I Well, I think compared to say just pressing of buttons. Advanced like if you press a button, it sends a certain transmission through the infrared, whereas if we're controlling the LCD, we definitely require a much more powerful chip."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "08:17",
+   "text": "Just compared to the chip you would use for pushing buttons, I think is the point being made, if I've not overstepped. Yeah."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "08:26",
+   "text": "Okay. Um, should I go on or go back?"
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "08:29",
+   "text": "Um if we only have 12 pounds 50 12, not even 12 pounds. 12 were set like 8 pounds or something like that, 9 pound."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "08:42",
+   "text": "Well, we'd also be relying on the um the bulk buying and procurement and such. Okay, that's I assume. We have to look into the cost of those. So, sorry."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "08:52",
+   "text": "Uh the previous slides just explain what's in the internal components of the uh remote control, if you got the one before that. Uh so it just says what it does, translate the key press into an infrared signal and this is received by the TV."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "09:09",
+   "text": "Uh the chip just needs to detect the signal, or detect the key press and then uh it'll send it to the trap the amplifier."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "09:17",
+   "text": "Okay."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "09:18",
+   "text": "And uh then the next slide just shows how the uh copper wires uh interact with the buttons, the rubber buttons uh to uh get sent to the chip."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "09:35",
+   "text": "So that's just how the control works inside."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "09:41",
+   "text": "Um we have to decide on what buttons we're going to use."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "09:46",
+   "text": "Okay. Um you just got a section for personal preferences."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "09:55",
+   "text": "So in the information that you've been supplied, how feasible would you say with the idea of using an LCD looks?"
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "10:07",
+   "text": "I think we can do it if uh we use conventional batteries and not have solar cells or kinetic. Um and then maybe use a single curved uh case because you might need it to be curved for the uh thumb to use the joystick easily."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "10:33",
+   "text": "And then you'll need the advanced chip obviously for the LCD."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "10:38",
+   "text": "Um and I mean that seems like quite a good requirement to me. Um conventional battery would seem to make sense."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "10:45",
+   "text": "Um I'm not sure if there's any cost differences between single and double curved and I don't know about anybody else, but plastic or rubber as a traditional form of casing would seem to be a good way forward."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "10:58",
+   "text": "I'm actually I'm going to be a bold and go go straight for rubber um for reasons at all. Go into. Okay. I also have a preference for rubber."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "11:09",
+   "text": "Okay. Well, um based on my research. Yeah. Well, we'll we'll be moving on to user interface and Yeah."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "11:18",
+   "text": "Um sorry as long as you're you. Yeah, okay."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "11:21",
+   "text": "And interface concept."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "11:30",
+   "text": "I'm going to have to work between the uh the slides and the uh Yeah."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "11:36",
+   "text": "and the white board, because actually I have some fairly concrete things."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "11:42",
+   "text": "It's time."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "11:43",
+   "text": "Uh um I was given a an HTML file giving um various ideas from uh from other previous remote control designs and pretty much decided to just dump them all."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "11:55",
+   "text": "I wasn't very impressed by them and I didn't seem to nothing I saw seemed to meet the sorts of design specifications that we're going for today."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "12:04",
+   "text": "Um so rather than looking at other remotes, it'll be better to simply look at the human hand um and try and try and figure out a way of laying out the elements we've already decided on, um so that every every so that the finger is each finger or thumb is wherever it needs to be already."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "12:26",
+   "text": "Um, so uh in the next slide if you please, um and what we've basically decided on was the the um the the joy the joystick, two function buttons and the LCD. Just keep it paired down to the absolute minimum."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "12:41",
+   "text": "I don't actually think we need the um the numeric keypad because if you because one of the menus that we could have available um vi via the LCD is one where you scroll through channels."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "12:57",
+   "text": "So, if there's something and bear bear in mind since this isn't meant to work for um it's got a digital for for for for digital or um or for for cable or whatever, you're basically looking at four or five terrestrial channels, and then um your VC and then the channel for your VCR and our DVD player and our um set top box."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "13:25",
+   "text": "So it's not I'm not really excessively concerned about that."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "13:29",
+   "text": "You also have two two modes, basic mode where um the joysticks uh left right left right for channels, up down for volume, um and the uh and the menu mode for uh further functions."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "13:44",
+   "text": "Now, the reason I was particularly interested in using rubber for this is if we're going to have a highly ergonomic design, um it needs to be ergonomic for left or right-handed people."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "13:56",
+   "text": "Can I just jump in slightly there?"
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "13:57",
+   "text": "Mhm."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "13:58",
+   "text": "That would suggest that double curve designs probably going to be most appropriate then."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "14:02",
+   "text": "Yes, absolutely. Yeah. Okay."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "14:04",
+   "text": "Um, basically basically what I oh, basically what I what we'll be having um I would say the the whole thing articulated at two points, so that if you if you're handing it from a left or right-handed user, you can adjust it so that the um the LCD and the uh the joystick would be in the right place."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "14:32",
+   "text": "And also, there's a rather nicer design gimmick that the uh the whole thing you know, it should have some kind of organic feel to it as it should be, you know, soft to touch and can be moved around, and it's rather nice."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "14:49",
+   "text": "Um Okay. On to the next uh to the next slide."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "14:55",
+   "text": "Just to let you know, we'll probably be quite tight for time as well. Okay. Because I think you've probably got a lot you'd like to say, I guess."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "15:01",
+   "text": "Yeah. Okay, basically um I I can add pretty pictures to this."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "15:10",
+   "text": "The um assuming the hand the hand to be in about sort of this position, um not hold holding the remote, the um the joystick unit should rest over the uh the joint of the four finger so that it's directly accessible for the thumb."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "15:33",
+   "text": "Um and it would need to there would need to be a it would need to be articulated just below that so that it could be switched around for uh left or right-handed users."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "15:50",
+   "text": "You then have the grip section that can be more or less the same irrespective of of handedness."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "15:59",
+   "text": "You just have big two big buttons that cover most of the area, so it can be uh in the upper part one for the for finger, one for the middle finger. Um Is this the joystick? The this part here is the joystick."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "16:13",
+   "text": "This would be the actual grip. Probably where you'd want to have the battery as well. Okay. That would be probably the bulkiest part."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "16:22",
+   "text": "And you then have at the uh at the bottom the LCD and this would need to be articulated as well. And basically I'd want this to rest here right at the base of the wrist, so it would fit just nicely in the hand. And again, this part could be rotated so it can so so that it can be adjusted to either left or right-handed user."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "16:53",
+   "text": "Um so the the top the top function button in basic mode would be the on-off switch and menu mode would be the enter button. And then the bottom function button switches between between modes."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "17:09",
+   "text": "Now, programming it actually this is one thing I've found with um the replacement remote controls, programming them can be a right pain. So, I thought the the simplest way around that would be to have um a cable to connect it to the computer. Some some fairly some fairly some fairly simple software on the computer just so that you you on your on computer just so that you could um program it at a rather any rather more comfortable interface and you could download programs for it from uh for it from uh TVs from all sort of main manufacturers."
+  },
+  {
+   "speaker": "Speaker 18",
+   "start": "17:46",
+   "text": "Though, you it would be necessary to have uh have a have a have a, you know, have a have a you know, have a mode for programming it without the computer just in case there's still people left out there who don't have them yet. Um, but uh, yeah."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "18:09",
+   "text": "Okay. That's that's my idea."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "18:13",
+   "text": "Excellent, right."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "18:18",
+   "text": "Okay."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "18:20",
+   "text": "Uh, we go."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "18:25",
+   "text": "Okay."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "18:29",
+   "text": "So, to get together with my research to basic methods."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "18:34",
+   "text": "We compared uh whether people want the remote control to do a lot of stuff or they want it to look cool."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "18:40",
+   "text": "And then we we research our fashion trends in Europe. What's what's the new black, you know, as it goes."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "18:47",
+   "text": "Go. Next slide, please."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "18:50",
+   "text": "Okay."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "18:50",
+   "text": "Uh, we found in order of importance, people want the remote control to look cool more than they wanted to to be cool, as in they want it to do a lot of good they want it to look like it does a lot. And if it does do a lot, that's a bonus, but they don't care so much, you know."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "19:06",
+   "text": "They want it to be That's sounds a bit like a contradiction."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "19:10",
+   "text": "Technolog- technical, technologically innovative."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "19:14",
+   "text": "People want it to be that, but still they care more about the way it looks than what it does."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "19:20",
+   "text": "So, like the interface is really important."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "19:23",
+   "text": "And easy to use. It it just so happens that uh from the second point to the third point is twice as important. I mean, the second point is twice as important as the third point. People want it it's it's has to be cooler than easy to use, you know, if it has the newest features, even if it's difficult to use, to prefer it to have the newest features."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "19:47",
+   "text": "And if it's easy to use, that's a bonus."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "19:49",
+   "text": "The fashion now, this is seems a bit odd to me, but fruit and veg is the new is the new black for furniture, for clothes, for shoes."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "19:58",
+   "text": "How that relates to a remote control, I don't know, but I I see I'll come on to that in the next in the next slide."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "20:05",
+   "text": "Spongey, I've always I've been saying everything is the new black. Well, sponge is the new black as well. So, we have the choice between rubber and plastic."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "20:12",
+   "text": "If it's the type of rubber that you can squeeze, you know, it's spongy, then I have to mention that the uh rubber material is the type of stress ball material, not just normal rubber."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "20:25",
+   "text": "Okay. So, kind of spongy material."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "20:29",
+   "text": "So, okay."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "20:32",
+   "text": "Um so, my personal opinion, um we want something fancy and techno technologically innovative, obviously. But what we what we need is something that looks like it's from the future, that looks cool, that's that's different, you know, that's everyone has a white remote control, black remote control, you need something cool."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "20:52",
+   "text": "Like titanium is cool, but it's expensive and maybe it's a bit of overkill for a remote control."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "20:58",
+   "text": "Um now, the fruit and veg options, either we we go in that direction or we stay totally away from it. Um I mean, a research did come up with fruit and veg, so maybe it is important."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "21:12",
+   "text": "So if we stay away from it, it's you know, stay away from it. But if we go with it, we can design something cool."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "21:22",
+   "text": "It could be something like uh I don't know, potato peel, but I'm sure you guys have uh have a much cooler idea than I do. So, I think cool is the key."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "21:32",
+   "text": "Few questions about a spongy remote control. I've never seen one before. I've seen plastic remote controls."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "21:39",
+   "text": "I think maybe they were I don't know, back in the day when they first coming up with remote controls, they had a reason for it being sturdy, you know, for being strong and sturdy. So, um if we want something strong and sturdy, I say stay with plastic or titanium."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "21:58",
+   "text": "But if we go with spongy, we can stretch it. You can drop this as many times as you want. It's not going to break, you know."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "22:05",
+   "text": "I just don't know how the LED and the lights are going to fit into a spongy material because it's not going to be completely squeezable. So, how does things fit in? And if we all going to use spongy, we can say it's long-lasting, you know, it's damage resistant, stuff like that. So."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "22:24",
+   "text": "So, just to summarize, people want stuff that's cool, that's that looks like it's cool. And if it is cool, then that's a bonus, but it doesn't have to be. Um people like fruit and veg."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "22:35",
+   "text": "We can either go down that alley or stay totally away from it. People like SpongeBob material, if we're going to use sponge material, we have to think about how practical it is."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "22:42",
+   "text": "Okay."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "22:43",
+   "text": "That's me."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "23:07",
+   "text": "Well, um I would say that the most you could probably hope for is gaining a year's lead on most people anyway."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "23:13",
+   "text": "You always have to bring out new designs. So, if we can get next year, when that's possibly a good place to start anyway."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "23:21",
+   "text": "Um seems like a lot of the components could be off the shelf, so we'll be off the shelf, so we'll be able to get them. I don't know exactly what cost would be incurred."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "23:35",
+   "text": "Um I can see your point about the number keypad, but I I would say we can probably incorporate it into the menu system, so we don't necessarily have to have the number keypad on the actual remote, which would save space."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "23:47",
+   "text": "My feeling would be that even if at a later date this was to be taking control of um set top boxes as well, we still probably wouldn't need a number keypad because we can use the menu system to access everything."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "24:05",
+   "text": "So, um So, for example, um we just start at the top. You've got yourself and the industrial and designer going to be working quite closely at this stage because it'll be hard not to, obviously."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "24:32",
+   "text": "Looking for prototyping of some description using clay. Um I suppose you'll be told a lot more about that as uh we progress."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "24:45",
+   "text": "Um the user interface design they're kind of It looks like they're the idea of push forward so far is maybe more of a physical one there, whereas we'd possibly be more interested in maybe how the LCD is going to incorporate. Do you think?"
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "25:10",
+   "text": "Or do you foresee that most of the sign design decisions still need to be based on the physical layout?"
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "25:20",
+   "text": "Um well, I think other than getting getting us a more aesthetically pleasing form for it. Um most of the sort of layout decisions are are made, I would say."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "25:29",
+   "text": "Um but then again the um the menu structure to a considerable extent that's going to vary according to the model of television and also any customizations that the user might wish to incorporate."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "25:43",
+   "text": "So, um So, that every every so that the finger is each finger or thumb is wherever it needs to be already. Um Okay."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "25:47",
+   "text": "On to the next uh to the next slide."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "25:55",
+   "text": "Just to let you know we'll probably be quite tight for time as well. Okay. Because I think you've probably got a lot you'd like to say, I guess."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "26:01",
+   "text": "Yeah. Okay, basically um I I can add pretty pictures to this."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "26:10",
+   "text": "The um assuming the hand the hand to be in about sort of this position, um not holding the remote, the um the joystick unit should rest over the uh the joint of the four finger so that it's directly accessible for the thumb."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "26:33",
+   "text": "And it would need to there would need to be a it would need to be articulated just below that so that it could be switched around for uh left or right-handed users."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "26:50",
+   "text": "You then have the grip section that can be more or less the same irrespective of of handedness."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "26:59",
+   "text": "You just have big two big buttons that cover most of the area, so it can be uh in the upper part one for the for finger, one for the middle finger."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "27:13",
+   "text": "Um Is this the joystick? The this part here is the joystick."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "27:23",
+   "text": "This would be the actual grip. Probably where you'd want to have the battery as well. Okay. That would be probably the bulkiest part."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "27:32",
+   "text": "And you then have at the uh at the bottom the LCD and this would need to be articulated as well. And basically I'd want this to rest here right at the base of the wrist, so it would fit just nicely in the hand. And again, this part could be rotated so it can so so that it can be adjusted to either left or right-handed user."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "27:53",
+   "text": "Um so the the top the top function button in basic mode would be the on-off switch and menu mode would be the enter button. And then the bottom function button switches between between modes."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "28:09",
+   "text": "Now, programming it actually this is one thing I've found with uh the replacement remote controls, programming them can be a right pain. So, I thought the the simplest way around that would be to have um a cable to connect it to the computer. Some some fairly some fairly some fairly simple software on the computer just so that you you on your on computer just so that you could um program it at a rather any rather more comfortable interface and you could download programs for it from uh for it from uh TVs from all sort of main manufacturers."
+  },
+  {
+   "speaker": "Speaker 18",
+   "start": "28:50",
+   "text": "Though, you it would be necessary to have uh have a have a have a, you know, have a have a you know, have a have a you know, have a mode for programming it without the computer just in case there's still people left out there who don't have them yet. Um, but uh, yeah."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "29:13",
+   "text": "Okay. That's that's my idea."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "29:17",
+   "text": "Excellent, right."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "29:22",
+   "text": "Okay."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "29:25",
+   "text": "Uh, we go."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "29:29",
+   "text": "Okay."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "29:32",
+   "text": "So, to get together with my research to basic methods."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "29:40",
+   "text": "We compared uh whether people want the remote control to do a lot of stuff or they want it to look cool."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "29:47",
+   "text": "And then we we research our fashion trends in Europe. What's what's the new black, you know, as it goes."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "29:54",
+   "text": "Go. Next slide, please."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "29:57",
+   "text": "Okay."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "29:58",
+   "text": "Uh, we found in order of importance, people want the remote control to look cool more than they wanted to to be cool, as in they want it to do a lot of good they want it to look like it does a lot. And if it does do a lot, that's a bonus, but they don't care so much, you know."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "30:13",
+   "text": "They want it to be That's sounds a bit like a contradiction."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "30:17",
+   "text": "Technolog- technical, technologically innovative."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "30:21",
+   "text": "People want it to be that, but still they care more about the way it looks than what it does."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "30:27",
+   "text": "So, like the interface is really important."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "30:31",
+   "text": "And easy to use. It it just so happens that uh from the second point to the third point is twice as important. I mean, the second point is twice as important as the third point. People want it it's it's has to be cooler than easy to use, you know, if it has the newest features, even if it's difficult to use, to prefer it to have the newest features."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "30:54",
+   "text": "And if it's easy to use, that's a bonus."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "30:57",
+   "text": "The fashion now, this is seems a bit odd to me, but fruit and veg is the new is the new black for furniture, for clothes, for shoes."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "31:06",
+   "text": "How that relates to a remote control, I don't know, but I I see I'll come on to that in the next in the next slide."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "31:13",
+   "text": "Spongey, I've always I've been saying everything is the new black. Well, sponge is the new black as well. So, we have the choice between rubber and plastic."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "31:22",
+   "text": "If it's the type of rubber that you can squeeze, you know, it's spongy, then I have to mention that the uh rubber material is the type of stress ball material, not just normal rubber."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "31:35",
+   "text": "Okay. So, kind of spongy material."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "31:39",
+   "text": "So, okay."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "31:40",
+   "text": "Um so, my personal opinion, um we want something fancy and techno technologically innovative, obviously. But what we what we need is something that looks like it's from the future, that looks cool, that's that's different, you know, that's everyone has a white remote control, black remote control, you need something cool."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "32:00",
+   "text": "Like titanium is cool, but it's expensive and maybe it's a bit of overkill for a remote control."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "32:07",
+   "text": "Um now, the fruit and veg options, either we we go in that direction or we stay totally away from it. Um I mean, a research did come up with fruit and veg, so maybe it is important."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "32:22",
+   "text": "So if we stay away from it, it's you know, stay away from it. But if we go with it, we can design something cool."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "32:29",
+   "text": "It could be something like uh I don't know, potato peel, but I'm sure you guys have uh have a much cooler idea than I do. So, I think cool is the key."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "32:39",
+   "text": "Few questions about a spongy remote control. I've never seen one before. I've seen plastic remote controls."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "32:46",
+   "text": "I think maybe they were I don't know, back in the day when they first coming up with remote controls, they had a reason for it being sturdy, you know, for being strong and sturdy. So, um if we want something strong and sturdy, I say stay with plastic or titanium."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "33:05",
+   "text": "But if we go with spongy, we can stretch it. You can drop this as many times as you want. It's not going to break, you know."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "33:14",
+   "text": "I just don't know how the LED and the lights are going to fit into a spongy material because it's not going to be completely squeezable. So, how does things fit in? And if we all going to use spongy, we can say it's long-lasting, you know, it's damage resistant, stuff like that. So."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "33:34",
+   "text": "So, just to summarize, people want stuff that's cool, that's that looks like it's cool. And if it is cool, then that's a bonus, but it doesn't have to be. Um people like fruit and veg."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "33:45",
+   "text": "We can either go down that alley or stay totally away from it. People like SpongeBob material, if we're going to use sponge material, we have to think about how practical it is."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "33:55",
+   "text": "Okay."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "33:56",
+   "text": "That's me."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "34:07",
+   "text": "Well, um I would say that the most you could probably hope for is gaining a year's lead on most people anyway."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "34:13",
+   "text": "You always have to bring out new designs. So, if we can get next year, when that's possibly a good place to start anyway."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "34:21",
+   "text": "Um seems like a lot of the components could be off the shelf, so we'll be off the shelf, so we'll be able to get them. I don't know exactly what cost would be incurred."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "34:35",
+   "text": "Um I can see your point about the number keypad, but I I would say we can probably incorporate it into the menu system, so we don't necessarily have to have the number keypad on the actual remote, which would save space."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "34:47",
+   "text": "My feeling would be that even if at a later date this was to be taking control of um set top boxes as well, we still probably wouldn't need a number keypad because we can use the menu system to access everything."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "35:05",
+   "text": "So, um So, for example, um we just start at the top. You've got yourself and the industrial and designer going to be working quite closely at this stage because it'll be hard not to, obviously."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "35:32",
+   "text": "Looking for prototyping of some description using clay. Um I suppose you'll be told a lot more about that as uh we progress."
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "35:45",
+   "text": "Um the user interface design they're kind of It looks like they're the idea of push forward so far is maybe more of a physical one there, whereas we'd possibly be more interested in maybe how the LCD is going to incorporate. Do you think?"
+  },
+  {
+   "speaker": "Speaker 1",
+   "start": "36:10",
+   "text": "Or do you foresee that most of the sign design decisions still need to be based on the physical layout?"
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "36:20",
+   "text": "Um well, I think other than getting getting us a more aesthetically pleasing form for it. Um most of the sort of layout decisions are are made, I would say."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "36:31",
+   "text": "Um but then again the um the menu structure to a considerable extent that's going to vary according to the model of television and also any customizations that the user might wish to incorporate."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "36:50",
+   "text": "So, um So, that every every so that the finger is each finger or thumb is wherever it needs to be already. Um Okay."
+  }
+ ],
+ "seconds": 221.57386599999154,
+ "model": "gemini-flash-lite-latest"
+}

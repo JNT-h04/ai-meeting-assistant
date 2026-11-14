@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ECHO: meeting intelligence on open models</title>
+<meta name="description" content="Who said what, decisions and action items from meeting audio, on open models, with every claim checked against the transcript. Real results on held-out AMI meetings.">
+<style>
+  :root {
+    --bg: #f6f6f3; --card: #ffffff; --ink: #1d1f1c; --muted: #61665f; --line: #e2e3dd;
+    --accent: #2f6f4f; --accent-soft: #e3efe7; --warn: #8a5a00; --warn-soft: #fbf1dc;
+    --bad: #a23b2a; --good: #2f6f4f;
+    --s0: #2f6f4f; --s1: #3b5ba5; --s2: #a2572a; --s3: #7a4aa0; --s4: #3d8a8a; --s5: #8a7a2f; --s6: #a03b6a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #141613; --card: #1c1f1b; --ink: #e8e9e4; --muted: #a2a79e; --line: #30342e;
+      --accent: #7cc59b; --accent-soft: #1f3528; --warn: #e6b45c; --warn-soft: #33290f;
+      --bad: #f08a76; --good: #7cc59b;
+      --s0: #7cc59b; --s1: #8ea8ec; --s2: #eb9a6a; --s3: #c39aea; --s4: #7fd0cf; --s5: #d6c477; --s6: #ea8fbb;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  a { color: var(--accent); }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 16px; }
+  header { padding: 40px 0 8px; }
+  h1 { font-size: 2.4rem; margin: 0; letter-spacing: .02em; }
+  .tag { font-size: 1.15rem; color: var(--muted); margin: 6px 0 14px; max-width: 46em; }
+  .links a { margin-right: 18px; font-weight: 600; }
+  h2 { font-size: 1.35rem; margin: 40px 0 12px; }
+  h3 { font-size: 1.02rem; margin: 0 0 10px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 18px; }
+  .notice { background: var(--warn-soft); border: 1px solid color-mix(in srgb, var(--warn) 35%, transparent); color: var(--ink);
+            border-radius: 10px; padding: 12px 16px; margin: 18px 0 0; font-size: .95rem; }
+  .notice b { color: var(--warn); }
+  table { border-collapse: collapse; width: 100%; font-size: .95rem; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font-weight: 600; color: var(--muted); font-size: .85rem; }
+  td.num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .win { font-weight: 700; }
+  .small { font-size: .85rem; color: var(--muted); }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 820px) { .grid2 { grid-template-columns: 1fr; } }
+  .tabs { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+  .tabs button { font: inherit; border: 1px solid var(--line); background: var(--card); color: var(--ink); padding: 8px 14px;
+                 border-radius: 999px; cursor: pointer; }
+  .tabs button[aria-selected="true"] { background: var(--accent); border-color: var(--accent); color: var(--bg); font-weight: 600; }
+  .player { position: sticky; top: 0; z-index: 5; background: var(--bg); padding: 10px 0; }
+  audio { width: 100%; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 4px 0 14px; }
+  .chip { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 6px 10px; font-size: .85rem; }
+  .chip b { font-variant-numeric: tabular-nums; }
+  ul.items { list-style: none; padding: 0; margin: 0; }
+  ul.items li { padding: 8px 0; border-bottom: 1px solid var(--line); }
+  ul.items li:last-child { border-bottom: 0; }
+  .ts { font: 600 .82rem ui-monospace, SFMono-Regular, Consolas, monospace; background: var(--accent-soft); color: var(--accent);
+        border: 0; border-radius: 6px; padding: 2px 7px; cursor: pointer; margin-right: 6px; }
+  .ts:hover { filter: brightness(1.08); }
+  .who { font-weight: 600; }
+  .speaker { border-left: 4px solid var(--c); padding: 8px 0 8px 12px; margin-bottom: 12px; }
+  .speaker .name { font-weight: 700; color: var(--c); }
+  .quote { font-style: italic; }
+  .ok { color: var(--good); font-weight: 600; }
+  .no { color: var(--bad); font-weight: 600; }
+  .muted { color: var(--muted); }
+  .transcript { max-height: 560px; overflow-y: auto; padding-right: 6px; }
+  .line { display: grid; grid-template-columns: 64px 1fr; gap: 10px; padding: 6px 8px; border-radius: 8px; }
+  .line.now { background: var(--accent-soft); }
+  .line .who { color: var(--c); }
+  .pipeline { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; }
+  .step b { display: block; margin-bottom: 4px; }
+  footer { margin: 48px 0 32px; color: var(--muted); font-size: .85rem; }
+  .sr { position: absolute; left: -9999px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>ECHO</h1>
+    <p class="tag">Meeting audio in: <b>who said what</b>, decisions and action items out, each pointing at the moment it was
+      said. Open models on a CPU, with every name and claim checked against the transcript by code before it's shown.</p>
+    <div class="links">
+      <a href="https://github.com/JNT-h04/ai-meeting-assistant">Code on GitHub</a>
+      <a href="https://github.com/JNT-h04/ai-meeting-assistant/blob/master/eval/README.md">Evaluation method</a>
+    </div>
+    <div class="notice"><b>Recorded results, not a live demo.</b> This page replays ECHO's real, unedited output on four
+      meetings it never saw while being built (AMI corpus), next to the human annotations. Running ECHO itself needs a
+      server with about 4 GB of memory, which a static page can't provide; the code runs it locally or in Docker.</div>
+  </header>
+
+  <section>
+    <h2>Results on 4 unseen meetings (<span id="hours"></span> hours)</h2>
+    <div class="card">
+      <table id="overall"><thead><tr><th>Measured against the human annotations</th><th>ECHO</th><th>Gemini (cloud reference)</th></tr></thead><tbody></tbody></table>
+      <p class="small">ECHO is far better at <i>who said what</i> and never named anyone wrongly; it says "unknown" rather than
+        guess, so it names fewer people. A frontier cloud model still transcribes and summarises better than ECHO's
+        3-billion-parameter model. ROUGE-1 measures word overlap with one annotator's wording, not correctness.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Explore a meeting</h2>
+    <div class="tabs" role="tablist" id="tabs"></div>
+    <div class="player"><audio id="audio" controls preload="none"></audio></div>
+    <div class="chips" id="chips"></div>
+    <div class="grid2">
+      <div class="card">
+        <h3 id="title"></h3>
+        <p id="summary"></p>
+        <h3>Decisions</h3>
+        <ul class="items" id="decisions"></ul>
+        <h3 style="margin-top:16px">Action items</h3>
+        <ul class="items" id="actions"></ul>
+        <p class="small" id="dropped"></p>
+      </div>
+      <div class="card">
+        <h3>Speakers: what ECHO decided, and the truth</h3>
+        <div id="speakers"></div>
+        <p class="small">A name is kept only if it's tied to that speaker: their own introduction, their answer when called
+          on, or someone addressing them right next to their turn. "Truth" is the person the scorer matched this voice to in
+          the human annotation.</p>
+      </div>
+    </div>
+    <div class="card" style="margin-top:16px">
+      <h3>Transcript <span class="small">(click a line to play it)</span></h3>
+      <div class="transcript" id="transcript"></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>How it works</h2>
+    <div class="pipeline">
+      <div class="card step"><b>Speech to text</b>faster-whisper <code>small</code> (int8) with a voice filter; every word gets a time.</div>
+      <div class="card step"><b>Who spoke when</b>pyannote 3.1: segmentation network, voice embeddings, clustering.</div>
+      <div class="card step"><b>Alignment</b>Each <i>word</i> goes to the speaker turn it overlaps most.</div>
+      <div class="card step"><b>Speakers</b>Qwen2.5-3B proposes names, roles and a quote; code keeps only what the transcript backs up.</div>
+      <div class="card step"><b>Minutes</b>The same model reads ~1,800-token sections; each decision must cite a real line.</div>
+      <div class="card step"><b>Questions</b>LangChain BM25 + FAISS retrieval; answers may only cite times actually retrieved.</div>
+    </div>
+  </section>
+
+  <footer>
+    Audio and annotations: <a href="https://groups.inf.ed.ac.uk/ami/corpus/">AMI Meeting Corpus</a>, University of Edinburgh,
+    CC BY 4.0. Models: Whisper (MIT), pyannote (MIT), MiniLM (Apache-2.0), Qwen2.5-3B (Qwen Research License).
+    Built by Janit B.
+  </footer>
+</div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+const pct = (v) => v == null ? "–" : (v * 100).toFixed(1) + "%";
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]));
+const secs = (clock) => clock.split(":").reduce((t, p) => t * 60 + Number(p), 0);
+const audio = $("audio");
+let data, current, colors = {};
+
+const ROWS = [
+  ["attribution", "Words credited to the right speaker", true, pct],
+  ["der", "Who-spoke-when error (DER)", false, pct],
+  ["wrong_names", "Wrong names given", false, (v) => String(v)],
+  ["roles", "Speaker roles identified", true, pct],
+  ["wer", "Transcript word error (WER)", false, pct],
+  ["names", "People named (of those whose name is said)", true, pct],
+  ["summary_rouge1", "Summary vs human abstract (ROUGE-1)", true, pct],
+  ["decisions_rouge1", "Decisions vs human list (ROUGE-1)", true, pct],
+  ["actions_rouge1", "Action items vs human list (ROUGE-1)", true, pct],
+];
+
+function overall() {
+  $("hours").textContent = data.audio_hours.toFixed(1);
+  const body = $("overall").tBodies[0];
+  for (const [k, label, higher, fmt] of ROWS) {
+    const e = data.overall.echo[k], g = data.overall.gemini[k];
+    const eWin = e != null && g != null && (higher ? e > g : e < g), gWin = e != null && g != null && (higher ? g > e : g < e);
+    body.insertAdjacentHTML("beforeend",
+      `<tr><td>${label} ${higher ? "↑" : "↓"}</td><td class="num ${eWin ? "win" : ""}">${fmt(e)}</td><td class="num ${gWin ? "win" : ""}">${fmt(g)}</td></tr>`);
+  }
+}
+
+function seek(t) {
+  if (audio.getAttribute("src") !== current.audio) audio.src = current.audio;
+  audio.currentTime = t;
+  audio.dispatchEvent(new Event("timeupdate"));  // highlight the line now, even before the audio has loaded
+  audio.play().catch(() => {});
+}
+
+function ts(clock) { return `<button class="ts" data-t="${secs(clock)}" aria-label="Play from ${clock}">${clock}</button>`; }
+
+function show(m) {
+  current = m;
+  audio.pause(); audio.removeAttribute("src"); audio.load(); audio.src = m.audio;
+  for (const b of $("tabs").children) b.setAttribute("aria-selected", b.dataset.id === m.id);
+  colors = {};
+  m.speakers.forEach((s, i) => colors[s.label] = `var(--s${i % 7})`);
+
+  const e = m.scores.echo, g = m.scores.gemini;
+  $("chips").innerHTML = [
+    ["Minutes of audio", m.minutes_long.toFixed(1)],
+    ["Words on the right speaker", `${pct(e.attribution)} <span class="muted">(Gemini ${pct(g.attribution)})</span>`],
+    ["Speaker-timing error", `${pct(e.der)} <span class="muted">(Gemini ${pct(g.der)})</span>`],
+    ["Wrong names", `${e.wrong_names} <span class="muted">(Gemini ${g.wrong_names})</span>`],
+  ].map(([k, v]) => `<div class="chip">${k}: <b>${v}</b></div>`).join("");
+
+  $("title").textContent = m.title;
+  $("summary").textContent = m.summary;
+  $("decisions").innerHTML = m.decisions.length
+    ? m.decisions.map((d) => `<li>${ts(d.at)}${esc(d.text)}</li>`).join("")
+    : `<li class="muted">None kept. Each candidate must cite a real line of the meeting.</li>`;
+  $("actions").innerHTML = m.actions.length
+    ? m.actions.map((a) => `<li>${ts(a.at)}<span class="who">${esc(a.owner)}</span>: ${esc(a.task)}${a.due && a.due !== "Not stated" ? ` <span class="muted">(due ${esc(a.due)})</span>` : ""}</li>`).join("")
+    : `<li class="muted">None kept.</li>`;
+  $("dropped").textContent = `${m.dropped_unverified} item(s) the model proposed were dropped because the transcript didn't back them up. The human annotators listed ${m.reference.decisions} decision(s) and ${m.reference.actions} action item(s).`;
+
+  $("speakers").innerHTML = m.speakers.map((s) => {
+    const t = s.truth;
+    let truth;
+    if (!t) truth = `<span class="muted">Not matched to a person: an extra voice cluster from diarization.</span>`;
+    else {
+      const who = t.name ? `${t.name}, ${t.role}` : `${t.role} <span class="muted">(name never said in the recordings)</span>`;
+      const verdict = s.name !== "unknown" ? (s.name_ok ? `<span class="ok">name correct</span>` : `<span class="no">wrong name</span>`)
+        : `<span class="muted">left unnamed</span>`;
+      truth = `Truth: ${who} · ${verdict}`;
+    }
+    const evidence = s.evidence ? `<div>Evidence: <span class="quote">“${esc(s.evidence)}”</span></div>` : "";
+    const rejected = s.rejected?.length ? `<div class="small">Rejected: ${s.rejected.map(esc).join("; ")}</div>` : "";
+    return `<div class="speaker" style="--c:${colors[s.label]}">
+      <div><span class="name">${esc(s.display)}</span> <span class="small">${s.label} · talks ${Math.round(s.talk_seconds / 60)} min</span></div>
+      ${evidence}<div class="small">${truth}</div>${rejected}</div>`;
+  }).join("");
+
+  $("transcript").innerHTML = m.transcript.map((t, i) =>
+    `<div class="line" data-i="${i}" style="--c:${colors[t.label] || "var(--muted)"}">
+       <button class="ts" data-t="${t.start_s}" aria-label="Play from ${t.start}">${t.start}</button>
+       <div><span class="who">${esc(t.speaker)}:</span> ${esc(t.text)}</div></div>`).join("");
+  $("transcript").scrollTop = 0;
+  try { localStorage.setItem("echo-meeting", m.id); } catch {}
+}
+
+document.addEventListener("click", (ev) => {
+  const b = ev.target.closest(".ts");
+  if (b) { seek(Number(b.dataset.t)); return; }
+  const line = ev.target.closest(".line");
+  if (line) seek(current.transcript[line.dataset.i].start_s);
+});
+
+let lastNow = -1;
+audio.addEventListener("seeked", () => audio.dispatchEvent(new Event("timeupdate")));
+audio.addEventListener("timeupdate", () => {
+  const t = audio.currentTime, lines = current.transcript;
+  let i = -1;
+  for (let k = 0; k < lines.length && lines[k].start_s <= t; k++) i = k;
+  if (i === lastNow) return;
+  const box = $("transcript");
+  box.querySelector(".line.now")?.classList.remove("now");
+  const el = box.querySelector(`.line[data-i="${i}"]`);
+  if (el) { el.classList.add("now"); box.scrollTop = el.offsetTop - box.offsetTop - 60; }
+  lastNow = i;
+});
+
+fetch("data/meetings.json").then((r) => r.json()).then((d) => {
+  data = d;
+  overall();
+  for (const m of d.meetings) {
+    const b = document.createElement("button");
+    b.role = "tab"; b.dataset.id = m.id;
+    b.textContent = `${m.id} · ${Math.round(m.minutes_long)} min`;
+    b.onclick = () => show(m);
+    $("tabs").append(b);
+  }
+  let saved = null;
+  try { saved = localStorage.getItem("echo-meeting"); } catch {}
+  show(d.meetings.find((m) => m.id === saved) || d.meetings[0]);
+}).catch(() => { $("title").textContent = "Couldn't load the results (data/meetings.json)."; });
+</script>
+</body>
+</html>

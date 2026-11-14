@@ -1,0 +1,13 @@
+# Caddy gets and renews a Let's Encrypt certificate for $DOMAIN by itself.
+{$DOMAIN} {
+	request_body {
+		max_size 60MB
+	}
+	reverse_proxy echo:7860 {
+		# A job is polled, not streamed, but uploads on slow links can take a while.
+		transport http {
+			read_timeout 10m
+			write_timeout 10m
+		}
+	}
+}

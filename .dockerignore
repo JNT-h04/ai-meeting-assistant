@@ -1,0 +1,11 @@
+.venv
+.models
+data
+notes
+eval
+tests
+deploy
+.pytest_cache
+**/__pycache__
+*.tar.gz
+docs

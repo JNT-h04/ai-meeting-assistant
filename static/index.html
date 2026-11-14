@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ECHO</title>
+<style>
+  :root { --bg:#f6f7f9; --card:#fff; --ink:#15181d; --dim:#5b6472; --line:#dde1e7; --accent:#0b7a75; --err:#b42318; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#0f1216; --card:#171b21; --ink:#e8ebef; --dim:#9aa3b0; --line:#2a3039; --accent:#3cc4bc; --err:#ff6b5e; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width:860px; margin:0 auto; padding:32px 16px 64px; }
+  h1 { font-size:1.6rem; margin:0 0 4px; }
+  h2 { font-size:1.05rem; margin:0 0 10px; }
+  p.lead { color:var(--dim); margin:0 0 24px; }
+  section { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:18px; margin-bottom:16px; }
+  .steps { display:flex; flex-wrap:wrap; gap:6px; font-size:.85rem; color:var(--dim); margin-top:10px; }
+  .steps span { border:1px solid var(--line); border-radius:999px; padding:2px 10px; }
+  .steps span.on { border-color:var(--accent); color:var(--accent); font-weight:600; }
+  .steps span.ok { color:var(--ink); }
+  button, input[type=text] { font:inherit; }
+  button { background:var(--accent); color:#fff; border:0; border-radius:8px; padding:8px 16px; cursor:pointer; }
+  button:disabled { opacity:.5; cursor:default; }
+  input[type=text] { flex:1; min-width:0; border:1px solid var(--line); background:var(--bg); color:var(--ink); border-radius:8px; padding:8px 10px; }
+  .row { display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
+  .bar { height:6px; background:var(--line); border-radius:3px; overflow:hidden; margin-top:12px; }
+  .bar i { display:block; height:100%; width:0; background:var(--accent); transition:width .4s; }
+  .dim { color:var(--dim); font-size:.9rem; }
+  .err { color:var(--err); }
+  .turn { padding:6px 0; border-top:1px solid var(--line); }
+  .turn:first-child { border-top:0; }
+  .turn b { color:var(--accent); }
+  ul { margin:4px 0 14px; padding-left:20px; } li { margin:3px 0; }
+  a { color:var(--accent); }
+  .turn time { color:var(--dim); font-size:.8rem; margin-right:6px; font-variant-numeric:tabular-nums; }
+  table { border-collapse:collapse; font-size:.9rem; }
+  td { padding:2px 14px 2px 0; } td:last-child { text-align:right; font-variant-numeric:tabular-nums; }
+  details { margin-top:8px; } summary { cursor:pointer; color:var(--dim); font-size:.9rem; }
+  pre { white-space:pre-wrap; font-size:.82rem; background:var(--bg); padding:8px; border-radius:6px; }
+  [hidden] { display:none !important; }
+</style>
+</head>
+<body>
+<main>
+  <h1>ECHO</h1>
+  <p class="lead">A meeting recording in; who said what, decisions, action items and answers with timestamps out.
+    faster-whisper &rarr; pyannote 3.1 &rarr; word-level alignment &rarr; Qwen2.5-3B (names, roles, minutes, each claim checked against the transcript) &rarr; LangChain hybrid RAG. All open models, on 2 CPU cores.</p>
+
+  <section>
+    <h2>1. Upload</h2>
+    <div class="row">
+      <input id="file" type="file" accept="audio/*,video/mp4,video/webm">
+      <button id="go" disabled>Process</button>
+    </div>
+    <p class="dim" id="limits">Checking the server&hellip;</p>
+    <div id="progress" hidden>
+      <div class="bar"><i id="fill"></i></div>
+      <div class="steps" id="steps"></div>
+      <p class="dim" id="note"></p>
+    </div>
+    <p class="err" id="error" hidden></p>
+  </section>
+
+  <section id="out" hidden>
+    <h2 id="title">2. Minutes</h2>
+    <p id="summary"></p>
+    <div id="topics" class="steps"></div>
+    <h2 style="margin-top:16px">Decisions</h2><ul id="decisions"></ul>
+    <h2>Action items</h2><ul id="actions"></ul>
+    <div id="openbox"><h2>Open questions</h2><ul id="open"></ul></div>
+  </section>
+
+  <section id="people" hidden>
+    <h2>3. Who was there</h2>
+    <p class="dim">Names and roles are proposed by the language model and kept only if the transcript backs them up.</p>
+    <div id="speakers"></div>
+  </section>
+
+  <section id="tx" hidden>
+    <h2>4. Transcript</h2>
+    <div id="transcript"></div>
+  </section>
+
+  <section id="qa" hidden>
+    <h2>5. Ask about this meeting</h2>
+    <form class="row" id="askform">
+      <input type="text" id="question" placeholder="e.g. What did they decide about the remote?" maxlength="300">
+      <button id="ask">Ask</button>
+    </form>
+    <div id="answers"></div>
+  </section>
+
+  <section id="measured" hidden>
+    <h2>What was measured</h2>
+    <table id="timings"></table>
+  </section>
+</main>
+<script>
+const STAGES = ["queued","decoding","transcribing","diarizing","aligning","identifying","writing minutes","indexing","done"];
+const $ = (id) => document.getElementById(id);
+let jobId = null;
+
+function show(el, on) { el.hidden = !on; }
+function esc(s) { const d = document.createElement("div"); d.textContent = s; return d.innerHTML; }
+async function err(r) { try { return (await r.json()).detail || r.statusText; } catch { return r.statusText; } }
+
+async function checkStatus() {
+  try {
+    const r = await fetch("api/echo/status");
+    const s = await r.json();
+    const mins = Math.round(s.max_seconds / 60);
+    $("limits").textContent = (s.ready ? "Models loaded. " : "Models still loading (a job will wait for them). ")
+      + `Up to ${mins} min of audio is processed; longer recordings are trimmed. On 2 CPUs a ${mins}-minute clip takes a few minutes.`;
+    $("go").disabled = !$("file").files.length;
+    if (!s.ready && !Object.keys(s.load_errors).length) setTimeout(checkStatus, 5000);
+    if (Object.keys(s.load_errors).length) $("limits").textContent += " Load problem: " + Object.values(s.load_errors).join("; ");
+  } catch { $("limits").textContent = "Server not reachable yet (it takes a minute or two to start)."; setTimeout(checkStatus, 5000); }
+}
+
+$("file").onchange = () => { $("go").disabled = !$("file").files.length; };
+
+$("go").onclick = async () => {
+  const f = $("file").files[0]; if (!f) return;
+  $("go").disabled = true; for (const id of ["error","out","people","tx","qa","measured"]) show($(id), false);
+  $("answers").innerHTML = ""; show($("progress"), true); paint({ stage: "queued", percent: 2 });
+  const body = new FormData(); body.append("file", f);
+  const r = await fetch("api/echo/jobs", { method: "POST", body });
+  if (!r.ok) { fail(await err(r)); return; }
+  jobId = (await r.json()).id; poll();
+};
+
+function paint(j) {
+  $("fill").style.width = j.percent + "%";
+  const at = STAGES.indexOf(j.stage);
+  $("steps").innerHTML = STAGES.slice(1, -1).map((s, i) =>
+    `<span class="${i + 1 === at ? "on" : i + 1 < at ? "ok" : ""}">${s}</span>`).join("");
+  $("note").textContent = j.stage === "queued" && j.queue_position > 1 ? `Waiting: ${j.queue_position - 1} recording(s) ahead.` : "";
+}
+
+function fail(msg) { $("error").textContent = msg; show($("error"), true); $("go").disabled = false; }
+
+async function poll() {
+  const r = await fetch("api/echo/jobs/" + jobId);
+  if (!r.ok) { fail(await err(r)); return; }
+  const j = await r.json(); paint(j);
+  if (j.stage === "error") { fail(j.error); return; }
+  if (j.stage !== "done") { setTimeout(poll, 2000); return; }
+  $("go").disabled = false; show($("progress"), false);
+  const m = j.minutes, list = (xs, f) => xs.length ? xs.map(x => `<li>${f(x)}</li>`).join("") : `<li class="dim">none recorded</li>`;
+  $("title").textContent = "2. " + (m.title || "Minutes");
+  $("summary").textContent = m.summary;
+  $("topics").innerHTML = m.topics.map(t => `<span>${esc(t)}</span>`).join("");
+  const at = (c) => c ? ` <a class="dim" href="#t-${c.replace(":", "")}">${esc(c)}</a>` : "";
+  $("decisions").innerHTML = list(m.decisions.map((d, i) => [d, (m.decisions_at || [])[i]]), ([d, c]) => esc(d) + at(c));
+  $("actions").innerHTML = list(m.actions.map((a, i) => [a, (m.actions_at || [])[i]]),
+    ([a, c]) => `${esc(a.task)} <span class="dim">&mdash; ${esc(a.owner)}, due ${esc(a.due)}</span>${at(c)}`);
+  $("open").innerHTML = list(m.open_questions, esc); show($("openbox"), m.open_questions.length > 0);
+  $("speakers").innerHTML = j.speakers.map(s => `<div class="turn"><b>${esc(s.display)}</b>
+    <span class="dim">${esc(s.label)} &middot; ${Math.round(s.talk_seconds)} s talking${s.role !== "unknown" ? " &middot; " + esc(s.role) : ""}</span>
+    ${s.evidence ? `<br><span class="dim">evidence:</span> &ldquo;${esc(s.evidence)}&rdquo;` : ""}
+    ${s.rejected.length ? `<br><span class="dim">rejected: ${esc(s.rejected.join("; "))}</span>` : ""}</div>`).join("");
+  $("transcript").innerHTML = m.transcript.map(t =>
+    `<div class="turn" id="t-${t.start.replace(":", "")}"><time>${esc(t.start)}</time><b>${esc(t.speaker)}</b> ${esc(t.text)}</div>`).join("");
+  for (const id of ["out","people","tx","qa"]) show($(id), true);
+  const rows = Object.entries(j.stage_seconds).map(([k, v]) => [k, v.toFixed(1) + " s"]);
+  if (j.llm && j.llm.calls) rows.push(["language model", `${j.llm.calls} calls, ${j.llm.prompt_tokens} tokens in, ${j.llm.output_tokens} out`]);
+  rows.push(["total", j.seconds.toFixed(1) + " s"], ["audio", j.audio_seconds + " s" + (j.trimmed_from ? ` (trimmed from ${j.trimmed_from} s)` : "")],
+            ["speakers found", j.minutes.speakers.length], ["speaker turns (pyannote)", j.speaker_turns]);
+  $("timings").innerHTML = rows.map(([k, v]) => `<tr><td>${esc(k)}</td><td>${esc(String(v))}</td></tr>`).join("");
+  show($("measured"), true);
+}
+
+$("askform").onsubmit = async (e) => {
+  e.preventDefault();
+  const q = $("question").value.trim(); if (q.length < 2 || !jobId) return;
+  $("ask").disabled = true;
+  const box = document.createElement("div"); box.className = "turn";
+  box.innerHTML = `<b>Q</b> ${esc(q)}<br><span class="dim">thinking&hellip;</span>`; $("answers").prepend(box);
+  try {
+    const r = await fetch(`api/echo/jobs/${jobId}/ask`, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ question: q }) });
+    if (!r.ok) { box.innerHTML = `<b>Q</b> ${esc(q)}<br><span class="err">${esc(await err(r))}</span>`; return; }
+    const a = await r.json();
+    const cites = a.cite.map(c => `<a href="#t-${c.replace(":", "")}">${esc(c)}</a>`).join(", ");
+    box.innerHTML = `<b>Q</b> ${esc(a.question)}<br>${esc(a.answer)} <span class="dim">${cites ? "&middot; at " + cites + " " : ""}(${a.seconds}s)</span>
+      <details><summary>retrieved from the transcript</summary>${a.passages.map(p => `<pre>${esc(p)}</pre>`).join("")}</details>`;
+    $("question").value = "";
+  } finally { $("ask").disabled = false; }
+};
+
+checkStatus();
+</script>
+</body>
+</html>

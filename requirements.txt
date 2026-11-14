@@ -1,5 +1,21 @@
-streamlit>=1.56.0
-transformers>=4.41
-torch>=2.1
-pyannote.audio>=3.1
-python-dotenv>=1.0
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.5.1
+torchaudio==2.5.1
+numpy==1.26.4
+soundfile==0.12.1
+pyannote.audio==3.4.0
+transformers==4.46.3
+sentencepiece==0.2.0
+sentence-transformers==3.3.1
+faiss-cpu==1.9.0
+langchain-core==0.3.21
+langchain-community==0.3.8
+langchain-huggingface==0.1.2
+fastapi==0.115.5
+uvicorn==0.32.1
+python-multipart==0.0.17
+huggingface_hub==0.25.2
+faster-whisper==1.1.0
+llama-cpp-python==0.3.2
+rank_bm25==0.2.2
+langchain==0.3.9

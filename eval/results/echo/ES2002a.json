@@ -1,0 +1,785 @@
+{
+ "minutes": {
+  "title": "Project Kick-off Meeting",
+  "summary": "The meeting kicked off the project design for a new remote control. Decisions were made on pricing, production costs, and functionality. Next steps include determining production costs vs. selling prices.",
+  "topics": [
+   "PowerPoint presentation",
+   "Remote control design",
+   "Pricing strategy",
+   "Production costs"
+  ],
+  "decisions": [
+   "The product will sell for 25 euro",
+   "We aim to make 15 million euro from selling this remote control",
+   "International sales are planned, with a target price of no more than 1250 euros"
+  ],
+  "decisions_at": [
+   "07:28",
+   "07:28",
+   "07:28"
+  ],
+  "actions": [
+   {
+    "task": "Determine production costs vs. selling prices",
+    "owner": "Andrew",
+    "due": "not stated"
+   }
+  ],
+  "actions_at": [
+   "08:19"
+  ],
+  "open_questions": [
+   "What information is given about the product?",
+   "Is 25 euros a premium price for the remote control?"
+  ],
+  "method": "extract-verify",
+  "sections": 2,
+  "dropped_unverified": 3,
+  "transcript": [
+   {
+    "speaker": "Andrew",
+    "label": "SPEAKER_03",
+    "start": "00:04",
+    "start_s": 4.5,
+    "end_s": 7.64,
+    "text": "It's like, gosh, you've already produced a PowerPoint presentation."
+   },
+   {
+    "speaker": "Laura",
+    "label": "SPEAKER_00",
+    "start": "00:07",
+    "start_s": 7.92,
+    "end_s": 77.3,
+    "text": "I think it's already on, actually, but I don't know if it's going to work. I'll put it in the back, but OK, right, I don't know. OK, well, this is the kick -off meeting for our project. And this is just what we're going to be doing over the next 25 minutes. So first of all, just to make sure that we all know each other, I'm Laura and I'm a project manager. Great. Do you want to introduce yourself again?"
+   },
+   {
+    "speaker": "Industrial Designer",
+    "label": "SPEAKER_01",
+    "start": "01:17",
+    "start_s": 77.52,
+    "end_s": 80.41,
+    "text": "I'm an industrial designer."
+   },
+   {
+    "speaker": "Laura",
+    "label": "SPEAKER_00",
+    "start": "01:20",
+    "start_s": 80.81,
+    "end_s": 81.05,
+    "text": "Okay."
+   },
+   {
+    "speaker": "Andrew",
+    "label": "SPEAKER_03",
+    "start": "01:21",
+    "start_s": 81.93,
+    "end_s": 84.19,
+    "text": "I'm Andrew and I'm a marketing"
+   },
+   {
+    "speaker": "Greg",
+    "label": "SPEAKER_02",
+    "start": "01:24",
+    "start_s": 84.19,
+    "end_s": 88.39,
+    "text": "expert. I'm Greg and I'm a huge interface."
+   },
+   {
+    "speaker": "Laura",
+    "label": "SPEAKER_00",
+    "start": "01:29",
+    "start_s": 89.29,
+    "end_s": 131.98,
+    "text": "Great. So we're designing a new remote control, and oh, I have to record who's here actually. So that's David, Andrew, and Craig, isn't it? Yes, we design a new remote control, as you can see, it's supposed to be original, trendy and user -friendly. So that's kind of our brief that we're at. And so there are three different stages to the design. I'm not really sure what you guys have already received. In your emails, what did you get?"
+   },
+   {
+    "speaker": "Industrial Designer",
+    "label": "SPEAKER_01",
+    "start": "02:12",
+    "start_s": 132.72,
+    "end_s": 134.58,
+    "text": "I just got the project notes."
+   },
+   {
+    "speaker": "Andrew",
+    "label": "SPEAKER_03",
+    "start": "02:19",
+    "start_s": 139.14,
+    "end_s": 140.68,
+    "text": "Yeah, that's what everybody"
+   },
+   {
+    "speaker": "Laura",
+    "label": "SPEAKER_00",
+    "start": "02:20",
+    "start_s": 140.68,
+    "end_s": 168.22,
+    "text": "got. Okay. So we're going to have like individual work and then a meeting about it and repeat that process three times. And at this point we get to try out the whiteboard over there. So you get to draw your favorite animal and sum up your favorite characteristics of it. So who would like to go first? Very good."
+   },
+   {
+    "speaker": "Andrew",
+    "label": "SPEAKER_03",
+    "start": "02:53",
+    "start_s": 173.94,
+    "end_s": 216.99,
+    "text": "Alright. So this one here, right? Okay. Very nice. Alright. My favorite animal. A beagle, favorite characteristics of it, is that right? Yeah. Right."
+   },
+   {
+    "speaker": "Laura",
+    "label": "SPEAKER_00",
+    "start": "03:37",
+    "start_s": 217.21,
+    "end_s": 217.21,
+    "text": "Well,"
+   },
+   {
+    "speaker": "Andrew",
+    "label": "SPEAKER_03",
+    "start": "03:37",
+    "start_s": 217.61,
+    "end_s": 242.27,
+    "text": "basically, high priority for any animal for me is that they be willing to take a lot of physical affection from their family, and yeah, they have lots of personality and to be fit and in robust good health. So this is blue, blue beagle, my family's beagle."
+   },
+   {
+    "speaker": "Laura",
+    "label": "SPEAKER_00",
+    "start": "04:03",
+    "start_s": 243.95,
+    "end_s": 246.29,
+    "text": "Right, lovely. No,"
+   },
+   {
+    "speaker": "Greg",
+    "label": "SPEAKER_02",
+    "start": "04:15",
+    "start_s": 255.32,
+    "end_s": 273.48,
+    "text": "my favourite animal would be a monkey. And then a small cutin' furry, and when plantin' it becomes real, I'm gonna be up there with them."
+   },
+   {
+    "speaker": "Industrial Designer",
+    "label": "SPEAKER_01",
+    "start": "04:41",
+    "start_s": 281.52,
+    "end_s": 282.0,
+    "text": "You"
+   },
+   {
+    "speaker": "Laura",
+    "label": "SPEAKER_00",
+    "start": "04:45",
+    "start_s": 285.72,
+    "end_s": 293.16,
+    "text": "can take as long over this as you like, because we haven't got an awful lot to do. It's ok, we do, we do. Don't feel like you're in a rush anyway."
+   },
+   {
+    "speaker": "Andrew",
+    "label": "SPEAKER_03",
+    "start": "04:55",
+    "start_s": 295.77,
+    "end_s": 298.59,
+    "text": "I could have told you a whole lot more about beagles. Ok, well"
+   },
+   {
+    "speaker": "Laura",
+    "label": "SPEAKER_00",
+    "start": "04:58",
+    "start_s": 298.59,
+    "end_s": 303.43,
+    "text": "I'd have to get you up again. I don't know what mine is, I'm going to have to think in the spot mode."
+   },
+   {
+    "speaker": "Andrew",
+    "label": "SPEAKER_03",
+    "start": "05:07",
+    "start_s": 307.57,
+    "end_s": 307.89,
+    "text": "Impressionist."
+   },
+   {
+    "speaker": "Laura",
+    "label": "SPEAKER_00",
+    "start": "05:11",
+    "start_s": 311.84,
+    "end_s": 313.34,
+    "text": "Is that a whale? Yeah!"
+   },
+   {
+    "speaker": "Industrial Designer",
+    "label": "SPEAKER_01",
+    "start": "05:21",
+    "start_s": 321.32,
+    "end_s": 331.12,
+    "text": "I don't know, it's just the first animal I can think of off the top of my head. The biggest reason is because I'm allergic to most animals. I'm allergic to animals first, so fish was a natural choice."
+   },
+   {
+    "speaker": "Laura",
+    "label": "SPEAKER_00",
+    "start": "05:43",
+    "start_s": 343.46,
+    "end_s": 345.12,
+    "text": "I still don't know what I'm going to write about."
+   },
+   {
+    "speaker": "Andrew",
+    "label": "SPEAKER_03",
+    "start": "05:49",
+    "start_s": 349.66,
+    "end_s": 350.9,
+    "text": "Superb sketch, by the way."
+   },
+   {
+    "speaker": "Laura",
+    "label": "SPEAKER_00",
+    "start": "05:54",
+    "start_s": 354.7,
+    "end_s": 374.58,
+    "text": "I was going to choose a dog as well, but I just draw a different kind of dog. My favourite animal is my own dog at home. That doesn't really look like him actually. He looks more like a pig actually."
+   },
+   {
+    "speaker": "Andrew",
+    "label": "SPEAKER_03",
+    "start": "06:18",
+    "start_s": 378.18,
+    "end_s": 380.2,
+    "text": "I see a dog in there. Do you? Oh,"
+   },
+   {
+    "speaker": "Laura",
+    "label": "SPEAKER_00",
+    "start": "06:20",
+    "start_s": 380.2,
+    "end_s": 380.94,
+    "text": "that's very good of you."
+   },
+   {
+    "speaker": "Andrew",
+    "label": "SPEAKER_03",
+    "start": "06:22",
+    "start_s": 382.56,
+    "end_s": 394.0,
+    "text": "Now I see a rooster. What kind is it?"
+   },
+   {
+    "speaker": "Laura",
+    "label": "SPEAKER_00",
+    "start": "06:35",
+    "start_s": 395.1,
+    "end_s": 431.08,
+    "text": "He's a mixture of various things. And what do I like about him? That's supposed to suggest that his tail wags. He's very friendly and cheery and always pleased to see you and very affectionate and he's quite wee as well so he doesn't take up too much space. And he does the funny thing where he chases his tail as well. This is quite amusing."
+   },
+   {
+    "speaker": "Andrew",
+    "label": "SPEAKER_03",
+    "start": "07:11",
+    "start_s": 431.26,
+    "end_s": 433.3,
+    "text": "Is he aware that this is his own tail that he's chasing?"
+   },
+   {
+    "speaker": "Laura",
+    "label": "SPEAKER_00",
+    "start": "07:13",
+    "start_s": 433.72,
+    "end_s": 440.02,
+    "text": "It is, I think it is. He only does it after he's had his dinner. And he'll just all of a sudden just get up and start chasing his tail."
+   },
+   {
+    "speaker": "Industrial Designer",
+    "label": "SPEAKER_01",
+    "start": "07:23",
+    "start_s": 443.82,
+    "end_s": 444.26,
+    "text": "probably"
+   },
+   {
+    "speaker": "Andrew",
+    "label": "SPEAKER_03",
+    "start": "07:24",
+    "start_s": 444.26,
+    "end_s": 448.5,
+    "text": "when he was little he got lots of attention for doing it and it's never been conditioned"
+   },
+   {
+    "speaker": "Laura",
+    "label": "SPEAKER_00",
+    "start": "07:28",
+    "start_s": 448.5,
+    "end_s": 494.73,
+    "text": "where did you find this just down here okay okay when I need to discuss the project finance so according to the brief we're gonna be selling this remote control for 25 euro and we're aiming to make 15 million euro and so we're gonna be selling this on an international scale and we don't want it to cost any more than 1250 euros so 50 % of the selling price."
+   },
+   {
+    "speaker": "Andrew",
+    "label": "SPEAKER_03",
+    "start": "08:19",
+    "start_s": 499.41,
+    "end_s": 513.83,
+    "text": "Can we production cost is all together but selling prices is that wholesale the retail like on the shelf"
+   },
+   {
+    "speaker": "Laura",
+    "label": "SPEAKER_00",
+    "start": "08:33",
+    "start_s": 513.83,
+    "end_s": 539.81,
+    "text": "I don't know I imagine that's a good sale our sale I imagine it probably is our sale actually because it's probably up to the retailer to sell it for whatever price they want and I don't know I mean do you think the fact that it's going to be sold internationally will have a bearing on how we design it at all, I think it will."
+   },
+   {
+    "speaker": "Andrew",
+    "label": "SPEAKER_03",
+    "start": "09:08",
+    "start_s": 548.21,
+    "end_s": 556.32,
+    "text": "Right away I'm wondering if there's like the DVD players if there are zones. Oh yeah, regions and stuff. Frequencies or something."
+   },
+   {
+    "speaker": "Laura",
+    "label": "SPEAKER_00",
+    "start": "09:16",
+    "start_s": 556.7,
+    "end_s": 557.04,
+    "text": "As"
+   },
+   {
+    "speaker": "Andrew",
+    "label": "SPEAKER_03",
+    "start": "09:17",
+    "start_s": 557.04,
+    "end_s": 565.08,
+    "text": "well as characters, different keypad styles and symbols."
+   },
+   {
+    "speaker": "Laura",
+    "label": "SPEAKER_00",
+    "start": "09:25",
+    "start_s": 565.08,
+    "end_s": 566.88,
+    "text": "Yeah, but for remote control,"
+   },
+   {
+    "speaker": "Andrew",
+    "label": "SPEAKER_03",
+    "start": "09:27",
+    "start_s": 567.12,
+    "end_s": 567.12,
+    "text": "do"
+   },
+   {
+    "speaker": "Laura",
+    "label": "SPEAKER_00",
+    "start": "09:27",
+    "start_s": 567.12,
+    "end_s": 570.94,
+    "text": "you think that would be, I suppose it depends on how complicated our remote control is."
+   },
+   {
+    "speaker": "Industrial Designer",
+    "label": "SPEAKER_01",
+    "start": "09:40",
+    "start_s": 580.11,
+    "end_s": 580.61,
+    "text": "Yeah."
+   },
+   {
+    "speaker": "Andrew",
+    "label": "SPEAKER_03",
+    "start": "09:42",
+    "start_s": 582.81,
+    "end_s": 596.45,
+    "text": "And then the other thing, international is on the top of the price. I'm thinking the price might appeal to a certain market in one region whereas in another it would be different."
+   },
+   {
+    "speaker": "Laura",
+    "label": "SPEAKER_00",
+    "start": "09:57",
+    "start_s": 597.55,
+    "end_s": 599.73,
+    "text": "Just a characteristic of"
+   },
+   {
+    "speaker": "Andrew",
+    "label": "SPEAKER_03",
+    "start": "09:59",
+    "start_s": 599.73,
+    "end_s": 599.73,
+    "text": "the"
+   },
+   {
+    "speaker": "Laura",
+    "label": "SPEAKER_00",
+    "start": "09:59",
+    "start_s": 599.73,
+    "end_s": 603.19,
+    "text": "country, like how much money people have to spend on things. Or just"
+   },
+   {
+    "speaker": "Andrew",
+    "label": "SPEAKER_03",
+    "start": "10:03",
+    "start_s": 603.19,
+    "end_s": 616.59,
+    "text": "like basic product positioning, the 25 -year -old remote control might be a big hit in London, might not be such a big hit in Greece, who knows, something like that."
+   },
+   {
+    "speaker": "Laura",
+    "label": "SPEAKER_00",
+    "start": "10:18",
+    "start_s": 618.75,
+    "end_s": 622.59,
+    "text": "Marketing, good marketing thoughts, oh gosh, I should be writing all this time."
+   },
+   {
+    "speaker": "Andrew",
+    "label": "SPEAKER_03",
+    "start": "10:55",
+    "start_s": 655.08,
+    "end_s": 676.24,
+    "text": "Right away I'm making some kind of assumptions about what information we're given here, making a trendy probably means something other than just basic, something other than just standard. So I'm wondering right away, is selling 25 euros, is that sort of the, is this going to be like the premium product?"
+   },
+   {
+    "speaker": "Laura",
+    "label": "SPEAKER_00",
+    "start": "11:16",
+    "start_s": 676.88,
+    "end_s": 721.4,
+    "text": "Yeah, yeah, like how much does remote control cost? Well, 25 euro, I mean that's about like 18 pounds or something, isn't it? Or is it as much as that? 16, 17, 18 pounds? I don't know, I've never bought a remote control so I don't know how good a remote control that would get you. But yeah, I suppose it has to look kind of cool gimmicky. You just scoot on ahead here. Okay. Well, does anybody have anything to add to the finance issue at all?"
+   },
+   {
+    "speaker": "Andrew",
+    "label": "SPEAKER_03",
+    "start": "12:02",
+    "start_s": 722.34,
+    "end_s": 727.42,
+    "text": "Do we have any other background information on how that compares to other..."
+   },
+   {
+    "speaker": "Laura",
+    "label": "SPEAKER_00",
+    "start": "12:07",
+    "start_s": 727.42,
+    "end_s": 732.88,
+    "text": "No, actually, that would be useful, though, wouldn't it, if you knew what your money would get you? No."
+   },
+   {
+    "speaker": "Andrew",
+    "label": "SPEAKER_03",
+    "start": "12:33",
+    "start_s": 753.99,
+    "end_s": 773.27,
+    "text": "Interesting thing about discussing production of remote control for me is that as you point out, I just don't think remote control is being something something people consciously assess in their purchasing habits. Yeah, it's just like getting shoelaces with shoes or something. Just five minutes"
+   },
+   {
+    "speaker": "Laura",
+    "label": "SPEAKER_00",
+    "start": "12:53",
+    "start_s": 773.27,
+    "end_s": 775.99,
+    "text": "to end of meeting. Okay, we're a bit behind."
+   },
+   {
+    "speaker": "Andrew",
+    "label": "SPEAKER_03",
+    "start": "12:56",
+    "start_s": 776.21,
+    "end_s": 793.49,
+    "text": "You know what I mean? Like, sort of like, how do you I mean, one one way looking at would be well, the people producing television sets, maybe they have to buy remote controls. Another way is maybe people who have TV sets are really fed up with their remote control and they really want a better one or something."
+   },
+   {
+    "speaker": "Greg",
+    "label": "SPEAKER_02",
+    "start": "13:14",
+    "start_s": 794.21,
+    "end_s": 805.23,
+    "text": "My parents went and bought remote controls because they got fed up by having four or five different remote controls for each device. Right, so in function"
+   },
+   {
+    "speaker": "Andrew",
+    "label": "SPEAKER_03",
+    "start": "13:25",
+    "start_s": 805.23,
+    "end_s": 810.21,
+    "text": "one of the priorities might be to combine as many uses."
+   },
+   {
+    "speaker": "Laura",
+    "label": "SPEAKER_00",
+    "start": "13:31",
+    "start_s": 811.49,
+    "end_s": 819.49,
+    "text": "Right, so do you think that should be like a main and designing in the form of control to do your satellite and your regular tally and your VCR and everything."
+   },
+   {
+    "speaker": "Andrew",
+    "label": "SPEAKER_03",
+    "start": "13:39",
+    "start_s": 819.85,
+    "end_s": 844.05,
+    "text": "Well, like maybe what we could use as sort of like an example of a successful other piece of technology is palm pilots. They're going from being just like little sort of scribble boards to cameras, MP3 players, telephones, everything, agenda. So like I wonder if we might add something new to the remote control market such as the lighting in your house or or"
+   },
+   {
+    "speaker": "Laura",
+    "label": "SPEAKER_00",
+    "start": "14:04",
+    "start_s": 844.05,
+    "end_s": 853.09,
+    "text": "even like you know notes about and what you want to watch like you might put in there yeah that's a good idea so extra functionality yeah"
+   },
+   {
+    "speaker": "Andrew",
+    "label": "SPEAKER_03",
+    "start": "14:13",
+    "start_s": 853.09,
+    "end_s": 879.13,
+    "text": "like personally for me at home I've I've combined the audio video of my television set and my DVD player and my CD player so they all work actually function together but I have different remote controls for each of them so it's sort of ironic that that then they're, you know, they sound and everything. It's just one system, but each one's got its own little part."
+   },
+   {
+    "speaker": "Laura",
+    "label": "SPEAKER_00",
+    "start": "14:45",
+    "start_s": 885.52,
+    "end_s": 905.88,
+    "text": "Okay, I'm gonna have to wrap up pretty quickly in the next couple of minutes. I'll just check with nothing else, okay. So anything else anybody wants to add about what they don't like about remote controls they've used, what they would really like to be part of this new one at all? you keep losing them okay"
+   },
+   {
+    "speaker": "Industrial Designer",
+    "label": "SPEAKER_01",
+    "start": "15:08",
+    "start_s": 908.6,
+    "end_s": 913.36,
+    "text": "you"
+   },
+   {
+    "speaker": "Laura",
+    "label": "SPEAKER_00",
+    "start": "15:14",
+    "start_s": 914.93,
+    "end_s": 922.45,
+    "text": "get those ones where you can if you like whistle or make a really high -pitched noise they beep yeah I mean is that something we'd want to include do you think"
+   },
+   {
+    "speaker": "Andrew",
+    "label": "SPEAKER_03",
+    "start": "15:22",
+    "start_s": 922.45,
+    "end_s": 924.57,
+    "text": "I"
+   },
+   {
+    "speaker": "Laura",
+    "label": "SPEAKER_00",
+    "start": "15:24",
+    "start_s": 924.57,
+    "end_s": 927.95,
+    "text": "remember"
+   },
+   {
+    "speaker": "Andrew",
+    "label": "SPEAKER_03",
+    "start": "15:27",
+    "start_s": 927.95,
+    "end_s": 951.53,
+    "text": "when the first remote control my my family had was on a cable actually the cable between in the TV and big like buttons that sort of like like on a blender or something like that and you know and I think about what they are now it's better but actually it's still kind of I don't know like a massive junky thing on the table maybe we could think about how could be more you know streamlined maybe"
+   },
+   {
+    "speaker": "Laura",
+    "label": "SPEAKER_00",
+    "start": "15:51",
+    "start_s": 951.53,
+    "end_s": 952.63,
+    "text": "like a touchscreen or something"
+   },
+   {
+    "speaker": "Andrew",
+    "label": "SPEAKER_03",
+    "start": "15:52",
+    "start_s": 952.63,
+    "end_s": 956.21,
+    "text": "something like that or whatever would be technologically reasonable"
+   },
+   {
+    "speaker": "Laura",
+    "label": "SPEAKER_00",
+    "start": "15:56",
+    "start_s": 956.77,
+    "end_s": 959.11,
+    "text": "okay it could be that"
+   },
+   {
+    "speaker": "Andrew",
+    "label": "SPEAKER_03",
+    "start": "15:59",
+    "start_s": 959.11,
+    "end_s": 973.53,
+    "text": "it could be that functionally that doesn't make it any better but that just the appeal of not having you know these days that people things in people's homes are becoming more and more like chic you know nicer materials okay might be"
+   },
+   {
+    "speaker": "Laura",
+    "label": "SPEAKER_00",
+    "start": "16:15",
+    "start_s": 975.1,
+    "end_s": 975.84,
+    "text": "worth"
+   },
+   {
+    "speaker": "Andrew",
+    "label": "SPEAKER_03",
+    "start": "16:15",
+    "start_s": 975.84,
+    "end_s": 977.36,
+    "text": "exploring right"
+   },
+   {
+    "speaker": "Laura",
+    "label": "SPEAKER_00",
+    "start": "16:17",
+    "start_s": 977.36,
+    "end_s": 1019.04,
+    "text": "well so it is to wrap up the next meeting is going to be in 30 minutes so that's about 10 to 12 by my watch and so in between now and then as the industrial designer you're going to be working on, you know, the actual working design of it, so, you know, what you're doing there. For our user interface, technical functions, I guess, that's, you know, like what we've been talking about, what it'll actually do. And marketing executives, you know, be just thinking about what it actually, what, you know, what requirements it has to have to fulfill and you'll get instructions emailed to you, I guess."
+   },
+   {
+    "speaker": "Andrew",
+    "label": "SPEAKER_03",
+    "start": "16:59",
+    "start_s": 1019.62,
+    "end_s": 1019.92,
+    "text": "Okay."
+   },
+   {
+    "speaker": "Laura",
+    "label": "SPEAKER_00",
+    "start": "17:07",
+    "start_s": 1027.78,
+    "end_s": 1042.28,
+    "text": "Yeah, so it's the functional design stages next, I guess. And that's the end of the meeting. I got that little message, a lot of casinos and I thought I would."
+   },
+   {
+    "speaker": "Andrew",
+    "label": "SPEAKER_03",
+    "start": "17:26",
+    "start_s": 1046.95,
+    "end_s": 1074.15,
+    "text": "Before we wrap up just to make sure we're all on the same page here. Do we, we're given sort of an example of a coffee machine or something, right? Well, are we right now on the assumption that our television remote control may have features which go beyond the television, or are we keeping sort of like a design commitment to television features? Okay, well"
+   },
+   {
+    "speaker": "Laura",
+    "label": "SPEAKER_00",
+    "start": "17:54",
+    "start_s": 1074.15,
+    "end_s": 1084.71,
+    "text": "just very quickly because we're supposed to finish now. I guess that's up to us. I mean, you probably want some kind of unique selling point of it, so, you know,"
+   },
+   {
+    "speaker": "Industrial Designer",
+    "label": "SPEAKER_01",
+    "start": "18:07",
+    "start_s": 1087.58,
+    "end_s": 1093.03,
+    "text": "yeah. That depends on how much you can cram into that pipe."
+   },
+   {
+    "speaker": "Laura",
+    "label": "SPEAKER_00",
+    "start": "18:13",
+    "start_s": 1093.67,
+    "end_s": 1094.03,
+    "text": "Okay."
+   },
+   {
+    "speaker": "Industrial Designer",
+    "label": "SPEAKER_01",
+    "start": "18:15",
+    "start_s": 1095.57,
+    "end_s": 1096.01,
+    "text": "Yeah,"
+   },
+   {
+    "speaker": "Laura",
+    "label": "SPEAKER_00",
+    "start": "18:19",
+    "start_s": 1099.39,
+    "end_s": 1113.93,
+    "text": "right, okay, well that's the end of the meeting then. Thank you all for coming. God, I hope that was what they wanted us to do, isn't it?"
+   },
+   {
+    "speaker": "Andrew",
+    "label": "SPEAKER_03",
+    "start": "18:39",
+    "start_s": 1119.49,
+    "end_s": 1119.91,
+    "text": "Great."
+   },
+   {
+    "speaker": "Laura",
+    "label": "SPEAKER_00",
+    "start": "18:40",
+    "start_s": 1120.75,
+    "end_s": 1156.98,
+    "text": "How do you turn this thing off? Is it functioning? Ah, there we go. I think if you can just leave it on, maybe, and then... Oh god, this has turned itself off. Oh, there it is. Oh, thank goodness. Okay. Right."
+   }
+  ]
+ },
+ "speakers": [
+  {
+   "label": "SPEAKER_00",
+   "display": "Laura",
+   "name": "Laura",
+   "role": "project manager",
+   "evidence": "So first of all, just to make sure that we all know each other, I'm Laura and I'm a project manager.",
+   "verified": true,
+   "rejected": [],
+   "talk_seconds": 531.2
+  },
+  {
+   "label": "SPEAKER_03",
+   "display": "Andrew",
+   "name": "Andrew",
+   "role": "marketing",
+   "evidence": "I'm Andrew and I'm a marketing",
+   "verified": true,
+   "rejected": [
+    "role 'marketing expert' not stated by or to this speaker"
+   ],
+   "talk_seconds": 347.5
+  },
+  {
+   "label": "SPEAKER_02",
+   "display": "Greg",
+   "name": "Greg",
+   "role": "unknown",
+   "evidence": "I'm Greg and I'm a huge interface.",
+   "verified": true,
+   "rejected": [],
+   "talk_seconds": 33.4
+  },
+  {
+   "label": "SPEAKER_01",
+   "display": "Industrial Designer",
+   "name": "unknown",
+   "role": "industrial designer",
+   "evidence": "",
+   "verified": true,
+   "rejected": [
+    "introduction belongs to another speaker"
+   ],
+   "talk_seconds": 26.6
+  }
+ ],
+ "meeting": "ES2002a",
+ "audio_minutes": 21.21,
+ "stage_seconds": {
+  "transcribing": 130.1,
+  "diarizing": 0.0,
+  "aligning": 0.1,
+  "identifying": 46.8,
+  "writing minutes": 120.3,
+  "indexing": 3.3
+ },
+ "threads": 4,
+ "llm": {
+  "model": "qwen2.5-3b-instruct-q4_k_m",
+  "calls": 4,
+  "prompt_tokens": 6014,
+  "output_tokens": 720,
+  "seconds": 167.0
+ }
+}

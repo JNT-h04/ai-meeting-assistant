@@ -1,0 +1,601 @@
+{
+ "title": "Remote Control Project Kickoff",
+ "summary": "The team met for their first project meeting to discuss the design and development of a new remote control. They covered tool training, project plans, conceptual design, and remote control features. The group also brainstormed design ideas by drawing animals on the whiteboard. Finally, they planned next steps and upcoming meetings.",
+ "topics": [
+  "Project introduction and introductions",
+  "Tool training and project plan",
+  "Functional and conceptual design",
+  "Remote control features and target market",
+  "Drawing exercise and design brainstorming"
+ ],
+ "decisions": [
+  "The remote control will feature a user-friendly design targeted at a wide market.",
+  "The team will develop a remote control with basic functions, volume, channel control, and a menu display."
+ ],
+ "actions": [
+  {
+   "task": "Practice with the pens and draw a favorite animal on the whiteboard",
+   "owner": "unassigned",
+   "due": "not stated"
+  },
+  {
+   "task": "Prepare for the next meeting in half an hour",
+   "owner": "unassigned",
+   "due": "30 minutes"
+  }
+ ],
+ "transcript": [
+  {
+   "speaker": "Sarah",
+   "start": "01:21",
+   "text": "Hello everybody. I'm Sarah, the project manager. And this is our first meeting, surprisingly enough. Okay, this is our agenda. Um we will do some stuff, get to know each other a bit better, to feel more comfortable with each other. Um then we'll go do tool training, talk about the project plan, discuss our own ideas and everything. Um and we've got 25 minutes to do that as far as I can understand."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "01:57",
+   "text": "Now, we are developing a remote control, which you probably already know. Um we want it to be original, something that's people haven't thought of, that's not out in the shops. Um trendy, appealing to a wide market, but you know, not a hunk of metal. And user friendly, grannies, kids, maybe even future should be able to use it."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "02:22",
+   "text": "Okay. Um first is the functional design. Um this is where we all go off and do our individual work. Um what needs need to be fulfilled by the product, what effects the product has to have and how it's actually going to do that. Um conceptual design, what we're thinking, how it's going to go, and then the detailed design, how we're actually going to put it into practice and make it work."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "02:50",
+   "text": "Okay, right. We're going to practice with the pens and draw our favorite animal on the whiteboard. I'll go first. And sum up the characteristics of that animal. So Okay. I'll leave space for everyone else."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "04:06",
+   "text": "Okay. And I'm not going to ask you to guess, I'm going to tell you that's supposed to be a tiger."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "04:14",
+   "text": "And I see them as majestic, and independent, and proud. Now, who would like to go next?"
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "04:35",
+   "text": "Yummy. Okay. Got. What does this come from? The tail power. Oh. Yep. Thank you."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "04:53",
+   "text": "Um maybe you can guess what I'm trying to make."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "05:06",
+   "text": "A kind of dog?"
+  },
+  {
+   "speaker": "Sarah",
+   "start": "05:08",
+   "text": "Yep."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "05:12",
+   "text": "It's actually sitting. So. Sorry. It's sitting. It's not standing."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "05:19",
+   "text": "Okay, I see it as one thing. It's very supportive."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "05:24",
+   "text": "It's your best friend in your You can talk to a dog. It can be a best friend. It doesn't discriminate between you based on what you are. Second, it's loyal."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "05:35",
+   "text": "And third thing, it's got intuition."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "05:40",
+   "text": "Means dogs can some sometimes make out between a thief and a person. So basically, these are the three unique features. I think belong to a dog."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "05:56",
+   "text": "Please please leave me a space at the bottom. I'm little standing on a chair."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "06:01",
+   "text": "Well, since you guys have chosen the ones I wanted to do."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "06:11",
+   "text": "And also my drawing skill isn't that great."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "06:13",
+   "text": "Well, as you can see, the quality of the work today is um I think it's outstandingly good."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "06:18",
+   "text": "Yes."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "06:19",
+   "text": "Okay, now I'm going to have to change what it was originally going to be because that looks like a beak now, so."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "06:30",
+   "text": "Crocodile?"
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "06:34",
+   "text": "Yeah, it can be a crocodile. It can be a crocodile. Well, it was it was in first firstly, it was an attempt at a T-Rex and then it sort of changed into a pelican, but it can be a crocodile."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "06:59",
+   "text": "That's lovely. Yeah. And uh I'll have to think on the spot of uh things that it is."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "07:05",
+   "text": "Um uh scary, uh strong."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "07:18",
+   "text": "Yeah, that's about it, I think."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "07:22",
+   "text": "Okay."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "07:23",
+   "text": "I'm I'm very impressed with your artistic skills. Mine are dreadful."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "07:27",
+   "text": "Oops, this is now coming apart. Let me just put the top in."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "07:33",
+   "text": "I hope that clicks in. I'll just I'll hold it on. Okay."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "07:37",
+   "text": "Oops. Oh dear. What happened there?"
+  },
+  {
+   "speaker": "Sarah",
+   "start": "07:41",
+   "text": "Technical help."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "07:44",
+   "text": "Hopefully that'll stay on. Two-handed version."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "07:48",
+   "text": "Okay. Okay."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "07:54",
+   "text": "Again, this is off the top of my head. I was going to do a big cat too. And Oh dear, doesn't look like what I wanted it to be."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "08:08",
+   "text": "It's not a vampire bat, honestly."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "08:13",
+   "text": "And somewhere there's a body behind."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "08:17",
+   "text": "That's my dreadful. That's the worst, yeah. That's meant to be an eagle. You can tell it's a flying animal."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "08:24",
+   "text": "Could have been a seagull, I never thought of a seagull. An eagle. Um again, I'm thinking on my feet, goodness."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "08:31",
+   "text": "Suppose they're also independent. I'd put that one down again."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "08:40",
+   "text": "Independent, right?"
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "08:43",
+   "text": "Do you say they're good at golf? Yeah. Are they? Eagle. Eagle."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "08:46",
+   "text": "Oh, all right. Okay. I'm not good at golf."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "08:49",
+   "text": "I'd say they're quite free-spirited."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "08:51",
+   "text": "Flying around everywhere."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "08:55",
+   "text": "Doing their own thing."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "09:01",
+   "text": "And uh birds of prey, aren't they? Oh, dear. Intrepid. Intrepid."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "09:13",
+   "text": "There we go. I hope that pen is going to be okay."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "09:21",
+   "text": "Okay."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "09:25",
+   "text": "Um finance-wise, we've got uh selling price at \u20ac25, which I don't actually know what that is in pounds at all."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "09:34",
+   "text": "Any ideas?"
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "09:35",
+   "text": "It's around 17 1.4 or something like that. 1.4 would make a pound or something. Yeah, yeah. Same as that."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "09:44",
+   "text": "Yeah, about 17 17 pounds."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "09:48",
+   "text": "Should we be making notes of this? We can just refer to this later."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "09:51",
+   "text": "I think so. I think I'll be able to pull that up or I can put it in a shared folder or something."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "09:55",
+   "text": "Having said that though, if you want to get one of those the the ones on the market at the moment, they're they're about 20 pounds anyway."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "10:03",
+   "text": "So, right. It'll still be, yeah."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "10:05",
+   "text": "We have to buy one."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "10:08",
+   "text": "So, I suppose later, it depends if we want to undercut the price or or is it going to make our product look a cheapy-cheapy option? Yeah."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "10:14",
+   "text": "Um, production costs at 12.50. So, okay. Pretty huge margin."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "10:19",
+   "text": "Half of the selling prices taken up by building it."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "10:24",
+   "text": "Um and profit aim is \u20ac50 million, which is uh you know, first year."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "10:31",
+   "text": "Yeah, yes. Um yeah. I presume so."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "10:38",
+   "text": "You've got market range international and you did say earlier it's got to be um accessible and usable by sort of all age groups, just to we're not focusing on business market any particular thing. It's everyone, user friendly to everyone. Okay."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "10:53",
+   "text": "Big target group."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "10:54",
+   "text": "Yes, yes. I don't think we have to I don't think it's a case of worrying about different languages and things like that."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "11:02",
+   "text": "No. Um making that a key point, just that it's going to be in the international market, like Australia, America, things like that."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "11:09",
+   "text": "Okay."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "11:15",
+   "text": "What are your experiences with remote controls?"
+  },
+  {
+   "speaker": "Sarah",
+   "start": "11:18",
+   "text": "I mean, I've got we got um we had three videos, a TV and a sort of amp thing all set up."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "11:28",
+   "text": "So, we got one of the universal remote controls that you program each of your things into. But that kept losing the signals, so we'd have to reprogram it every now and again. I think it was quite a cheapy as well, so that might have had something to do with it, but that was quite good. The fact that you could use all the ones in sync."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "11:46",
+   "text": "You didn't have six remote controls sitting in front of you."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "11:48",
+   "text": "Right. You are wanting to integrate everything into one, like Yeah."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "11:53",
+   "text": "My experience has only been being given the remote control with the object I buy, not doing any tampering with it and programming, using it to program TV videos and things."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "12:02",
+   "text": "But basically, on off, volume up and down, channel one two, that basic functions. I don't think I could go any further with it than that."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "12:11",
+   "text": "Than that. So"
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "12:12",
+   "text": "it's got to be something usable by someone like me as well."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "12:15",
+   "text": "Yeah, the main that's the main stuff anyway. I mean and you don't want to I hate I hate looking at a control and seeing a million tiny little buttons with tiny little words saying what they all do and just sitting there searching for the teletext button or something like that."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "12:31",
+   "text": "And symbols that you don't necessarily understand. Symbols you're meant to understand that you don't."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "12:38",
+   "text": "When they're when you've got the main things on the front of it and a section opens up or something to the other functions when you can do sound or options, kind of recording, things like that inside it."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "12:52",
+   "text": "Because it doesn't make when you pick it up, it doesn't make it really complicated to look at."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "12:56",
+   "text": "It's obvious what you're doing."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "13:00",
+   "text": "That just raises a point. I wonder what our design people think. But, you know, on a mobile phone, you can press a key and it gives you a menu. It's got a menu display. I wonder if incorporating that into the design of a remote control might be useful. You've got a little LCD display."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "13:14",
+   "text": "Right. I was thinking on the same lines, you instead of having too many buttons and make it complicated for the user, may maybe have an LCD display or something like that, like a mobile with menus."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "13:24",
+   "text": "And with menus. Yeah."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "13:26",
+   "text": "And if it's somewhat similar to what you have on mobile phone, people might find it easier to browse and navigate also."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "13:32",
+   "text": "Yeah."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "13:32",
+   "text": "What about the older generation? What about granny and grandad?"
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "13:38",
+   "text": "My grandad can answer his mobile phone, but he couldn't even dream of texting or something like that."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "13:43",
+   "text": "Can he program his remote control, or is he basic with that, too?"
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "13:48",
+   "text": "I don't think they'd tape things."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "13:50",
+   "text": "Right."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "13:50",
+   "text": "My grandad's actually better than me at using teletext, so."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "13:53",
+   "text": "Right."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "13:54",
+   "text": "So that's a problem regardless of any design modifications you you come up with. That's going to be a problem, maybe, with the older generation, perhaps."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "14:02",
+   "text": "And that's another issue, how we tackle that. Why? It just needs to be, as long as it's sort of self-intuitive and you can you can work out why everything's doing. Because I mean, men use on sort of new phones now, they're they've got all these pictures and stuff, which makes it fairly obvious what you're trying to do."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "14:26",
+   "text": "I don't know, I I don't know how for 25 or 12.50, how much of a excellent screen you could get. You'd you'd have to sort of keep it down to a black and white LCD thing, anyway."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "14:58",
+   "text": "Is it possible that that for the older generation, you could have like an extra button that you press for large print, like you do in large print books?"
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "15:05",
+   "text": "Obviously, it displays less on the screen."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "15:08",
+   "text": "It displays less on the screen, but as long as they can read it, that's the main thing. Yeah."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "15:13",
+   "text": "Or what about kind of a dual function in that you've got the basic buttons just for your play, volume, program things."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "15:23",
+   "text": "And also, and then a menu to go into with obvious pictures, obvious symbols, and that's where you control recording and things like that."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "15:35",
+   "text": "The other thing is just talking into mobile phone design features again, you could have a flip top remote control. So that when you flip over the top, your screen is you can have a bigger screen in the the flip over."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "15:48",
+   "text": "I think that's a cost thing. I don't know how much we're going to know about."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "15:53",
+   "text": "It might save up a bit of space and instead of looking bulky, it might look small. But it might have its cost implications."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "15:59",
+   "text": "And there's no reason we need to make it look as fashionable and stylish as a mobile phone. It can still be lightweight plastic, you know, something that's easily molded and produced. Sorry, I'm treading on your territory, guys."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "16:13",
+   "text": "Right. Okay. We've got half an hour before the next meeting. So we're all going to go off and do our individual things."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "16:20",
+   "text": "Um I think that's probably about it, and then we'll come back and lease again. Yeah. And I get to do another fantastic PowerPoint presentation."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "16:29",
+   "text": "Just just a quick thing about the um about what you were saying about the doesn't doesn't need to be fashionable. The sort of I I had a quick look at the company website and it's like the the uh we put the fashion into electronics. So I think I think that whole design thing might be quite important. I mean you don't You can still have plastic and it look quite good, but."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "16:55",
+   "text": "Yeah. I mean it doesn't have to be that you know that was my main point. We don't have to use metal. I don't know if using plastic does make it cheaper, I presume it would. It would probably."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "17:05",
+   "text": "I mean the sky remotes controls and everything they're kind of molded and look a bit different, and the telly west remote controls are silver plastic, which looks a bit smarter. So yeah, I guess that's different."
+  },
+  {
+   "speaker": "Sarah",
+   "start": "17:19",
+   "text": "Okay. Okay. So, let's break it up there. Okay. Okay. So, see you in half an hour."
+  },
+  {
+   "speaker": "Speaker 2",
+   "start": "17:26",
+   "text": "Do we go back to our room?"
+  },
+  {
+   "speaker": "Sarah",
+   "start": "17:27",
+   "text": "I think so. Yeah. Yeah."
+  }
+ ],
+ "seconds": 369.53412229998503,
+ "model": "gemini-flash-lite-latest"
+}

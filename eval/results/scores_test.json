@@ -1,0 +1,508 @@
+{
+ "meetings": {
+  "ES2004a": {
+   "audio_minutes": 17.49,
+   "wer": {
+    "echo": 0.2585949177877429,
+    "gemini": 0.22234678624813153
+   },
+   "der": {
+    "echo": 0.21708675780275566,
+    "gemini": 0.6729811937408596
+   },
+   "attribution": {
+    "echo": 0.9937616968184654,
+    "gemini": 0.6300341296928328
+   },
+   "identity": {
+    "echo": {
+     "names": 0.5,
+     "roles": 0.0,
+     "wrong_names": 0,
+     "people": 4,
+     "detail": {
+      "B": {
+       "truth": "sarah (PM)",
+       "said": "Sarah / -",
+       "name_ok": true,
+       "role_ok": false
+      },
+      "C": {
+       "truth": "william (ID)",
+       "said": "- / -",
+       "name_ok": false,
+       "role_ok": false
+      },
+      "A": {
+       "truth": "(never said) (UI)",
+       "said": "- / -",
+       "name_ok": false,
+       "role_ok": false
+      },
+      "D": {
+       "truth": "(never said) (ME)",
+       "said": "- / -",
+       "name_ok": false,
+       "role_ok": false
+      }
+     }
+    },
+    "gemini": {
+     "names": 0.5,
+     "roles": 0.0,
+     "wrong_names": 0,
+     "people": 4,
+     "detail": {
+      "B": {
+       "truth": "sarah (PM)",
+       "said": "Sarah / Sarah",
+       "name_ok": true,
+       "role_ok": false
+      },
+      "C": {
+       "truth": "william (ID)",
+       "said": "- / -",
+       "name_ok": false,
+       "role_ok": false
+      },
+      "A": {
+       "truth": "(never said) (UI)",
+       "said": "- / -",
+       "name_ok": false,
+       "role_ok": false
+      },
+      "D": {
+       "truth": "(never said) (ME)",
+       "said": "Speaker 2 / Speaker 2",
+       "name_ok": false,
+       "role_ok": false
+      }
+     }
+    }
+   },
+   "summary_rouge1": {
+    "echo": 0.2543352601156069,
+    "gemini": 0.34254143646408836
+   },
+   "decisions_rouge1": {
+    "echo": 0.0,
+    "gemini": 0.0
+   },
+   "actions_rouge1": {
+    "echo": 0.21621621621621623,
+    "gemini": 0.37209302325581395
+   },
+   "counts": {
+    "ref_decisions": 1,
+    "echo_decisions": 2,
+    "ref_actions": 1,
+    "echo_actions": 2,
+    "gemini_decisions": 2,
+    "gemini_actions": 2,
+    "gemini_model": "gemini-flash-lite-latest"
+   },
+   "echo_stage_seconds": {
+    "transcribing": 115.0,
+    "diarizing": 531.7,
+    "aligning": 0.1,
+    "identifying": 31.5,
+    "writing minutes": 121.5,
+    "indexing": 1.2
+   },
+   "echo_llm": {
+    "model": "qwen2.5-3b-instruct-q4_k_m",
+    "calls": 4,
+    "prompt_tokens": 5131,
+    "output_tokens": 781,
+    "seconds": 152.9
+   }
+  },
+  "ES2004c": {
+   "audio_minutes": 38.91,
+   "wer": {
+    "echo": 0.23937140451803002,
+    "gemini": 0.22155184509611336
+   },
+   "der": {
+    "echo": 0.12513954715977013,
+    "gemini": 0.2626875690097415
+   },
+   "attribution": {
+    "echo": 0.9925293489861259,
+    "gemini": 0.927575965273018
+   },
+   "identity": {
+    "echo": {
+     "names": 0.0,
+     "roles": 0.0,
+     "wrong_names": 0,
+     "people": 4,
+     "detail": {
+      "B": {
+       "truth": "sarah (PM)",
+       "said": "- / -",
+       "name_ok": false,
+       "role_ok": false
+      },
+      "C": {
+       "truth": "william (ID)",
+       "said": "- / -",
+       "name_ok": false,
+       "role_ok": false
+      },
+      "A": {
+       "truth": "(never said) (UI)",
+       "said": "- / -",
+       "name_ok": false,
+       "role_ok": false
+      },
+      "D": {
+       "truth": "(never said) (ME)",
+       "said": "- / -",
+       "name_ok": false,
+       "role_ok": false
+      }
+     }
+    },
+    "gemini": {
+     "names": 1.0,
+     "roles": 0.0,
+     "wrong_names": 0,
+     "people": 4,
+     "detail": {
+      "B": {
+       "truth": "sarah (PM)",
+       "said": "Sarah / Sarah",
+       "name_ok": true,
+       "role_ok": false
+      },
+      "C": {
+       "truth": "william (ID)",
+       "said": "William / William",
+       "name_ok": true,
+       "role_ok": false
+      },
+      "A": {
+       "truth": "(never said) (UI)",
+       "said": "Speaker 4 / Speaker 4",
+       "name_ok": false,
+       "role_ok": false
+      },
+      "D": {
+       "truth": "(never said) (ME)",
+       "said": "Speaker 3 / Speaker 3",
+       "name_ok": false,
+       "role_ok": false
+      }
+     }
+    }
+   },
+   "summary_rouge1": {
+    "echo": 0.20353982300884957,
+    "gemini": 0.3214285714285714
+   },
+   "decisions_rouge1": {
+    "echo": 0.20895522388059704,
+    "gemini": 0.24137931034482757
+   },
+   "actions_rouge1": {
+    "echo": null,
+    "gemini": null
+   },
+   "counts": {
+    "ref_decisions": 1,
+    "echo_decisions": 3,
+    "ref_actions": 0,
+    "echo_actions": 6,
+    "gemini_decisions": 6,
+    "gemini_actions": 1,
+    "gemini_model": "gemini-3.5-flash"
+   },
+   "echo_stage_seconds": {
+    "transcribing": 296.0,
+    "diarizing": 1182.5,
+    "aligning": 0.4,
+    "identifying": 73.9,
+    "writing minutes": 312.1,
+    "indexing": 2.4
+   },
+   "echo_llm": {
+    "model": "qwen2.5-3b-instruct-q4_k_m",
+    "calls": 7,
+    "prompt_tokens": 13254,
+    "output_tokens": 1777,
+    "seconds": 386.0
+   }
+  },
+  "ES2005a": {
+   "audio_minutes": 7.96,
+   "wer": {
+    "echo": 0.3546195652173913,
+    "gemini": 0.2866847826086957
+   },
+   "der": {
+    "echo": 0.33213964349596886,
+    "gemini": 0.3133454038083928
+   },
+   "attribution": {
+    "echo": 0.9887640449438202,
+    "gemini": 0.9463869463869464
+   },
+   "identity": {
+    "echo": {
+     "names": 0.0,
+     "roles": 0.25,
+     "wrong_names": 0,
+     "people": 4,
+     "detail": {
+      "C": {
+       "truth": "brian (PM)",
+       "said": "- / -",
+       "name_ok": false,
+       "role_ok": false
+      },
+      "A": {
+       "truth": "(never said) (ID)",
+       "said": "- / -",
+       "name_ok": false,
+       "role_ok": false
+      },
+      "D": {
+       "truth": "(never said) (UI)",
+       "said": "- / -",
+       "name_ok": false,
+       "role_ok": false
+      },
+      "B": {
+       "truth": "raj (ME)",
+       "said": "- / marketing expert",
+       "name_ok": false,
+       "role_ok": true
+      }
+     }
+    },
+    "gemini": {
+     "names": 0.0,
+     "roles": 0.0,
+     "wrong_names": 0,
+     "people": 4,
+     "detail": {
+      "C": {
+       "truth": "brian (PM)",
+       "said": "Speaker 1 / Speaker 1",
+       "name_ok": false,
+       "role_ok": false
+      },
+      "A": {
+       "truth": "(never said) (ID)",
+       "said": "Speaker 2 / Speaker 2",
+       "name_ok": false,
+       "role_ok": false
+      },
+      "D": {
+       "truth": "(never said) (UI)",
+       "said": "Speaker 3 / Speaker 3",
+       "name_ok": false,
+       "role_ok": false
+      },
+      "B": {
+       "truth": "raj (ME)",
+       "said": "Speaker 4 / Speaker 4",
+       "name_ok": false,
+       "role_ok": false
+      }
+     }
+    }
+   },
+   "summary_rouge1": {
+    "echo": 0.20183486238532108,
+    "gemini": 0.308641975308642
+   },
+   "decisions_rouge1": {
+    "echo": 0.0,
+    "gemini": 0.0
+   },
+   "actions_rouge1": {
+    "echo": 0.22950819672131145,
+    "gemini": 0.410958904109589
+   },
+   "counts": {
+    "ref_decisions": 1,
+    "echo_decisions": 0,
+    "ref_actions": 3,
+    "echo_actions": 1,
+    "gemini_decisions": 0,
+    "gemini_actions": 3,
+    "gemini_model": "gemini-3.5-flash"
+   },
+   "echo_stage_seconds": {
+    "transcribing": 35.3,
+    "diarizing": 240.1,
+    "aligning": 0.0,
+    "identifying": 29.2,
+    "writing minutes": 41.5,
+    "indexing": 0.8
+   },
+   "echo_llm": {
+    "model": "qwen2.5-3b-instruct-q4_k_m",
+    "calls": 3,
+    "prompt_tokens": 2113,
+    "output_tokens": 446,
+    "seconds": 70.7
+   }
+  },
+  "ES2005c": {
+   "audio_minutes": 38.27,
+   "wer": {
+    "echo": 0.3097898971837282,
+    "gemini": 0.30040232454179705
+   },
+   "der": {
+    "echo": 0.19045952777613082,
+    "gemini": 0.43021926638702956
+   },
+   "attribution": {
+    "echo": 0.9853709508881923,
+    "gemini": 0.7610693400167085
+   },
+   "identity": {
+    "echo": {
+     "names": 0.0,
+     "roles": 0.0,
+     "wrong_names": 0,
+     "people": 4,
+     "detail": {
+      "C": {
+       "truth": "brian (PM)",
+       "said": "- / -",
+       "name_ok": false,
+       "role_ok": false
+      },
+      "A": {
+       "truth": "(never said) (ID)",
+       "said": "- / -",
+       "name_ok": false,
+       "role_ok": false
+      },
+      "D": {
+       "truth": "(never said) (UI)",
+       "said": "- / -",
+       "name_ok": false,
+       "role_ok": false
+      },
+      "B": {
+       "truth": "raj (ME)",
+       "said": "- / -",
+       "name_ok": false,
+       "role_ok": false
+      }
+     }
+    },
+    "gemini": {
+     "names": 0.5,
+     "roles": 0.0,
+     "wrong_names": 1,
+     "people": 4,
+     "detail": {
+      "C": {
+       "truth": "brian (PM)",
+       "said": "Speaker 1 / Speaker 1",
+       "name_ok": false,
+       "role_ok": false
+      },
+      "A": {
+       "truth": "(never said) (ID)",
+       "said": "- / -",
+       "name_ok": false,
+       "role_ok": false
+      },
+      "D": {
+       "truth": "(never said) (UI)",
+       "said": "Helen / Helen",
+       "name_ok": false,
+       "role_ok": false
+      },
+      "B": {
+       "truth": "raj (ME)",
+       "said": "Raj / Raj",
+       "name_ok": true,
+       "role_ok": false
+      }
+     }
+    }
+   },
+   "summary_rouge1": {
+    "echo": 0.16528925619834708,
+    "gemini": 0.3436426116838488
+   },
+   "decisions_rouge1": {
+    "echo": 0.15584415584415584,
+    "gemini": 0.35398230088495575
+   },
+   "actions_rouge1": {
+    "echo": 0.21428571428571427,
+    "gemini": 0.3448275862068965
+   },
+   "counts": {
+    "ref_decisions": 5,
+    "echo_decisions": 2,
+    "ref_actions": 1,
+    "echo_actions": 8,
+    "gemini_decisions": 5,
+    "gemini_actions": 3,
+    "gemini_model": "gemini-3.5-flash"
+   },
+   "echo_stage_seconds": {
+    "transcribing": 264.0,
+    "diarizing": 1165.7,
+    "aligning": 0.4,
+    "identifying": 73.4,
+    "writing minutes": 294.6,
+    "indexing": 2.9
+   },
+   "echo_llm": {
+    "model": "qwen2.5-3b-instruct-q4_k_m",
+    "calls": 7,
+    "prompt_tokens": 13199,
+    "output_tokens": 1600,
+    "seconds": 367.8
+   }
+  }
+ },
+ "overall": {
+  "split": "test",
+  "meetings": [
+   "ES2004a",
+   "ES2004c",
+   "ES2005a",
+   "ES2005c"
+  ],
+  "audio_hours": 1.71,
+  "echo": {
+   "wer": 0.2905939461767231,
+   "der": 0.2162063690586564,
+   "attribution": 0.990106510409151,
+   "summary_rouge1": 0.20624980042703117,
+   "decisions_rouge1": 0.09119984493118821,
+   "actions_rouge1": 0.22000337574108064,
+   "names": 0.125,
+   "roles": 0.0625,
+   "wrong_names": 0,
+   "people": 16,
+   "meetings": 4
+  },
+  "gemini": {
+   "wer": 0.2577464346236844,
+   "der": 0.41980835823650586,
+   "attribution": 0.8162665953423764,
+   "summary_rouge1": 0.3290636487212877,
+   "decisions_rouge1": 0.14884040280744582,
+   "actions_rouge1": 0.37595983785743314,
+   "names": 0.5,
+   "roles": 0.0,
+   "wrong_names": 1,
+   "people": 16,
+   "meetings": 4
+  }
+ }
+}

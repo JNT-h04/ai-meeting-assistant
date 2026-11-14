@@ -1,0 +1,1929 @@
+{
+ "minutes": {
+  "title": "Meeting Minutes",
+  "summary": "The meeting discussed remote control design, market survey findings, and material options. Decisions were made to combine designs, incorporate speech recognition, and use solar power for energy source. Next steps include reviewing casing options with the manufacturing team and conducting user tests on scroll wheel functionality.",
+  "topics": [
+   "remote control design",
+   "market survey findings",
+   "material options",
+   "solar power"
+  ],
+  "decisions": [
+   "We need to combine ideas from different designs.",
+   "We will incorporate speech recognition software into the design."
+  ],
+  "decisions_at": [
+   "11:09",
+   "12:14"
+  ],
+  "actions": [
+   {
+    "task": "Discuss findings of remote control market survey",
+    "owner": "Person_3",
+    "due": "Not stated"
+   },
+   {
+    "task": "Present new remote controls designs with graphical interface and scroll-like mouse",
+    "owner": "Person_2",
+    "due": "Not stated"
+   },
+   {
+    "task": "Review old remote controls for essential pieces of functionality",
+    "owner": "Person_4",
+    "due": "Not stated"
+   },
+   {
+    "task": "Discuss casing options with manufacturing team.",
+    "owner": "Person_4",
+    "due": "not stated"
+   },
+   {
+    "task": "Conduct user tests on scroll wheel functionality.",
+    "owner": "Person_4",
+    "due": "not stated"
+   },
+   {
+    "task": "Discuss and decide on the material, colors, and shape of the device",
+    "owner": "unassigned",
+    "due": "not stated"
+   },
+   {
+    "task": "Work on giving Person_1 a model in clay",
+    "owner": "Person_1",
+    "due": "Half an hour from now"
+   },
+   {
+    "task": "Save and send the last message to Raj",
+    "owner": "Person_1",
+    "due": "Not specified"
+   }
+  ],
+  "actions_at": [
+   "02:49",
+   "08:58",
+   "16:39",
+   "17:27",
+   "23:57",
+   "29:03",
+   "34:09",
+   "34:42"
+  ],
+  "open_questions": [],
+  "method": "extract-verify",
+  "sections": 5,
+  "dropped_unverified": 6,
+  "transcript": [
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "00:33",
+    "start_s": 33.76,
+    "end_s": 51.62,
+    "text": "So at the meeting we'll have about the same format as the last time, so I'll save as much switching over. I've just left my first two screens out. I have mailed you the minutes of the last meeting just at the same time. Okay,"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "00:51",
+    "start_s": 51.92,
+    "end_s": 52.2,
+    "text": "cool."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "00:54",
+    "start_s": 54.3,
+    "end_s": 58.28,
+    "text": "And is there any questions you have for the right from last meeting?"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "01:03",
+    "start_s": 63.41,
+    "end_s": 66.01,
+    "text": "No, I don't think so."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "01:06",
+    "start_s": 66.09,
+    "end_s": 71.17,
+    "text": "Okay, cool. Then we shall start with a presentation from Raj."
+   },
+   {
+    "speaker": "Person_3",
+    "label": "SPEAKER_00",
+    "start": "01:12",
+    "start_s": 72.03,
+    "end_s": 169.6,
+    "text": "Hi, Meeraj again. In this meeting I am going to discuss for the trend watching. How this trend is going to affect our market potential and how important is this? So we have to look on this. First of all methodology. The methodology to find out the trend was done in a way. We have done a recent, not only recent remote control market survey but we also considered the latest fashion trends of the market because we think that this is also a factor which will affect our sales and profit. So what are our findings? In our in our findings we have seen that when we did our remote control market survey we found that people do have preference for fancy remote controls which look and feel very good rather than having a functional look and feel good so this this clearly indicates their preference for the design their outlook of the remote controls so we should take into we should consider this factor as the most important factor because this factor is twice as important the second factor which is further twice the as important as the second third factor so this factor becomes the most important factor in our in our mark means and take in designing our remote controls the"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "02:49",
+    "start_s": 169.6,
+    "end_s": 172.02,
+    "text": "last one is the most important one no the The first one"
+   },
+   {
+    "speaker": "Person_3",
+    "label": "SPEAKER_00",
+    "start": "02:52",
+    "start_s": 172.02,
+    "end_s": 251.66,
+    "text": "is the outlook of the mobile. It should have a fancy outlook, a fancy design. Rather than just having a functional look and feel good, it should have a fancy look and feel good. The second most important aspect is that remote control should be a technologically innovative. We must have some technological advancement in the remote control rather than just putting it as it is, as the other remote controls are so it should be technologically innovative like glow in the dark or speech recognition something like that so that indicates our technological advancement and the third most important aspect to take into consideration is that it should be easy to use like it shouldn't be too much complicated there shouldn't be too many buttons on this remote control. It shouldn't be too complicated like this way and customers should be provided with manuals that is easy to understand in their local language something so that they would know how to use these remote controls. When we did fashion, recent fashion, our recent update shows that"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "04:11",
+    "start_s": 251.66,
+    "end_s": 259.78,
+    "text": "yeah"
+   },
+   {
+    "speaker": "Person_3",
+    "label": "SPEAKER_00",
+    "start": "04:19",
+    "start_s": 259.78,
+    "end_s": 276.76,
+    "text": "yeah we have to because you can see how people have related their clothes shoes and furniture everything with fruits and vegetables so the world is now changing its strength was organic becoming more and more organic big sponge"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_02",
+    "start": "04:36",
+    "start_s": 276.76,
+    "end_s": 277.14,
+    "text": "lemon"
+   },
+   {
+    "speaker": "Person_3",
+    "label": "SPEAKER_00",
+    "start": "04:37",
+    "start_s": 277.14,
+    "end_s": 280.92,
+    "text": "yeah so yeah"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "04:40",
+    "start_s": 280.92,
+    "end_s": 282.92,
+    "text": "so"
+   },
+   {
+    "speaker": "Person_3",
+    "label": "SPEAKER_00",
+    "start": "04:42",
+    "start_s": 282.92,
+    "end_s": 308.62,
+    "text": "something like that we we should do and people the feel of the material is expected to be spongy rather than just having a plastic look hard look yeah yeah so so that they could play with it while handing it. So that should also be taken into consideration. So these are my views. Okay, the"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "05:08",
+    "start_s": 308.62,
+    "end_s": 311.2,
+    "text": "spongy, not real spongy,"
+   },
+   {
+    "speaker": "Person_3",
+    "label": "SPEAKER_00",
+    "start": "05:11",
+    "start_s": 311.34,
+    "end_s": 311.34,
+    "text": "you"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "05:11",
+    "start_s": 311.34,
+    "end_s": 314.72,
+    "text": "think like rubber would be good or does it really want gel?"
+   },
+   {
+    "speaker": "Person_3",
+    "label": "SPEAKER_00",
+    "start": "05:15",
+    "start_s": 315.74,
+    "end_s": 321.08,
+    "text": "The rubber which is good for health and which is quite disposable that we can take into consideration."
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "05:21",
+    "start_s": 321.1,
+    "end_s": 321.1,
+    "text": "Okay, quite"
+   },
+   {
+    "speaker": "Person_3",
+    "label": "SPEAKER_00",
+    "start": "05:21",
+    "start_s": 321.1,
+    "end_s": 341.21,
+    "text": "spaceable. Yeah, it shouldn't be have any harm to the environment also because our company is very well -reptored for taking all these concerns into consideration so we don't want to have any harm to the society. So that's all."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "05:43",
+    "start_s": 343.11,
+    "end_s": 347.95,
+    "text": "There you go. That's what I think of when I think of remote control."
+   },
+   {
+    "speaker": "Person_3",
+    "label": "SPEAKER_00",
+    "start": "05:54",
+    "start_s": 354.84,
+    "end_s": 355.36,
+    "text": "And"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "05:55",
+    "start_s": 355.36,
+    "end_s": 360.26,
+    "text": "were there any factors that weren't important in the survey that they said we don't"
+   },
+   {
+    "speaker": "Person_3",
+    "label": "SPEAKER_00",
+    "start": "06:00",
+    "start_s": 360.26,
+    "end_s": 370.02,
+    "text": "want? We didn't find out any such point. Yes, there could be, but we couldn't find out any. Cool."
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "06:17",
+    "start_s": 377.56,
+    "end_s": 378.56,
+    "text": "What is it?"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "06:19",
+    "start_s": 379.54,
+    "end_s": 380.38,
+    "text": "Function F8."
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "06:24",
+    "start_s": 384.15,
+    "end_s": 384.69,
+    "text": "Yeah?"
+   },
+   {
+    "speaker": "Person_3",
+    "label": "SPEAKER_00",
+    "start": "06:27",
+    "start_s": 387.96,
+    "end_s": 389.38,
+    "text": "Yeah, it's adjusting."
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "06:38",
+    "start_s": 398.62,
+    "end_s": 400.14,
+    "text": "Is that undo? Yeah,"
+   },
+   {
+    "speaker": "Person_5",
+    "label": "SPEAKER_04",
+    "start": "06:40",
+    "start_s": 400.28,
+    "end_s": 400.98,
+    "text": "yeah, yeah."
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "06:44",
+    "start_s": 404.82,
+    "end_s": 447.92,
+    "text": "Okay, and then F5, right? Okay, so the interface concept. the interface specification, what people, how they interact with it, I think. So the method we looked at, existing designs, what's good about them, what's bad about them, looked at their floors, we're going to look at their floors and everything. And what the survey they told us, and what we think would be good. So a bit of imagination. The findings, I've got some pictures to show you"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "07:27",
+    "start_s": 447.92,
+    "end_s": 447.92,
+    "text": "as"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "07:27",
+    "start_s": 447.92,
+    "end_s": 448.1,
+    "text": "well."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "07:28",
+    "start_s": 448.24,
+    "end_s": 448.24,
+    "text": "The"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "07:28",
+    "start_s": 448.24,
+    "end_s": 493.14,
+    "text": "rocket. Yeah. OK, so most remote controls use graphical interface where you have got buttons and you point it rather than having the output as a stream of text or something. And we've also found that there's inconsistent layout, which makes it confusing. So I think there are remote control. There is some inconsistency already in existing between remote controls, but I think the standard kind of shape and play and those kind of buttons like the top right for on and off or something. I think people find that important because it's easy to use. And we've got some pictures of some new remote controls to show you. Do I press Escape F5?"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "08:13",
+    "start_s": 493.9,
+    "end_s": 494.92,
+    "text": "Just Escape."
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "08:14",
+    "start_s": 494.92,
+    "end_s": 537.94,
+    "text": "escape okay yeah okay so these are the some of the pictures of existing ones I'll just talk you through them this one is that voice recognition and that's the kind of idea we're going for there's an LCD thing which we thought could I could get a bit confusing and a bit expensive as well for us. This one has got a kind of scroll like a mouse, which... like the middle button. Yeah. But I'm not exactly sure how you'd use that,"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "08:58",
+    "start_s": 538.28,
+    "end_s": 538.28,
+    "text": "like"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "08:58",
+    "start_s": 538.28,
+    "end_s": 540.26,
+    "text": "would the computer come?"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "09:00",
+    "start_s": 540.98,
+    "end_s": 551.36,
+    "text": "If I'm thinking of the right one I've got the same thing on the front of my monitor, you scroll it and then when you reach the sort of menu item that you requiring press that's like the"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "09:11",
+    "start_s": 551.36,
+    "end_s": 596.14,
+    "text": "LCD one is it but the one below that it's got like a little scroll function on the side but I presume that the functions must come up on the TV screen yeah I think that's what that is so it's just a few ideas again that's just quite boring shape gray looks quite space -agey but too many buttons I think yeah it does look kind of dangerous this one I thought was really cool it's we've got the programmability function that talked about you can put it in there. It's for your kids and it's quite an organic shape and the little circle around there is pretty cool and that's really easy to use bright so I like this one a lot for our design. I think something like that would be good. Of course yellow. I mean the one"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "09:56",
+    "start_s": 596.14,
+    "end_s": 610.12,
+    "text": "thing I think about these ones is these secured areas I've seen a lot of them with the cover missing, so like have it hinged rather than a"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "10:10",
+    "start_s": 610.12,
+    "end_s": 610.12,
+    "text": "couple of times."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "10:10",
+    "start_s": 610.14,
+    "end_s": 610.88,
+    "text": "Yeah, that's"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "10:10",
+    "start_s": 610.88,
+    "end_s": 623.98,
+    "text": "true, yeah. So maybe that could be built into one thing and it comes up on the TV or something. And this one, the oversized one. I don't know about you, but I think it's a bit too gimmicky."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "10:24",
+    "start_s": 624.14,
+    "end_s": 624.14,
+    "text": "I"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "10:24",
+    "start_s": 624.14,
+    "end_s": 627.02,
+    "text": "don't think that will sell very well. I mean, is that not sort of to"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "10:27",
+    "start_s": 627.02,
+    "end_s": 628.5,
+    "text": "assist the blind or something, is it?"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "10:29",
+    "start_s": 629.52,
+    "end_s": 632.74,
+    "text": "I guess so. I don't know. I think that's a"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_02",
+    "start": "10:32",
+    "start_s": 632.74,
+    "end_s": 637.32,
+    "text": "bit... Why don't watch TV? Yeah, exactly. Yeah."
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "10:39",
+    "start_s": 639.62,
+    "end_s": 667.92,
+    "text": "And this one is just pointing out, I like some of these things, the raised symbols and everything, but it's pointing out that this one, the volume, it's kind of pressing down, but it would actually go up because of the shape. So that's a bit confusing. But the buttons on this I think are just showing you how you can have different different buttons. I don't have to be all the same, so that's quite cool."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "11:09",
+    "start_s": 669.32,
+    "end_s": 673.48,
+    "text": "People tend to recognize certain shapes to do certain things. Yeah, exactly."
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "11:16",
+    "start_s": 676.32,
+    "end_s": 729.18,
+    "text": "So there is some of the findings. So we need to combine those ones. And I've just got an email from our technical department saying that they have broken through with some new speech recognition software that you can program in. Yeah it is, just in time, very handy. So I think maybe incorporating that in our design would be good. You program it like you say record and then play and then record machine and stuff like that. And it's much yeah so that's quite cool personal preference is just an imagination the race symbols I feel good the LCD it does look smart but I think maybe for our budget do you think that would be a bit too expensive to have the"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_02",
+    "start": "12:09",
+    "start_s": 729.18,
+    "end_s": 734.36,
+    "text": "LCD and the other stuff and"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "12:14",
+    "start_s": 734.36,
+    "end_s": 737.74,
+    "text": "the speech recognition so I think we're definitely going for speech recognition but"
+   },
+   {
+    "speaker": "Person_3",
+    "label": "SPEAKER_00",
+    "start": "12:17",
+    "start_s": 737.74,
+    "end_s": 767.48,
+    "text": "in our market survey we have seen that people are willing to pay more, but they want the quality, they want fancy look, they want some new design, something new. Yeah, so even if we increase our cost a little bit within some limits and we give something new technological advancement as well as new design with fancy outlook, I think we will meet the requirements and we will be able to have a good sales in the market."
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "12:47",
+    "start_s": 767.86,
+    "end_s": 768.22,
+    "text": "I'm not I'm"
+   },
+   {
+    "speaker": "Person_3",
+    "label": "SPEAKER_00",
+    "start": "12:48",
+    "start_s": 768.22,
+    "end_s": 768.22,
+    "text": "not"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "12:48",
+    "start_s": 768.22,
+    "end_s": 775.58,
+    "text": "sure if 25 Euros, 12 Euros 50, manufacturing cost a thing that might I"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "12:55",
+    "start_s": 775.58,
+    "end_s": 799.56,
+    "text": "can't see it, although I mean three, sure they are going crazy with LCD technology now so that you've got your LCD TVs and everything, so maybe the small one but I mean like, I have the black and white, I guess it just doesn't look funky enough But I mean like even mobile phones or whatever have color LCD screens. Yeah, I mean I would know about the cost"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_02",
+    "start": "13:22",
+    "start_s": 802.04,
+    "end_s": 808.96,
+    "text": "But it's not withstanding Is it too complicated? Is it going to be too much just overload? Yeah, that's"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "13:28",
+    "start_s": 808.96,
+    "end_s": 810.22,
+    "text": "the thing because it will be"
+   },
+   {
+    "speaker": "Person_3",
+    "label": "SPEAKER_00",
+    "start": "13:30",
+    "start_s": 810.22,
+    "end_s": 817.14,
+    "text": "easy because there will be on LCD screen There will be different different icons. They can just click ok, whatever they want."
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_02",
+    "start": "13:37",
+    "start_s": 817.48,
+    "end_s": 821.38,
+    "text": "When you use remote control, you never look at it, right? Yeah, you're looking at the TV,"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "13:42",
+    "start_s": 822.66,
+    "end_s": 822.66,
+    "text": "and"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_02",
+    "start": "13:42",
+    "start_s": 822.66,
+    "end_s": 826.54,
+    "text": "it just seems kind of like a nervous. And one of the survey"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "13:46",
+    "start_s": 826.54,
+    "end_s": 859.2,
+    "text": "findings was that they wanted easy to use, so I think I'm not sure about the LCD, it's great, it's a good idea, but for our budget and for the thing we're trying to go for, easy to use, it's not the thing we should go for, I think. Childfriend, I thought this was good, as you pointed out there, the bit often goes missing especially with children but it's a good shape and the organic is kind of we could make a vegetable you kind of round shape I think so yeah I know carrot since"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "14:19",
+    "start_s": 859.2,
+    "end_s": 867.78,
+    "text": "we're going for the company colors I think your lemon doesn't work you know we don't want it to be yeah"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "14:27",
+    "start_s": 867.78,
+    "end_s": 884.44,
+    "text": "the child friend the easy to use it seems quite easy I like the different shapes of the buttons and stuff I think that's a I like the colorful buttons as well. And the mouse one, I thought it was a good idea because people use mouse, my mouse is now with this scrolling thing."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "14:45",
+    "start_s": 885.46,
+    "end_s": 893.5,
+    "text": "We are marketing to sort of 35 to 35, so most people will have common contact with us. Yeah,"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "14:54",
+    "start_s": 894.0,
+    "end_s": 901.06,
+    "text": "so they'd be able to use that. As I said, I think it would come up on the screen. Yeah. So there you go."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "15:01",
+    "start_s": 901.32,
+    "end_s": 903.86,
+    "text": "That means you get to bump that bit to the TV makers."
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "15:04",
+    "start_s": 904.4,
+    "end_s": 916.43,
+    "text": "Yeah. So that's the user interface. Okay, take this out now then."
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_02",
+    "start": "15:26",
+    "start_s": 926.66,
+    "end_s": 932.54,
+    "text": "So, I guess there are a lot of options that we're going to have to choose from among."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "15:33",
+    "start_s": 933.36,
+    "end_s": 934.28,
+    "text": "Yeah, and"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_02",
+    "start": "15:34",
+    "start_s": 934.28,
+    "end_s": 951.72,
+    "text": "I'll give you the, I guess, technical considerations for those. And I'm going to use the whiteboard just because we haven't used it. Yeah,"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "15:51",
+    "start_s": 951.84,
+    "end_s": 953.48,
+    "text": "I was just thinking the same thing."
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_02",
+    "start": "15:53",
+    "start_s": 953.98,
+    "end_s": 999.54,
+    "text": "So the way I'm going to do this is we're going to take a look at some old remote controls and see how they work. We use the essential pieces of it. And then we'll throw in our new innovations and keep it all in budget. So looking inside a very simple remote control, this is what they sent me. Okay, here's the competition, I suppose. You open it up, there's a circuit board inside, and there's a chip processor, the TA -11835, which receives input from the buttons. This is a standard"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "16:39",
+    "start_s": 999.54,
+    "end_s": 1001.24,
+    "text": "off -the -shelf kind of a chip, is it?"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_02",
+    "start": "16:41",
+    "start_s": 1001.36,
+    "end_s": 1042.84,
+    "text": "Right, it's very cheap and this would not cost nothing. So that takes the signals from the buttons and translates it into a sequence of pulses that it then sends to the amplifier, which is made of some transistors and amplifiers, op amps. And then that gets sent to the LED light, which I can kind of see is a little red light bulb at the end. And that sends out the infrared light signal to the television. There it is. So this is kind of the very There are essentials that we need to have in our remote control, because it defines the So can"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "17:22",
+    "start_s": 1042.84,
+    "end_s": 1046.34,
+    "text": "we make them to pretty much any size we like, or is there a minimum or?"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_02",
+    "start": "17:27",
+    "start_s": 1047.36,
+    "end_s": 1099.83,
+    "text": "No, I mean this is very old -blown, so now with the new technology this is a minimally small and deep. Almost a key thing. Right. So this is what we need to have for a certain, so you know as I said we've got the outer casing which we have to decide, you know, is it going to be the board we have to use basically the same setup. Processor, we'll probably use a more advanced processor than I had. Amplifier and transmitter are all standard. So for the casing, this email I got from our manufacturing team, we have a bunch of options from wood, titanium, rubber, plastic, whatnot. Latex, double curved. So, lots of choices, what do you think? Or sponge,"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "18:20",
+    "start_s": 1100.11,
+    "end_s": 1100.11,
+    "text": "I"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_02",
+    "start": "18:20",
+    "start_s": 1100.11,
+    "end_s": 1100.79,
+    "text": "guess, is it on there?"
+   },
+   {
+    "speaker": "Person_5",
+    "label": "SPEAKER_04",
+    "start": "18:21",
+    "start_s": 1101.23,
+    "end_s": 1101.71,
+    "text": "Well,"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "18:21",
+    "start_s": 1101.81,
+    "end_s": 1101.81,
+    "text": "I"
+   },
+   {
+    "speaker": "Person_5",
+    "label": "SPEAKER_04",
+    "start": "18:21",
+    "start_s": 1101.81,
+    "end_s": 1103.41,
+    "text": "mean, latex has a kind"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "18:23",
+    "start_s": 1103.41,
+    "end_s": 1105.57,
+    "text": "of spongy feel to it, doesn't it?"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_02",
+    "start": "18:26",
+    "start_s": 1106.03,
+    "end_s": 1107.47,
+    "text": "Yeah, it's very elastic, for sure."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "18:27",
+    "start_s": 1107.89,
+    "end_s": 1123.03,
+    "text": "And that would also give it kind of durability. And it's also relatively cheap to cast. So I'm going to be a sort of plastic, initial plastic with a latex kind of sheath."
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_02",
+    "start": "18:43",
+    "start_s": 1123.03,
+    "end_s": 1129.15,
+    "text": "okay so I hear a plastic latex I"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "18:49",
+    "start_s": 1129.15,
+    "end_s": 1136.17,
+    "text": "like the rubber the stress balls I think you know that could be a bit of a gimmick like it's good to hold and"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_02",
+    "start": "18:56",
+    "start_s": 1136.17,
+    "end_s": 1140.87,
+    "text": "so something would give to it yeah and that"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "19:00",
+    "start_s": 1140.87,
+    "end_s": 1143.07,
+    "text": "might be quite durable and easy to chuck around The color"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_02",
+    "start": "19:03",
+    "start_s": 1143.07,
+    "end_s": 1145.83,
+    "text": "is yellow, right? Yeah. Or at least incorporate."
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "19:06",
+    "start_s": 1146.13,
+    "end_s": 1147.37,
+    "text": "Yellow incorporated, yeah."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "19:09",
+    "start_s": 1149.89,
+    "end_s": 1159.35,
+    "text": "I mean, if we're going to, I don't know, other standard silver kind of other parks or."
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "19:20",
+    "start_s": 1160.03,
+    "end_s": 1172.69,
+    "text": "Yeah, the buttons, like, because there's going to be the rubber or the plastic casing, and then the buttons, probably two different colors. Or if we're having buttons, actually. So yellow,"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_02",
+    "start": "19:33",
+    "start_s": 1173.53,
+    "end_s": 1176.17,
+    "text": "body, and then what color for the buttons?"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "19:37",
+    "start_s": 1177.91,
+    "end_s": 1181.47,
+    "text": "I quite like the multi -colored buttons, the sound. Yeah, so"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_02",
+    "start": "19:41",
+    "start_s": 1181.47,
+    "end_s": 1182.61,
+    "text": "multi -colored buttons."
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "19:42",
+    "start_s": 1182.79,
+    "end_s": 1188.53,
+    "text": "You do have ones like playing, could be green or on and off as reds and stuff like that, yeah. Yeah,"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "19:48",
+    "start_s": 1188.73,
+    "end_s": 1193.37,
+    "text": "or yeah, I remember you used the limited multi -color so it doesn't look too childish."
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "19:53",
+    "start_s": 1193.75,
+    "end_s": 1196.39,
+    "text": "Yeah, that's true, because that blue one did look"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "19:56",
+    "start_s": 1196.39,
+    "end_s": 1210.51,
+    "text": "quite childish. although I mean this also comes to shape as well I mean if we are going to make it a novel I mean double curve sounds good to me if we're talking about so ergonomic and easy use yeah that'd be comfier you know"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "20:10",
+    "start_s": 1210.51,
+    "end_s": 1211.13,
+    "text": "yeah"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_02",
+    "start": "20:11",
+    "start_s": 1211.13,
+    "end_s": 1218.36,
+    "text": "okay so the shape we want to go how exactly maybe"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "20:18",
+    "start_s": 1218.36,
+    "end_s": 1223.98,
+    "text": "like an hourglass kind of figure is that what you're thinking of or just"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "20:23",
+    "start_s": 1223.98,
+    "end_s": 1232.34,
+    "text": "like it that'd be that's sort of comfortable to hold easy to hold so you don't drop it yeah we"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "20:32",
+    "start_s": 1232.34,
+    "end_s": 1235.2,
+    "text": "could make novelty remote controls well yeah I mean like"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_02",
+    "start": "20:35",
+    "start_s": 1235.2,
+    "end_s": 1240.02,
+    "text": "we could have a big banana shape remote control because it's yellow yeah"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "20:40",
+    "start_s": 1240.02,
+    "end_s": 1247.02,
+    "text": "yeah yeah and a layman might be a little but then how would you point it huh yeah how would you point it"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_02",
+    "start": "20:47",
+    "start_s": 1247.02,
+    "end_s": 1254.4,
+    "text": "what it doesn't matter Yeah, I appreciate"
+   },
+   {
+    "speaker": "Person_3",
+    "label": "SPEAKER_00",
+    "start": "20:54",
+    "start_s": 1254.4,
+    "end_s": 1265.42,
+    "text": "this idea because then this will help us in our advertisement also and we can relate it with fruits and vegetables, the people's choices that whatever data shows"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "21:21",
+    "start_s": 1281.22,
+    "end_s": 1282.54,
+    "text": "I think"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "21:22",
+    "start_s": 1282.54,
+    "end_s": 1290.56,
+    "text": "maybe just draw on the kind of fruit and vegetable shape and what else did you say about fashion."
+   },
+   {
+    "speaker": "Person_3",
+    "label": "SPEAKER_00",
+    "start": "21:31",
+    "start_s": 1291.36,
+    "end_s": 1297.8,
+    "text": "The fashion trend shows that fruits and vegetables, like people are now spongy."
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "21:44",
+    "start_s": 1304.82,
+    "end_s": 1319.18,
+    "text": "Maybe, yeah. What's that? I don't even know the name of it. It looks like a little snowman kind of thing. I don't know the name of that. Yeah, that's what I was thinking. like a gourd."
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_02",
+    "start": "21:59",
+    "start_s": 1319.8,
+    "end_s": 1320.96,
+    "text": "Yeah, maybe that's what bit."
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "22:01",
+    "start_s": 1321.62,
+    "end_s": 1325.9,
+    "text": "Because that you can hold it in like the bottom bit. And"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_02",
+    "start": "22:05",
+    "start_s": 1325.9,
+    "end_s": 1330.28,
+    "text": "it has a clear tap in the bottom. Yeah. I"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "22:10",
+    "start_s": 1330.28,
+    "end_s": 1346.56,
+    "text": "don't know. What do you think? Well, I guess it's kind of, you don't necessarily have to have it sort of clearly identified is a fruit just have that kind of fruitish shape yeah"
+   },
+   {
+    "speaker": "Person_3",
+    "label": "SPEAKER_00",
+    "start": "22:26",
+    "start_s": 1346.56,
+    "end_s": 1352.88,
+    "text": "yeah then only we can relate it yeah exactly"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_02",
+    "start": "22:32",
+    "start_s": 1352.88,
+    "end_s": 1358.06,
+    "text": "so double curved single curved or we"
+   },
+   {
+    "speaker": "Person_3",
+    "label": "SPEAKER_00",
+    "start": "22:38",
+    "start_s": 1358.06,
+    "end_s": 1364.52,
+    "text": "can do something we can design two three shapes and we can have a public survey let the public what they want."
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_02",
+    "start": "22:44",
+    "start_s": 1364.7,
+    "end_s": 1369.52,
+    "text": "That's a good idea. I guess since you're the marketing guy."
+   },
+   {
+    "speaker": "Person_3",
+    "label": "SPEAKER_00",
+    "start": "22:49",
+    "start_s": 1369.74,
+    "end_s": 1371.96,
+    "text": "Yeah, sure. I will be happy to do that."
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "22:55",
+    "start_s": 1375.68,
+    "end_s": 1380.7,
+    "text": "And buttons, did we say different shapes of buttons?"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "23:03",
+    "start_s": 1383.3,
+    "end_s": 1395.1,
+    "text": "I mean for the specific functions, you know, up and down, play, stop. They've got, I mean, they've got standard sort of intuitive things that are always used."
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "23:26",
+    "start_s": 1406.04,
+    "end_s": 1410.1,
+    "text": "What about the scroll wheel and speech recognition? Speech"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "23:30",
+    "start_s": 1410.1,
+    "end_s": 1425.68,
+    "text": "recognition I think, so we need a microphone. Are we sure that scroll wheel does give ease of use?"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "23:45",
+    "start_s": 1425.68,
+    "end_s": 1437.9,
+    "text": "Yeah, I'm not sure. I mean those ideas I saw were just for inspiration I think. Glad we're not doing this for real. Yeah, I'm not sure. Okay, well we can"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_02",
+    "start": "23:57",
+    "start_s": 1437.9,
+    "end_s": 1439.96,
+    "text": "do some user tests with scroll. Yeah."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "24:00",
+    "start_s": 1440.72,
+    "end_s": 1448.12,
+    "text": "Yeah. And I think if this new software for the sound recognition is then you keep on keeping the microphone. So"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_02",
+    "start": "24:08",
+    "start_s": 1448.12,
+    "end_s": 1450.52,
+    "text": "should the microphone be just anywhere on it? I"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "24:10",
+    "start_s": 1450.52,
+    "end_s": 1464.7,
+    "text": "would put it sort of sub -centrally, so it's, yeah. yeah so it can be sort of held and we're really really gonna need to hold it if it's gonna be voice recognition"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_02",
+    "start": "24:24",
+    "start_s": 1464.7,
+    "end_s": 1467.94,
+    "text": "so"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "24:29",
+    "start_s": 1469.7,
+    "end_s": 1473.84,
+    "text": "let's"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "24:37",
+    "start_s": 1477.2,
+    "end_s": 1478.66,
+    "text": "not use the whiteboard anymore"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_02",
+    "start": "24:41",
+    "start_s": 1481.16,
+    "end_s": 1481.72,
+    "text": "and"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "24:52",
+    "start_s": 1492.03,
+    "end_s": 1499.71,
+    "text": "so what else was that the what about the glow in the dark thing this trip around it we just I"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "24:59",
+    "start_s": 1499.71,
+    "end_s": 1504.15,
+    "text": "still like it because we've"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "25:04",
+    "start_s": 1504.15,
+    "end_s": 1509.65,
+    "text": "got the technological innovation with the speech recognition yes"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "25:09",
+    "start_s": 1509.65,
+    "end_s": 1518.15,
+    "text": "it's just going a bit too far I mean we are pushing it probably because I'm funny through shapes yeah I don't want to sort of especially"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "25:18",
+    "start_s": 1518.15,
+    "end_s": 1520.33,
+    "text": "with yellow because"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "25:22",
+    "start_s": 1522.06,
+    "end_s": 1531.18,
+    "text": "I mean like if we I mean how good is the speech recognition thing do we want to go for buttons at all that we want to just have a device that maybe sits and pretends it's a fruit that"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "25:31",
+    "start_s": 1531.18,
+    "end_s": 1534.38,
+    "text": "you put in the fruit bowl yeah"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "25:34",
+    "start_s": 1534.38,
+    "end_s": 1543.6,
+    "text": "you know and then you just I mean everybody's got a fruit bowl in front of the telly it"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_02",
+    "start": "25:43",
+    "start_s": 1543.6,
+    "end_s": 1552.2,
+    "text": "could even encourage healthier habits for television watchers yeah make them think of fruit yeah yeah make sure they don't eat the remote"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "25:52",
+    "start_s": 1552.2,
+    "end_s": 1555.36,
+    "text": "I mean yeah do we I"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "25:55",
+    "start_s": 1555.36,
+    "end_s": 1555.36,
+    "text": "mean"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "25:55",
+    "start_s": 1555.36,
+    "end_s": 1567.7,
+    "text": "I think of a fruit that could sit independently on its own like an apple, it's just apples sort of yellow apples. I quite like the"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "26:07",
+    "start_s": 1567.7,
+    "end_s": 1580.54,
+    "text": "design of that because that could sit on its own and it's got quite a sturdy base. And as we say we don't want to be too ridiculous with the fruit things."
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_02",
+    "start": "26:21",
+    "start_s": 1581.64,
+    "end_s": 1587.08,
+    "text": "Yeah, about the speech thing, it doesn't have to be handheld, of course, they can set a distance. Yeah,"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "26:27",
+    "start_s": 1587.2,
+    "end_s": 1591.99,
+    "text": "so, I mean, like, you could actually... Or we can"
+   },
+   {
+    "speaker": "Person_3",
+    "label": "SPEAKER_00",
+    "start": "26:31",
+    "start_s": 1591.99,
+    "end_s": 1620.01,
+    "text": "do one thing. We can just have a remote control and casings of different different shapes, different fruit shapes in such a way that any casing could be fit into this mobile general piece. So whatever people want like if somebody want it in banana shape, we will put that casing on to that mobile phone Okay, it will look Yeah Sorry,"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "27:00",
+    "start_s": 1620.09,
+    "end_s": 1625.17,
+    "text": "you said about disposable only people want disposable things Like if this is a"
+   },
+   {
+    "speaker": "Person_3",
+    "label": "SPEAKER_00",
+    "start": "27:05",
+    "start_s": 1625.17,
+    "end_s": 1656.19,
+    "text": "like if this is a mobile phone We will design casing in such a way like half of we need not to have a full cover We will just have a half of cover, okay. If somebody wants it in banana shape, we will fit banana shape casing onto that So it will give a banana shape look. If somebody want it in Apple shape, we will design that. He will put We will put Apple shape casing on that. It will give Apple shape look. So in that way, you can have any means whatever you want Yeah"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "27:36",
+    "start_s": 1656.19,
+    "end_s": 1659.83,
+    "text": "We need the buttons in the same place. Yeah, buttons will be on the upper side."
+   },
+   {
+    "speaker": "Person_3",
+    "label": "SPEAKER_00",
+    "start": "27:40",
+    "start_s": 1660.35,
+    "end_s": 1661.93,
+    "text": "Buttons will be on the upper side."
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "27:42",
+    "start_s": 1662.03,
+    "end_s": 1662.03,
+    "text": "Oh,"
+   },
+   {
+    "speaker": "Person_3",
+    "label": "SPEAKER_00",
+    "start": "27:42",
+    "start_s": 1662.17,
+    "end_s": 1686.51,
+    "text": "that's the other side. Buttons will be on the upper side, lower side we will just put the casing. So half of that will be looked at. Oh, half of free. Yeah, not the upper side. So from lower you can, it means while you are holding from this side, you can have banana look or apple look, whatever. So in that way, we need not to have different, different shape mobiles, everything. We will just design casings through chip and"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "28:06",
+    "start_s": 1686.51,
+    "end_s": 1699.93,
+    "text": "I think if you're going to have a fascia then you want to have it so that it does go for the buttons because I mean if you think about it if they're wanting it because they want to look at if they're using it and what they want to look at is facing away from them it doesn't really"
+   },
+   {
+    "speaker": "Person_5",
+    "label": "SPEAKER_04",
+    "start": "28:19",
+    "start_s": 1699.93,
+    "end_s": 1701.37,
+    "text": "you"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "28:22",
+    "start_s": 1702.81,
+    "end_s": 1717.65,
+    "text": "know because that'd be in the palm of their hand you wouldn't be able to see unless you have sort of you got the buttons option on one side you get the fascia on the other side with the microphone so you can place it face down and you've got the fascia and you can just talk at the,"
+   },
+   {
+    "speaker": "Person_5",
+    "label": "SPEAKER_04",
+    "start": "28:39",
+    "start_s": 1719.47,
+    "end_s": 1720.75,
+    "text": "maybe,"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "28:42",
+    "start_s": 1722.74,
+    "end_s": 1731.0,
+    "text": "so you've narrowed it down to half a dozen options, so"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_02",
+    "start": "28:51",
+    "start_s": 1731.0,
+    "end_s": 1743.88,
+    "text": "I guess we decide on the material right, so that's spongy latex rubber, everything, and the colors we got down yeah shape maybe we'll just make it kind of mix and match type of shape or"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "29:03",
+    "start_s": 1743.88,
+    "end_s": 1784.18,
+    "text": "well because well I I'm not sure if we should go so far in the whole fruit thing because I think we should maybe just take the inspiration from the fruit and stick with what we've got there yeah I think we would we're trying to get to 25 35 year olds want it quite trendy as well they said they wanted something that looks fancy and I think maybe fruit could be a bit of a too much of a gimmick but something ergonomically shaped and organic like good to hold based on fruits and natural things like that okay because already we're going a bit gaudy with the yellow you know I mean we can make it a nice pale yellow well"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "29:44",
+    "start_s": 1784.18,
+    "end_s": 1795.12,
+    "text": "it's kind of got to be our company so okay so again I mean like we could have I mean we could quite easily have the main body be a different. Yeah maybe we could have that"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "29:55",
+    "start_s": 1795.12,
+    "end_s": 1799.82,
+    "text": "pale yellow and then an outside bit bright yellow with you said the slogan, the slogan."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "30:00",
+    "start_s": 1800.74,
+    "end_s": 1819.42,
+    "text": "I mean even if not necessarily that the whole body has to be of the company color so you know blue and yellow tend to go well together so you have the main body blue with the yellow logo and slogan running up one side of it."
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_02",
+    "start": "30:24",
+    "start_s": 1824.77,
+    "end_s": 1835.63,
+    "text": "As for the energy source, almost every remote control uses just batteries, but we don't have to be limited by that. We can use a hand dynamo."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "30:37",
+    "start_s": 1837.37,
+    "end_s": 1841.79,
+    "text": "I think it's basically, the more you move it, it's got a wee thing inside that just"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "30:50",
+    "start_s": 1850.13,
+    "end_s": 1853.27,
+    "text": "Yeah, like with those watches that you can twist."
+   },
+   {
+    "speaker": "Person_5",
+    "label": "SPEAKER_04",
+    "start": "30:53",
+    "start_s": 1853.59,
+    "end_s": 1853.59,
+    "text": "Yeah,"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_02",
+    "start": "30:53",
+    "start_s": 1853.63,
+    "end_s": 1858.33,
+    "text": "but"
+   },
+   {
+    "speaker": "Person_3",
+    "label": "SPEAKER_00",
+    "start": "30:58",
+    "start_s": 1858.33,
+    "end_s": 1871.13,
+    "text": "do you think that it will be a good idea to use dynamo that these type of cells because then people have to like keep these helis out especially if they want to use it"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "31:11",
+    "start_s": 1871.13,
+    "end_s": 1874.51,
+    "text": "specifically as voice activated."
+   },
+   {
+    "speaker": "Person_3",
+    "label": "SPEAKER_00",
+    "start": "31:15",
+    "start_s": 1875.35,
+    "end_s": 1875.35,
+    "text": "Because"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "31:15",
+    "start_s": 1875.35,
+    "end_s": 1876.29,
+    "text": "most of the people"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "31:16",
+    "start_s": 1876.29,
+    "end_s": 1878.61,
+    "text": "have to pick it up and then activate it and then"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_02",
+    "start": "31:18",
+    "start_s": 1878.61,
+    "end_s": 1884.47,
+    "text": "that's true. What are the other options? Solar power?"
+   },
+   {
+    "speaker": "Person_3",
+    "label": "SPEAKER_00",
+    "start": "31:26",
+    "start_s": 1886.03,
+    "end_s": 1906.49,
+    "text": "Solar power will also not be a good idea because then they have to keep their mobiles outside in solar energy and the days when there is no sunlight. I think we should rechargeable. Battery will be a good idea. They can recharge it."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "31:48",
+    "start_s": 1908.71,
+    "end_s": 1928.01,
+    "text": "Just on the basis of like ridding them of batteries and that kind of bother. And and for using it as a recharging it but also for using it yeah so recognition like"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "32:08",
+    "start_s": 1928.01,
+    "end_s": 1931.25,
+    "text": "like a hand like one of those portable phones yeah yeah"
+   },
+   {
+    "speaker": "Person_3",
+    "label": "SPEAKER_00",
+    "start": "32:11",
+    "start_s": 1931.25,
+    "end_s": 1932.61,
+    "text": "yeah exactly"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_02",
+    "start": "32:12",
+    "start_s": 1932.61,
+    "end_s": 1942.25,
+    "text": "so rechargeable battery yeah yeah okay these are faced the buttons I guess we talked about this ready."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "32:23",
+    "start_s": 1943.25,
+    "end_s": 1947.23,
+    "text": "What's chip on print? Sorry, never mind."
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_02",
+    "start": "32:27",
+    "start_s": 1947.75,
+    "end_s": 1982.73,
+    "text": "The electronics, basically the more features we add, so the more features we add, the fancier chips we need to buy and put in, which adds to the cost, as you can expect. I think we can keep it all under budget. Yeah, so the speech thing we said our technology, our research and development department came up with some breakthrough, so yeah. And if we're just"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "33:02",
+    "start_s": 1982.73,
+    "end_s": 1988.91,
+    "text": "having buttons and the speech, then we're getting our cheapest option of chipping."
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_02",
+    "start": "33:09",
+    "start_s": 1989.49,
+    "end_s": 1989.87,
+    "text": "Right, right."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "33:10",
+    "start_s": 1990.35,
+    "end_s": 2021.74,
+    "text": "That's good. Oh, OK, we're kind of, we're kind of, it's good, I've just deleted that whole thing. We're kind of running out of time, so if you could. Was that you? That means your bit's covered up. I've just accidentally deleted what I was supposed to see next. Excuse me? Yeah. Yeah,"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "33:43",
+    "start_s": 2023.2,
+    "end_s": 2026.46,
+    "text": "mine seems to have turned off. I can't do anything."
+   },
+   {
+    "speaker": "Person_3",
+    "label": "SPEAKER_00",
+    "start": "33:46",
+    "start_s": 2026.82,
+    "end_s": 2027.9,
+    "text": "It does touch the bed?"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "33:48",
+    "start_s": 2028.8,
+    "end_s": 2029.24,
+    "text": "No."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "33:49",
+    "start_s": 2029.88,
+    "end_s": 2031.38,
+    "text": "It's on,"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "33:51",
+    "start_s": 2031.66,
+    "end_s": 2032.18,
+    "text": "but there's nothing."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "33:52",
+    "start_s": 2032.18,
+    "end_s": 2048.2,
+    "text": "Okay. Now, we have our next meeting in half an hour, and what I would like you guys to do is work on giving me a model in clay oh"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_02",
+    "start": "34:09",
+    "start_s": 2049.67,
+    "end_s": 2051.65,
+    "text": "yeah"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "34:11",
+    "start_s": 2051.65,
+    "end_s": 2063.51,
+    "text": "so you know I mean luckily we chose a nice simple shape and further instructions will be sent by your personal coaches okay"
+   },
+   {
+    "speaker": "Person_4",
+    "label": "SPEAKER_02",
+    "start": "34:23",
+    "start_s": 2063.51,
+    "end_s": 2068.21,
+    "text": "that's great save everything to the shared documents oh yeah I"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "34:28",
+    "start_s": 2068.21,
+    "end_s": 2074.17,
+    "text": "hope I can recover this because I've accidentally deleted it which doesn't really help me much"
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "34:34",
+    "start_s": 2074.17,
+    "end_s": 2077.65,
+    "text": "yeah"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "34:37",
+    "start_s": 2077.65,
+    "end_s": 2082.95,
+    "text": "can you save that I send that last one again please Raj as I still can't find it on there"
+   },
+   {
+    "speaker": "Person_3",
+    "label": "SPEAKER_00",
+    "start": "34:42",
+    "start_s": 2082.95,
+    "end_s": 2087.03,
+    "text": "it wasn't a different name I will show you in shared documents"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "34:47",
+    "start_s": 2087.03,
+    "end_s": 2088.05,
+    "text": "okay"
+   },
+   {
+    "speaker": "Person_3",
+    "label": "SPEAKER_00",
+    "start": "34:50",
+    "start_s": 2090.69,
+    "end_s": 2099.56,
+    "text": "working components oh you didn't get that no I will send it okay thank you I will put it in shared documents again."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "35:01",
+    "start_s": 2101.46,
+    "end_s": 2103.04,
+    "text": "Yeah, project documents. Project"
+   },
+   {
+    "speaker": "Person_3",
+    "label": "SPEAKER_00",
+    "start": "35:03",
+    "start_s": 2103.04,
+    "end_s": 2107.02,
+    "text": "documents. Sorry, I put it in the shared documents. All right. It"
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "35:07",
+    "start_s": 2107.02,
+    "end_s": 2113.66,
+    "text": "goes there automatically if you put it in project documents. Project documents is on the desktop."
+   },
+   {
+    "speaker": "Person_3",
+    "label": "SPEAKER_00",
+    "start": "35:14",
+    "start_s": 2114.0,
+    "end_s": 2124.4,
+    "text": "Right. That's great. But I can't open that because it asks for some username or password. Really? Yeah, I'll show you."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "35:34",
+    "start_s": 2134.25,
+    "end_s": 2175.92,
+    "text": "All right. I think, hold on. Sorry. Yeah, I don't know if you, it just came up on my, on my agenda. Presumably, there's clay somewhere. Light, light please, light. Thank you. Yeah, quite. And we're using the sort of basic chipset, so. It's all good. Oh, sorry."
+   },
+   {
+    "speaker": "Person_3",
+    "label": "SPEAKER_00",
+    "start": "36:17",
+    "start_s": 2177.87,
+    "end_s": 2182.47,
+    "text": "I think we're almost done, yeah. You have to keep your pen separate because I used your pen."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "36:23",
+    "start_s": 2183.07,
+    "end_s": 2233.67,
+    "text": "Oh, oops. Sorry. Okay, still didn't manage to get that in all the last bit. So we had the chargeable and came up with that. That's okay. Supplements. See? See, I knew that. I should have sort of engineered it. So we ended up making it a different, difficult shape. Just for cruelty. Yeah."
+   },
+   {
+    "speaker": "Person_2",
+    "label": "SPEAKER_01",
+    "start": "37:14",
+    "start_s": 2234.57,
+    "end_s": 2235.37,
+    "text": "Stop it."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "37:18",
+    "start_s": 2238.05,
+    "end_s": 2240.93,
+    "text": "I mean, like, literally make it sort of buttons and everything."
+   },
+   {
+    "speaker": "Person_5",
+    "label": "SPEAKER_04",
+    "start": "37:23",
+    "start_s": 2243.21,
+    "end_s": 2244.79,
+    "text": "No, we have the buttons."
+   },
+   {
+    "speaker": "Person_3",
+    "label": "SPEAKER_00",
+    "start": "37:26",
+    "start_s": 2246.03,
+    "end_s": 2247.61,
+    "text": "We are going to discuss something."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "37:28",
+    "start_s": 2248.69,
+    "end_s": 2264.67,
+    "text": "No, I think that's our discussion, unless anybody's got questions. Or confusions, because I'm confused. Excuse me. We'll probably get a question here in a minute. It's..."
+   },
+   {
+    "speaker": "Person_3",
+    "label": "SPEAKER_00",
+    "start": "37:48",
+    "start_s": 2268.16,
+    "end_s": 2271.2,
+    "text": "Sorry. Yeah."
+   },
+   {
+    "speaker": "Person_1",
+    "label": "SPEAKER_03",
+    "start": "37:55",
+    "start_s": 2275.06,
+    "end_s": 2286.34,
+    "text": "We have a warning -finished meeting now. I rounded it up far too fast. I'm going to be going to my document so someone wants."
+   }
+  ]
+ },
+ "speakers": [
+  {
+   "label": "SPEAKER_03",
+   "display": "Person_1",
+   "name": "unknown",
+   "role": "unknown",
+   "evidence": "And is there any questions you have for the right from last meeting?",
+   "verified": false,
+   "rejected": [
+    "role 'presenter, facilitator' not stated by or to this speaker"
+   ],
+   "talk_seconds": 603.0
+  },
+  {
+   "label": "SPEAKER_01",
+   "display": "Person_2",
+   "name": "unknown",
+   "role": "unknown",
+   "evidence": "",
+   "verified": false,
+   "rejected": [],
+   "talk_seconds": 587.8
+  },
+  {
+   "label": "SPEAKER_00",
+   "display": "Person_3",
+   "name": "unknown",
+   "role": "unknown",
+   "evidence": "",
+   "verified": false,
+   "rejected": [],
+   "talk_seconds": 487.2
+  },
+  {
+   "label": "SPEAKER_02",
+   "display": "Person_4",
+   "name": "unknown",
+   "role": "unknown",
+   "evidence": "",
+   "verified": false,
+   "rejected": [
+    "nothing ties 'Raj' to this speaker",
+    "role 'speaker, presenter' not stated by or to this speaker"
+   ],
+   "talk_seconds": 350.4
+  },
+  {
+   "label": "SPEAKER_04",
+   "display": "Person_5",
+   "name": "unknown",
+   "role": "unknown",
+   "evidence": "",
+   "verified": false,
+   "rejected": [],
+   "talk_seconds": 7.1
+  }
+ ],
+ "meeting": "ES2005c",
+ "audio_minutes": 38.27,
+ "stage_seconds": {
+  "transcribing": 264.0,
+  "diarizing": 1165.7,
+  "aligning": 0.4,
+  "identifying": 73.4,
+  "writing minutes": 294.6,
+  "indexing": 2.9
+ },
+ "threads": 4,
+ "llm": {
+  "model": "qwen2.5-3b-instruct-q4_k_m",
+  "calls": 7,
+  "prompt_tokens": 13199,
+  "output_tokens": 1600,
+  "seconds": 367.8
+ }
+}
